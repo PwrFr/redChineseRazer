@@ -4,4 +4,13 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  background-color: black;
+  padding-top: 4%;
 }
+.menu-bg{
+  background-color: #222222;
+  
+}
+.body{
+}
+
