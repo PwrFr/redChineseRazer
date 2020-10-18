@@ -23,8 +23,9 @@
 
 .dropdown-content {
   display: none;
-  position: absolute;
-  left: -110px;
+  position: fixed;
+  width: 100%;
+  left: 195px;
   z-index: 1;
 }
 
@@ -39,6 +40,7 @@
   }
 }
 .col-item{
+  font-size: 0.77rem;
   color: #999999;
 }
 .col-item:hover{
