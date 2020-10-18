@@ -4,11 +4,48 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  background-color: black;
+  background-color: #999999;
   padding-top: 4%;
 }
 .menu-bg{
   background-color: #222222;
+}
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: #999999;
+  background-color: inherit;
+  font: inherit;
+  
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  left: -110px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    height: auto;
+  }
+}
+.col-item{
+  color: #999999;
+}
+.col-item:hover{
+  color: lime;
+}
+.bg-dropdown{
+  background-color: black;
 }
 
 
