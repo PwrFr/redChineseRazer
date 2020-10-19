@@ -216,37 +216,30 @@
         <div class="col-2">
           <p class="font-weight-bold m-0 pb-1">GET HELP</p>
           <a class="pt-1 pb-1 d-block text-decoration-none col-item" href="#">Product Support</a>
-          
-
         </div>
         <div class="col-3 ">
           <p class="font-weight-bold m-0">REGISTRATION & WARRANTY</p>
           <a class="pt-1 pb-1 d-block text-decoration-none col-item" href="#">Warranty FAQ</a>
           <a class="pt-1 pb-1 d-block text-decoration-none col-item" href="#">Product Registration</a>
-          
-
-          
         </div>
         <div class="col-2">
           <p class="font-weight-bold m-0">ONLINE STORE</p>
           <a class="pt-1 pb-1 d-block text-decoration-none col-item" href="#">Shipping Guide</a>
           <a class="pt-1 pb-1 d-block text-decoration-none col-item" href="#">Returns & Refunds</a>
           <a class="pt-1 pb-1 d-block text-decoration-none col-item" href="#">Razer Advantage</a>
-
-          
         </div>
         <div class="col-3">
           <p class="font-weight-bold m-0">RAZERCARE</p>
           <a class="pt-1 pb-1 d-block text-decoration-none col-item" href="#">RazerCare Protection Plan</a>
           <a class="pt-1 pb-1 d-block text-decoration-none col-item" href="#">RazerCare Store</a>
-         
-          
         </div>
         
-      
+      </div>
     </div>
     
   </div>
+    </div>
+    </div>
 </nav>
   </div>
 </template>
