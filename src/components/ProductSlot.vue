@@ -13,9 +13,34 @@ Vue.use(BootstrapVue);*/
 <template>
   <div class="container-fluid">
     <div class="row">
-      <img class="col img-full" src="../assets/products/cases/1.jpg" />
-
-      <div class="col-2 right-box" style>
+      <div class="col-xl-9 col-lg-6 col-img-full">
+        <div>
+          <img
+            src="../assets/products/cases/1.jpg"
+            class="img-full img-responsive"
+            style="position: absolute"
+          />
+          <ul class="image-ul-tab">
+            <li class="image-li-tab">
+              <img src="../assets/products/cases/bar/1.jpg" />
+            </li>
+            <li class="image-li-tab">
+              <img src="../assets/products/cases/bar/2.jpg" />
+            </li>
+            <li class="image-li-tab">
+              <img src="../assets/products/cases/bar/3.jpg" />
+            </li>
+            <li class="image-li-tab">
+              <img src="../assets/products/cases/bar/4.jpg" />
+            </li>
+            <li class="image-li-tab">
+              <img src="../assets/products/cases/bar/5.jpg" />
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- -->
+      <div class="col-3 right-box" style>
         <p class="header">Razer Tomahawk Mini-ITX</p>
         <p class="head-description">Mini-ITX Gaming Chassis with Razer Chroma RGB</p>
         <p class="head-price">US$179.99</p>
@@ -41,7 +66,6 @@ Vue.use(BootstrapVue);*/
     </div>
   </div>
 </template>
-
 <style>
 body {
   background-color: #000;
@@ -50,15 +74,31 @@ body {
 }
 
 .img-full {
-  max-width: 79%;
   padding: 0px;
+  max-width: 100%;
+}
+
+.col-img-full {
+  padding: 0px;
+  max-width: 100%;
+}
+.image-ul-tab {
+  position: relative;
+  list-style: none;
+  padding: 47px;
+}
+.image-li-tab {
+  border: 1px solid #999;
+  height: 5rem;
+  width: 5rem;
+  margin-bottom: 10px;
 }
 
 .right-box {
   background-color: #000;
-  width: 375px;
+  padding-right: 0px;
   padding-left: 37px;
-  min-width: 375px;
+  min-width: 370px;
 }
 
 .header {
@@ -161,6 +201,7 @@ option {
   border: 0;
   margin-top: 0.9375rem;
   width: 100%;
+  max-width: 19.375rem;
 }
 
 .product-status {
@@ -178,6 +219,7 @@ option {
   visibility: visible !important;
   text-align: center;
   margin-top: 1rem;
+  max-width: 19.375rem;
 }
 
 p {
