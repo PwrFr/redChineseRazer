@@ -34,6 +34,9 @@ Vue.use(BootstrapVue);*/
             <option value="audi">Audi</option>
           </select>
         </div>
+        <p class="shipping-date">Ships on November 05, 2020</p>
+        <button class="order-button">Pre-Order</button>
+        <p class="product-status">Also Available At</p>
       </div>
     </div>
   </div>
@@ -49,6 +52,13 @@ body {
 .img-full {
   max-width: 79%;
   padding: 0px;
+}
+
+.right-box {
+  background-color: #000;
+  width: 375px;
+  padding-left: 37px;
+  min-width: 375px;
 }
 
 .header {
@@ -90,13 +100,11 @@ body {
   font-family: Roboto, helvetica neue, Arial, noto sans, sans-serif,
     apple color emoji, segoe ui emoji, segoe ui symbol, noto color emoji;
   font-weight: 400;
+  margin-bottom: 3.75rem;
 }
 ul {
   text-align: left;
   padding-left: 1rem;
-}
-
-.select-session {
 }
 
 .select-session select {
@@ -128,14 +136,52 @@ option {
   height: 2rem !important;
 }
 
+.shipping-date {
+  color: #999;
+  font-size: 0.875rem;
+  margin-bottom: 0;
+  margin-top: 30px;
+}
+
+.order-button {
+  border-radius: 0.1875rem;
+  color: #000;
+  font-family: RazerF5, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 700;
+  height: 2.5rem;
+  line-height: 1.4em;
+  max-height: none;
+  padding-left: 0.625rem;
+  padding-right: 0.625rem;
+  text-overflow: ellipsis;
+  text-transform: uppercase;
+  white-space: nowrap;
+  background-color: #44d62c;
+  border: 0;
+  margin-top: 0.9375rem;
+  width: 100%;
+}
+
+.product-status {
+  background: 0 0 !important;
+  border-radius: 2px !important;
+  color: #44d62c !important;
+  cursor: pointer !important;
+  font: normal normal normal 14px/17px Roboto, sans-serif !important;
+  margin: 5px !important;
+  padding: 8px 12px !important;
+  -webkit-user-select: none !important;
+  -moz-user-select: none !important;
+  -ms-user-select: none !important;
+  user-select: none !important;
+  visibility: visible !important;
+  text-align: center;
+  margin-top: 1rem;
+}
+
 p {
   margin: 0px;
   padding: 0px;
-}
-.right-box {
-  background-color: #000;
-  width: 375px;
-  padding-left: 37px;
-  min-width: 375px;
 }
 </style>
