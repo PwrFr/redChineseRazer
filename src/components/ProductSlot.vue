@@ -10,8 +10,8 @@ Vue.use(BootstrapVue);*/
 </script>
 
 
-<template>
-  <div class="container-fluid">
+<template >
+  <div class="container-fluid" style="padding: 0px;">
     <div class="row">
       <div class="col-xl-9 col-lg-6 col-img-full">
         <div>
@@ -40,7 +40,7 @@ Vue.use(BootstrapVue);*/
         </div>
       </div>
       <!-- -->
-      <div class="col-3 right-box" style>
+      <div class="col-2 right-box" style>
         <p class="header">Razer Tomahawk Mini-ITX</p>
         <p class="head-description">Mini-ITX Gaming Chassis with Razer Chroma RGB</p>
         <p class="head-price">US$179.99</p>
@@ -69,6 +69,7 @@ Vue.use(BootstrapVue);*/
 <style>
 body {
   background-color: #000;
+  overflow: hidden;
 }
 .slotBox {
 }
@@ -81,6 +82,7 @@ body {
 .col-img-full {
   padding: 0px;
   max-width: 100%;
+  margin-right: 0.94rem;
 }
 .image-ul-tab {
   position: relative;
