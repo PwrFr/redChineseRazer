@@ -3,9 +3,9 @@
       <nav class="navbar navbar-expand-lg navbar-light menu-bg pt-0 pb-1 pl-2 font-weight-normal fixed-top">
   <div class="collapse navbar-collapse container p-0" id="navbarNavAltMarkup">
     <div class="navbar-nav ">
-      <a href="" class="navbar-brand mt-1"><img class="" src='src\assets\Menu\razer.png'  width="90" height="13"/> </a>
+      <a href="" class="navbar-brand m-0 p-0 d-flex align-items-center pt-2"><img src="src/assets/Menu/RazerLogo.svg" width="90" alt=""></a>
       <div class="dropdown fc">
-     <a class="dropbtn nav-item nav-link active mr-1" href="#"><p class="fc pt-2 pl-2 pr-3">WHATS NEW</p>
+     <a class="dropbtn nav-item nav-link active mr-1" href="#"><p class="fc pt-2 pl-4 pr-3">WHATS NEW</p>
     </a>
     <div class="dropdown-content mt-1"> 
       <div class="row bg-dropdown w-75 position-fixed m-0 p-2 pt-3 pb-4 text-left">
@@ -238,8 +238,14 @@
     </div>
     
   </div>
+  
+    </div>
+    <div class="d-flex align-items-center">
+    <a href="" class="mr-3"><svg height="17.5"  viewBox="0 0 550 550" xmlns="http://www.w3.org/2000/svg"><path d="m471.386719 325.011719c-16.96875-14.910157-37.546875-27.792969-61.167969-38.289063-10.097656-4.484375-21.914062.0625-26.398438 10.15625-4.484374 10.09375.0625 21.910156 10.15625 26.398438 19.917969 8.851562 37.082032 19.542968 51.007813 31.78125 17.167969 15.085937 27.015625 36.929687 27.015625 59.941406v37c0 11.027344-8.972656 20-20 20h-392c-11.027344 0-20-8.972656-20-20v-37c0-23.011719 9.847656-44.855469 27.015625-59.941406 20.207031-17.757813 79.082031-59.058594 188.984375-59.058594 81.605469 0 148-66.394531 148-148s-66.394531-148-148-148-148 66.394531-148 148c0 47.707031 22.695312 90.207031 57.851562 117.289062-64.328124 14.140626-104.34375 41.359376-125.238281 59.722657-25.808593 22.675781-40.613281 55.472656-40.613281 89.988281v37c0 33.085938 26.914062 60 60 60h392c33.085938 0 60-26.914062 60-60v-37c0-34.515625-14.804688-67.3125-40.613281-89.988281zm-323.386719-177.011719c0-59.550781 48.449219-108 108-108s108 48.449219 108 108-48.449219 108-108 108-108-48.449219-108-108zm0 0"/></svg></a>
+    <a href=""><svg xmlns="http://www.w3.org/2000/svg" height="22" viewBox="0 0 24 24"><path d="M24 3l-.743 2h-1.929l-3.474 12h-13.239l-4.615-11h16.812l-.564 2h-13.24l2.937 7h10.428l3.432-12h4.195zm-15.5 15c-.828 0-1.5.672-1.5 1.5 0 .829.672 1.5 1.5 1.5s1.5-.671 1.5-1.5c0-.828-.672-1.5-1.5-1.5zm6.9-7-1.9 7c-.828 0-1.5.671-1.5 1.5s.672 1.5 1.5 1.5 1.5-.671 1.5-1.5c0-.828-.672-1.5-1.5-1.5z"/></svg></a>
     </div>
     </div>
+
 </nav>
   </div>
 </template>
@@ -257,11 +263,20 @@
 .fc:hover{
   color: white;
 }
+svg{
+  fill: #999999;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+svg:hover {
+  fill: lime;
+}
+
 
 </style>
 <script>
 export default {
-  name: 'MenuBar'
-}
+  name: 'MenuBar',
+};
 
 </script>

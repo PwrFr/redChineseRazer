@@ -9,7 +9,9 @@
     "vue": "^3.0.0-rc.1"
   },
   "devDependencies": {
+    "@vue/compiler-sfc": "^3.0.0-rc.1",
     "vite": "^1.0.0-rc.1",
-    "@vue/compiler-sfc": "^3.0.0-rc.1"
+    "vue-svg-loader": "^0.16.0",
+    "vue-template-compiler": "^2.6.12"
   }
 }
