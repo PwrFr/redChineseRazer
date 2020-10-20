@@ -10,11 +10,36 @@ Vue.use(BootstrapVue);*/
 </script>
 
 
-<template>
-  <div class="container-fluid">
+<template >
+  <div class="container-fluid" style="padding: 0px;">
     <div class="row">
-      <img class="col img-full" src="../assets/products/cases/1.jpg" />
-
+      <div class="col-xl-9 col-lg-6 col-img-full">
+        <div>
+          <img
+            src="../assets/products/cases/1.jpg"
+            class="img-full img-responsive"
+            style="position: absolute"
+          />
+          <ul class="image-ul-tab">
+            <li class="image-li-tab">
+              <img src="../assets/products/cases/bar/1.jpg" />
+            </li>
+            <li class="image-li-tab">
+              <img src="../assets/products/cases/bar/2.jpg" />
+            </li>
+            <li class="image-li-tab">
+              <img src="../assets/products/cases/bar/3.jpg" />
+            </li>
+            <li class="image-li-tab">
+              <img src="../assets/products/cases/bar/4.jpg" />
+            </li>
+            <li class="image-li-tab">
+              <img src="../assets/products/cases/bar/5.jpg" />
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- -->
       <div class="col-2 right-box" style>
         <p class="header">Razer Tomahawk Mini-ITX</p>
         <p class="head-description">Mini-ITX Gaming Chassis with Razer Chroma RGB</p>
@@ -34,21 +59,48 @@ Vue.use(BootstrapVue);*/
             <option value="audi">Audi</option>
           </select>
         </div>
+        <p class="shipping-date">Ships on November 05, 2020</p>
+        <button class="order-button">Pre-Order</button>
+        <p class="product-status">Also Available At</p>
       </div>
     </div>
   </div>
 </template>
-
 <style>
 body {
   background-color: #000;
+  overflow: hidden;
 }
 .slotBox {
 }
 
 .img-full {
-  max-width: 79%;
   padding: 0px;
+  max-width: 100%;
+}
+
+.col-img-full {
+  padding: 0px;
+  max-width: 100%;
+  margin-right: 0.94rem;
+}
+.image-ul-tab {
+  position: relative;
+  list-style: none;
+  padding: 47px;
+}
+.image-li-tab {
+  border: 1px solid #999;
+  height: 5rem;
+  width: 5rem;
+  margin-bottom: 10px;
+}
+
+.right-box {
+  background-color: #000;
+  padding-right: 0px;
+  padding-left: 37px;
+  min-width: 370px;
 }
 
 .header {
@@ -90,13 +142,11 @@ body {
   font-family: Roboto, helvetica neue, Arial, noto sans, sans-serif,
     apple color emoji, segoe ui emoji, segoe ui symbol, noto color emoji;
   font-weight: 400;
+  margin-bottom: 3.75rem;
 }
 ul {
   text-align: left;
   padding-left: 1rem;
-}
-
-.select-session {
 }
 
 .select-session select {
@@ -128,14 +178,54 @@ option {
   height: 2rem !important;
 }
 
+.shipping-date {
+  color: #999;
+  font-size: 0.875rem;
+  margin-bottom: 0;
+  margin-top: 30px;
+}
+
+.order-button {
+  border-radius: 0.1875rem;
+  color: #000;
+  font-family: RazerF5, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 700;
+  height: 2.5rem;
+  line-height: 1.4em;
+  max-height: none;
+  padding-left: 0.625rem;
+  padding-right: 0.625rem;
+  text-overflow: ellipsis;
+  text-transform: uppercase;
+  white-space: nowrap;
+  background-color: #44d62c;
+  border: 0;
+  margin-top: 0.9375rem;
+  width: 100%;
+  max-width: 19.375rem;
+}
+
+.product-status {
+  background: 0 0 !important;
+  border-radius: 2px !important;
+  color: #44d62c !important;
+  cursor: pointer !important;
+  font: normal normal normal 14px/17px Roboto, sans-serif !important;
+  margin: 5px !important;
+  padding: 8px 12px !important;
+  -webkit-user-select: none !important;
+  -moz-user-select: none !important;
+  -ms-user-select: none !important;
+  user-select: none !important;
+  visibility: visible !important;
+  text-align: center;
+  margin-top: 1rem;
+  max-width: 19.375rem;
+}
+
 p {
   margin: 0px;
   padding: 0px;
-}
-.right-box {
-  background-color: #000;
-  width: 375px;
-  padding-left: 37px;
-  min-width: 375px;
 }
 </style>
