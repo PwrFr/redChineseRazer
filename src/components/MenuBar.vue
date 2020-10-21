@@ -251,11 +251,11 @@
 </template>
 <style>
 @font-face {
-  font-family: myFirstFont;
+  font-family: Razerf5;
   src: url('../assets/font/razerf5-thin.otf');
 }
 .fc{
-  font-family: myFirstFont;
+  font-family: Razerf5;
   font-size: 0.8rem;
   color: #999999;
   margin: 0;
