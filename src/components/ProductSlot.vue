@@ -6,37 +6,37 @@
     <div class="row p-0 mt-5">
       <div
         class="col-xl-9 col-lg-12 col-img-full"
-        v-bind:style="{ backgroundImage: 'url(' + imageSrc + ')' }"
+        v-bind:style="{ backgroundImage: 'url(' + backgroundSrc + ')' }"
       >
         <div class="image-tab">
           <lable>
             <div class="image-tab-list">
               <input type="radio" name="test" @click="changeImage(1)" checked />
-              <img src="../assets/products/cases/bar/1.jpg" class="image-tab-border" />
+              <img :src="imageBackground1" class="image-tab-border" />
             </div>
           </lable>
           <lable>
             <div class="image-tab-list">
               <input type="radio" name="test" @click="changeImage(2)" />
-              <img src="../assets/products/cases/bar/2.jpg" class="image-tab-border" />
+              <img :src="imageBackground2" class="image-tab-border" />
             </div>
           </lable>
           <lable>
             <div class="image-tab-list">
               <input type="radio" name="test" @click="changeImage(3)" />
-              <img src="../assets/products/cases/bar/3.jpg" class="image-tab-border" />
+              <img :src="imageBackground3" class="image-tab-border" />
             </div>
           </lable>
           <lable>
             <div class="image-tab-list">
               <input type="radio" name="test" @click="changeImage(4)" />
-              <img src="../assets/products/cases/bar/4.jpg" class="image-tab-border" />
+              <img :src="imageBackground4" class="image-tab-border" />
             </div>
           </lable>
           <lable>
             <div class="image-tab-list">
               <input type="radio" name="test" @click="changeImage(5)" />
-              <img src="../assets/products/cases/bar/5.jpg" class="image-tab-border" />
+              <img :src="imageBackground5" class="image-tab-border" />
             </div>
           </lable>
         </div>
@@ -68,24 +68,7 @@
     </div>
   </div>
 </template>
-<script>
-//document.getElementsByClassName("image-tab-list").style.borderColor = "red";
 
-export default {
-  data() {
-    return {
-      imageSrc: "/src/assets/products/cases/1.jpg"
-    };
-  },
-  methods: {
-    changeImage(num) {
-      this.imageSrc = "/src/assets/products/cases/" + num + ".jpg";
-      this.$refs.bar1.style;
-      this.color = "yellow";
-    }
-  }
-};
-</script>
 <style>
 @font-face {
   font-family: RazerF5-Reg;
@@ -267,3 +250,24 @@ p {
   border: 1px solid #44d62c;
 }
 </style>
+<script>
+export default {
+  data() {
+    return {
+      imageBackground1: "/src/assets/products/cases/bar/1.jpg",
+      imageBackground2: "/src/assets/products/cases/bar/2.jpg",
+      imageBackground3: "/src/assets/products/cases/bar/3.jpg",
+      imageBackground4: "/src/assets/products/cases/bar/4.jpg",
+      imageBackground5: "/src/assets/products/cases/bar/5.jpg",
+      backgroundSrc: "/src/assets/products/cases/1.jpg"
+    };
+  },
+  methods: {
+    changeImage(num) {
+      this.backgroundSrc = "/src/assets/products/cases/" + num + ".jpg";
+      this.$refs.bar1.style;
+      this.color = "yellow";
+    }
+  }
+};
+</script>
