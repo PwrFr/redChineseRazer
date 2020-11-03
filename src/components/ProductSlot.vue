@@ -1,9 +1,9 @@
 
 
 
-<template >
+<template  >
   <div class="container-fluid" style="padding: 0px;">
-    <div class="row p-0 m-0">
+    <div class="row p-0 mt-5">
       <div
         class="col-xl-9 col-lg-12 col-img-full"
         v-bind:style="{ backgroundImage: 'url(' + imageSrc + ')' }"
@@ -11,7 +11,7 @@
         <div class="image-tab">
           <lable>
             <div class="image-tab-list">
-              <input type="radio" name="test" @click="changeImage(1)" />
+              <input type="radio" name="test" @click="changeImage(1)" checked />
               <img src="../assets/products/cases/bar/1.jpg" class="image-tab-border" />
             </div>
           </lable>
