@@ -3,40 +3,40 @@
 
 <template  >
   <div class="container-fluid" style="padding: 0px;">
-    <div class="row p-0 mt-5">
+    <div class="row p-0 mt-0">
       <div
         class="col-xl-9 col-lg-12 col-img-full"
-        v-bind:style="{ backgroundImage: 'url(' + backgroundSrc + ')' }"
+        v-bind:style="{ backgroundImage: 'url(' + bgComponent + ')' }"
       >
         <div class="image-tab">
           <lable>
             <div class="image-tab-list">
               <input type="radio" name="test" @click="changeImage(1)" checked />
-              <img :src="imageBackground1" class="image-tab-border" />
+              <img :src="imageTab1" class="image-tab-border" />
             </div>
           </lable>
           <lable>
             <div class="image-tab-list">
               <input type="radio" name="test" @click="changeImage(2)" />
-              <img :src="imageBackground2" class="image-tab-border" />
+              <img :src="imageTab2" class="image-tab-border" />
             </div>
           </lable>
           <lable>
             <div class="image-tab-list">
               <input type="radio" name="test" @click="changeImage(3)" />
-              <img :src="imageBackground3" class="image-tab-border" />
+              <img :src="imageTab3" class="image-tab-border" />
             </div>
           </lable>
           <lable>
             <div class="image-tab-list">
               <input type="radio" name="test" @click="changeImage(4)" />
-              <img :src="imageBackground4" class="image-tab-border" />
+              <img :src="imageTab4" class="image-tab-border" />
             </div>
           </lable>
           <lable>
             <div class="image-tab-list">
               <input type="radio" name="test" @click="changeImage(5)" />
-              <img :src="imageBackground5" class="image-tab-border" />
+              <img :src="imageTab5" class="image-tab-border" />
             </div>
           </lable>
         </div>
@@ -252,21 +252,29 @@ p {
 </style>
 <script>
 export default {
+  props: {
+    imageTab1: String,
+    imageTab2: String,
+    imageTab3: String,
+    imageTab4: String,
+    imageTab5: String,
+    backgroundSrc: String,
+    imageLocateSrc: String
+  },
   data() {
     return {
-      imageBackground1: "/src/assets/products/cases/bar/1.jpg",
-      imageBackground2: "/src/assets/products/cases/bar/2.jpg",
-      imageBackground3: "/src/assets/products/cases/bar/3.jpg",
-      imageBackground4: "/src/assets/products/cases/bar/4.jpg",
-      imageBackground5: "/src/assets/products/cases/bar/5.jpg",
-      backgroundSrc: "/src/assets/products/cases/1.jpg"
+      //imageTab1: "/src/assets/products/cases/bar/1.jpg",
+      //imageTab2: "/src/assets/products/cases/bar/2.jpg",
+      //imageTab3: "/src/assets/products/cases/bar/3.jpg",
+      //imageTab4: "/src/assets/products/cases/bar/4.jpg",
+      //imageTab5: "/src/assets/products/cases/bar/5.jpg",
+      //wasd: "/src/assets/products/cases/1.jpg"
+      bgComponent: this.backgroundSrc
     };
   },
   methods: {
     changeImage(num) {
-      this.backgroundSrc = "/src/assets/products/cases/" + num + ".jpg";
-      this.$refs.bar1.style;
-      this.color = "yellow";
+      this.bgComponent = this.imageLocateSrc + num + ".jpg";
     }
   }
 };
