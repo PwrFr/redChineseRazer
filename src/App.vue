@@ -8,9 +8,15 @@
     imageTab5="/src/assets/products/cases/bar/5.jpg"
     backgroundSrc="/src/assets/products/cases/1.jpg"
     imageLocateSrc="/src/assets/products/cases/"
+    headerText="Razer Tomahawk Mini-ITX"
+    headerDes="Mini-ITX Gaming Chassis with Razer Chroma RGB"
+    priceText="179.99"
+    description1="Dual-sided tempered glass swivel doors"
+    description2="Powered by Razer Chroma™ RGB"
+    description3="Ventilated top panel and dust filters"
+    shippingDate="Ships on November 05, 2020"
+    buyingStatus="Pre-Order"
   />
-
-  <!-- <HelloWorld msg="Hello Vue 3.0 + Vite" /> -->
 </template>
 
 <script>

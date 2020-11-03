@@ -41,16 +41,16 @@
           </lable>
         </div>
       </div>
-      <!-- -->
-      <div class="col-xl-3 col-lg-12 right-box w-100">
-        <p class="header">Razer Tomahawk Mini-ITX</p>
-        <p class="head-description">Mini-ITX Gaming Chassis with Razer Chroma RGB</p>
-        <p class="head-price">US$179.99</p>
+      <!--leftside -->
+      <div class="col-xl-3 col-lg-12 right-box w-100" style="padding-left:2.875rem">
+        <p class="header">{{headerText}}</p>
+        <p class="head-description">{{headerDes}}</p>
+        <p class="head-price">US${{priceText}}</p>
         <div class="ul-session">
           <ul>
-            <li>Dual-sided tempered glass swivel doors</li>
-            <li>Powered by Razer Chroma™ RGB</li>
-            <li>Ventilated top panel and dust filters</li>
+            <li>{{description1}}</li>
+            <li>{{description2}}</li>
+            <li>{{description3}}</li>
           </ul>
         </div>
         <div class="select-session">
@@ -61,8 +61,8 @@
             <option value="audi">Audi</option>
           </select>
         </div>
-        <p class="shipping-date">Ships on November 05, 2020</p>
-        <button class="order-button">Pre-Order</button>
+        <p class="shipping-date">{{shippingDate}}</p>
+        <button class="order-button">{{buyingStatus}}</button>
         <p class="product-status">Also Available At</p>
       </div>
     </div>
@@ -74,6 +74,7 @@
   font-family: RazerF5-Reg;
   src: url("../assets/font/RazerF5-Reg.otf");
 }
+
 body {
   background-color: #000;
 }
@@ -87,7 +88,7 @@ body {
 .image-tab {
   display: flex;
   flex-direction: column;
-  left: 2.9375rem;
+  left: 3.9375rem;
   position: absolute;
   top: 2.5rem;
 }
@@ -122,7 +123,9 @@ body {
   display: block;
 
   margin-top: 0.5rem;
-  font-family: RazerF5-Reg;
+  font-family: Roboto, helvetica neue, Arial, noto sans, sans-serif,
+    apple color emoji, segoe ui emoji, segoe ui symbol, noto color emoji;
+  font-weight: 400;
   font-size: 0.875rem;
   color: #fff !important;
 }
@@ -142,7 +145,8 @@ body {
   margin-top: 2.1875rem;
   list-style: disc;
   color: #999;
-  font-family: RazerF5-Reg;
+  font-family: Roboto, helvetica neue, Arial, noto sans, sans-serif,
+    apple color emoji, segoe ui emoji, segoe ui symbol, noto color emoji;
   font-weight: 400;
   margin-bottom: 3.75rem;
 }
@@ -181,6 +185,9 @@ option {
 
 .shipping-date {
   color: #999;
+  font-family: Roboto, helvetica neue, Arial, noto sans, sans-serif,
+    apple color emoji, segoe ui emoji, segoe ui symbol, noto color emoji;
+  font-weight: 400;
   font-size: 0.875rem;
   margin-bottom: 0;
   margin-top: 30px;
@@ -259,7 +266,16 @@ export default {
     imageTab4: String,
     imageTab5: String,
     backgroundSrc: String,
-    imageLocateSrc: String
+    imageLocateSrc: String,
+    //Description
+    headerText: String,
+    headerDes: String,
+    priceText: String,
+    description1: String,
+    description2: String,
+    description3: String,
+    shippingDate: String,
+    buyingStatus: String
   },
   data() {
     return {
