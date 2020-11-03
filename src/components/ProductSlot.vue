@@ -53,14 +53,9 @@
             <li>{{description3}}</li>
           </ul>
         </div>
-        <div class="select-session">
-          <select id="test" name="carlist" form="carform">
-            <option value="volvo">Volvo</option>
-            <option value="saab">Saab</option>
-            <option value="opel">Opel</option>
-            <option value="audi">Audi</option>
-          </select>
-        </div>
+        <!-- boos here --->
+
+        <!-- end --->
         <p class="shipping-date">{{shippingDate}}</p>
         <button class="order-button">{{buyingStatus}}</button>
         <p class="product-status">Also Available At</p>
