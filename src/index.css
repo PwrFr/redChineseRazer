@@ -2,9 +2,9 @@
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
+  overflow-x: hidden;
   color: #2c3e50;
-  padding-top: 4%;
+  padding-top: 47px;
 }
 .menu-bg{
   background-color: #222222;
