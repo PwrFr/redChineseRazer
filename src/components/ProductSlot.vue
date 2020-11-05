@@ -73,9 +73,7 @@
 body {
   background-color: #000;
 }
-.row {
-  height: 100vh;
-}
+
 .col-img-full {
   background-size: 100%;
   background-repeat: no-repeat;

@@ -21,16 +21,12 @@
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
 import MenuBar from "./components/MenuBar.vue";
-import ImgRow from "./components/ImageRow.vue";
 import ProductSlot from "./components/ProductSlot.vue";
 export default {
   name: "App",
   components: {
-    HelloWorld,
     MenuBar,
-    ImgRow,
     ProductSlot
   }
 };
