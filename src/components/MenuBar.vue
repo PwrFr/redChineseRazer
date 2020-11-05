@@ -271,8 +271,6 @@ svg{
 svg:hover {
   fill: lime;
 }
-
-
 </style>
 <script>
 export default {
