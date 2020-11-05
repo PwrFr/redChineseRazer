@@ -1,6 +1,5 @@
 <template>
   <MenuBar />
-  <ImageRow />
   <ProductSlot
     imageTab1="/src/assets/products/cases/bar/1.jpg"
     imageTab2="/src/assets/products/cases/bar/2.jpg"
@@ -18,6 +17,7 @@
     shippingDate="Ships on November 05, 2020"
     buyingStatus="Pre-Order"
   />
+  
 </template>
 
 <script>

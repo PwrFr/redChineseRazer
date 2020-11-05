@@ -5,7 +5,7 @@
   <div class="container-fluid" style="padding: 0px;">
     <div class="row p-0 mt-0 row-product">
       <div
-        class="col-xl-9 col-lg-12 col-img-full"
+        class="col-xl-9 col-md-12 col-img-full"
         v-bind:style="{ backgroundImage: 'url(' + bgComponent + ')' }"
       >
         <div class="image-tab">
@@ -42,7 +42,7 @@
         </div>
       </div>
       <!--leftside -->
-      <div class="col-xl-3 col-lg-12 right-box w-100" style="padding-left:2.875rem">
+      <div class="col-xl-3 col-md-12 right-box w-100 pl-4 pt-2 pr-5">
         <p class="header">{{headerText}}</p>
         <p class="head-description">{{headerDes}}</p>
         <p class="head-price">US${{priceText}}</p>
@@ -105,7 +105,7 @@ body {
 .header {
   padding-top: 40px;
   font-family: RazerF5-Reg;
-  font-size: 1.3125rem;
+  font-size: 1rem;
   font-weight: 400;
   line-height: 1.1em;
 
@@ -118,10 +118,8 @@ body {
   display: block;
 
   margin-top: 0.5rem;
-  font-family: Roboto, helvetica neue, Arial, noto sans, sans-serif,
-    apple color emoji, segoe ui emoji, segoe ui symbol, noto color emoji;
-  font-weight: 400;
-  font-size: 0.875rem;
+  
+  font-size: 0.7rem;
   color: #fff !important;
 }
 
@@ -129,14 +127,14 @@ body {
   font-family: RazerF5-Reg;
   font-weight: 400;
   line-height: 1.5;
-  font-size: 1.3125rem;
+  font-size: 1rem;
   padding-top: 0.5rem;
   color: #fff !important;
 }
 
 .ul-session {
   line-height: 1.4;
-  font-size: 0.875rem;
+  font-size: 0.7rem;
   margin-top: 2.1875rem;
   list-style: disc;
   color: #999;
@@ -180,10 +178,8 @@ option {
 
 .shipping-date {
   color: #999;
-  font-family: Roboto, helvetica neue, Arial, noto sans, sans-serif,
-    apple color emoji, segoe ui emoji, segoe ui symbol, noto color emoji;
   font-weight: 400;
-  font-size: 0.875rem;
+  font-size: 0.7rem;
   margin-bottom: 0;
   margin-top: 30px;
 }
@@ -192,9 +188,9 @@ option {
   border-radius: 0.1875rem;
   color: #000;
   font-family: RazerF5-Reg;
-  font-size: 0.875rem;
+  font-size: 0.7rem;
   font-weight: 700;
-  height: 2.5rem;
+  height: 2rem;
   line-height: 1.4em;
   max-height: none;
   padding-left: 0.625rem;
@@ -204,9 +200,14 @@ option {
   white-space: nowrap;
   background-color: #44d62c;
   border: 0;
+  transition: .3s;
   margin-top: 0.9375rem;
   width: 100%;
   max-width: 19.375rem;
+}
+.order-button:hover{
+  background-color: #73e161;
+  transition: .3s;
 }
 
 .product-status {
