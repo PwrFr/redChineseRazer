@@ -49,5 +49,10 @@
   background-color: black;
 }
 
-
+.img{
+  height: 100vh;
+  margin-left: -13.2%;
+  transform: scale(1);
+  background-color: aliceblue;
+}
 
