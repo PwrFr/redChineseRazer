@@ -3,7 +3,7 @@
 
 <template  >
   <div class="container-fluid" style="padding: 0px;">
-    <div class="row p-0 mt-0">
+    <div class="row p-0 mt-0 row-product">
       <div
         class="col-xl-9 col-lg-12 col-img-full"
         v-bind:style="{ backgroundImage: 'url(' + bgComponent + ')' }"
@@ -73,7 +73,9 @@
 body {
   background-color: #000;
 }
-
+.row-product {
+  height: 100vh;
+}
 .col-img-full {
   background-size: 100%;
   background-repeat: no-repeat;
