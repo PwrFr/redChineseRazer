@@ -1,11 +1,10 @@
 <template>
   <div>
-      <nav class="navbar navbar-expand-lg navbar-light menu-bg pt-0 pb-1 pl-2 font-weight-normal fixed-top">
+      <nav class="navbar navbar-expand-lg navbar-light menu-bg pt-1 pb-2 pl-2 font-weight-normal fixed-top">
   <div class="collapse navbar-collapse container p-0" id="navbarNavAltMarkup">
     <div class="navbar-nav ">
-      <a href="" class="navbar-brand m-0 p-0 d-flex align-items-center pt-2 pl-1 pr-1"><img src="src/assets/Menu/RazerLogo.svg" width="90" alt=""></a>
       <div class="dropdown fc">
-     <a class="dropbtn nav-item nav-link active mr-1" href="#"><p class="fc pt-2 pl-4 pr-3">WHAT'S NEW</p>
+     <a class="dropbtn nav-item nav-link active mr-1" href="#"><p class="fc ml-1 pt-2 pl-3 pr-4">WHAT'S NEW</p>
     </a>
     <div class="dropdown-content mt-1"> 
       <div class="row bg-dropdown w-75 position-fixed m-0 p-2 pt-3 pb-4 text-left">
@@ -47,7 +46,7 @@
   </div> 
 
   <div class="dropdown fc">
-     <a class="dropbtn nav-item nav-link active mr-1" href="#"><p class="fc  pt-2 pr-3">PRODUCTS</p>
+     <a class="dropbtn nav-item nav-link active mr-1" href="#"><p class="fc  pt-2 pr-4">PRODUCTS</p>
     </a>
     <div class="dropdown-content mt-1"> 
       <div class="row bg-dropdown w-75 position-fixed m-0 p-2 pt-3 pb-4 text-left">
@@ -115,7 +114,7 @@
 
 
   <div class="dropdown fc">
-     <a class="dropbtn nav-item nav-link active mr-1" href="#"><p class="fc pt-2 pr-3 ">APPS & DOWNLOADS</p>
+     <a class="dropbtn nav-item nav-link active mr-1" href="#"><p class="fc pt-2 pr-4 ">APPS & DOWNLOADS</p>
     </a>
     <div class="dropdown-content mt-1"> 
       <div class="row bg-dropdown w-75 position-fixed m-0 p-2 pt-3 pb-4 text-left">
@@ -156,7 +155,7 @@
 
 
   <div class="dropdown fc">
-     <a class="dropbtn nav-item nav-link active mr-1" href="#"><p class="fc pt-2 pr-3  ">EXPLORE</p>
+     <a class="dropbtn nav-item nav-link active mr-1" href="#"><p class="fc pt-2 pr-4  ">EXPLORE</p>
     </a>
     <div class="dropdown-content mt-1"> 
       <div class="row bg-dropdown w-75 position-fixed m-0 p-2 pt-3 pb-4 text-left">
@@ -256,7 +255,7 @@
 }
 .fc{
   font-family: Razerf5;
-  font-size: 0.8rem;
+  font-size: 1rem;
   color: #999999;
   font-weight: 600;
   margin: 0;

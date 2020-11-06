@@ -2,8 +2,8 @@
   <MenuBar />
   <imageRow 
     bgImgRow="../src/assets/home/1.jpg"
-    title="EXCLUSIVE NEWS ON EXCLUSIVE PRODUCTS"
-    discription="Watch Now"
+    title="EARN RAZER GIFT CARDS AT RAZERSTORE"
+    discription="Shop Now"
     />
     <imageRow 
     bgImgRow="../src/assets/home/2.jpg"
