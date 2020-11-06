@@ -12,7 +12,6 @@ body {
   background-color: #222222;
 }
 .dropdown .dropbtn {
-  font-size: 16px;  
   border: none;
   outline: none;
   color: #999999;
@@ -42,7 +41,7 @@ a{
   }
 }
 .col-item{
-  font-size: 0.77rem;
+  font-size: 1rem;
   color: #999999;
 }
 .col-item:hover{
@@ -52,7 +51,7 @@ a{
   background-color: black;
 }
 .img-row{
-  background-position-x: 50%;
+  background-position-x: center;
   height: 97vh;
   background-repeat: no-repeat;
 }
@@ -79,4 +78,11 @@ a:hover {
   transform: scale(0.4);
   fill: lime;
 }
-
+.row-h{
+  
+}
+.img-col{
+  height: 80vh;
+  background-clip: border-box;  
+  background-position-x: center;
+}
