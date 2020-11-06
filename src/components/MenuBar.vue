@@ -3,10 +3,11 @@
       <nav class="navbar navbar-expand-lg navbar-light menu-bg pt-1 pb-2 pl-2 font-weight-normal fixed-top">
   <div class="collapse navbar-collapse container p-0" id="navbarNavAltMarkup">
     <div class="navbar-nav ">
+      <a href="" class="navbar-brand m-0 p-0 d-flex align-items-center pt-2 pl-1 pr-3"><img src="src/assets/Menu/RazerLogo.svg" width="90" alt=""></a>
       <div class="dropdown fc">
      <a class="dropbtn nav-item nav-link active mr-1" href="#"><p class="fc ml-1 pt-2 pl-3 pr-4">WHAT'S NEW</p>
     </a>
-    <div class="dropdown-content mt-1"> 
+    <div class="dropdown-content mt-2"> 
       <div class="row bg-dropdown w-75 position-fixed m-0 p-2 pt-3 pb-4 text-left">
         <div class="col-3">
           <p class="font-weight-bold m-0 pb-1">NEW LAUNCHES</p>
