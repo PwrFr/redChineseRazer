@@ -3,7 +3,7 @@
       <nav class="navbar navbar-expand-lg navbar-light menu-bg pt-0 pb-1 pl-2 font-weight-normal fixed-top">
   <div class="collapse navbar-collapse container p-0" id="navbarNavAltMarkup">
     <div class="navbar-nav ">
-      <a href="" class="navbar-brand m-0 p-0 d-flex align-items-center pt-2"><img src="src/assets/Menu/RazerLogo.svg" width="90" alt=""></a>
+      <a href="" class="navbar-brand m-0 p-0 d-flex align-items-center pt-2 pl-1 pr-1"><img src="src/assets/Menu/RazerLogo.svg" width="90" alt=""></a>
       <div class="dropdown fc">
      <a class="dropbtn nav-item nav-link active mr-1" href="#"><p class="fc pt-2 pl-4 pr-3">WHATS NEW</p>
     </a>
@@ -271,8 +271,6 @@ svg{
 svg:hover {
   fill: lime;
 }
-
-
 </style>
 <script>
 export default {

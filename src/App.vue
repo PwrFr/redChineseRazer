@@ -17,12 +17,12 @@
     shippingDate="Ships on November 05, 2020"
     buyingStatus="Pre-Order"
   />
+  
 </template>
 
 <script>
 import MenuBar from "./components/MenuBar.vue";
 import ProductSlot from "./components/ProductSlot.vue";
-
 export default {
   name: "App",
   components: {
