@@ -1,5 +1,5 @@
 <template  >
-  <div class="container-fluid" style="padding: 0px;">
+  <div class="container-fluid" style="padding: 0px; background-color: black">
     <div class="row p-0 mt-0 row-product">
       <div
         class="col-xl-9 col-md-12 col-img-full"
@@ -112,7 +112,7 @@
   display: block;
 
   margin-top: 0.5rem;
-  
+
   font-size: 0.7rem;
   color: #fff !important;
 }
@@ -194,14 +194,14 @@ option {
   white-space: nowrap;
   background-color: #44d62c;
   border: 0;
-  transition: .3s;
+  transition: 0.3s;
   margin-top: 0.9375rem;
   width: 100%;
   max-width: 19.375rem;
 }
-.order-button:hover{
+.order-button:hover {
   background-color: #73e161;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .product-status {
