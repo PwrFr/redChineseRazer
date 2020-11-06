@@ -8,32 +8,53 @@
         <div class="image-tab">
           <lable>
             <div class="image-tab-list">
-              <input type="radio" name="test" @click="changeImage(1)" checked />
+              <input type="radio" name="test" @click="changeImage(1)" class="rdo_style" checked />
               <img :src="imageTab1" class="image-tab-border" />
             </div>
           </lable>
           <lable>
             <div class="image-tab-list">
-              <input type="radio" name="test" @click="changeImage(2)" />
+              <input type="radio" name="test" @click="changeImage(2)" class="rdo_style" />
               <img :src="imageTab2" class="image-tab-border" />
             </div>
           </lable>
           <lable>
             <div class="image-tab-list">
-              <input type="radio" name="test" @click="changeImage(3)" />
+              <input type="radio" name="test" @click="changeImage(3)" class="rdo_style" />
               <img :src="imageTab3" class="image-tab-border" />
             </div>
           </lable>
           <lable>
             <div class="image-tab-list">
-              <input type="radio" name="test" @click="changeImage(4)" />
-              <img :src="imageTab4" class="image-tab-border" />
+              <div v-if="4 - imageAmount > 0">
+                <img :src="imageTab4" class="image-tab-border" :style="hiddenBorder4" />
+              </div>
+              <div v-else>
+                <input type="radio" name="test" @click="changeImage(4)" class="rdo_style" />
+                <img :src="imageTab4" class="image-tab-border" />
+              </div>
             </div>
           </lable>
           <lable>
             <div class="image-tab-list">
-              <input type="radio" name="test" />
-              <img :src="imageTab5" class="image-tab-border" @click="changeImage(5)" />
+              <div v-if="5 - imageAmount > 0">
+                <img :src="imageTab5" class="image-tab-border" :style="hiddenBorder5" />
+              </div>
+              <div v-else>
+                <input type="radio" name="test" @click="changeImage(5)" class="rdo_style" />
+                <img :src="imageTab5" class="image-tab-border" />
+              </div>
+            </div>
+          </lable>
+          <lable>
+            <div class="image-tab-list">
+              <div v-if="6 - imageAmount > 0">
+                <img :src="imageTab6" class="image-tab-border" :style="hiddenBorder6" />
+              </div>
+              <div v-else>
+                <input type="radio" name="test" @click="changeImage(6)" class="rdo_style" />
+                <img :src="imageTab6" class="image-tab-border" />
+              </div>
             </div>
           </lable>
         </div>
@@ -46,8 +67,16 @@
         <div class="ul-session">
           <ul>
             <li>{{description1}}</li>
-            <li>{{description2}}</li>
-            <li>{{description3}}</li>
+            <li v-if="2 <= desAmount">{{description2}}</li>
+            <li v-if="3 <= desAmount">{{description3}}</li>
+            <li v-if="4 <= desAmount">{{description4}}</li>
+            <li v-if="5 <= desAmount">{{description5}}</li>
+            <li v-if="6 <= desAmount">{{description6}}</li>
+            <li v-if="7 <= desAmount">{{description7}}</li>
+            <li v-if="8 <= desAmount">{{description8}}</li>
+            <li v-if="9 <= desAmount">{{description9}}</li>
+            <li v-if="10 <= desAmount">{{description10}}</li>
+            <li v-if="11 <= desAmount">{{description11}}</li>
           </ul>
         </div>
         <!-- boos here --->
@@ -227,22 +256,23 @@ p {
   padding: 0px;
 }
 
-[type="radio"] {
+.rdo_style[type="radio"] {
   position: absolute;
   opacity: 0;
   width: 5rem;
   height: 5rem;
+  border: 1px solid #999;
 }
-[type="radio"]:hover + img {
+.rdo_style[type="radio"]:hover + img {
   border-color: #44d62c;
   border: 1px solid #44d62c;
 }
 
-[type="radio"] + img {
+.rdo_style[type="radio"] + img {
   cursor: pointer;
 }
 
-[type="radio"]:checked + img {
+.rdo_style[type="radio"]:checked + img {
   border-color: #44d62c;
   border: 1px solid #44d62c;
 }
@@ -250,6 +280,7 @@ p {
 <script>
 export default {
   props: {
+    //Src of image
     imageTab1: String,
     imageTab2: String,
     imageTab3: String,
@@ -261,14 +292,35 @@ export default {
     headerText: String,
     headerDes: String,
     priceText: String,
+    desAmount: Number,
     description1: String,
     description2: String,
     description3: String,
+    description4: String,
+    description5: String,
+    description6: String,
+    description7: String,
+    description8: String,
+    description9: String,
+    description10: String,
+    description11: String,
     shippingDate: String,
-    buyingStatus: String
+    buyingStatus: String,
+    //value of picture
+    imageAmount: Number,
+    testCase: Number
   },
   data() {
     return {
+      hiddenBorder4: {
+        border: "0px"
+      },
+      hiddenBorder5: {
+        border: "0px"
+      },
+      hiddenBorder6: {
+        border: "0px"
+      },
       //imageTab1: "/src/assets/products/cases/bar/1.jpg",
       //imageTab2: "/src/assets/products/cases/bar/2.jpg",
       //imageTab3: "/src/assets/products/cases/bar/3.jpg",
@@ -280,7 +332,10 @@ export default {
   },
   methods: {
     changeImage(num) {
-      this.bgComponent = this.imageLocateSrc + num + ".jpg";
+      if (num <= this.imageAmount) {
+        console.log("can");
+        this.bgComponent = this.imageLocateSrc + num + ".jpg";
+      }
     }
   }
 };
