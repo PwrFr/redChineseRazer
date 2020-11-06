@@ -1,6 +1,3 @@
-
-
-
 <template  >
   <div class="container-fluid" style="padding: 0px;">
     <div class="row p-0 mt-0 row-product">
@@ -70,9 +67,6 @@
   src: url("../assets/font/RazerF5-Reg.otf");
 }
 
-body {
-  background-color: #000;
-}
 .row-product {
   height: 100vh;
 }

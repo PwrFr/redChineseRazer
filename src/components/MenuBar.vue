@@ -5,7 +5,7 @@
     <div class="navbar-nav ">
       <a href="" class="navbar-brand m-0 p-0 d-flex align-items-center pt-2 pl-1 pr-1"><img src="src/assets/Menu/RazerLogo.svg" width="90" alt=""></a>
       <div class="dropdown fc">
-     <a class="dropbtn nav-item nav-link active mr-1" href="#"><p class="fc pt-2 pl-4 pr-3">WHATS NEW</p>
+     <a class="dropbtn nav-item nav-link active mr-1" href="#"><p class="fc pt-2 pl-4 pr-3">WHAT'S NEW</p>
     </a>
     <div class="dropdown-content mt-1"> 
       <div class="row bg-dropdown w-75 position-fixed m-0 p-2 pt-3 pb-4 text-left">
@@ -258,6 +258,7 @@
   font-family: Razerf5;
   font-size: 0.8rem;
   color: #999999;
+  font-weight: 600;
   margin: 0;
 }
 .fc:hover{
@@ -273,8 +274,6 @@ svg:hover {
 }
 </style>
 <script>
-export default {
-  name: 'MenuBar',
-};
+
 
 </script>

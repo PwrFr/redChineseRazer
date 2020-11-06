@@ -1,5 +1,23 @@
 <template>
   <MenuBar />
+  <imageRow 
+    bgImgRow="../src/assets/home/1.jpg"
+    title="EXCLUSIVE NEWS ON EXCLUSIVE PRODUCTS"
+    discription="Watch Now"
+    />
+    <imageRow 
+    bgImgRow="../src/assets/home/2.jpg"
+    title="PERFORMANCE MEETS PRODUCTIVITY."
+    discription="Shop The New Razer Book 13"
+    />
+    <imageRow 
+    bgImgRow="../src/assets/home/3.jpg"
+    title="CONSOLE. MOBILE. COMBINED."
+    discription="Shop Razer Kaira Pro for Xbox"
+    />
+
+  <imgCol />
+
   <ProductSlot
     imageTab1="/src/assets/products/cases/bar/1.jpg"
     imageTab2="/src/assets/products/cases/bar/2.jpg"
@@ -21,12 +39,18 @@
 </template>
 
 <script>
+
 import MenuBar from "./components/MenuBar.vue";
 import ProductSlot from "./components/ProductSlot.vue";
+import imageRow from "./components/ImageRow.vue"
+import imgCol from "./components/imgCol.vue"
+
 export default {
   name: "App",
   components: {
     MenuBar,
+    imageRow,
+    imgCol,
     ProductSlot
   }
 };
