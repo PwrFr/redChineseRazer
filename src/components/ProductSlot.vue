@@ -311,7 +311,7 @@ select {
 .box:hover{
   border-color: white !important;
 }
-<!-- end --->
+/* <!-- end --->  */
 
 @font-face {
   font-family: RazerF5-Reg;

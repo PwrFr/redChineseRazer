@@ -1,0 +1,55 @@
+{
+    "monitors": {
+        "0" :{
+            "name" : "Razer Raptor 27",
+            "des": "The Ultimate Esports Gaming Monitor ",
+            "price" : "US$699.99 ",
+            "detail" :[ "Big, Bright, Brilliant DCI-P3 Color", "Lightning Fast 144Hz Precision", "Tuned to Your Comfort"],
+            "specs":{
+                "Display" : ["27\" WQHD (2560 x 1440px) resolution", "Non-Glare IPS Display with up to 178° wide viewing angles"],
+                "Refresh rate" : ["144Hz Refresh Rate, 1ms with Ultra Low Motion Blur"],
+                "Graphics" : ["HDR400, 8-Bit + FRC dimming processor", "Factory Calibrated 95% DCI-P3 wide color gamut"],
+                "Contrast Ratio" : ["1000:1 Contrast Ratio"],
+                "Bezels" : ["Ultra thin bezels at 2.3 mm"],
+                "Sync" : ["Adaptive display via AMD FreeSync", "Nvidia G-Sync Compatible"],
+                "Rotation" : ["90° tilt for easy setup and access to ports"],
+                "Cable Management" : ["Built-in CNC cable management system"],
+                "Lighting" : ["Razer Chroma™ with 16.8 million colors for customization"],
+                "Input & Output" : ["HDMI 2.0b", "DP1.4", "USB-C (Support for DP1.4 in Alt-mode)", "2x USB3.2 Gen 1 Type-A Passthrough"]
+
+            }
+        }
+    },
+    "eGPU":{
+        "0" :{
+            "name": "Razer Core X - Black",
+            "des" : "External Graphics Enclosure for Thunderbolt™ 3 Laptops ",
+            "price" :"US$299.99",
+            "detail" : ["Desktop-Class Performance", "Just Plug and Play", "Incredibly Fast Speeds "],
+            "model": ["Standard - Blcak", "Standard - mercury", "Chroma"],
+            "specs":{
+                "Input & Output" : ["Thunderbolt™ 3 (connection to the system)", "4 X USB 3.1 Type-A", "Gigabit Ethernet"],
+                "Internal Power Supply" : "700 Watts",
+                "Laptop Power Delivery" : "Up to 100 Watts via USB-C",
+                "Thunderbolt™ 3 cable length" : "27.56” / 700 mm",
+                "Razer Core Approx. Size" : ["Width x Depth x Height", "6.61\" x 14.72\" x 9.06\"", "168 mm x 374 mm x 230 mm"],
+                "Weight" : "15.23 lbs / 6.91 kg",
+                "Laptop Requirements (Laptop not included)" : {
+                    "Connection to system" : "Systems require a Thunderbolt™ 3 port with external graphics support. Please check with your laptop manufacture to confirm if your laptop supports Thunderbolt 3 external graphics. Please also ensure your laptop has the latest BIOS, firmware, Thunderbolt software, and other applicable updates before connecting toRazer Core X Chroma.",
+                    "macOS Systems Requirements" : ["Thunderbolt™ 3 equipped Macs running macOS High Sierra 10.13.4 or later.", "Compatible AMD graphics card sold separately.", "Razer Synapse 3 software not available on macOS."],
+                    " Windows System Requirements " : ["Windows 10 64bit RS5 or above with Thunderbolt™ 3 port.", "Compatible NVIDIA or AMD graphics card sold separately."]
+                },
+                "Graphics Cards Requirements (Graphics card not included)" : {
+                    "Max inner dimensions " : "Length : 12.99”/ 330 mm
+                    Height*: 6.29” / 160 mm
+                    Width : 2.24” / 57 mm
+                    * Height measured from top of PCIe connector to the bottom of the locking pin ramps.
+                    "
+                }
+
+            }
+        }
+
+    }
+    
+}
