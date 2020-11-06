@@ -158,7 +158,7 @@ ul {
   flex: auto;
   width: 180px;
   cursor: pointer;
-  background-image: ;
+  /* background-image: ; */
 }
 option {
   font-family: RazerF5-Reg;
