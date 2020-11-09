@@ -16,7 +16,6 @@
                 "Cable Management" : ["Built-in CNC cable management system"],
                 "Lighting" : ["Razer Chroma™ with 16.8 million colors for customization"],
                 "Input & Output" : ["HDMI 2.0b", "DP1.4", "USB-C (Support for DP1.4 in Alt-mode)", "2x USB3.2 Gen 1 Type-A Passthrough"]
-
             }
         }
     },
@@ -40,16 +39,91 @@
                     " Windows System Requirements " : ["Windows 10 64bit RS5 or above with Thunderbolt™ 3 port.", "Compatible NVIDIA or AMD graphics card sold separately."]
                 },
                 "Graphics Cards Requirements (Graphics card not included)" : {
-                    "Max inner dimensions " : "Length : 12.99”/ 330 mm
-                    Height*: 6.29” / 160 mm
-                    Width : 2.24” / 57 mm
-                    * Height measured from top of PCIe connector to the bottom of the locking pin ramps.
-                    "
+                    "Max inner dimensions " : "Length : 12.99”/ 330 mm Height*: 6.29” / 160 mm Width : 2.24” / 57 mm* Height measured from top of PCIe connector to the bottom of the locking pin ramps."
                 }
-
+            }
+        },
+        "1" : {
+            "name": "Razer Core X - Mercury",
+            "des" : "External Graphics Enclosure for Thunderbolt™ 3 Laptops",
+            "price" :"US$299.99",
+            "detail" : ["Desktop-Class Performance", "Just Plug and Play", "Incredibly Fast Speeds"],
+            "model": ["Standard - Blcak", "Standard - mercury", "Chroma"],
+            "specs":{
+                "Input & Output" : ["Thunderbolt™ 3 (connection to the system)", "4 X USB 3.1 Type-A", "Gigabit Ethernet"],
+                "Internal Power Supply" : "700 Watts",
+                "Laptop Power Delivery" : "Up to 100 Watts via USB-C",
+                "Thunderbolt™ 3 cable length" : "27.56” / 700 mm",
+                "Razer Core Approx. Size" : ["Width x Depth x Height", "6.61\" x 14.72\" x 9.06\"", "168 mm x 374 mm x 230 mm"],
+                "Weight" : "15.23 lbs / 6.91 kg",
+                "Laptop Requirements (Laptop not included)" : {
+                    "Connection to system" : "Systems require a Thunderbolt™ 3 port with external graphics support. Please check with your laptop manufacture to confirm if your laptop supports Thunderbolt 3 external graphics. Please also ensure your laptop has the latest BIOS, firmware, Thunderbolt software, and other applicable updates before connecting toRazer Core X Chroma.",
+                    "macOS Systems Requirements" : ["Thunderbolt™ 3 equipped Macs running macOS High Sierra 10.13.4 or later.", "Compatible AMD graphics card sold separately.", "Razer Synapse 3 software not available on macOS."],
+                    " Windows System Requirements " : ["Windows 10 64bit RS5 or above with Thunderbolt™ 3 port.", "Compatible NVIDIA or AMD graphics card sold separately."]
+                }
             }
         }
 
+    },
+    "PC Acessories":{
+        "LAPTOPS":{
+            "1":{
+                "name" : "Razer Blade 15 Studio Edition - OLED 4K Touch 60Hz - Quadro RTX 5000 - Mercury",
+                "price" : "US$4,299.99",
+                "specs" : ["Intel Core i7-10875H", "Windows 10 Pro",  "15.6\" 60Hz OLED 4K Touch", "Quadro RTX 5000", "32GB RAM, 1TB SSD"]
+            },
+            "2" : {
+                "name" : "Razer Book 13 - UHD Touch 60Hz - Intel® Iris® Xe Graphics - Mercury",
+                "price" : "US$1,999.99",
+                "specs" : ["Intel Core i7-1165G7", "Windows 10 Home", "13.4\" 60Hz UHD Touch", "Intel® Iris® Xe Graphics", "16GB RAM, 512GB SSD"]
+            },
+            "3" : {
+                "name" : "Razer Book 13 - Full HD Touch 60Hz - Intel® Iris® Xe Graphics - Mercury",
+                "price" : "US$1,599.99",
+                "specs" : ["Intel Core i7-1165G7", "Windows 10 Home", "13.4\" 60Hz Full HD Touch", "Intel® Iris® Xe Graphics", "16GB RAM, 256GB SSD"]
+            }
+        },
+        "EGPUS" : {
+            "1" : {
+                "name" : "Razer Core X - Mercury",
+                "price" : "US$299.99",
+                "specs" : ["Boost Thunderbolt™ 3 laptops", "Windows 10 and macOS support", "Compatible with PCI-Express graphics cards"]
+            },
+             "2" : {
+                "name" : "Razer Core X Chroma",
+                "price" : "US$399.99",
+                "specs" : ["Boost Thunderbolt™ 3 laptops", "Windows 10 and macOS support", "Compatible with PCI-Express graphics cards"]
+            },
+            "3" : {
+                "name" : "Razer Core X - Black",
+                "price" : "US$299.99",
+                "specs" : ["Boost Thunderbolt™ 3 laptops", "Windows 10 and macOS support", "Compatible with PCI-Express graphics cards"]
+            }
+        },
+        "ACCESSORIES" : {
+            "1" : {
+                "name" : "Razer Chroma Addressable RGB Controller",
+                "price" : "US$39.99",
+                "specs" : ["6 Addressable RGB headers", "Support for WS2812b or equivalent LED types", "USB connection (USB 2.0 Micro-B)"]
+            },
+            "2" : {
+                "name" : "Razer Laptop Stand - Mercury",
+                "price" : "US$49.99",
+                "specs" : ["Designed for laptops up to 15\"", "Ergonomic design with an 18 degree inclination", "Aluminium construction"]
+            },
+            "3" : {
+                "name" : "Razer Protective 13\" Sleeve for Razer Blade Stealth",
+                "price" : "US$27.99",
+                "price_real" : "US$39.99 (31% off)",
+                "specs" : ["Custom fit for Razer Blade Stealth", "Compatible with Razer Blade Stealth 12.5\" (2016) and Razer Blade Stealth 13\" (2017)", "Material: 100% Polyester"]
+            }
+        },
+        "MONITORS" : {
+            "1" : {
+                "name" : "Razer Raptor 27",
+                "price" : "US$699.99",
+                "specs" : ["27\" Non-Glare WQHD IPS Display", "Fast 144Hz Refresh Rate and wide color gamut with HDR support", "Ultra thin bezels at 2.3mm"]
+            }
+        }
     }
-    
 }
