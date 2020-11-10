@@ -17,8 +17,11 @@
     description1="Dual-sided tempered glass swivel doors"
     description2="Powered by Razer Chroma™ RGB"
     description3="Ventilated top panel and dust filters"
+    modelBoxDisappear="0"
+    modelFirstItem="Tomahawk ATX"
     shippingDate="Ships on November 05, 2020"
     buyingStatus="Pre-Order"
+    buyingAt="Also Available At"
   />
 </template>
 
