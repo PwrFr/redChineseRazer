@@ -10,7 +10,7 @@
     imageTab5="/src/assets/products/cases/bar/5.jpg"
     backgroundSrc="/src/assets/products/cases/1.jpg"
     imageLocateSrc="/src/assets/products/cases/"
-    headerText="Razer Tomahawk Mini-ITX"
+    :headerText = test
     headerDes="Mini-ITX Gaming Chassis with Razer Chroma RGB"
     priceText="179.99"
     desAmount="3"
@@ -28,11 +28,21 @@
 <script>
 import MenuBar from "./components/MenuBar.vue";
 import ProductSlot from "./components/ProductSlot.vue";
+import datas from "./assets/data.json";
 
 export default {
   name: "AppTestSlot",
   components: {
     ProductSlot
+  },
+  data(){
+    return{
+        test : datas.monitors[0].name
+    }
+  },
+  created(){
+      console.log(datas.monitors[0].name)
   }
+  
 };
 </script>
