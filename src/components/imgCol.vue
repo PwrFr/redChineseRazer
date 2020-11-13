@@ -1,14 +1,14 @@
 <template>
-  <div class="row-h row text-white">
-     <a href=""> <div class="col-6 img-col" v-bind:style="{ backgroundImage: 'url(' + bgImgCL + ')' }">
-             <h2>{{titleCL}}</h2>
-             <span>{{discriptionCL}}</span>
+  <div class="row text-white text-center mt-2 mb-2">
+     <a href="" class="col-6 img-col pt-5 " v-bind:style="{ backgroundImage: 'url(' + bgImgCL + ')'}">
+             <h2 class="titleC">{{titleCL}}</h2>
+             <span class="discripC font-weight-bold text-light">{{discriptionCL}}</span>
 
-      </div></a>
-      <div class="col-6 img-col pl-1" v-bind:style="{ backgroundImage: 'url(' + bgImgCR + ')' }">
-            <h2>{{titleCR}}</h2>
-            <span>{{discriptionCR}}</span>
-      </div>
+      </a>
+      <a href="" class="col-6 img-col pt-5" v-bind:style="{ backgroundImage: 'url(' + bgImgCR + ')' }">
+            <h2 class="titleC">{{titleCR}}</h2>
+            <span class="discripC text-light font-weight-bold">{{discriptionCR}}</span>
+      </a>
 
   </div>
 </template>

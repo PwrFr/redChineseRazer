@@ -31,9 +31,9 @@ body {
 .dropdown:hover .dropdown-content {
   display: block;
 }
-a{
+a:hover {
   text-decoration: none;
-}
+ }
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
@@ -64,9 +64,8 @@ a{
   font-weight: 600;
   letter-spacing: .05rem;
 }
-a:hover {
- text-decoration: none;
-}
+
+
 .discrip{
   font-family: Razerf5;
   font-size: 1.15rem;
@@ -78,11 +77,31 @@ a:hover {
   transform: scale(0.4);
   fill: lime;
 }
-.row-h{
-  
+.titleC{
+  font-family: Razerf5;
+  color: #999999;
+  line-height: 2rem;
+  font-size: 1.7rem;
+  font-weight: 600;
+  letter-spacing: .05rem;
+  padding:1% 21% 0%;
+}
+.discripC{
+  font-size: 0.9rem;
 }
 .img-col{
   height: 80vh;
-  background-clip: border-box;  
-  background-position-x: center;
+  background-position: center;
+}
+.footer-text{
+  color: #999999;
+}
+.footer-menu{
+  color: #999999;
+}
+.footer-menu:hover{
+  color: white;
+}
+.company{
+  font-size: 0.88rem;
 }
