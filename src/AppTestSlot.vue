@@ -1,7 +1,7 @@
 <template>
   <MenuBar />
 
-  <ProductSlot
+  <ProductSlot class="mt-5"
     imageAmount="5"
     imageTab1="/src/assets/products/cases/bar/1.jpg"
     imageTab2="/src/assets/products/cases/bar/2.jpg"
@@ -33,7 +33,8 @@ import datas from "./assets/data.json";
 export default {
   name: "AppTestSlot",
   components: {
-    ProductSlot
+    ProductSlot,
+    MenuBar
   },
   data(){
     return{
