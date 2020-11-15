@@ -160,9 +160,9 @@
   .image-tab {
     display: flex;
     flex-direction: column;
-    left: 3.9375rem;
+    left: 3.9rem;
     position: absolute;
-    top: 3.17rem;
+    top: 3.23rem;
   }
   
   .image-tab-list {
@@ -196,7 +196,7 @@
   
     margin-top: 0.5rem;
   
-    font-size: 0.7rem;
+    font-size: 14px;
     color: #fff !important;
   }
   
@@ -204,14 +204,14 @@
     font-family: RazerF5-Reg;
     font-weight: 400;
     line-height: 1.5;
-    font-size: 1rem;
+    font-size: 21px;
     padding-top: 0.5rem;
     color: #fff !important;
   }
   
   .ul-session {
     line-height: 1.4;
-    font-size: 0.7rem;
+    font-size: 14px;
     margin-top: 2.1875rem;
     list-style: disc;
     color: #999;
@@ -256,7 +256,7 @@
   .shipping-date {
     color: #999;
     font-weight: 400;
-    font-size: 0.7rem;
+    font-size: 14px;
     margin-bottom: 0;
     margin-top: 30px;
   }
@@ -265,8 +265,8 @@
     border-radius: 0.1875rem;
     color: #000;
     font-family: RazerF5-Reg;
-    font-size: 0.7rem;
-    font-weight: 700;
+    font-size: 14px;
+    font-weight: 1000;
     height: 2rem;
     line-height: 1.4em;
     max-height: none;
