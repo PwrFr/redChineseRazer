@@ -183,6 +183,7 @@
   overflow-y: scroll;
   border: 1px inset #1f1e1e;
   border-radius: 3px;
+  z-index: 5;
 }
 
 .select-box .model-options-container.active + .selected::after {
@@ -541,7 +542,7 @@ export default {
       const optionsContainer = document.querySelector(
         ".model-options-container"
       );
-      const optionsList = document.querySelectorAll(".option");
+      const optionsList = document.querySelectorAll(".box-option");
 
       selected.addEventListener("click", () => {
         optionsContainer.classList.toggle("active");
