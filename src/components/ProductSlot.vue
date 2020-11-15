@@ -567,33 +567,37 @@ export default {
       document
         .getElementById(not_change2)
         .setAttribute("style", "color: 8d8d8d");
+    },
+
+    onClickColor() {
+      console.log("nomal");
+
+      if (this.onum === this.nnum || this.nnum % 2 == 0) {
+        document
+          .getElementById("box")
+          .setAttribute("style", "border: 1px solid #adadad;");
+        document
+          .getElementById("box1")
+          .setAttribute("style", "color: #adadad;");
+        console.log("bigif");
+
+        if (this.nnum % 2 !== 0) {
+          optionsContainer.classList.remove("active");
+          this.nnum += 1;
+
+          console.log("if");
+        }
+      } else {
+        document
+          .getElementById("box")
+          .setAttribute("style", "border: 2px solid #43d32b !important;");
+        document
+          .getElementById("box1")
+          .setAttribute("style", "color: #43d32b;");
+        console.log("el");
+      }
+      this.onum = this.nnum;
     }
-
-    //  onClickColor() {
-
-    // console.log("nomal")
-
-    //   if ((this.onum === this.nnum) || (this.nnum % 2 == 0)) {
-    //     document.getElementById('box').setAttribute("style", "border: 1px solid #adadad;");
-    //     document.getElementById('box1').setAttribute("style", "color: #adadad;");
-    //     console.log("bigif")
-
-    //     if (this.nnum % 2 !== 0){
-    //       optionsContainer.classList.remove("active");
-    //       this.nnum += 1;
-
-    //       console.log("if")
-
-    //     }
-    //   }
-
-    //   else{
-    //       document.getElementById('box').setAttribute("style", "border: 2px solid #43d32b !important;");
-    //       document.getElementById('box1').setAttribute("style", "color: #43d32b;");
-    //       console.log("el")
-    //   }
-    //   this.onum = this.nnum;
-    // }
   }
 };
 </script>
