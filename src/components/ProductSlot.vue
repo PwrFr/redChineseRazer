@@ -1,5 +1,5 @@
 <template >
-  <div @click="onClickColor()">
+  <div>
     <div class="container-fluid" style="padding: 0px; background-color: black">
       <div class="row p-0 mt-0 row-product">
         <div
@@ -87,7 +87,7 @@
           <div v-if="modelBoxDisappear == 0">
             <div class="model-box-div">
               <div id="box" class="model-box">
-                <div class="select-box">
+                <div class="select-box" @click="onClickColor()">
                   <div class="model-options-container" ref="here">
                     <div @click="myFunction('1','2','3')" class="box-option">
                       <input type="radio" class="model-radio" id="Standard - Black" name="category" />
