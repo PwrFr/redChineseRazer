@@ -1,5 +1,6 @@
-<template  >
-  <div class="container-fluid" style="padding: 0px; background-color: black">
+<template >
+<div  @click="onClickColor()">
+  <!-- <div  class="container-fluid" style="padding: 0px; background-color: black">
     <div class="row p-0 mt-0 row-product">
       <div
         class="col-xl-9 col-md-12 col-img-full"
@@ -58,9 +59,13 @@
             </div>
           </lable>
         </div>
-      </div>
+      </div> -->
+
+
       <!--leftside -->
-      <div class="col-xl-3 col-md-12 right-box w-100 pl-4 pt-2 pr-5">
+
+      
+      <!-- <div class="col-xl-3 col-md-12 right-box w-100 pl-4 pt-2 pr-5">
         <p class="header">{{headerText}}</p>
         <p class="head-description">{{headerDes}}</p>
         <p class="head-price">US${{priceText}}</p>
@@ -78,24 +83,27 @@
             <li v-if="10 <= desAmount">{{description10}}</li>
             <li v-if="11 <= desAmount">{{description11}}</li>
           </ul>
-        </div>
-        <!-- boos here --->
-        <div v-if="modelBoxDisappear == 0">
-          <div class="model-box-div">
-            <div id="box" class="model-box">
+        </div> -->
+
+
+
+      <!-- boos here --->
+        <div   v-if="modelBoxDisappear == 0">
+          <div  class="model-box-div">
+            <div @click="test()" id="box" class="model-box">
               <div class="select-box">
-                <div class="model-options-container">
-                  <div onclick="myFunction('1','2','3')" class="box-option">
+                <div class="model-options-container" ref="here">
+                  <div @click="myFunction('1','2','3')" class="box-option">
                     <input type="radio" class="model-radio" id="Standard - Black" name="category" />
                     <label id="1" for="Standard - Black">Standard - Black</label>
                   </div>
 
-                  <div onclick="myFunction('2','1','3')" class="box-option">
+                  <div @click="myFunction('2','1','3')" class="box-option">
                     <input type="radio" class="model-radio" id="Standard - Mercury" name="category" />
                     <label id="2" for="Standard - Mercury">Standard - Mercury</label>
                   </div>
 
-                  <div onclick="myFunction('3','1','2')" class="box-option">
+                  <div @click="myFunction('3','1','2')" class="box-option">
                     <input type="radio" class="model-radio" id="Chroma" name="category" />
                     <label id="3" for="Chroma">Chroma</label>
                   </div>
@@ -110,12 +118,23 @@
           </div>
         </div>
         <!-- end --->
-        <p class="shipping-date">{{shippingDate}}</p>
+
+
+
+
+
+
+        <!-- <p class="shipping-date">{{shippingDate}}</p>
         <button class="order-button">{{buyingStatus}}</button>
 
         <p class="product-status">{{buyingAt}}</p>
+
+
+
+        
       </div>
     </div>
+  </div> -->
   </div>
 </template>
 
@@ -451,6 +470,9 @@ p {
   border: 1px solid #44d62c;
 }
 </style>
+
+
+
 <script>
 export default {
   props: {
@@ -490,6 +512,9 @@ export default {
   },
   data() {
     return {
+      num : 0,
+      onum : 0,
+
       hiddenBorder4: {
         border: "0px"
       },
@@ -514,7 +539,73 @@ export default {
         console.log("can");
         this.bgComponent = this.imageLocateSrc + num + ".jpg";
       }
-    }
+    },
+
+    test() {
+const selected = document.querySelector(".selected");
+const optionsContainer = document.querySelector(".model-options-container");
+const optionsList = document.querySelectorAll(".option");
+
+selected.addEventListener("click", () => {
+  optionsContainer.classList.toggle("active");
+  this.nnum+=1;
+});
+
+optionsList.forEach(o => {
+    o.addEventListener("click", () => {
+    selected.innerHTML = o.querySelector("label").innerHTML;
+    optionsContainer.classList.remove("active");
+
+  });
+});
+
+    },
+
+   myFunction(change,not_change1, not_change2)
+{
+    document.getElementById(change).setAttribute("style", "color: #f5f5f5;font-size:inherit");
+    document.getElementById(not_change1).setAttribute("style", "color: 8d8d8d");
+    document.getElementById(not_change2).setAttribute("style", "color: 8d8d8d");
+    
+},
+
+
+
+//  onClickColor() {
+   
+   
+// console.log("nomal")
+
+//   if ((this.onum === this.nnum) || (this.nnum % 2 == 0)) {
+//     document.getElementById('box').setAttribute("style", "border: 1px solid #adadad;");
+//     document.getElementById('box1').setAttribute("style", "color: #adadad;");
+//     console.log("bigif")
+
+//     if (this.nnum % 2 !== 0){
+//       optionsContainer.classList.remove("active");
+//       this.nnum += 1;
+   
+//       console.log("if")
+
+//     }
+//   }
+
+//   else{
+//       document.getElementById('box').setAttribute("style", "border: 2px solid #43d32b !important;");
+//       document.getElementById('box1').setAttribute("style", "color: #43d32b;");
+//       console.log("el")
+//   }
+//   this.onum = this.nnum;
+// }
   }
 };
+
+
+
+
+
+
+
+
+
 </script>
