@@ -223,16 +223,15 @@ export default {
         o.addEventListener("click", () => {
           selected.innerHTML = o.querySelector("label").innerHTML;
           optionsContainer.classList.remove("active");
-          if(o.querySelector("label").innerHTML == "Standard - Black"){
+          if (o.querySelector("label").innerHTML == "Standard - Black") {
             location.href = "https://www.youtube.com/watch?v=VNM5yaCcua8";
-            }
-
-          else if(o.querySelector("label").innerHTML == "Standard - Mercury"){
+          } else if (
+            o.querySelector("label").innerHTML == "Standard - Mercury"
+          ) {
             location.href = "https://www.youtube.com/watch?v=-m4ge-XdCiA";
-          }
-
-          else if(o.querySelector("label").innerHTML == "Chroma"){
-            location.href = "https://www.youtube.com/watch?v=VadBrjU1ye0&list=PLwlgG919_nRXidl7mXzgMmk_GQoTp1KoT";
+          } else if (o.querySelector("label").innerHTML == "Chroma") {
+            location.href =
+              "https://www.youtube.com/watch?v=VadBrjU1ye0&list=PLwlgG919_nRXidl7mXzgMmk_GQoTp1KoT";
           }
         });
       });
@@ -250,11 +249,10 @@ export default {
         .setAttribute("style", "color: 8d8d8d");
     },
 
-
-
     onClickColor() {
       const optionsContainer = document.querySelector(
-        ".model-options-container");
+        ".model-options-container"
+      );
       console.log(this.onum);
       console.log(this.nnum);
 
@@ -269,8 +267,6 @@ export default {
           .setAttribute("style", "color: #adadad;");
         console.log("bigif");
 
-
-
         if (this.nnum % 2 != 0) {
           optionsContainer.classList.remove("active");
           this.nnum += 1;
@@ -278,18 +274,18 @@ export default {
           console.log("if");
         }
       } else {
-        document.getElementById("box").setAttribute("style", "border: 2px solid #43d32b !important;");
-        document.getElementById("box1").setAttribute("style", "color: #43d32b;");
+        document
+          .getElementById("box")
+          .setAttribute("style", "outline: 2px solid #43d32b !important;");
+        document
+          .getElementById("box1")
+          .setAttribute("style", "color: #43d32b;");
         console.log("el");
-             
-      
       }
-
 
       this.onum = this.nnum;
       // console.log(this.onum);
       // console.log(this.nnum);
-
     }
   }
 };
