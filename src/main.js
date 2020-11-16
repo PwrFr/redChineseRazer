@@ -1,9 +1,12 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 import Accessories from './Accessories.vue'
-import './index.css'
-
 createApp(Accessories).mount('#accessories')
+
+import './index.css'
+import Footer from './components/Footer.vue'
+createApp(Footer).mount('#Footer')
+
 
 import MenuBar from './components/MenuBar.vue'
 createApp(MenuBar).mount('#Menu')

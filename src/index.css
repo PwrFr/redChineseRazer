@@ -70,17 +70,18 @@ a:hover {
   font-family: Razerf5;
   font-size: 1.15rem;
   font-weight: bolder;
+  color: white;
   letter-spacing: 0.07rem;
 }
 .arrow{
   transform: rotate(0deg);
-  transform: scale(0.4);
+  transform: scale(0.5);
   fill: lime;
 }
 .titleC{
   font-family: Razerf5;
   color: #999999;
-  line-height: 2rem;
+  line-height: 1.8rem;
   font-size: 1.7rem;
   font-weight: 600;
   letter-spacing: .05rem;
@@ -105,3 +106,42 @@ a:hover {
 .company{
   font-size: 0.88rem;
 }
+.catalog{
+  
+
+}
+.access-body{
+  height: 100vh;
+  color: #999999;
+}
+.access{
+  background-color: black;
+}
+.pc-title{
+  -webkit-text-stroke-width: .5px;
+  -webkit-text-stroke-color: white;
+  font-family: Razerf5;
+  font-weight: 900 ;
+  font-size: 1.2rem;
+  }
+
+  .btnC {
+    font-family: Razerf5;
+  font-weight: bolder;
+  font-size: .85rem;
+  color: #999999;
+  -webkit-text-stroke-width: .4px;
+    background-color: black;
+    margin: 0rem 1rem 0rem 1rem;
+    border: none;
+   padding:0rem 0rem 0.4rem 0rem;
+   border-bottom:solid black 2.3px;
+    cursor: pointer;
+   
+  }
+  
+  /* Style the active class, and buttons on mouse-over */
+  .active, .btnC:hover {
+    border-bottom:solid lime 2.3px;
+    color: #44d62c;
+  }
