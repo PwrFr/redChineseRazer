@@ -1,7 +1,8 @@
 <template>
   <MenuBar />
 
-  <ProductSlot class="mt-5"
+  <ProductSlot
+    class="mt-5"
     imageAmount="5"
     imageTab1="/src/assets/products/cases/bar/1.jpg"
     imageTab2="/src/assets/products/cases/bar/2.jpg"
@@ -10,7 +11,7 @@
     imageTab5="/src/assets/products/cases/bar/5.jpg"
     backgroundSrc="/src/assets/products/cases/1.jpg"
     imageLocateSrc="/src/assets/products/cases/"
-    :headerText = test
+    :headerText="test"
     headerDes="Mini-ITX Gaming Chassis with Razer Chroma RGB"
     priceText="179.99"
     desAmount="3"
@@ -20,7 +21,7 @@
     modelBoxDisappear="0"
     modelFirstItem="Tomahawk ATX"
     shippingDate="Ships on November 05, 2020"
-    buyingStatus="Pre-Order"
+    buyingStatus="ADD TO CART"
     buyingAt="Also Available At"
   />
 </template>
@@ -36,14 +37,13 @@ export default {
     ProductSlot,
     MenuBar
   },
-  data(){
-    return{
-        test : datas.monitors[0].name
-    }
+  data() {
+    return {
+      test: datas.monitors[0].name
+    };
   },
-  created(){
-      console.log(datas.monitors[0].name)
+  created() {
+    console.log(datas.monitors[0].name);
   }
-  
 };
 </script>

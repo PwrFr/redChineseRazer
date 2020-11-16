@@ -1,11 +1,6 @@
-@font-face {
-  font-family: RazerF5-Reg;
-  src: url("../assets/font/RazerF5-Reg.otf");
-}
+
 .model-box-div {
     margin-bottom: 75px;
-    margin-top:-10.7px;
-    
   }
   .select-box {
     display: flex;
@@ -85,11 +80,10 @@
   }
   
   .selected {
-    cursor: pointer;    
-    font-family: Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
-    font-size: .875rem;
-    min-height: 3rem;
-    padding: .875rem .75rem;
+    margin-left: -12px;
+    padding: 12px 24px;
+    cursor: pointer;
+    font-size: 13.9px;
   }
   
   .vertical-center {
@@ -117,7 +111,7 @@
     border-radius: 4px;
     height: 48px;
     width: 225px;
-    
+    margin-left: 15px;
   }
   
   .model-box-1 {
@@ -128,8 +122,7 @@
     width: 43px;
     text-align: center;
     margin-top: -57px;
-    margin-left: 11px;
-    z-index: 5;
+    margin-left: 26px;
     font-family: Calibri;
   }
   
@@ -152,12 +145,18 @@
     border-color: white !important;
   }
   
-
+  @font-face {
+    font-family: RazerF5-Reg;
+    src: url("../assets/font/RazerF5-Reg.otf");
+  }
   
   .row-product {
     height: 100vh;
   }
-  
+  .col-img-full {
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
   .image-tab {
     display: flex;
     flex-direction: column;
@@ -178,13 +177,12 @@
   
   .right-box {
     background-color: black;
-    padding-left: 40px;
+    
 
   }
   
   .header {
-    margin: 0px;
-    padding-top: 52px;
+    padding-top: 40px;
     font-family: RazerF5-Reg;
     font-size: 21px;
     font-weight: 400;
@@ -197,9 +195,9 @@
   
   .head-description {
     display: block;
-    margin:0px;
-    margin-top: 4px;
-    
+  
+    margin-top: 0.5rem;
+  
     font-size: 14px;
     color: #fff !important;
   }
@@ -270,8 +268,8 @@
     color: #000;
     font-family: RazerF5-Reg;
     font-size: 14px;
-    font-weight: bolder;
-    height: 2.5rem;
+    font-weight: 1000;
+    height: 2rem;
     line-height: 1.4em;
     max-height: none;
     padding-left: 0.625rem;
@@ -334,26 +332,4 @@
     border-color: #44d62c;
     border: 1px solid #44d62c;
   }
-  .col-img-full {
-    vertical-align: middle;
-    object-fit: cover;
-
-    background-size: 100%;
-
-    background-repeat: no-repeat;
-  }
-  .col-xl-10 {
-    max-width: 78.7%;
-  }
-  html {
-    overflow: scroll;
-    overflow-x: hidden;
-}
-::-webkit-scrollbar {
-    width: 0px;  /* Remove scrollbar space 78.7*/
-    background: transparent;  /* Optional: just make scrollbar invisible */
-}
-/* Optional: show position indicator in red */
-::-webkit-scrollbar-thumb {
-    background: #FF0000;
-}
+  

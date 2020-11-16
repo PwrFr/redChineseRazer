@@ -3,7 +3,7 @@
     <div class="container-fluid" style="padding: 0px; background-color: black">
       <div class="row p-0 mt-0 row-product">
         <div
-          class="col-xl-10 col-md-12 col-img-full"
+          class="col-xl-9 col-md-12 col-img-full"
           v-bind:style="{ backgroundImage: 'url(' + bgComponent + ')' }"
         >
           <div class="image-tab">
@@ -63,7 +63,7 @@
 
         <!--leftside -->
 
-        <div class="col right-box w-100 pr-5">
+        <div class="col-xl-3 col-md-12 right-box w-100 pl-4 pt-2 pr-5">
           <p class="header">{{headerText}}</p>
           <p class="head-description">{{headerDes}}</p>
           <p class="head-price">US${{priceText}}</p>
@@ -276,7 +276,7 @@ export default {
       } else {
         document
           .getElementById("box")
-          .setAttribute("style", "border: 2px solid #43d32b !important;");
+          .setAttribute("style", "outline: 2px solid #43d32b !important;");
         document
           .getElementById("box1")
           .setAttribute("style", "color: #43d32b;");
