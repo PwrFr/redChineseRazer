@@ -6,38 +6,37 @@ let onum = 0;
 
 selected.addEventListener("click", () => {
   optionsContainer.classList.toggle("active");
-  num+=1;
+  num += 1;
 });
 
 optionsList.forEach(o => {
-    o.addEventListener("click", () => {
+  o.addEventListener("click", () => {
     selected.innerHTML = o.querySelector("label").innerHTML;
     optionsContainer.classList.remove("active");
   });
 });
 
 
-function myFunction(change,not_change1, not_change2)
-{
-    document.getElementById(change).setAttribute("style", "color: #f5f5f5;font-size:inherit");
-    document.getElementById(not_change1).setAttribute("style", "color: 8d8d8d");
-    document.getElementById(not_change2).setAttribute("style", "color: 8d8d8d");
-    
+function myFunction(change, not_change1, not_change2) {
+  document.getElementById(change).setAttribute("style", "color: #f5f5f5;font-size:inherit");
+  document.getElementById(not_change1).setAttribute("style", "color: 8d8d8d");
+  document.getElementById(not_change2).setAttribute("style", "color: 8d8d8d");
+
 }
 
 function onClickColor() {
-  if ((onum===num) || (num % 2 == 0)) {
+  if ((onum === num) || (num % 2 == 0)) {
     document.getElementById('box').setAttribute("style", "border: 1px solid #adadad;");
     document.getElementById('box1').setAttribute("style", "color: #adadad;");
-    if (num % 2 != 0){
+    if (num % 2 != 0) {
       optionsContainer.classList.remove("active");
       num += 1;
     }
   }
 
-  else{
-      document.getElementById('box').setAttribute("style", "border: 2px solid #43d32b !important;");
-      document.getElementById('box1').setAttribute("style", "color: #43d32b;");
+  else {
+    document.getElementById('box').setAttribute("style", "border: 2px solid #43d32b !important;");
+    document.getElementById('box1').setAttribute("style", "color: #43d32b;");
   }
   onum = num;
 }

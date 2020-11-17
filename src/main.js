@@ -16,4 +16,6 @@ import ProductSlot from './components/ProductSlot.vue'
 createApp(ProductSlot).mount('#productSlot')
 import AppTestSlot from './AppTestSlot.vue'
 createApp(AppTestSlot).mount('#appSlot')
+import CasesPage from './CasesPage.vue'
+createApp(CasesPage).mount('#casesPage')
 createApp(App).mount('#app')

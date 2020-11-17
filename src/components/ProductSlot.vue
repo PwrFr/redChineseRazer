@@ -66,7 +66,7 @@
         <div class="col right-box w-100 pr-5">
           <p class="header">{{headerText}}</p>
           <p class="head-description">{{headerDes}}</p>
-          <p class="head-price">US${{priceText}}</p>
+          <p class="head-price">{{priceText}}</p>
           <div class="ul-session">
             <ul>
               <li>{{description1}}</li>
