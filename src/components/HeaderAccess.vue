@@ -10,10 +10,14 @@
         </div>
       </div>
   </div>
-  <div class="container access-body">
+  <div class="container access-body pt-4 mt-3 p-0">
       <div class="row ">
           <div class="col-3">
-              asd
+              <h4 class="fillter">FILTER BY</h4>
+              <div class="filter-menu">
+
+              </div>
+
           </div>
           <div class="col-9">
               asd
@@ -23,16 +27,8 @@
 </template>
 
 <script>
-var header = document.getElementById("myDIV");
-var btns = header.getElementsByClassName("btnC");
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function() {
-  var current = document.getElementsByClassName("active");
-  if (current.length > 0) { 
-    current[0].className = current[0].className.replace(" active", "");
-  }
-  this.className += " active";
-  });
+export default {
+  
 }
 </script>
 

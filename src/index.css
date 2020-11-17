@@ -145,3 +145,11 @@ a:hover {
     border-bottom:solid lime 2.3px;
     color: #44d62c;
   }
+
+  .fillter{
+    font-size: .9rem;
+    font-weight: 600;
+  }
+  .filter-menu{
+
+  }
