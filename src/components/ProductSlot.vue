@@ -89,24 +89,36 @@
               <div id="box" class="model-box">
                 <div class="select-box" @click="onClickColor()">
                   <div class="model-options-container" ref="here">
-                    <div @click="myFunction('1','2','3')" class="box-option">
+                    <div
+                      @click="myFunction('1','2','3')"
+                      class="box-option"
+                      v-if="1 <= modelAmount"
+                    >
                       <input type="radio" class="model-radio" id="Standard - Black" name="category" />
-                      <label id="1" for="Standard - Black">Standard - Black</label>
+                      <label id="1" for="Standard - Black">{{modelName1}}</label>
                     </div>
 
-                    <div @click="myFunction('2','1','3')" class="box-option">
+                    <div
+                      @click="myFunction('2','1','3')"
+                      class="box-option"
+                      v-if="2 <= modelAmount"
+                    >
                       <input
                         type="radio"
                         class="model-radio"
                         id="Standard - Mercury"
                         name="category"
                       />
-                      <label id="2" for="Standard - Mercury">Standard - Mercury</label>
+                      <label id="2" for="Standard - Mercury">{{modelName2}}</label>
                     </div>
 
-                    <div @click="myFunction('3','1','2')" class="box-option">
+                    <div
+                      @click="myFunction('3','1','2')"
+                      class="box-option"
+                      v-if="3 <= modelAmount"
+                    >
                       <input type="radio" class="model-radio" id="Chroma" name="category" />
-                      <label id="3" for="Chroma">Chroma</label>
+                      <label id="3" for="Chroma">{{modelName3}}</label>
                     </div>
                   </div>
 
@@ -168,10 +180,18 @@ export default {
     buyingAt: String,
     //model Box
     modelBoxDisappear: Number,
-    modelFirstItem: String,
+
     //value of picture
     imageAmount: Number,
-    testCase: Number
+    testCase: Number,
+    modelAmount: Number,
+    modelLink1: String,
+    modelLink2: String,
+    modelLink3: String,
+    modelFirstItem: String,
+    modelName1: String,
+    modelName2: String,
+    modelName3: String
   },
   data() {
     return {
@@ -224,14 +244,13 @@ export default {
           selected.innerHTML = o.querySelector("label").innerHTML;
           optionsContainer.classList.remove("active");
           if (o.querySelector("label").innerHTML == "Standard - Black") {
-            location.href = "https://www.youtube.com/watch?v=VNM5yaCcua8";
+            location.href = this.modelLink1;
           } else if (
             o.querySelector("label").innerHTML == "Standard - Mercury"
           ) {
-            location.href = "https://www.youtube.com/watch?v=-m4ge-XdCiA";
+            location.href = this.modelLink2;
           } else if (o.querySelector("label").innerHTML == "Chroma") {
-            location.href =
-              "https://www.youtube.com/watch?v=VadBrjU1ye0&list=PLwlgG919_nRXidl7mXzgMmk_GQoTp1KoT";
+            location.href = this.modelLink3;
           }
         });
       });
