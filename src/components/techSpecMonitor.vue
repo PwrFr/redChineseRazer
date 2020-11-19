@@ -263,7 +263,7 @@ export default {
         more.style.display = "inline"
         //bt seeMore hide
 
-
+      
        this.text = "See less"
        var arrow = this.$refs.arrowGreen
        arrow.style.transform = "rotate(0deg)"
