@@ -52,7 +52,7 @@ a:hover {
 }
 .img-row{
   background-position-x: center;
-  height: 97vh;
+  height: 44rem;
   background-repeat: no-repeat;
 }
 .title{
@@ -91,7 +91,7 @@ a:hover {
   font-size: 0.9rem;
 }
 .img-col{
-  height: 80vh;
+  height: 36rem;
   background-position: center;
 }
 .footer-text{
@@ -141,7 +141,7 @@ a:hover {
   }
   
   /* Style the active class, and buttons on mouse-over */
-  .active, .btnC:hover {
+  .access-faro {
     border-bottom:solid lime 2.3px;
     color: #44d62c;
   }
@@ -150,6 +150,7 @@ a:hover {
     font-size: .9rem;
     font-weight: 600;
   }
-  .filter-menu{
-
+  button:focus{
+    outline: 0;
   }
+  
