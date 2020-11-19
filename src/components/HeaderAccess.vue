@@ -14,9 +14,11 @@
       <div class="row ">
           <div class="col-3">
               <h4 class="fillter">FILTER BY</h4>
-              <div class="filter-menu">
-
+              <button @click="show()">Check</button>
+              <div class="filter-menu" ref="dropdown">
+                
               </div>
+              did
 
           </div>
           <div class="col-9">
@@ -27,8 +29,22 @@
 </template>
 
 <script>
+import datas from "../assets/data.json";
 export default {
-  
+    data(){
+        return{
+            
+        };
+    },
+    methods:{
+        show(){
+            var show = this.$refs.dropdown;
+            var text = document.createElement("p");
+            text.appendChild(document.createTextNode("FUCK"));
+            show.appendChild(text);
+            
+        }
+    }
 }
 </script>
 
