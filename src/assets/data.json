@@ -211,7 +211,7 @@
                 "WEIGHT": "29,85 lbs / 13,5 kg"
             }
         }
-    },
+    ],
     "PC_Acessories":{
         "Product":{        
             "LAPTOPS":{
@@ -277,7 +277,7 @@
                 "detail" : ["Intel Core i7-10875H", "Windows 10 Pro",  "15.6\" 60Hz OLED 4K Touch", "Quadro RTX 5000", "32GB RAM, 1TB SSD"],
                 "add_to_card_bnt" : "ADD TO CART",
                 "img" : "/src/assets/img/PC_Acessories/Laptop/Razer Blade 15 Studio Edition.png"
-            },
+            }],
             "ACCESSORIES" : {
                 "Filter": {
                     "SHOP BY" : ["Sleeves & Cases (9)", "Chargers (6)", "Cables (3)", "Laptop Stands (3)", "Razer Chroma HDK (2)", "ARGB Controller (1)"]
