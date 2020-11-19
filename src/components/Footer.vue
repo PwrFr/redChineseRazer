@@ -14,7 +14,7 @@
       </div>
       <div class="col-4 pl-0 pt-4">
         <div class="row d-flex align-items-center justify-content-end pb-1">
-            <p style="color:#44d62c; font-size:0.7rem" class="pr-2 mr-1"> FOR GAMERS. BY GAMERS.™</p>
+            <p style="color:#44d62c; font-size:0.8rem" class="pr-2 mr-1"> FOR GAMERS. BY GAMERS.™</p>
             <a href=""><img class="ml-1 pr-2 " src="../assets/Footer/gb.svg" height="30" alt=""></a>
             <a href=""><img class="pr-2 " src="../assets/Footer/ig.svg" height="30" alt=""></a>
             <a href=""><img class="mr-2" src="../assets/Footer/tw.svg" height="30" alt=""></a>
