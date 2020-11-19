@@ -20,7 +20,7 @@
         <!-- row 2-->
         <tr class="dataRow trDisplay dataSingle">
           <th class="col-lg-3 p-0">
-            <b>REFRESH RATE</b>
+            <b>PRODUCT NUMBER</b>
           </th>
           <td class="col-lg-9 p-0 data py-1">
             {{ data3 }}
@@ -216,7 +216,7 @@ th {
 <script>
 import datas from "../assets/data.json";
 export default {
-  name: "techSpecMonitor",
+  name: "techSpecCase",
   // props: {
   //   msg: String
   // }
@@ -228,22 +228,22 @@ export default {
       text: "",
       status: 0,
       ty: {},
-      data1: datas.monitors[0].specs.Display[0],
-      data2: datas.monitors[0].specs.Display[1],
-      data3: datas.monitors[0].specs.RefreshRate[0],
-      data4: datas.monitors[0].specs.Graphics[0],
-      data5: datas.monitors[0].specs.Graphics[1],
-      data6: datas.monitors[0].specs.ContrastRatio[0],
-      data7: datas.monitors[0].specs.Bezels[0],
-      data8: datas.monitors[0].specs.Sync[0],
-      data9: datas.monitors[0].specs.Sync[1],
-      data10: datas.monitors[0].specs.Rotation[0],
-      data11: datas.monitors[0].specs.CableManagement[0],
-      data12: datas.monitors[0].specs.Lighting[0],
-      data13: datas.monitors[0].specs.IO[0],
-      data14: datas.monitors[0].specs.IO[1],
-      data15: datas.monitors[0].specs.IO[2],
-      data16: datas.monitors[0].specs.IO[3],
+      data1: datas.Cases[0].specs.MODEL[0],
+      data2: datas.Cases[0].specs.PRODUCTNUMBER[1],
+      data3: datas.Cases[0].specs.RefreshRate[0],
+      data4: datas.Cases[0].specs.Graphics[0],
+      data5: datas.Cases[0].specs.Graphics[1],
+      data6: datas.Cases[0].specs.ContrastRatio[0],
+      data7: datas.Cases[0].specs.Bezels[0],
+      data8: datas.Cases[0].specs.Sync[0],
+      data9: datas.Cases[0].specs.Sync[1],
+      data10: datas.Cases[0].specs.Rotation[0],
+      data11: datas.Cases[0].specs.CableManagement[0],
+      data12: datas.Cases[0].specs.Lighting[0],
+      data13: datas.Cases[0].specs.IO[0],
+      data14: datas.Cases[0].specs.IO[1],
+      data15: datas.Cases[0].specs.IO[2],
+      data16: datas.Cases[0].specs.IO[3],
     };
   },
   // created(){
@@ -259,7 +259,7 @@ export default {
         more.style.display = "inline"
         //bt seeMore hide
 
-      
+
        this.text = "See less"
        var arrow = this.$refs.arrowGreen
        arrow.style.transform = "rotate(0deg)"
