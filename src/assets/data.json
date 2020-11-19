@@ -247,6 +247,27 @@
                     "detail" : ["Intel Core i7-1165G7", "Windows 10 Home", "13.4\" 60Hz Full HD Touch", "Intel® Iris® Xe Graphics", "16GB RAM, 256GB SSD"],
                     "add_to_card_bnt" : "PRE-ORDER",
                     "img" : ""
+                },
+                "3" : {
+                    "name" : "Razer Book 13 - Full HD 60Hz - Intel® Iris® Xe Graphics - Mercury",
+                    "price" : "US$1,199.99",
+                    "detail" : ["Intel Core i5-1135G7", "Windows 10 Home", "13.4\" 60Hz Full HD", "Intel® Iris® Xe Graphics", "8GB RAM, 256GB SSD"],
+                    "add_to_card_bnt" : "PRE-ORDER",
+                    "img" : ""
+                },
+                "4" : {
+                    "name" : "Razer Blade Stealth 13 - OLED Full HD Touch 60Hz - GeForce GTX 1650 Ti Max-Q - Black",
+                    "price" : "US$1,199.99",
+                    "detail" : ["Intel Core i7-1165G7", "Windows 10 Home", "13.3\" 60Hz OLED Full HD Touch", "GeForce GTX 1650 Ti", "16GB RAM, 512GB SSD"],
+                    "add_to_card_bnt" : "ADD TO CART",
+                    "img" : ""
+                },
+                "5" : {
+                    "name" : "Razer Blade Stealth 13 - Full HD 120Hz - GeForce GTX 1650 Ti Max-Q - Black",
+                    "price" : "US$1,799.99",
+                    "detail" : ["Intel Core i7-1165G7", "Windows 10 Home", "13.3\" 120Hz Full HD", "GeForce GTX 1650 Ti", "16GB RAM, 512GB SSD"],
+                    "add_to_card_bnt" : "ADD TO CART",
+                    "img" : ""
                 }
             },
             "EGPUS" : {
@@ -280,24 +301,44 @@
                     "SHOP_BY" : ["Sleeves & Cases (9)", "Chargers (6)", "Cables (3)", "Laptop Stands (3)", "Razer Chroma HDK (2)", "ARGB Controller (1)"]
                 },
                 "0" : {
+                    "name" : "Razer Neoprene Sleeve V2 - For 13.3” Notebooks",
+                    "price" : "US$34.99",
+                    "detail" : ["Protective Exterior and Padded Interior", "Custom fit for the Razer Blade Stealth 13", "Ultra-slim profile"],
+                    "add_to_card_bnt" : "ADD TO CART",
+                    "img" : ""
+                },
+                "1" : {
+                    "name" : "Razer Protective Sleeve V2 - For 13.3\" Notebooks",
+                    "price" : "US$39.99",
+                    "detail" : ["Tough water-resistant material"," Smooth interior surface with built-in mouse mat"," Custom fit for our Razer Blade laptops"],
+                    "add_to_card_bnt" : "ADD TO CART",
+                    "img" : ""
+                },
+                "2" : {
+                    "name" : "Razer Protective Sleeve V2 - For 17.3\" Notebooks",
+                    "price" : "US$49.99",
+                    "detail" : ["Tough water-resistant material"," Smooth interior surface with built-in mouse mat"," Custom fit for our Razer Blade laptops"],
+                    "add_to_card_bnt" : "ADD TO CART",
+                    "img" : ""
+                },
+                "3" : {
+                    "name" : "Razer Protective Sleeve V2 - For 15.6\" Notebooks",
+                    "price" : "US$49.99",
+                    "detail" : ["Tough water-resistant material", "Smooth interior surface with built-in mouse mat", "Custom fit for our Razer Blade laptops"],
+                    "add_to_card_bnt" : "ADD TO CART",
+                    "img" : ""
+                },
+                "4" : {
                     "name" : "Razer Chroma Addressable RGB Controller",
                     "price" : "US$39.99",
                     "detail" : ["6 Addressable RGB headers", "Support for WS2812b or equivalent LED types", "USB connection (USB 2.0 Micro-B)"],
                     "add_to_card_bnt" : "ADD TO CART",
                     "img" : ""
                 },
-                "1" : {
+                "5" : {
                     "name" : "Razer Laptop Stand - Mercury",
                     "price" : "US$49.99",
                     "detail" : ["Designed for laptops up to 15\"", "Ergonomic design with an 18 degree inclination", "Aluminium construction"],
-                    "add_to_card_bnt" : "ADD TO CART",
-                    "img" : ""
-                },
-                "2" : {
-                    "name" : "Razer Protective 13\" Sleeve for Razer Blade Stealth",
-                    "price" : "US$27.99",
-                    "price_real" : "US$39.99 (31% off)",
-                    "detail" : ["Custom fit for Razer Blade Stealth", "Compatible with Razer Blade Stealth 12.5\" (2016) and Razer Blade Stealth 13\" (2017)", "Material: 100% Polyester"],
                     "add_to_card_bnt" : "ADD TO CART",
                     "img" : ""
                 }
