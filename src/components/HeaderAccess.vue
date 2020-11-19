@@ -40,7 +40,7 @@ export default {
         show(){
             var show = this.$refs.dropdown;
             var text = document.createElement("p");
-            text.appendChild(document.createTextNode("FUCK"));
+            text.appendChild(document.createTextNode(datas.PC_Acessories.Filter));
             show.appendChild(text);
             
         }

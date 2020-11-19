@@ -212,7 +212,7 @@
             }
         }
     },
-    "PC Acessories":{
+    "PC_Acessories":{
         "Filter": {
             "screen_size" : ["15 inch (10)", "13 inch (8)", "17 inch (4)"],
             "screen_type" : ["Full HD (3)", "UHD (3)", "4K Touch (1)", "OLED Full HD (1)"],
