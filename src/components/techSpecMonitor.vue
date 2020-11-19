@@ -152,7 +152,7 @@
   padding: 10px;
   color: white;
 }
-.row {
+.row-line{
   border-bottom: solid 1px #999;
 }
 #headerText {
