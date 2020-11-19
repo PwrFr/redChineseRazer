@@ -1,6 +1,6 @@
 {
-    "monitors": {
-        "0" :{
+    "monitors": [
+        {
             "name" : "Razer Raptor 27",
             "des": "The Ultimate Esports Gaming Monitor ",
             "price" : "US$699.99 ",
@@ -21,9 +21,9 @@
                 "Input_&_Output" : ["HDMI 2.0b", "DP1.4", "USB-C (Support for DP1.4 in Alt-mode)", "2x USB3.2 Gen 1 Type-A Passthrough"]
             }
         }
-    },
-    "eGPU":{
-        "0" :{
+    ],
+    "eGPU": [
+        {
             "name": "Razer Core X - Black",
             "des" : "External Graphics Enclosure for Thunderbolt™ 3 Laptops",
             "price" :"US$299.99",
@@ -66,7 +66,7 @@
                 }
             }
         },
-        "1" : {
+        {
             "name": "Razer Core X - Mercury",
             "des" : "External Graphics Enclosure for Thunderbolt™ 3 Laptops",
             "price" :"US$299.99",
@@ -109,7 +109,7 @@
                 }
             }
         },
-        "2":{
+        {
             "name": "Razer Core X Chroma",
             "des" : "External graphics enclosure with gaming-grade desktop power, ports, and Razer Chroma.",
             "price" :"US$399.99",
@@ -153,9 +153,9 @@
                 }
             }
         }
-    },
-    "Cases": {
-        "0": {
+    ],
+    "Cases": [
+        {
             "name": "Razer Tomahawk Mini-ITX",
             "des" : "Mini-ITX Gaming Chassis with Razer Chroma RGB",
             "price" :"US$179.99",
@@ -183,7 +183,7 @@
                 "WEIGHT": "12,8 lbs / 5,8 kg"
             }
         },
-        "1": {
+        {
             "name": "Razer Tomahawk ATX",
             "des" : "Mid-tower ATX Gaming Chassis with Razer Chroma RGB",
             "price" :"US$199.99",
@@ -211,7 +211,7 @@
                 "WEIGHT": "29,85 lbs / 13,5 kg"
             }
         }
-    },
+    ],
     "PC_Acessories":{       
         "LAPTOPS":{
             "Filter": {
