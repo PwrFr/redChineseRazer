@@ -52,7 +52,7 @@ a:hover {
 }
 .img-row{
   background-position-x: center;
-  height: 97vh;
+  height: 44rem;
   background-repeat: no-repeat;
 }
 .title{
@@ -91,7 +91,7 @@ a:hover {
   font-size: 0.9rem;
 }
 .img-col{
-  height: 80vh;
+  height: 36rem;
   background-position: center;
 }
 .footer-text{
