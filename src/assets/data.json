@@ -230,17 +230,23 @@
                 "0":{
                     "name" : "Razer Blade 15 Studio Edition - OLED 4K Touch 60Hz - Quadro RTX 5000 - Mercury",
                     "price" : "US$4,299.99",
-                    "detail" : ["Intel Core i7-10875H", "Windows 10 Pro",  "15.6\" 60Hz OLED 4K Touch", "Quadro RTX 5000", "32GB RAM, 1TB SSD"]
+                    "detail" : ["Intel Core i7-10875H", "Windows 10 Pro",  "15.6\" 60Hz OLED 4K Touch", "Quadro RTX 5000", "32GB RAM, 1TB SSD"],
+                    "add_to_card_bnt" : "ADD TO CART",
+                    "img" : ""
                 },
                 "1" : {
                     "name" : "Razer Book 13 - UHD Touch 60Hz - Intel® Iris® Xe Graphics - Mercury",
                     "price" : "US$1,999.99",
-                    "detail" : ["Intel Core i7-1165G7", "Windows 10 Home", "13.4\" 60Hz UHD Touch", "Intel® Iris® Xe Graphics", "16GB RAM, 512GB SSD"]
+                    "detail" : ["Intel Core i7-1165G7", "Windows 10 Home", "13.4\" 60Hz UHD Touch", "Intel® Iris® Xe Graphics", "16GB RAM, 512GB SSD"],
+                    "add_to_card_bnt" : "PRE-ORDER",
+                    "img" : ""
                 },
                 "2" : {
                     "name" : "Razer Book 13 - Full HD Touch 60Hz - Intel® Iris® Xe Graphics - Mercury",
                     "price" : "US$1,599.99",
-                    "detail" : ["Intel Core i7-1165G7", "Windows 10 Home", "13.4\" 60Hz Full HD Touch", "Intel® Iris® Xe Graphics", "16GB RAM, 256GB SSD"]
+                    "detail" : ["Intel Core i7-1165G7", "Windows 10 Home", "13.4\" 60Hz Full HD Touch", "Intel® Iris® Xe Graphics", "16GB RAM, 256GB SSD"],
+                    "add_to_card_bnt" : "PRE-ORDER",
+                    "img" : ""
                 }
             },
             "EGPUS" : {
@@ -250,17 +256,23 @@
                 "0" : {
                     "name" : "Razer Core X - Mercury",
                     "price" : "US$299.99",
-                    "detail" : ["Boost Thunderbolt™ 3 laptops", "Windows 10 and macOS support", "Compatible with PCI-Express graphics cards"]
+                    "detail" : ["Boost Thunderbolt™ 3 laptops", "Windows 10 and macOS support", "Compatible with PCI-Express graphics cards"],
+                    "add_to_card_bnt" : "ADD TO CART",
+                    "img" : ""
                 },
                 "1" : {
                     "name" : "Razer Core X Chroma",
                     "price" : "US$399.99",
-                    "detail" : ["Boost Thunderbolt™ 3 laptops", "Windows 10 and macOS support", "Compatible with PCI-Express graphics cards"]
+                    "detail" : ["Boost Thunderbolt™ 3 laptops", "Windows 10 and macOS support", "Compatible with PCI-Express graphics cards"],
+                    "add_to_card_bnt" : "ADD TO CART",
+                    "img" : ""
                 },
                 "2" : {
                     "name" : "Razer Core X - Black",
                     "price" : "US$299.99",
-                    "detail" : ["Boost Thunderbolt™ 3 laptops", "Windows 10 and macOS support", "Compatible with PCI-Express graphics cards"]
+                    "detail" : ["Boost Thunderbolt™ 3 laptops", "Windows 10 and macOS support", "Compatible with PCI-Express graphics cards"],
+                    "add_to_card_bnt" : "ADD TO CART",
+                    "img" : ""
                 }
             },
             "ACCESSORIES" : {
@@ -270,18 +282,24 @@
                 "0" : {
                     "name" : "Razer Chroma Addressable RGB Controller",
                     "price" : "US$39.99",
-                    "detail" : ["6 Addressable RGB headers", "Support for WS2812b or equivalent LED types", "USB connection (USB 2.0 Micro-B)"]
+                    "detail" : ["6 Addressable RGB headers", "Support for WS2812b or equivalent LED types", "USB connection (USB 2.0 Micro-B)"],
+                    "add_to_card_bnt" : "ADD TO CART",
+                    "img" : ""
                 },
                 "1" : {
                     "name" : "Razer Laptop Stand - Mercury",
                     "price" : "US$49.99",
-                    "detail" : ["Designed for laptops up to 15\"", "Ergonomic design with an 18 degree inclination", "Aluminium construction"]
+                    "detail" : ["Designed for laptops up to 15\"", "Ergonomic design with an 18 degree inclination", "Aluminium construction"],
+                    "add_to_card_bnt" : "ADD TO CART",
+                    "img" : ""
                 },
                 "2" : {
                     "name" : "Razer Protective 13\" Sleeve for Razer Blade Stealth",
                     "price" : "US$27.99",
                     "price_real" : "US$39.99 (31% off)",
-                    "detail" : ["Custom fit for Razer Blade Stealth", "Compatible with Razer Blade Stealth 12.5\" (2016) and Razer Blade Stealth 13\" (2017)", "Material: 100% Polyester"]
+                    "detail" : ["Custom fit for Razer Blade Stealth", "Compatible with Razer Blade Stealth 12.5\" (2016) and Razer Blade Stealth 13\" (2017)", "Material: 100% Polyester"],
+                    "add_to_card_bnt" : "ADD TO CART",
+                    "img" : ""
                 }
             },
             "MONITORS" : {
@@ -291,7 +309,9 @@
                 "0" : {
                     "name" : "Razer Raptor 27",
                     "price" : "US$699.99",
-                    "detail" : ["27\" Non-Glare WQHD IPS Display", "Fast 144Hz Refresh Rate and wide color gamut with HDR support", "Ultra thin bezels at 2.3mm"]
+                    "detail" : ["27\" Non-Glare WQHD IPS Display", "Fast 144Hz Refresh Rate and wide color gamut with HDR support", "Ultra thin bezels at 2.3mm"],
+                    "add_to_card_bnt" : "ADD TO CART",
+                    "img" : ""
                 }
             }
         }
