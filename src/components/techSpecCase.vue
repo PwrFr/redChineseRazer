@@ -26,9 +26,10 @@
         <!-- row 2 -->
         <tr class="dataRow trDisplay dataSingle">
           <th class="col-lg-3 p-0">
-            <b>GRAPHICS</b>
+            <b>Chassis Form Factor</b>
           </th>
           <td class="col-lg-9">
+            {{data3}}
           </td>
         </tr>
         <!-- row 3-->
