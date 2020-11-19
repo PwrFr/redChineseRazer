@@ -212,149 +212,155 @@
             }
         }
     },
-    "PC_Acessories":{
-        "Product":{        
-            "LAPTOPS":{
-                "Filter": {
-                    "screen_size" : ["15 inch (10)", "13 inch (8)", "17 inch (4)"],
-                    "screen_type" : ["Full HD (3)", "UHD (3)", "4K Touch (1)", "OLED Full HD (1)"],
-                    "refresh_rate" : ["60Hz (6)", "120Hz (2)"],
-                    "processor" : ["11th Gen Intel® Core™ i7 (4)", "10th Gen Intel® Core™ i7 (3)", "11th Gen Intel® Core™ i5 (1)"],
-                    "grafhics" : ["GeForce GTX 1650 Ti Max-Q (5)", "Intel® Iris® Xe Graphics (3)"],
-                    "storage" : ["512 SSD (6)", "256 SSD (2)"],
-                    "memory" : ["16GB (7)", "8GB (1)"],
-                    "color" : ["Black (5)", "Mercury (3)"],
-                    "keyboard_type" : ["Single-zone RGB (5)", "Per key RGB (3)"],
-                    "studio_edition" : ["Studio Edition - No (5)"]
-                },
-                "0":{
-                    "name" : "Razer Blade 15 Studio Edition - OLED 4K Touch 60Hz - Quadro RTX 5000 - Mercury",
-                    "price" : "US$4,299.99",
-                    "detail" : ["Intel Core i7-10875H", "Windows 10 Pro",  "15.6\" 60Hz OLED 4K Touch", "Quadro RTX 5000", "32GB RAM, 1TB SSD"],
-                    "add_to_card_bnt" : "ADD TO CART",
-                    "img" : "/src/assets/img/PC_Acessories/Laptop/Razer Blade 15 Studio Edition.png"
-                },
-                "1" : {
-                    "name" : "Razer Book 13 - UHD Touch 60Hz - Intel® Iris® Xe Graphics - Mercury",
-                    "price" : "US$1,999.99",
-                    "detail" : ["Intel Core i7-1165G7", "Windows 10 Home", "13.4\" 60Hz UHD Touch", "Intel® Iris® Xe Graphics", "16GB RAM, 512GB SSD"],
-                    "add_to_card_bnt" : "PRE-ORDER",
-                    "img" : "/src/assets/img/PC_Acessories/Laptop/Razer Book 13 - UHD.png"
-                },
-                "2" : {
-                    "name" : "Razer Book 13 - Full HD Touch 60Hz - Intel® Iris® Xe Graphics - Mercury",
-                    "price" : "US$1,599.99",
-                    "detail" : ["Intel Core i7-1165G7", "Windows 10 Home", "13.4\" 60Hz Full HD Touch", "Intel® Iris® Xe Graphics", "16GB RAM, 256GB SSD"],
-                    "add_to_card_bnt" : "PRE-ORDER",
-                    "img" : "/src/assets/img/PC_Acessories/Laptop/Razer Book 13 - Full HD Touch 60Hz.png"
-                },
-                "3" : {
-                    "name" : "Razer Book 13 - Full HD 60Hz - Intel® Iris® Xe Graphics - Mercury",
-                    "price" : "US$1,199.99",
-                    "detail" : ["Intel Core i5-1135G7", "Windows 10 Home", "13.4\" 60Hz Full HD", "Intel® Iris® Xe Graphics", "8GB RAM, 256GB SSD"],
-                    "add_to_card_bnt" : "PRE-ORDER",
-                    "img" : "/src/assets/img/PC_Acessories/Laptop/Razer Book 13 - Full HD 60Hz.png"
-                },
-                "4" : {
-                    "name" : "Razer Blade Stealth 13 - OLED Full HD Touch 60Hz - GeForce GTX 1650 Ti Max-Q - Black",
-                    "price" : "US$1,199.99",
-                    "detail" : ["Intel Core i7-1165G7", "Windows 10 Home", "13.3\" 60Hz OLED Full HD Touch", "GeForce GTX 1650 Ti", "16GB RAM, 512GB SSD"],
-                    "add_to_card_bnt" : "ADD TO CART",
-                    "img" : "/src/assets/img/PC_Acessories/Laptop/Razer Blade Stealth 13 - OLED Full HD.png"
-                },
-                "5" : {
-                    "name" : "Razer Blade Stealth 13 - Full HD 120Hz - GeForce GTX 1650 Ti Max-Q - Black",
-                    "price" : "US$1,799.99",
-                    "detail" : ["Intel Core i7-1165G7", "Windows 10 Home", "13.3\" 120Hz Full HD", "GeForce GTX 1650 Ti", "16GB RAM, 512GB SSD"],
-                    "add_to_card_bnt" : "ADD TO CART",
-                    "img" : "/src/assets/img/PC_Acessories/Laptop/Razer Blade Stealth 13 - Full HD 120Hz.png"
-                }
+    "PC_Acessories":{       
+        "LAPTOPS":{
+            "Filter": {
+                "screen_size" : ["15 inch (10)", "13 inch (8)", "17 inch (4)"],
+                "screen_type" : ["Full HD (3)", "UHD (3)", "4K Touch (1)", "OLED Full HD (1)"],
+                "refresh_rate" : ["60Hz (6)", "120Hz (2)"],
+                "processor" : ["11th Gen Intel® Core™ i7 (4)", "10th Gen Intel® Core™ i7 (3)", "11th Gen Intel® Core™ i5 (1)"],
+                "grafhics" : ["GeForce GTX 1650 Ti Max-Q (5)", "Intel® Iris® Xe Graphics (3)"],
+                "storage" : ["512 SSD (6)", "256 SSD (2)"],
+                "memory" : ["16GB (7)", "8GB (1)"],
+                "color" : ["Black (5)", "Mercury (3)"],
+                "keyboard_type" : ["Single-zone RGB (5)", "Per key RGB (3)"],
+                "studio_edition" : ["Studio Edition - No (5)"]
             },
-            "EGPUS" : {
-                "Filter": {
-                    "EGPU" : ["All (3)"]
-                },
-                "0" : {
-                    "name" : "Razer Core X - Mercury",
-                    "price" : "US$299.99",
-                    "detail" : ["Boost Thunderbolt™ 3 laptops", "Windows 10 and macOS support", "Compatible with PCI-Express graphics cards"],
-                    "add_to_card_bnt" : "ADD TO CART",
-                    "img" : "/src/assets/img/PC_Acessories/EGPU/Razer Core X - Mercury.png"
-                },
-                "1" : {
-                    "name" : "Razer Core X Chroma",
-                    "price" : "US$399.99",
-                    "detail" : ["Boost Thunderbolt™ 3 laptops", "Windows 10 and macOS support", "Compatible with PCI-Express graphics cards"],
-                    "add_to_card_bnt" : "ADD TO CART",
-                    "img" : "/src/assets/img/PC_Acessories/EGPU/Razer Core X Chroma.png"
-                },
-                "2" : {
-                    "name" : "Razer Core X - Black",
-                    "price" : "US$299.99",
-                    "detail" : ["Boost Thunderbolt™ 3 laptops", "Windows 10 and macOS support", "Compatible with PCI-Express graphics cards"],
-                    "add_to_card_bnt" : "ADD TO CART",
-                    "img" : "/src/assets/img/PC_Acessories/EGPU/Razer Core X - Black.png"
-                }
+            "Product": [
+            {
+                "name" : "Razer Blade 15 Studio Edition - OLED 4K Touch 60Hz - Quadro RTX 5000 - Mercury",
+                "price" : "US$4,299.99",
+                "detail" : ["Intel Core i7-10875H", "Windows 10 Pro",  "15.6\" 60Hz OLED 4K Touch", "Quadro RTX 5000", "32GB RAM, 1TB SSD"],
+                "add_to_card_bnt" : "ADD TO CART",
+                "img" : "/src/assets/img/PC_Acessories/Laptop/Razer Blade 15 Studio Edition.png"
             },
-            "ACCESSORIES" : {
-                "Filter": {
-                    "SHOP_BY" : ["Sleeves & Cases (9)", "Chargers (6)", "Cables (3)", "Laptop Stands (3)", "Razer Chroma HDK (2)", "ARGB Controller (1)"]
-                },
-                "0" : {
-                    "name" : "Razer Neoprene Sleeve V2 - For 13.3” Notebooks",
-                    "price" : "US$34.99",
-                    "detail" : ["Protective Exterior and Padded Interior", "Custom fit for the Razer Blade Stealth 13", "Ultra-slim profile"],
-                    "add_to_card_bnt" : "ADD TO CART",
-                    "img" : "/src/assets/img/PC_Acessories/Accessories/Razer Neoprene Sleeve V2 - For 13.3” Notebooks.jpg"
-                },
-                "1" : {
-                    "name" : "Razer Protective Sleeve V2 - For 13.3\" Notebooks",
-                    "price" : "US$39.99",
-                    "detail" : ["Tough water-resistant material"," Smooth interior surface with built-in mouse mat"," Custom fit for our Razer Blade laptops"],
-                    "add_to_card_bnt" : "ADD TO CART",
-                    "img" : "/src/assets/img/PC_Acessories/Accessories/Razer Neoprene Sleeve V2 - For 13.3” Notebooks.jpg"
-                },
-                "2" : {
-                    "name" : "Razer Protective Sleeve V2 - For 17.3\" Notebooks",
-                    "price" : "US$49.99",
-                    "detail" : ["Tough water-resistant material"," Smooth interior surface with built-in mouse mat"," Custom fit for our Razer Blade laptops"],
-                    "add_to_card_bnt" : "ADD TO CART",
-                    "img" : "/src/assets/img/PC_Acessories/Accessories/Razer Protective Sleeve V2 - For 17.3.png"
-                },
-                "3" : {
-                    "name" : "Razer Protective Sleeve V2 - For 15.6\" Notebooks",
-                    "price" : "US$49.99",
-                    "detail" : ["Tough water-resistant material", "Smooth interior surface with built-in mouse mat", "Custom fit for our Razer Blade laptops"],
-                    "add_to_card_bnt" : "ADD TO CART",
-                    "img" : "/src/assets/img/PC_Acessories/Accessories/Razer Protective Sleeve V2 - For 15.6.png"
-                },
-                "4" : {
-                    "name" : "Razer Chroma Addressable RGB Controller",
-                    "price" : "US$39.99",
-                    "detail" : ["6 Addressable RGB headers", "Support for WS2812b or equivalent LED types", "USB connection (USB 2.0 Micro-B)"],
-                    "add_to_card_bnt" : "ADD TO CART",
-                    "img" : "redChineseRazer/src/assets/img/PC_Acessories/Accessories/Razer Chroma Addressable RGB Controller.png"
-                },
-                "5" : {
-                    "name" : "Razer Laptop Stand - Mercury",
-                    "price" : "US$49.99",
-                    "detail" : ["Designed for laptops up to 15\"", "Ergonomic design with an 18 degree inclination", "Aluminium construction"],
-                    "add_to_card_bnt" : "ADD TO CART",
-                    "img" : "/src/assets/img/PC_Acessories/Accessories/Razer Laptop Stand - Mercury.png"
-                }
+            {
+                "name" : "Razer Book 13 - UHD Touch 60Hz - Intel® Iris® Xe Graphics - Mercury",
+                "price" : "US$1,999.99",
+                "detail" : ["Intel Core i7-1165G7", "Windows 10 Home", "13.4\" 60Hz UHD Touch", "Intel® Iris® Xe Graphics", "16GB RAM, 512GB SSD"],
+                "add_to_card_bnt" : "PRE-ORDER",
+                "img" : "/src/assets/img/PC_Acessories/Laptop/Razer Book 13 - UHD.png"
             },
-            "MONITORS" : {
-                "Filter": {
-                    "MONITORS" : ["All (1)"]
-                },
-                "0" : {
-                    "name" : "Razer Raptor 27",
-                    "price" : "US$699.99",
-                    "detail" : ["27\" Non-Glare WQHD IPS Display", "Fast 144Hz Refresh Rate and wide color gamut with HDR support", "Ultra thin bezels at 2.3mm"],
-                    "add_to_card_bnt" : "ADD TO CART",
-                    "img" : "/src/assets/img/PC_Acessories/Monitor/Razer Raptor 27.png"
-                }
+            {
+                "name" : "Razer Book 13 - Full HD Touch 60Hz - Intel® Iris® Xe Graphics - Mercury",
+                "price" : "US$1,599.99",
+                "detail" : ["Intel Core i7-1165G7", "Windows 10 Home", "13.4\" 60Hz Full HD Touch", "Intel® Iris® Xe Graphics", "16GB RAM, 256GB SSD"],
+                "add_to_card_bnt" : "PRE-ORDER",
+                "img" : "/src/assets/img/PC_Acessories/Laptop/Razer Book 13 - Full HD Touch 60Hz.png"
+            },
+            {
+                "name" : "Razer Book 13 - Full HD 60Hz - Intel® Iris® Xe Graphics - Mercury",
+                "price" : "US$1,199.99",
+                "detail" : ["Intel Core i5-1135G7", "Windows 10 Home", "13.4\" 60Hz Full HD", "Intel® Iris® Xe Graphics", "8GB RAM, 256GB SSD"],
+                "add_to_card_bnt" : "PRE-ORDER",
+                "img" : "/src/assets/img/PC_Acessories/Laptop/Razer Book 13 - Full HD 60Hz.png"
+            },
+            {
+                "name" : "Razer Blade Stealth 13 - OLED Full HD Touch 60Hz - GeForce GTX 1650 Ti Max-Q - Black",
+                "price" : "US$1,199.99",
+                "detail" : ["Intel Core i7-1165G7", "Windows 10 Home", "13.3\" 60Hz OLED Full HD Touch", "GeForce GTX 1650 Ti", "16GB RAM, 512GB SSD"],
+                "add_to_card_bnt" : "ADD TO CART",
+                "img" : "/src/assets/img/PC_Acessories/Laptop/Razer Blade Stealth 13 - OLED Full HD.png"
+            },
+            {
+                "name" : "Razer Blade Stealth 13 - Full HD 120Hz - GeForce GTX 1650 Ti Max-Q - Black",
+                "price" : "US$1,799.99",
+                "detail" : ["Intel Core i7-1165G7", "Windows 10 Home", "13.3\" 120Hz Full HD", "GeForce GTX 1650 Ti", "16GB RAM, 512GB SSD"],
+                "add_to_card_bnt" : "ADD TO CART",
+                "img" : "/src/assets/img/PC_Acessories/Laptop/Razer Blade Stealth 13 - Full HD 120Hz.png"
             }
+            ]
+        },
+        "EGPUS" : {
+            "Filter": {
+                "EGPU" : ["All (3)"]
+            },
+            "Product": [
+            {
+                "name" : "Razer Core X - Mercury",
+                "price" : "US$299.99",
+                "detail" : ["Boost Thunderbolt™ 3 laptops", "Windows 10 and macOS support", "Compatible with PCI-Express graphics cards"],
+                "add_to_card_bnt" : "ADD TO CART",
+                "img" : "/src/assets/img/PC_Acessories/EGPU/Razer Core X - Mercury.png"
+            },
+            {
+                "name" : "Razer Core X Chroma",
+                "price" : "US$399.99",
+                "detail" : ["Boost Thunderbolt™ 3 laptops", "Windows 10 and macOS support", "Compatible with PCI-Express graphics cards"],
+                "add_to_card_bnt" : "ADD TO CART",
+                "img" : "/src/assets/img/PC_Acessories/EGPU/Razer Core X Chroma.png"
+            },
+            {
+                "name" : "Razer Core X - Black",
+                "price" : "US$299.99",
+                "detail" : ["Boost Thunderbolt™ 3 laptops", "Windows 10 and macOS support", "Compatible with PCI-Express graphics cards"],
+                "add_to_card_bnt" : "ADD TO CART",
+                "img" : "/src/assets/img/PC_Acessories/EGPU/Razer Core X - Black.png"
+            }
+        ]
+        },
+        "ACCESSORIES" : {
+            "Filter": {
+                "SHOP_BY" : ["Sleeves & Cases (9)", "Chargers (6)", "Cables (3)", "Laptop Stands (3)", "Razer Chroma HDK (2)", "ARGB Controller (1)"]
+            },
+            "Product": [
+            {
+                "name" : "Razer Neoprene Sleeve V2 - For 13.3” Notebooks",
+                "price" : "US$34.99",
+                "detail" : ["Protective Exterior and Padded Interior", "Custom fit for the Razer Blade Stealth 13", "Ultra-slim profile"],
+                "add_to_card_bnt" : "ADD TO CART",
+                "img" : "/src/assets/img/PC_Acessories/Accessories/Razer Neoprene Sleeve V2 - For 13.3” Notebooks.jpg"
+            },
+            {
+                "name" : "Razer Protective Sleeve V2 - For 13.3\" Notebooks",
+                "price" : "US$39.99",
+                "detail" : ["Tough water-resistant material"," Smooth interior surface with built-in mouse mat"," Custom fit for our Razer Blade laptops"],
+                "add_to_card_bnt" : "ADD TO CART",
+                "img" : "/src/assets/img/PC_Acessories/Accessories/Razer Neoprene Sleeve V2 - For 13.3” Notebooks.jpg"
+            },
+            {
+                "name" : "Razer Protective Sleeve V2 - For 17.3\" Notebooks",
+                "price" : "US$49.99",
+                "detail" : ["Tough water-resistant material"," Smooth interior surface with built-in mouse mat"," Custom fit for our Razer Blade laptops"],
+                "add_to_card_bnt" : "ADD TO CART",
+                "img" : "/src/assets/img/PC_Acessories/Accessories/Razer Protective Sleeve V2 - For 17.3.png"
+            },
+            {
+                "name" : "Razer Protective Sleeve V2 - For 15.6\" Notebooks",
+                "price" : "US$49.99",
+                "detail" : ["Tough water-resistant material", "Smooth interior surface with built-in mouse mat", "Custom fit for our Razer Blade laptops"],
+                "add_to_card_bnt" : "ADD TO CART",
+                "img" : "/src/assets/img/PC_Acessories/Accessories/Razer Protective Sleeve V2 - For 15.6.png"
+            },
+            {
+                "name" : "Razer Chroma Addressable RGB Controller",
+                "price" : "US$39.99",
+                "detail" : ["6 Addressable RGB headers", "Support for WS2812b or equivalent LED types", "USB connection (USB 2.0 Micro-B)"],
+                "add_to_card_bnt" : "ADD TO CART",
+                "img" : "redChineseRazer/src/assets/img/PC_Acessories/Accessories/Razer Chroma Addressable RGB Controller.png"
+            },
+            {
+                "name" : "Razer Laptop Stand - Mercury",
+                "price" : "US$49.99",
+                "detail" : ["Designed for laptops up to 15\"", "Ergonomic design with an 18 degree inclination", "Aluminium construction"],
+                "add_to_card_bnt" : "ADD TO CART",
+                "img" : "/src/assets/img/PC_Acessories/Accessories/Razer Laptop Stand - Mercury.png"
+            }
+        ]
+        },
+        "MONITORS" : {
+            "Filter": {
+                "MONITORS" : ["All (1)"]
+            },
+            "Product": [
+            {
+                "name" : "Razer Raptor 27",
+                "price" : "US$699.99",
+                "detail" : ["27\" Non-Glare WQHD IPS Display", "Fast 144Hz Refresh Rate and wide color gamut with HDR support", "Ultra thin bezels at 2.3mm"],
+                "add_to_card_bnt" : "ADD TO CART",
+                "img" : "/src/assets/img/PC_Acessories/Monitor/Razer Raptor 27.png"
+            }
+        ]
         }
     }
 }
