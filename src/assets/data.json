@@ -10,7 +10,7 @@
             "status": true,
             "specs":{
                 "Display" : ["27\" WQHD (2560 x 1440px) resolution", "Non-Glare IPS Display with up to 178° wide viewing angles"],
-                "Refresh rate" : ["144Hz Refresh Rate, 1ms with Ultra Low Motion Blur"],
+                "Refresh_rate" : ["144Hz Refresh Rate, 1ms with Ultra Low Motion Blur"],
                 "Graphics" : ["HDR400, 8-Bit + FRC dimming processor", "Factory Calibrated 95% DCI-P3 wide color gamut"],
                 "Contrast_Ratio" : ["1000:1 Contrast Ratio"],
                 "Bezels" : ["Ultra thin bezels at 2.3 mm"],
@@ -36,13 +36,13 @@
                 "Input_&_Output" : ["Thunderbolt™ 3 (connection to the system)", "4 X USB 3.1 Type-A", "Gigabit Ethernet"],
                 "Internal_Power_Supply" : "650 Watts",
                 "Laptop_Power_Delivery": "Up to 100 Watts via USB-C",
-                "Thunderbolt™ 3 cable length" : "19.67” / 500 mm",
-                "Razer Core Approx. Size" : ["Width x Depth x Height", "6.61\" x 14.72\" x 9.06\"", "168 mm x 374 mm x 230 mm"],
+                "Thunderbolt_3_cable_length" : "19.67” / 500 mm",
+                "Razer_Core_Approx._Size" : ["Width x Depth x Height", "6.61\" x 14.72\" x 9.06\"", "168 mm x 374 mm x 230 mm"],
                 "Weight" : "14.29 lbs / 6.48 kg",
-                "Laptop Requirements (Laptop not included)" : {
-                    "Connection to system" : "Systems require a Thunderbolt™ 3 port with external graphics support. Please check with your laptop manufacture to confirm if your laptop supports Thunderbolt 3 external graphics.",
-                    "macOS Systems Requirements" : ["Thunderbolt™ 3 equipped Macs running macOS High Sierra 10.13.4 or later.", "Compatible AMD graphics card sold separately.", "Razer Synapse 3 software not available on macOS."],
-                    " Windows System Requirements " : ["Windows 10 64bit RS5 or above with Thunderbolt™ 3 port.", "Compatible NVIDIA or AMD graphics card sold separately."]
+                "Laptop_Requirements_(Laptop_not_included)" : {
+                    "Connection_to_system" : "Systems require a Thunderbolt™ 3 port with external graphics support. Please check with your laptop manufacture to confirm if your laptop supports Thunderbolt 3 external graphics.",
+                    "macOS_Systems_Requirements" : ["Thunderbolt™ 3 equipped Macs running macOS High Sierra 10.13.4 or later.", "Compatible AMD graphics card sold separately.", "Razer Synapse 3 software not available on macOS."],
+                    " Windows_System_Requirements" : ["Windows 10 64bit RS5 or above with Thunderbolt™ 3 port.", "Compatible NVIDIA or AMD graphics card sold separately."]
                 },
                 "Graphics Cards Requirements (Graphics card not included)" : {
                     "Max inner dimensions " : {
@@ -50,18 +50,18 @@
                         "1": "* Height measured from top of PCIe connector to the bottom of the locking pin ramps."
                     },
                     "img" : "",
-                    "GPU Type": ["Up to 3-Slot wide, full-length, PCI-Express x16 graphics card.", "Graphics cards use varied designs based around a common graphics chip. Please ensure the GPU selected meets all size, power, and additional requirements."],
-                    "GPU Max Power Support": "500 Watts"
+                    "GPU_Type": ["Up to 3-Slot wide, full-length, PCI-Express x16 graphics card.", "Graphics cards use varied designs based around a common graphics chip. Please ensure the GPU selected meets all size, power, and additional requirements."],
+                    "GPU_Max_Power_Support": "500 Watts"
                 },
-                "MACOS COMPATIBLE GRAPHICS CHIPSETS": {
+                "MACOS_COMPATIBLE_GRAPHICS_CHIPSETS": {
                     "0": ["AMD Radeon™ RX 580", "AMD Radeon™ RX 570", "AMD Radeon™ Pro WX 7100", "AMD Radeon™ RX Vega 56", "AMD Radeon™ RX Vega 64", "AMD Vega Frontier Edition Air", "AMD Radeon™ Pro WX 9100", "AMD Radeon™ RX 470", "AMD Radeon™ RX 480"],
                     "status": "*Not an exhaustive list"
                 },
-                "WINDOWS 10 COMPATIBLE GRAPHICS CHIPSETS": {
-                    "Qualified NVIDIA ® GeForce ® graphics chipsets": ["NVIDIA ® GeForce RTX™ 2080 Ti", "NVIDIA ® GeForce RTX™ 2080 Super", "NVIDIA ® GeForce RTX™ 2080", "NVIDIA ® GeForce RTX™ 2070 Super", "NVIDIA ® GeForce RTX™ 2070", "NVIDIA ® GeForce RTX™ 2060 Super", "NVIDIA ® GeForce RTX™ 2060", "NVIDIA ® GeForce ® GTX Titan X", "NVIDIA ® GeForce ® GTX Titan V", "NVIDIA ® GeForce ® GTX Titan Xp", "NVIDIA ® GeForce ® GTX 1660 Super", "NVIDIA ® GeForce ® GTX 1660 Ti", "NVIDIA ® GeForce ® GTX 1660", "NVIDIA ® GeForce ® GTX 1650 Super", "NVIDIA ® GeForce ® GTX 1650", "NVIDIA ® GeForce ® GTX 1080 Ti", "NVIDIA ® GeForce ® GTX 1080", "NVIDIA ® GeForce ® GTX 1070 Ti", "NVIDIA ® GeForce ® GTX 1070", "NVIDIA ® GeForce ® GTX 1060", "NVIDIA ® GeForce ® GTX 1050 Ti", "NVIDIA ® GeForce ® GTX 1050", "NVIDIA ® GeForce ® GTX 980 Ti", "NVIDIA ® GeForce ® GTX 980", "NVIDIA ® GeForce ® GTX 970", "NVIDIA ® GeForce ® GTX 960", "NVIDIA ® GeForce ® GTX 950", "NVIDIA ® GeForce ® GTX 750 Ti", "NVIDIA ® GeForce ® GTX 750"],
-                    "Qualified NVIDIA ® Quadro ® graphics chipsets": ["NVIDIA ® Quadro ® P4000", "NVIDIA ® Quadro ® P5000", "NVIDIA ® Quadro ® P6000", "NVIDIA ® Quadro ® GP100"],
-                    "Qualified AMD Radeon™ graphics chipsets": ["AMD Radeon™ RX 5700 XT" ,"AMD Radeon™ RX 5700" ,"AMD Radeon™ VII" ,"AMD Radeon™ VEGA RX 64" ,"AMD Radeon™ VEGA RX 56" ,"AMD Radeon™ RX 500 Series" ,"AMD Radeon™ RX 400 Series" ,"AMD Radeon™ R9 Fury" ,"AMD Radeon™ R9 Nano" ,"AMD Radeon™ R9 300 Series" ,"AMD Radeon™ R9 290X" ,"AMD Radeon™ R9 290" ,"AMD Radeon™ R9 285"],
-                    "Graphics Output": "Based on capabilities of installed graphics",
+                "WINDOWS_10_COMPATIBLE_GRAPHICS_CHIPSETS": {
+                    "Qualified_NVIDIA_GeForce_graphics_chipsets": ["NVIDIA ® GeForce RTX™ 2080 Ti", "NVIDIA ® GeForce RTX™ 2080 Super", "NVIDIA ® GeForce RTX™ 2080", "NVIDIA ® GeForce RTX™ 2070 Super", "NVIDIA ® GeForce RTX™ 2070", "NVIDIA ® GeForce RTX™ 2060 Super", "NVIDIA ® GeForce RTX™ 2060", "NVIDIA ® GeForce ® GTX Titan X", "NVIDIA ® GeForce ® GTX Titan V", "NVIDIA ® GeForce ® GTX Titan Xp", "NVIDIA ® GeForce ® GTX 1660 Super", "NVIDIA ® GeForce ® GTX 1660 Ti", "NVIDIA ® GeForce ® GTX 1660", "NVIDIA ® GeForce ® GTX 1650 Super", "NVIDIA ® GeForce ® GTX 1650", "NVIDIA ® GeForce ® GTX 1080 Ti", "NVIDIA ® GeForce ® GTX 1080", "NVIDIA ® GeForce ® GTX 1070 Ti", "NVIDIA ® GeForce ® GTX 1070", "NVIDIA ® GeForce ® GTX 1060", "NVIDIA ® GeForce ® GTX 1050 Ti", "NVIDIA ® GeForce ® GTX 1050", "NVIDIA ® GeForce ® GTX 980 Ti", "NVIDIA ® GeForce ® GTX 980", "NVIDIA ® GeForce ® GTX 970", "NVIDIA ® GeForce ® GTX 960", "NVIDIA ® GeForce ® GTX 950", "NVIDIA ® GeForce ® GTX 750 Ti", "NVIDIA ® GeForce ® GTX 750"],
+                    "Qualified_NVIDIA_Quadro_graphics_chipsets": ["NVIDIA ® Quadro ® P4000", "NVIDIA ® Quadro ® P5000", "NVIDIA ® Quadro ® P6000", "NVIDIA ® Quadro ® GP100"],
+                    "Qualified_AMD_Radeon_graphics_chipsets": ["AMD Radeon™ RX 5700 XT" ,"AMD Radeon™ RX 5700" ,"AMD Radeon™ VII" ,"AMD Radeon™ VEGA RX 64" ,"AMD Radeon™ VEGA RX 56" ,"AMD Radeon™ RX 500 Series" ,"AMD Radeon™ RX 400 Series" ,"AMD Radeon™ R9 Fury" ,"AMD Radeon™ R9 Nano" ,"AMD Radeon™ R9 300 Series" ,"AMD Radeon™ R9 290X" ,"AMD Radeon™ R9 290" ,"AMD Radeon™ R9 285"],
+                    "Graphics_Output": "Based on capabilities of installed graphics",
                     "status": "*Not an exhaustive list" 
                 }
             }
@@ -76,35 +76,35 @@
             "add_to_card_bnt" : "ADD TO CART",
             "status": false,
             "specs":{
-                "Input & Output" : ["Thunderbolt™ 3 (connection to the system)", "4 X USB 3.1 Type-A", "Gigabit Ethernet"],
-                "Internal Power Supply" : "650 Watts",
-                "Laptop Power Delivery" : "Up to 100 Watts via USB-C",
-                "Thunderbolt™ 3 cable length" : "19.67” / 500 mm",
-                "Razer Core Approx. Size" : ["Width x Depth x Height", "6.61\" x 14.72\" x 9.06\"", "168 mm x 374 mm x 230 mm"],
+                "Input_&_Output" : ["Thunderbolt™ 3 (connection to the system)", "4 X USB 3.1 Type-A", "Gigabit Ethernet"],
+                "Internal_Power_Supply" : "650 Watts",
+                "Laptop_Power_Delivery" : "Up to 100 Watts via USB-C",
+                "Thunderbolt_3_cable_length" : "19.67” / 500 mm",
+                "Razer_Core_Approx._Size" : ["Width x Depth x Height", "6.61\" x 14.72\" x 9.06\"", "168 mm x 374 mm x 230 mm"],
                 "Weight" : "14.29 lbs / 6.48 kg",
-                "Laptop Requirements (Laptop not included)" : {
-                    "Connection to system" : "Systems require a Thunderbolt™ 3 port with external graphics support. Please check with your laptop manufacture to confirm if your laptop supports Thunderbolt 3 external graphics.",
-                    "macOS Systems Requirements" : ["Thunderbolt™ 3 equipped Macs running macOS High Sierra 10.13.4 or later.", "Compatible AMD graphics card sold separately.", "Razer Synapse 3 software not available on macOS."],
-                    "Windows System Requirements " : ["Windows 10 64bit RS5 or above with Thunderbolt™ 3 port.", "Compatible NVIDIA or AMD graphics card sold separately."]
+                "Laptop_Requirements_(Laptop_not_included)" : {
+                    "Connection_to_system" : "Systems require a Thunderbolt™ 3 port with external graphics support. Please check with your laptop manufacture to confirm if your laptop supports Thunderbolt 3 external graphics.",
+                    "macOS_Systems_Requirements" : ["Thunderbolt™ 3 equipped Macs running macOS High Sierra 10.13.4 or later.", "Compatible AMD graphics card sold separately.", "Razer Synapse 3 software not available on macOS."],
+                    "Windows_System_Requirements" : ["Windows 10 64bit RS5 or above with Thunderbolt™ 3 port.", "Compatible NVIDIA or AMD graphics card sold separately."]
                 },
-                "GRAPHICS CARDS REQUIREMENTS (GRAPHICS CARD NOT INCLUDED)" : {
-                    "Max inner dimensions":{
+                "GRAPHICS_CARDS_REQUIREMENTS_(GRAPHICS_CARD_NOT_INCLUDED)" : {
+                    "Max_inner_dimensions":{
                         "0": ["Length : 12.99”/ 330 mm", "Height*: 6.29” / 160 mm", "Width : 2.36” / 60 mm"],
                         "1": "* Height measured from top of PCIe connector to the bottom of the locking pin ramps."
                     },
                     "img" : "",
-                    "GPU Type": ["Up to 3-Slot wide, full-length, PCI-Express x16 graphics card.", "Graphics cards use varied designs based around a common graphics chip. Please ensure the GPU selected meets all size, power, and additional requirements."],
-                    "GPU Max Power Support": "500 Watts"
+                    "GPU_Type": ["Up to 3-Slot wide, full-length, PCI-Express x16 graphics card.", "Graphics cards use varied designs based around a common graphics chip. Please ensure the GPU selected meets all size, power, and additional requirements."],
+                    "GPU_Max_Power_Support": "500 Watts"
                 },
-                "MACOS COMPATIBLE GRAPHICS CHIPSETS": {
+                "MACOS_COMPATIBLE_GRAPHICS_CHIPSETS": {
                     "0": ["AMD Radeon™ RX 580", "AMD Radeon™ RX 570", "AMD Radeon™ Pro WX 7100", "AMD Radeon™ RX Vega 56", "AMD Radeon™ RX Vega 64", "AMD Vega Frontier Edition Air", "AMD Radeon™ Pro WX 9100", "AMD Radeon™ RX 470", "AMD Radeon™ RX 480"],
                     "status": "*Not an exhaustive list"
                 },
-                "WINDOWS 10 COMPATIBLE GRAPHICS CHIPSETS": {
-                    "Qualified NVIDIA ® GeForce ® graphics chipsets": ["NVIDIA ® GeForce RTX™ 2080 Ti", "NVIDIA ® GeForce RTX™ 2080 Super", "NVIDIA ® GeForce RTX™ 2080", "NVIDIA ® GeForce RTX™ 2070 Super", "NVIDIA ® GeForce RTX™ 2070", "NVIDIA ® GeForce RTX™ 2060 Super", "NVIDIA ® GeForce RTX™ 2060", "NVIDIA ® GeForce ® GTX Titan X", "NVIDIA ® GeForce ® GTX Titan V", "NVIDIA ® GeForce ® GTX Titan Xp", "NVIDIA ® GeForce ® GTX 1660 Super", "NVIDIA ® GeForce ® GTX 1660 Ti", "NVIDIA ® GeForce ® GTX 1660", "NVIDIA ® GeForce ® GTX 1650 Super", "NVIDIA ® GeForce ® GTX 1650", "NVIDIA ® GeForce ® GTX 1080 Ti", "NVIDIA ® GeForce ® GTX 1080", "NVIDIA ® GeForce ® GTX 1070 Ti", "NVIDIA ® GeForce ® GTX 1070", "NVIDIA ® GeForce ® GTX 1060", "NVIDIA ® GeForce ® GTX 1050 Ti", "NVIDIA ® GeForce ® GTX 1050", "NVIDIA ® GeForce ® GTX 980 Ti", "NVIDIA ® GeForce ® GTX 980", "NVIDIA ® GeForce ® GTX 970", "NVIDIA ® GeForce ® GTX 960", "NVIDIA ® GeForce ® GTX 950", "NVIDIA ® GeForce ® GTX 750 Ti", "NVIDIA ® GeForce ® GTX 750"],
-                    "Qualified NVIDIA ® Quadro ® graphics chipsets": ["NVIDIA ® Quadro ® P4000", "NVIDIA ® Quadro ® P5000", "NVIDIA ® Quadro ® P6000", "NVIDIA ® Quadro ® GP100"],
-                    "Qualified AMD Radeon™ graphics chipsets": ["AMD Radeon™ RX 5700 XT" ,"AMD Radeon™ RX 5700" ,"AMD Radeon™ VII" ,"AMD Radeon™ VEGA RX 64" ,"AMD Radeon™ VEGA RX 56" ,"AMD Radeon™ RX 500 Series" ,"AMD Radeon™ RX 400 Series" ,"AMD Radeon™ R9 Fury" ,"AMD Radeon™ R9 Nano" ,"AMD Radeon™ R9 300 Series" ,"AMD Radeon™ R9 290X" ,"AMD Radeon™ R9 290" ,"AMD Radeon™ R9 285"],
-                    "Graphics Output": "Based on capabilities of installed graphics",
+                "WINDOWS_10_COMPATIBLE_GRAPHICS_CHIPSETS": {
+                    "Qualified_NVIDIA_GeForce_graphics_chipsets": ["NVIDIA ® GeForce RTX™ 2080 Ti", "NVIDIA ® GeForce RTX™ 2080 Super", "NVIDIA ® GeForce RTX™ 2080", "NVIDIA ® GeForce RTX™ 2070 Super", "NVIDIA ® GeForce RTX™ 2070", "NVIDIA ® GeForce RTX™ 2060 Super", "NVIDIA ® GeForce RTX™ 2060", "NVIDIA ® GeForce ® GTX Titan X", "NVIDIA ® GeForce ® GTX Titan V", "NVIDIA ® GeForce ® GTX Titan Xp", "NVIDIA ® GeForce ® GTX 1660 Super", "NVIDIA ® GeForce ® GTX 1660 Ti", "NVIDIA ® GeForce ® GTX 1660", "NVIDIA ® GeForce ® GTX 1650 Super", "NVIDIA ® GeForce ® GTX 1650", "NVIDIA ® GeForce ® GTX 1080 Ti", "NVIDIA ® GeForce ® GTX 1080", "NVIDIA ® GeForce ® GTX 1070 Ti", "NVIDIA ® GeForce ® GTX 1070", "NVIDIA ® GeForce ® GTX 1060", "NVIDIA ® GeForce ® GTX 1050 Ti", "NVIDIA ® GeForce ® GTX 1050", "NVIDIA ® GeForce ® GTX 980 Ti", "NVIDIA ® GeForce ® GTX 980", "NVIDIA ® GeForce ® GTX 970", "NVIDIA ® GeForce ® GTX 960", "NVIDIA ® GeForce ® GTX 950", "NVIDIA ® GeForce ® GTX 750 Ti", "NVIDIA ® GeForce ® GTX 750"],
+                    "Qualified_NVIDIA_Quadro_graphics_chipsets": ["NVIDIA ® Quadro ® P4000", "NVIDIA ® Quadro ® P5000", "NVIDIA ® Quadro ® P6000", "NVIDIA ® Quadro ® GP100"],
+                    "Qualified_AMD_Radeon_graphics_chipsets": ["AMD Radeon™ RX 5700 XT" ,"AMD Radeon™ RX 5700" ,"AMD Radeon™ VII" ,"AMD Radeon™ VEGA RX 64" ,"AMD Radeon™ VEGA RX 56" ,"AMD Radeon™ RX 500 Series" ,"AMD Radeon™ RX 400 Series" ,"AMD Radeon™ R9 Fury" ,"AMD Radeon™ R9 Nano" ,"AMD Radeon™ R9 300 Series" ,"AMD Radeon™ R9 290X" ,"AMD Radeon™ R9 290" ,"AMD Radeon™ R9 285"],
+                    "Graphics_Output": "Based on capabilities of installed graphics",
                     "status": "*Not an exhaustive list" 
                 }
             }
@@ -119,36 +119,36 @@
             "add_to_card_bnt" : "ADD TO CART",
             "status": true,
             "specs":{
-                "Input & Output" : ["Thunderbolt™ 3 (connection to the system)", "4 X USB 3.1 Type-A", "Gigabit Ethernet"],
-                "Internal Power Supply" : "700 Watts",
-                "Laptop Power Delivery" : "Up to 100 Watts via USB-C",
-                "Thunderbolt™ 3 cable length" : "27.56” / 700 mm",
-                "Razer Core Approx. Size" : ["Width x Depth x Height", "6.61\" x 14.72\" x 9.06\"", "168 mm x 374 mm x 230 mm"],
+                "Input_&_Output" : ["Thunderbolt™ 3 (connection to the system)", "4 X USB 3.1 Type-A", "Gigabit Ethernet"],
+                "Internal_Power_Supply" : "700 Watts",
+                "Laptop_Power_Delivery" : "Up to 100 Watts via USB-C",
+                "Thunderbolt_3_cable_length" : "27.56” / 700 mm",
+                "Razer_Core_Approx._Size" : ["Width x Depth x Height", "6.61\" x 14.72\" x 9.06\"", "168 mm x 374 mm x 230 mm"],
                 "Weight" : "15.23 lbs / 6.91 kg",
-                "Laptop Requirements (Laptop not included)" : {
-                    "Connection to system" : "Systems require a Thunderbolt™ 3 port with external graphics support. Please check with your laptop manufacture to confirm if your laptop supports Thunderbolt 3 external graphics.",
+                "Laptop_Requirements_(Laptop_not_included)" : {
+                    "Connection_to_system" : "Systems require a Thunderbolt™ 3 port with external graphics support. Please check with your laptop manufacture to confirm if your laptop supports Thunderbolt 3 external graphics.",
                     "": "Please also ensure your laptop has the latest BIOS, firmware, Thunderbolt software, and other applicable updates before connecting toRazer Core X Chroma.",
-                    "macOS Systems Requirements" : ["Thunderbolt™ 3 equipped Macs running macOS High Sierra 10.13.4 or later.", "Compatible AMD graphics card sold separately.", "Razer Synapse 3 software not available on macOS."],
-                    "Windows System Requirements" : ["Windows 10 64bit RS5 or above with Thunderbolt™ 3 port.", "Compatible NVIDIA or AMD graphics card sold separately."]
+                    "macOS_Systems_Requirements" : ["Thunderbolt™ 3 equipped Macs running macOS High Sierra 10.13.4 or later.", "Compatible AMD graphics card sold separately.", "Razer Synapse 3 software not available on macOS."],
+                    "Windows_System_Requirements" : ["Windows 10 64bit RS5 or above with Thunderbolt™ 3 port.", "Compatible NVIDIA or AMD graphics card sold separately."]
                 },
-                "GRAPHICS CARDS REQUIREMENTS (GRAPHICS CARD NOT INCLUDED)" : {
-                    "Max inner dimensions":{
+                "GRAPHICS_CARDS_REQUIREMENTS_(GRAPHICS_CARD_NOT_INCLUDED)" : {
+                    "Max_inner_dimensions":{
                         "0": ["Length : 12.99”/ 330 mm", "Height*: 6.29” / 160 mm", "Width : 2.24” / 57 mm"],
                         "1": "* Height measured from top of PCIe connector to the bottom of the locking pin ramps."
                     },
                     "img" : "",
-                    "GPU Type": ["Up to 3-Slot wide, full-length, PCI-Express x16 graphics card.", "Graphics cards use varied designs based around a common graphics chip. Please ensure the GPU selected meets all size, power, and additional requirements."],
-                    "GPU Max Power Support": "500 Watts"
+                    "GPU_Type": ["Up to 3-Slot wide, full-length, PCI-Express x16 graphics card.", "Graphics cards use varied designs based around a common graphics chip. Please ensure the GPU selected meets all size, power, and additional requirements."],
+                    "GPU_Max_Power_Support": "500 Watts"
                 },
-                "MACOS COMPATIBLE GRAPHICS CHIPSETS": {
+                "MACOS_COMPATIBLE_GRAPHICS_CHIPSETS": {
                     "0": ["AMD Radeon™ RX 580", "AMD Radeon™ RX 570", "AMD Radeon™ Pro WX 7100", "AMD Radeon™ RX Vega 56", "AMD Radeon™ RX Vega 64", "AMD Vega Frontier Edition Air", "AMD Radeon™ Pro WX 9100", "AMD Radeon™ RX 470", "AMD Radeon™ RX 480"],
                     "status": "*Not an exhaustive list"
                 },
-                "WINDOWS 10 COMPATIBLE GRAPHICS CHIPSETS": {
-                    "Qualified NVIDIA ® GeForce ® graphics chipsets": ["NVIDIA ® GeForce RTX™ 2080 Ti", "NVIDIA ® GeForce RTX™ 2080 Super", "NVIDIA ® GeForce RTX™ 2080", "NVIDIA ® GeForce RTX™ 2070 Super", "NVIDIA ® GeForce RTX™ 2070", "NVIDIA ® GeForce RTX™ 2060 Super", "NVIDIA ® GeForce RTX™ 2060", "NVIDIA ® GeForce ® GTX Titan X", "NVIDIA ® GeForce ® GTX Titan V", "NVIDIA ® GeForce ® GTX Titan Xp", "NVIDIA ® GeForce ® GTX 1660 Super", "NVIDIA ® GeForce ® GTX 1660 Ti", "NVIDIA ® GeForce ® GTX 1660", "NVIDIA ® GeForce ® GTX 1650 Super", "NVIDIA ® GeForce ® GTX 1650", "NVIDIA ® GeForce ® GTX 1080 Ti", "NVIDIA ® GeForce ® GTX 1080", "NVIDIA ® GeForce ® GTX 1070 Ti", "NVIDIA ® GeForce ® GTX 1070", "NVIDIA ® GeForce ® GTX 1060", "NVIDIA ® GeForce ® GTX 1050 Ti", "NVIDIA ® GeForce ® GTX 1050", "NVIDIA ® GeForce ® GTX 980 Ti", "NVIDIA ® GeForce ® GTX 980", "NVIDIA ® GeForce ® GTX 970", "NVIDIA ® GeForce ® GTX 960", "NVIDIA ® GeForce ® GTX 950", "NVIDIA ® GeForce ® GTX 750 Ti", "NVIDIA ® GeForce ® GTX 750"],
-                    "Qualified NVIDIA ® Quadro ® graphics chipsets": ["NVIDIA ® Quadro ® P4000", "NVIDIA ® Quadro ® P5000", "NVIDIA ® Quadro ® P6000", "NVIDIA ® Quadro ® GP100"],
-                    "Qualified AMD Radeon™ graphics chipsets": ["AMD Radeon™ RX 5700 XT" ,"AMD Radeon™ RX 5700" ,"AMD Radeon™ VII" ,"AMD Radeon™ VEGA RX 64" ,"AMD Radeon™ VEGA RX 56" ,"AMD Radeon™ RX 500 Series" ,"AMD Radeon™ RX 400 Series" ,"AMD Radeon™ R9 Fury" ,"AMD Radeon™ R9 Nano" ,"AMD Radeon™ R9 300 Series" ,"AMD Radeon™ R9 290X" ,"AMD Radeon™ R9 290" ,"AMD Radeon™ R9 285"],
-                    "Graphics Output": "Based on capabilities of installed graphics",
+                "WINDOWS_10_COMPATIBLE_GRAPHICS_CHIPSETS": {
+                    "Qualified_NVIDIA_GeForce_graphics_chipsets": ["NVIDIA ® GeForce RTX™ 2080 Ti", "NVIDIA ® GeForce RTX™ 2080 Super", "NVIDIA ® GeForce RTX™ 2080", "NVIDIA ® GeForce RTX™ 2070 Super", "NVIDIA ® GeForce RTX™ 2070", "NVIDIA ® GeForce RTX™ 2060 Super", "NVIDIA ® GeForce RTX™ 2060", "NVIDIA ® GeForce ® GTX Titan X", "NVIDIA ® GeForce ® GTX Titan V", "NVIDIA ® GeForce ® GTX Titan Xp", "NVIDIA ® GeForce ® GTX 1660 Super", "NVIDIA ® GeForce ® GTX 1660 Ti", "NVIDIA ® GeForce ® GTX 1660", "NVIDIA ® GeForce ® GTX 1650 Super", "NVIDIA ® GeForce ® GTX 1650", "NVIDIA ® GeForce ® GTX 1080 Ti", "NVIDIA ® GeForce ® GTX 1080", "NVIDIA ® GeForce ® GTX 1070 Ti", "NVIDIA ® GeForce ® GTX 1070", "NVIDIA ® GeForce ® GTX 1060", "NVIDIA ® GeForce ® GTX 1050 Ti", "NVIDIA ® GeForce ® GTX 1050", "NVIDIA ® GeForce ® GTX 980 Ti", "NVIDIA ® GeForce ® GTX 980", "NVIDIA ® GeForce ® GTX 970", "NVIDIA ® GeForce ® GTX 960", "NVIDIA ® GeForce ® GTX 950", "NVIDIA ® GeForce ® GTX 750 Ti", "NVIDIA ® GeForce ® GTX 750"],
+                    "Qualified_NVIDIA_Quadro_graphics_chipsets": ["NVIDIA ® Quadro ® P4000", "NVIDIA ® Quadro ® P5000", "NVIDIA ® Quadro ® P6000", "NVIDIA ® Quadro ® GP100"],
+                    "Qualified_AMD_Radeon_graphics_chipsets": ["AMD Radeon™ RX 5700 XT" ,"AMD Radeon™ RX 5700" ,"AMD Radeon™ VII" ,"AMD Radeon™ VEGA RX 64" ,"AMD Radeon™ VEGA RX 56" ,"AMD Radeon™ RX 500 Series" ,"AMD Radeon™ RX 400 Series" ,"AMD Radeon™ R9 Fury" ,"AMD Radeon™ R9 Nano" ,"AMD Radeon™ R9 300 Series" ,"AMD Radeon™ R9 290X" ,"AMD Radeon™ R9 290" ,"AMD Radeon™ R9 285"],
+                    "Graphics_Output": "Based on capabilities of installed graphics",
                     "status": "*Not an exhaustive list" 
                 }
             }
@@ -166,20 +166,20 @@
             "status": false,
             "specs": {
                 "MODEL": "Razer Tomahawk Mini-ITX",
-                "PRODUCT NUMBER": "RC21-01400100-R3M1",
-                "CHASSIS FORM FACTOR": "Mini-ITX",
-                "SUPPORTED MOTHERBOARDS": "Mini-ITX, Mini-DTX",
-                "CASE MATERIAL": "SPCC Steel (0,8mm) Thick and All Tempered Glass Side Panels",
-                "# OF EXPANSION SLOTS": "3 Expansion Slots",
-                "# OF SUPPORTED DRIVES": ["3 x 2.5” HDD or SSD"],
-                "RADIATOR COMPATIBILITY": "Up to 240 mm",
-                "MAXIMUM CPU COOLER HEIGHT": "Up to 165 mm",
-                "MAXIMUM GPU LENGTH": "Up to 320 mm",
-                "MAXIMUM PSU LENGTH": "SFX, SFX-L",
-                "FRONT PANEL I/O": ["2x USB3,2 Gen1 Type-A Ports", "1x USB3,2 Gen2 Type-C Port", "1x Dedicated Microphone Port", "1x Microphone and Headphone Combo Port", "1x Power Button", "1x Reset Button"],
-                "RAZER CHROMA™ SUPPORT": "Razer Chroma™ Underglow",
+                "PRODUCT_NUMBER": "RC21-01400100-R3M1",
+                "CHASSIS_FORM_FACTOR": "Mini-ITX",
+                "SUPPORTED_MOTHERBOARDS": "Mini-ITX, Mini-DTX",
+                "CASE_MATERIAL": "SPCC Steel (0,8mm) Thick and All Tempered Glass Side Panels",
+                "#_OF_EXPANSION_SLOTS": "3 Expansion Slots",
+                "#_OF_SUPPORTED_DRIVES": ["3 x 2.5” HDD or SSD"],
+                "RADIATOR_COMPATIBILITY": "Up to 240 mm",
+                "MAXIMUM_CPU_COOLER_HEIGHT": "Up to 165 mm",
+                "MAXIMUM_GPU_LENGTH": "Up to 320 mm",
+                "MAXIMUM_PSU_LENGTH": "SFX, SFX-L",
+                "FRONT_PANEL_I/O": ["2x USB3,2 Gen1 Type-A Ports", "1x USB3,2 Gen2 Type-C Port", "1x Dedicated Microphone Port", "1x Microphone and Headphone Combo Port", "1x Power Button", "1x Reset Button"],
+                "RAZER_CHROMA_SUPPORT": "Razer Chroma™ Underglow",
                 "WARRANTY": "1 Year",
-                "CASE DIMENSIONS": "Razer Tomahawk Mini-ITX",
+                "CASE_DIMENSIONS": "Razer Tomahawk Mini-ITX",
                 "WEIGHT": "12,8 lbs / 5,8 kg"
             }
         },
@@ -194,20 +194,20 @@
             "status": false,
             "specs": {
                 "MODEL": "Razer Tomahawk ATX",
-                "PRODUCT NUMBER": "RC21-01420100-R3M1",
-                "CHASSIS FORM FACTOR": "Mid-Tower",
-                "SUPPORTED MOTHERBOARDS": "E-ATX, ATX, Micro-ATX, Mini-ITX",
-                "CASE MATERIAL": "SPCC Steel (0,8mm) Thick and All Tempered Glass Side Panels",
-                "# OF EXPANSION SLOTS": "7 Expansion Slots",
-                "# OF SUPPORTED DRIVES": ["3 x 3.5” or 2.5” HDD or SSD", "2 x 2.5” SSD"],
-                "RADIATOR COMPATIBILITY": "Up to 360 mm",
-                "MAXIMUM CPU COOLER HEIGHT": "Up to 176 mm",
-                "MAXIMUM GPU LENGTH": "Up to 384 mm",
-                "MAXIMUM PSU LENGTH": "ATX, Up to 210mm",
-                "FRONT PANEL I/O": ["2x USB3,2 Gen1 Type-A Ports", "1x USB3,2 Gen2 Type-C Port", "1x Dedicated Microphone Port", "1x Microphone and Headphone Combo Port", "1x Power Button", "1x Reset Button"],
-                "RAZER CHROMA™ SUPPORT": "Razer Chroma™ Underglow",
+                "PRODUCT_NUMBER": "RC21-01420100-R3M1",
+                "CHASSIS_FORM_FACTOR": "Mid-Tower",
+                "SUPPORTED_MOTHERBOARDS": "E-ATX, ATX, Micro-ATX, Mini-ITX",
+                "CASE_MATERIAL": "SPCC Steel (0,8mm) Thick and All Tempered Glass Side Panels",
+                "#_OF_EXPANSION_SLOTS": "7 Expansion Slots",
+                "#_OF_SUPPORTED_DRIVES": ["3 x 3.5” or 2.5” HDD or SSD", "2 x 2.5” SSD"],
+                "RADIATOR_COMPATIBILITY": "Up to 360 mm",
+                "MAXIMUM_CPU_COOLER_HEIGHT": "Up to 176 mm",
+                "MAXIMUM_GPU_LENGTH": "Up to 384 mm",
+                "MAXIMUM_PSU_LENGTH": "ATX, Up to 210mm",
+                "FRONT_PANEL_I/O": ["2x USB3,2 Gen1 Type-A Ports", "1x USB3,2 Gen2 Type-C Port", "1x Dedicated Microphone Port", "1x Microphone and Headphone Combo Port", "1x Power Button", "1x Reset Button"],
+                "RAZER_CHROMA_SUPPORT": "Razer Chroma™ Underglow",
                 "WARRANTY": "1 Year",
-                "CASE DIMENSIONS": "Razer Tomahawk ATX",
+                "CASE_DIMENSIONS": "Razer Tomahawk ATX",
                 "WEIGHT": "29,85 lbs / 13,5 kg"
             }
         }
