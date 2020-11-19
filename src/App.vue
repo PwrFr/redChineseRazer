@@ -55,6 +55,7 @@ import ProductSlot from "./components/ProductSlot.vue";
 import imageRow from "./components/ImageRow.vue"
 import imgCol from "./components/imgCol.vue"
 import Footer from "./components/Footer.vue"
+import techSpecCase from "./components/techSpecCase.vue"
 
 export default {
   name: "App",
@@ -63,6 +64,7 @@ export default {
     imageRow,
     imgCol,
     ProductSlot,
+    techSpecCase,
     Footer
   }
 };

@@ -6,15 +6,12 @@
         <tr>
           <h4 id="headerText">TECH SPECS</h4>
         </tr>
-        <tr class="dataRow trDisplay p-0">
+        <tr class="dataRow trDisplay dataSingle">
           <th class="col-lg-3 p-0">
-            <b class="header">MODEL</b>
+            <b>MODEL</b>
           </th>
           <td class="col-lg-9">
-            <ul class="data">
-              <li>{{ data1 }}</li>
-              <li>{{ data2 }}</li>
-            </ul> 
+            {{data1}}
           </td>
         </tr>
         <!-- row 2-->
@@ -22,24 +19,16 @@
           <th class="col-lg-3 p-0">
             <b>PRODUCT NUMBER</b>
           </th>
-          <td class="col-lg-9 p-0 data py-1">
-            {{ data3 }}
+          <td class="col-lg-9 py-1">
+            {{ data2 }}
           </td>
         </tr>
         <!-- row 2 -->
-        <tr class="dataRow trDisplay dataBul">
+        <tr class="dataRow trDisplay dataSingle">
           <th class="col-lg-3 p-0">
             <b>GRAPHICS</b>
           </th>
           <td class="col-lg-9">
-            <ul class="data">
-              <li>
-                {{ data4 }}
-              </li>
-              <li>
-                {{ data5 }}
-              </li>
-            </ul>
           </td>
         </tr>
         <!-- row 3-->
@@ -228,22 +217,22 @@ export default {
       text: "",
       status: 0,
       ty: {},
-      data1: datas.Cases[0].specs.MODEL[0],
-      data2: datas.Cases[0].specs.PRODUCTNUMBER[1],
-      data3: datas.Cases[0].specs.RefreshRate[0],
-      data4: datas.Cases[0].specs.Graphics[0],
-      data5: datas.Cases[0].specs.Graphics[1],
-      data6: datas.Cases[0].specs.ContrastRatio[0],
-      data7: datas.Cases[0].specs.Bezels[0],
-      data8: datas.Cases[0].specs.Sync[0],
-      data9: datas.Cases[0].specs.Sync[1],
-      data10: datas.Cases[0].specs.Rotation[0],
-      data11: datas.Cases[0].specs.CableManagement[0],
-      data12: datas.Cases[0].specs.Lighting[0],
-      data13: datas.Cases[0].specs.IO[0],
-      data14: datas.Cases[0].specs.IO[1],
-      data15: datas.Cases[0].specs.IO[2],
-      data16: datas.Cases[0].specs.IO[3],
+      data1: datas.Cases[0].specs.MODEL,
+      data2: datas.Cases[0].specs.PRODUCT_NUMBER,
+      data3: datas.Cases[0].specs.CHASSIS_FORM_FACTOR,
+      // data4: datas.Cases[0].specs.Graphics[0],
+      // data5: datas.Cases[0].specs.Graphics[1],
+      // data6: datas.Cases[0].specs.ContrastRatio[0],
+      // data7: datas.Cases[0].specs.Bezels[0],
+      // data8: datas.Cases[0].specs.Sync[0],
+      // data9: datas.Cases[0].specs.Sync[1],
+      // data10: datas.Cases[0].specs.Rotation[0],
+      // data11: datas.Cases[0].specs.CableManagement[0],
+      // data12: datas.Cases[0].specs.Lighting[0],
+      // data13: datas.Cases[0].specs.IO[0],
+      // data14: datas.Cases[0].specs.IO[1],
+      // data15: datas.Cases[0].specs.IO[2],
+      // data16: datas.Cases[0].specs.IO[3],
     };
   },
   // created(){
