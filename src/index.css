@@ -8,7 +8,7 @@
 body {
   background-color: #222222;
 }
-.menu-bg{
+.menu-bg {
   background-color: #222222;
 }
 .dropdown .dropbtn {
@@ -33,124 +33,136 @@ body {
 }
 a:hover {
   text-decoration: none;
- }
+}
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
     height: auto;
   }
 }
-.col-item{
+.col-item {
   font-size: 1rem;
   color: #999999;
 }
-.col-item:hover{
+.col-item:hover {
   color: lime;
 }
-.bg-dropdown{
+.bg-dropdown {
   background-color: black;
 }
-.img-row{
+.img-row {
   background-position-x: center;
   height: 44rem;
   background-repeat: no-repeat;
 }
-.title{
-  
+.title {
   font-family: Razerf5;
   color: #999999;
   line-height: 2.5rem;
   font-size: 2.5rem;
   font-weight: 600;
-  letter-spacing: .05rem;
+  letter-spacing: 0.05rem;
 }
 
-
-.discrip{
+.discrip {
   font-family: Razerf5;
   font-size: 1.15rem;
   font-weight: bolder;
   color: white;
   letter-spacing: 0.07rem;
 }
-.arrow{
+.arrow {
   transform: rotate(0deg);
   transform: scale(0.5);
   fill: lime;
 }
-.titleC{
+.arrow-access {
+  transform: scale(0.8);
+  transform: rotate(90deg);
+  float: right;
+  fill: lime;
+}
+.titleC {
   font-family: Razerf5;
   color: #999999;
   line-height: 1.8rem;
   font-size: 1.7rem;
   font-weight: 600;
-  letter-spacing: .05rem;
-  padding:1% 21% 0%;
+  letter-spacing: 0.05rem;
+  padding: 1% 21% 0%;
 }
-.discripC{
+.discripC {
   font-size: 0.9rem;
 }
-.img-col{
+.img-col {
   height: 36rem;
   background-position: center;
 }
-.footer-text{
+.footer-text {
   color: #999999;
 }
-.footer-menu{
+.footer-menu {
   color: #999999;
 }
-.footer-menu:hover{
+.footer-menu:hover {
   color: white;
 }
-.company{
+.company {
   font-size: 0.88rem;
 }
-.catalog{
-  
-
+.catalog {
 }
-.access-body{
+.access-body {
   height: 100vh;
   color: #999999;
 }
-.access{
+.access {
   background-color: black;
 }
-.pc-title{
-  -webkit-text-stroke-width: .5px;
+.pc-title {
+  -webkit-text-stroke-width: 0.5px;
   -webkit-text-stroke-color: white;
   font-family: Razerf5;
-  font-weight: 900 ;
+  font-weight: 900;
   font-size: 1.2rem;
-  }
+}
 
-  .btnC {
-    font-family: Razerf5;
+.btnC {
+  font-family: Razerf5;
   font-weight: bolder;
-  font-size: .85rem;
+  font-size: 0.85rem;
   color: #999999;
-  -webkit-text-stroke-width: .4px;
-    background-color: black;
-    margin: 0rem 1rem 0rem 1rem;
-    border: none;
-   padding:0rem 0rem 0.4rem 0rem;
-   border-bottom:solid black 2.3px;
-    cursor: pointer;
-   
-  }
-  
-  /* Style the active class, and buttons on mouse-over */
-  .access-faro {
-    border-bottom:solid lime 2.3px;
-    color: #44d62c;
-  }
+  -webkit-text-stroke-width: 0.4px;
+  background-color: black;
+  margin: 0rem 1rem 0rem 1rem;
+  border: none;
+  padding: 0rem 0rem 0.4rem 0rem;
+  border-bottom: solid black 2.3px;
+  cursor: pointer;
+}
 
-  .fillter{
-    font-size: .9rem;
-    font-weight: 600;
-  }
-  button:focus{
-    outline: 0;
-  }
-  
+/* Style the active class, and buttons on mouse-over */
+.access-faro {
+  border-bottom: solid lime 2.3px;
+  color: #44d62c;
+}
+
+.fillter {
+  font-family: Roboto, helvetica neue, Arial, noto sans, sans-serif,
+    apple color emoji, segoe ui emoji, segoe ui symbol, noto color emoji;
+  font-size: 0.86rem;
+  -webkit-text-stroke-width: 0.4px;
+}
+.fillter-pad {
+  padding: 1.36rem 0rem;
+  font-family: Roboto, helvetica neue, Arial, noto sans, sans-serif,
+    apple color emoji, segoe ui emoji, segoe ui symbol, noto color emoji;
+  font-size: 0.86rem;
+  -webkit-text-stroke-width: 0.4px;
+}
+button:focus {
+  outline: 0;
+}
+.underline-faro {
+  border-bottom: solid #999999 1px;
+}

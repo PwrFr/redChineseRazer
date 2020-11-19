@@ -216,18 +216,18 @@
         "Product":{        
             "LAPTOPS":{
                 "Filter": {
-                    "screen_size" : ["15 inch (10)", "13 inch (8)", "17 inch (4)"],
-                    "screen_type" : ["Full HD (3)", "UHD (3)", "4K Touch (1)", "OLED Full HD (1)"],
-                    "refresh_rate" : ["60Hz (6)", "120Hz (2)"],
+                    "screen size" : ["15 inch (10)", "13 inch (8)", "17 inch (4)"],
+                    "screen type" : ["Full HD (3)", "UHD (3)", "4K Touch (1)", "OLED Full HD (1)"],
+                    "refresh rate" : ["60Hz (6)", "120Hz (2)"],
                     "processor" : ["11th Gen Intel® Core™ i7 (4)", "10th Gen Intel® Core™ i7 (3)", "11th Gen Intel® Core™ i5 (1)"],
                     "grafhics" : ["GeForce GTX 1650 Ti Max-Q (5)", "Intel® Iris® Xe Graphics (3)"],
                     "storage" : ["512 SSD (6)", "256 SSD (2)"],
                     "memory" : ["16GB (7)", "8GB (1)"],
                     "color" : ["Black (5)", "Mercury (3)"],
-                    "keyboard_type" : ["Single-zone RGB (5)", "Per key RGB (3)"],
-                    "studio_edition" : ["Studio Edition - No (5)"]
+                    "keyboard type" : ["Single-zone RGB (5)", "Per key RGB (3)"],
+                    "studio edition" : ["Studio Edition - No (5)"]
                 },
-                "0":{
+                "pro1":{
                     "name" : "Razer Blade 15 Studio Edition - OLED 4K Touch 60Hz - Quadro RTX 5000 - Mercury",
                     "price" : "US$4,299.99",
                     "detail" : ["Intel Core i7-10875H", "Windows 10 Pro",  "15.6\" 60Hz OLED 4K Touch", "Quadro RTX 5000", "32GB RAM, 1TB SSD"],
@@ -298,7 +298,7 @@
             },
             "ACCESSORIES" : {
                 "Filter": {
-                    "SHOP_BY" : ["Sleeves & Cases (9)", "Chargers (6)", "Cables (3)", "Laptop Stands (3)", "Razer Chroma HDK (2)", "ARGB Controller (1)"]
+                    "SHOP BY" : ["Sleeves & Cases (9)", "Chargers (6)", "Cables (3)", "Laptop Stands (3)", "Razer Chroma HDK (2)", "ARGB Controller (1)"]
                 },
                 "0" : {
                     "name" : "Razer Neoprene Sleeve V2 - For 13.3” Notebooks",
