@@ -8,13 +8,13 @@
         </tr>
         <tr class="dataRow trDisplay p-0">
           <th class="col-lg-3 p-0">
-            <b class="header">DISPLAY</b>
+            <b class="header">MODEL</b>
           </th>
           <td class="col-lg-9">
             <ul class="data">
               <li>{{ data1 }}</li>
               <li>{{ data2 }}</li>
-            </ul>
+            </ul> 
           </td>
         </tr>
         <!-- row 2-->
@@ -152,7 +152,7 @@
   padding: 10px;
   color: white;
 }
-.row {
+.row-line{
   border-bottom: solid 1px #999;
 }
 #headerText {
