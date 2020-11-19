@@ -37,17 +37,39 @@
 
   <div class="container access-body pt-4 mt-3 p-0">
     <div class="row">
-      <div class="col-3">
+      <div class="col-3 pr-1">
         <h4 class="fillter mb-4 pb-3">FILTER BY</h4>
         <div v-if="select === 1">
           <div
-            class="text-uppercase pl-3 fillter-pad fillter-pad"
-            v-for="(value, key, index) in json_obj.PC_Acessories.Product.LAPTOPS
-              .Filter"
+            @click="menu_select = 1"
+            class="text-uppercase pl-3 fillter-pad"
+            v-for="(value, key, index) in json_obj.PC_Acessories.LAPTOPS.Filter"
             :key="key"
             :class="{
               'underline-faro': index != 9,
             }"
+          >
+            {{ key }}
+            <svg
+              class="arrow-access align-middle mr-3"
+              xmlns="http://www.w3.org/2000/svg"
+              height="18"
+              viewBox="0 0 18 24"
+            >
+              <path
+                d="M6.028 0 v6.425l5.549 5.575-5.549 5.575v6.425l11.944-12z"
+              />
+            </svg>
+            <div v-if="menu" v-for="(value, key) in value" :key="key">
+              {{ value }}
+            </div>
+          </div>
+        </div>
+        <div v-if="select === 2">
+          <div
+            class="text-uppercase pl-3 fillter-pad"
+            v-for="(value, key) in json_obj.PC_Acessories.EGPUS.Filter"
+            :key="key"
           >
             {{ key }}
             <svg
@@ -62,37 +84,46 @@
             </svg>
           </div>
         </div>
-        <div v-if="select === 2">
-          <div
-            class="text-uppercase pl-3 fillter-pad"
-            v-for="(value, key) in json_obj.PC_Acessories.Product.EGPUS.Filter"
-            :key="key"
-          >
-            {{ key }}
-          </div>
-        </div>
         <div v-if="select === 3">
           <div
             class="text-uppercase pl-3 fillter-pad"
-            v-for="(value, key) in json_obj.PC_Acessories.Product.ACCESSORIES
-              .Filter"
+            v-for="(value, key) in json_obj.PC_Acessories.ACCESSORIES.Filter"
             :key="key"
           >
             {{ key }}
+            <svg
+              class="arrow-access align-middle mr-2"
+              xmlns="http://www.w3.org/2000/svg"
+              height="18"
+              viewBox="0 0 18 24"
+            >
+              <path
+                d="M6.028 0v6.425l5.549 5.575-5.549 5.575v6.425l11.944-12z"
+              />
+            </svg>
           </div>
         </div>
         <div v-if="select === 4">
           <div
             class="text-uppercase pl-3 fillter-pad"
-            v-for="(value, key) in json_obj.PC_Acessories.Product.MONITORS
-              .Filter"
+            v-for="(value, key) in json_obj.PC_Acessories.MONITORS.Filter"
             :key="key"
           >
             {{ key }}
+            <svg
+              class="arrow-access align-middle mr-2"
+              xmlns="http://www.w3.org/2000/svg"
+              height="18"
+              viewBox="0 0 18 24"
+            >
+              <path
+                d="M6.028 0v6.425l5.549 5.575-5.549 5.575v6.425l11.944-12z"
+              />
+            </svg>
           </div>
         </div>
       </div>
-      <div class="col-9">1</div>
+      <div class="col-9"></div>
     </div>
   </div>
 </template>
@@ -104,6 +135,7 @@ export default {
     return {
       select: 1,
       json_obj: datas,
+      menu_select: 0,
     };
   },
 };

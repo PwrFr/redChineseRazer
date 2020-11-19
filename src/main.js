@@ -1,6 +1,6 @@
 import { createApp } from 'vue'
 import App from './App.vue'
-import Accessories from './Accessories.vue'
+import Accessories from './components/HeaderAccess.vue'
 createApp(Accessories).mount('#accessories')
 
 import './index.css'

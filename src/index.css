@@ -166,3 +166,9 @@ button:focus {
 .underline-faro {
   border-bottom: solid #999999 1px;
 }
+.show-menu-faro {
+  display: list-item;
+}
+.hide {
+  display: none;
+}
