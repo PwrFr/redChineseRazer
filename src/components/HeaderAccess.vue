@@ -41,27 +41,46 @@
         <h4 class="fillter mb-4 pb-3">FILTER BY</h4>
         <div v-if="select === 1">
           <div
-            @click="menu_select = 1"
-            class="text-uppercase pl-3 fillter-pad"
+            class="pl-3 fillter-pad"
             v-for="(value, key, index) in json_obj.PC_Acessories.LAPTOPS.Filter"
             :key="key"
             :class="{
               'underline-faro': index != 9,
+              ['id-' + index]: true,
             }"
           >
-            {{ key }}
-            <svg
-              class="arrow-access align-middle mr-3"
-              xmlns="http://www.w3.org/2000/svg"
-              height="18"
-              viewBox="0 0 18 24"
+            <p
+              class="text-uppercase cursor-point font-weight-bold"
+              @click="myFilter(index)"
             >
-              <path
-                d="M6.028 0 v6.425l5.549 5.575-5.549 5.575v6.425l11.944-12z"
-              />
-            </svg>
-            <div v-if="menu" v-for="(value, key) in value" :key="key">
-              {{ value }}
+              {{ key }}
+              {{ isActive }}
+              {{ menu_select }}
+              {{ index }}
+              <svg
+                class="arrow-access align-middle mr-3"
+                xmlns="http://www.w3.org/2000/svg"
+                height="18"
+                viewBox="0 0 18 24"
+              >
+                <path
+                  d="M6.028 0 v6.425l5.549 5.575-5.549 5.575v6.425l11.944-12z"
+                />
+              </svg>
+            </p>
+            <div
+              :class="{
+                ['ids-' + index]: true,
+                ['cursor-point']: true,
+              }"
+              v-for="(value, key) in value"
+              :key="key"
+            >
+              <label class="wrap-checkbox m-0"
+                >{{ value }}
+                <input type="checkbox" />
+                <span class="checkmark"></span>
+              </label>
             </div>
           </div>
         </div>
@@ -135,8 +154,16 @@ export default {
     return {
       select: 1,
       json_obj: datas,
+      isActive: true,
       menu_select: 0,
     };
+  },
+  methods: {
+    myFilter: function (number) {
+      this.isActive = !this.isActive;
+      this.menu_select = number;
+      // some code to filter users
+    },
   },
 };
 </script>
