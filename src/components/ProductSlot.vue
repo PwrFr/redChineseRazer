@@ -161,6 +161,7 @@ export default {
     imageTab3: String,
     imageTab4: String,
     imageTab5: String,
+    imageTab6: String,
     backgroundSrc: String,
     imageLocateSrc: String,
     //Description
