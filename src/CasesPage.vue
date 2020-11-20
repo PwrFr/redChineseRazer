@@ -34,6 +34,12 @@
     <VideoSession />
     <Row1 />
     <Row2 />
+    <Row3
+      casesRow3Img="/src/assets/products/cases/row3.jpg"
+      casesRow3Header="DUAL-SIDED TEMPERED GLASS SWIVEL DOORS"
+      casesRow3Des="Installing new parts has never been this convenient or straightforward, with forward-opening doors that can also be detached for more room to focus on your build. Made of tough, tempered glass, they offer the perfect protection while showing off the power and performance of Chroma-enabled hardware within."
+    />
+    <Row4 />
   </div>
 </template>
 
@@ -45,6 +51,9 @@ import { global } from "./components/ProductSlot.vue";
 import VideoSession from "./components/CasesPage/casesVideo.vue";
 import Row1 from "./components/CasesPage/casesRow1.vue";
 import Row2 from "./components/CasesPage/casesRow2.vue";
+import Row3 from "./components/CasesPage/casesRow3.vue";
+import Row4 from "./components/CasesPage/casesRow4.vue";
+import TechSpec from "./components/techSpecCase.vue";
 
 export default {
   mixins: [global],
@@ -55,7 +64,10 @@ export default {
     MenuBar,
     VideoSession,
     Row1,
-    Row2
+    Row2,
+    Row3,
+    Row4,
+    TechSpec
   },
   data() {
     return {

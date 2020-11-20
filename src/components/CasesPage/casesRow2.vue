@@ -27,20 +27,23 @@
   color: white;
 }
 .cases-row2-text {
-  padding-top: 20px;
+  padding-top: 13px;
 }
 .cases-row2-header {
+  font-family: "Robo-light", helvetica neue, Arial, noto sans, sans-serif,
+    apple color emoji, segoe ui emoji, segoe ui symbol, noto color emoji;
   color: #44d62c;
   font-size: 24px;
-  font-weight: 350;
+
   grid-area: text-1;
   margin-top: 10px;
   text-transform: uppercase;
 }
 .cases-row2-des {
+  font-family: "Robo-light", sans-serif;
   margin-top: 6px;
   font-size: 1.125rem;
-  font-weight: 350;
+  font-weight: 500;
   color: #999999;
   width: 426px;
 }

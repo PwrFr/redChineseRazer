@@ -35,15 +35,15 @@
   padding-bottom: 13px;
 }
 .cases-row1-des {
-  font-family: RazerF5, sans-serif;
+  font-family: "Robo-light", sans-serif;
   margin-left: 500px;
 
   color: #000;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 200;
   grid-area: second;
   line-height: 1.5rem;
   line-height: 1.75rem;
-  max-width: 930px;
+  max-width: 870px;
 }
 </style>
