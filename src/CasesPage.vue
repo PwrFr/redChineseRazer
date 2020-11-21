@@ -1,6 +1,6 @@
 <template>
   <MenuBar />
-  <div v-if="caseTrue!=0">
+  <div v-if="caseTrue != 0">
     <ProductSlot
       class="mt-5"
       imageAmount="6"
@@ -54,7 +54,6 @@ import Row1 from "./components/CasesPage/casesRow1.vue";
 import Row2 from "./components/CasesPage/casesRow2.vue";
 import Row3 from "./components/CasesPage/casesRow3.vue";
 import Row4 from "./components/CasesPage/casesRow4.vue";
-import TechSpec from "./components/techSpecCase.vue";
 
 export default {
   mixins: [global],
@@ -68,7 +67,6 @@ export default {
     Row2,
     Row3,
     Row4,
-    TechSpec
   },
   data() {
     return {
@@ -84,7 +82,7 @@ export default {
       modelFirstNameJson: datas.Cases[0].model[0],
       modelItem1: datas.Cases[0].model[0],
       modelItem2: datas.Cases[0].model[1],
-      modelItem3: datas.Cases[0].model[2]
+      modelItem3: datas.Cases[0].model[2],
     };
   },
   created() {
@@ -94,7 +92,7 @@ export default {
     kuy() {
       caseTrue = 0;
       alert("kuy");
-    }
-  }
+    },
+  },
 };
 </script>
