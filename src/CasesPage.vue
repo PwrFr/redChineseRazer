@@ -75,7 +75,7 @@ import Row7 from "./components/CasesPage/casesRow7.vue";
 import Row8 from "./components/CasesPage/casesRow8.vue";
 import Row9 from "./components/CasesPage/casesRow9.vue";
 //Row5 use same component with row3
-import TechSpec from "./components/techSpecCase.vue";
+// import TechSpec from "./components/techSpecCase.vue";
 
 export default {
   mixins: [global],
