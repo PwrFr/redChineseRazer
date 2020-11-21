@@ -127,10 +127,6 @@
   </div>
 </template>
 <style>
-@font-face {
-  font-family: myFirstFont;
-  src: url("../assets/font/razerf5-thin.otf");
-}
 .techSpecsBox {
   margin: 10px;
   background-color: #252525;
