@@ -41,6 +41,7 @@
       casesRow3Des="Installing new parts has never been this convenient or straightforward, with forward-opening doors that can also be detached for more room to focus on your build. Made of tough, tempered glass, they offer the perfect protection while showing off the power and performance of Chroma-enabled hardware within."
     />
     <Row4 />
+    <techSpecCase />
   </div>
 </template>
 
@@ -54,6 +55,7 @@ import Row1 from "./components/CasesPage/casesRow1.vue";
 import Row2 from "./components/CasesPage/casesRow2.vue";
 import Row3 from "./components/CasesPage/casesRow3.vue";
 import Row4 from "./components/CasesPage/casesRow4.vue";
+import techSpecCase from "./components/CasesPage/techSpecCase.vue";
 
 export default {
   mixins: [global],
@@ -67,6 +69,7 @@ export default {
     Row2,
     Row3,
     Row4,
+    techSpecCase,
   },
   data() {
     return {

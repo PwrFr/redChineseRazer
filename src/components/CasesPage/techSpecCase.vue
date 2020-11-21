@@ -14,7 +14,7 @@
             <ul class="data">
               <li>{{ data1 }}</li>
               <li>{{ data2 }}</li>
-            </ul> 
+            </ul>
           </td>
         </tr>
         <!-- row 2-->
@@ -118,9 +118,12 @@
         </span>
       </table>
     </div>
-    <div id="seeLess" ref="seeless" class="m-0 ">
+    <div id="seeLess" ref="seeless" class="m-0">
       <p @click="test()" class="seeBox pt-2" ref="text">
-        {{ text }}<svg ref="arrowGreen" id="arrow"
+        {{ text
+        }}<svg
+          ref="arrowGreen"
+          id="arrow"
           width="2em"
           height="1em"
           border="20px"
@@ -152,7 +155,7 @@
   padding: 10px;
   color: white;
 }
-.row-line{
+.row-line {
   border-bottom: solid 1px #999;
 }
 #headerText {
@@ -210,40 +213,34 @@ th {
   height: 2.5rem;
   text-align: center;
   width: 100%;
-  color: #999;;
+  color: #999;
 }
 </style>
 <script>
-import datas from "../assets/data.json";
+import datas from "../../assets/data.json";
 export default {
   name: "techSpecCase",
-  // props: {
-  //   msg: String
-  // }
-  // components:{
-  //   inputTechSpec
-  // }
   data() {
     return {
       text: "",
       status: 0,
       ty: {},
       data1: datas.Cases[0].specs.MODEL[0],
-      data2: datas.Cases[0].specs.PRODUCTNUMBER[1],
-      data3: datas.Cases[0].specs.RefreshRate[0],
-      data4: datas.Cases[0].specs.Graphics[0],
-      data5: datas.Cases[0].specs.Graphics[1],
-      data6: datas.Cases[0].specs.ContrastRatio[0],
-      data7: datas.Cases[0].specs.Bezels[0],
-      data8: datas.Cases[0].specs.Sync[0],
-      data9: datas.Cases[0].specs.Sync[1],
-      data10: datas.Cases[0].specs.Rotation[0],
-      data11: datas.Cases[0].specs.CableManagement[0],
-      data12: datas.Cases[0].specs.Lighting[0],
-      data13: datas.Cases[0].specs.IO[0],
-      data14: datas.Cases[0].specs.IO[1],
-      data15: datas.Cases[0].specs.IO[2],
-      data16: datas.Cases[0].specs.IO[3],
+      data2: datas.Cases[0].specs.PRODUCT_NUMBER[1],
+      // data3: datas.Cases[0].specs.RefreshRate[0],
+      // data4: datas.Cases[0].specs.Graphics[0],
+      // data5: datas.Cases[0].specs.Graphics[1],
+      // data6: datas.Cases[0].specs.ContrastRatio[0],
+      // data7: datas.Cases[0].specs.Bezels[0],
+      // data8: datas.Cases[0].specs.Sync[0],
+      // data9: datas.Cases[0].specs.Sync[1],
+      // data10: datas.Cases[0].specs.Rotation[0],
+      // data11: datas.Cases[0].specs.CableManagement[0],
+      // data12: datas.Cases[0].specs.Lighting[0],
+      // data13: datas.Cases[0].specs.IO[0],
+      // data14: datas.Cases[0].specs.IO[1],
+      // data15: datas.Cases[0].specs.IO[2],
+      // data16: datas.Cases[0].specs.IO[3],
     };
   },
   // created(){
@@ -256,35 +253,34 @@ export default {
       if (this.status == 0) {
         //when user press see More v
         var more = this.$refs.more;
-        more.style.display = "inline"
+        more.style.display = "inline";
         //bt seeMore hide
 
+        this.text = "See less";
+        var arrow = this.$refs.arrowGreen;
+        arrow.style.transform = "rotate(0deg)";
 
-       this.text = "See less"
-       var arrow = this.$refs.arrowGreen
-       arrow.style.transform = "rotate(0deg)"
+        var btLess = this.$refs.seeless;
+        btLess.style.display = "inline";
 
-        var btLess = this.$refs.seeless
-        btLess.style.display = "inline"
-
-        this.status = 1
+        this.status = 1;
       } else if (this.status == 1) {
         //when user press seeless v
-        var more = this.$refs.more
-        more.style.display = "none"
+        var more = this.$refs.more;
+        more.style.display = "none";
 
-        this.text = "See more"
+        this.text = "See more";
 
-        var arrow = this.$refs.arrowGreen
-        arrow.style.transform = "rotate(180deg)"
+        var arrow = this.$refs.arrowGreen;
+        arrow.style.transform = "rotate(180deg)";
 
-        this.status = 0
+        this.status = 0;
       }
-      console.log(this.status)
+      console.log(this.status);
     },
   },
   created() {
-    this.text = "See More"
+    this.text = "See More";
   },
 };
 </script>
