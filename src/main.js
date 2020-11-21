@@ -20,4 +20,6 @@ import AppTestSlot from './AppTestSlot.vue'
 createApp(AppTestSlot).mount('#appSlot')
 import CasesPage from './CasesPage.vue'
 createApp(CasesPage).mount('#casesPage')
+import MonitorPage from './MonitorPage.vue'
+createApp(MonitorPage).mount('#monitorPage')
 createApp(App).mount('#app')
