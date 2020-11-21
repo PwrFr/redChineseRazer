@@ -4,13 +4,13 @@
     <ProductSlot
       class="mt-5"
       imageAmount="5"
-      imageTab1="/src/assets/products/4Monitors/productImage/bar/1.jpg"
-      imageTab2="/src/assets/products/4Monitors/productImage/bar/2.jpg"
-      imageTab3="/src/assets/products/4Monitors/productImage/bar/3.jpg"
-      imageTab4="/src/assets/products/4Monitors/productImage/bar/4.jpg"
-      imageTab5="/src/assets/products/4Monitors/productImage/bar/5.jpg"
-      backgroundSrc="/src/assets/products/4Monitors/productImage/1.jpg"
-      imageLocateSrc="/src/assets/products/4Monitors/productImage/"
+      imageTab1="/src/assets/products/2eGPUs/productImage/bar/1.jpg"
+      imageTab2="/src/assets/products/2eGPUs/productImage/bar/2.jpg"
+      imageTab3="/src/assets/products/2eGPUs/productImage/bar/3.jpg"
+      imageTab4="/src/assets/products/2eGPUs/productImage/bar/4.jpg"
+      imageTab5="/src/assets/products/2eGPUs/productImage/bar/5.jpg"
+      backgroundSrc="/src/assets/products/2eGPUs/productImage/1big.jpg"
+      imageLocateSrc="/src/assets/products/2eGPUs/productImage/"
       :headerText="headerJson"
       :headerDes="desJson"
       :priceText="priceJson"
@@ -18,7 +18,7 @@
       :description1="detailJson1"
       :description2="detailJson2"
       :description3="detailJson3"
-      modelBoxDisappear="1"
+      modelBoxDisappear="0"
       :modelAmount="modelItemAmount"
       modelLink1="https://fb.com"
       modelLink2="https://www.youtube.com/watch?v=-m4ge-XdCiA"
@@ -47,7 +47,7 @@ import datas from "./assets/data.json";
 
 export default {
   props: {},
-  name: "MonitorPage",
+  name: "EgpuPage",
   components: {
     ProductSlot,
     MenuBar,
@@ -56,15 +56,20 @@ export default {
   },
   data() {
     return {
-      headerJson: datas.monitors[0].name,
-      desJson: datas.monitors[0].des,
-      priceJson: datas.monitors[0].price,
-      detailAmountJson: datas.monitors[0].detail.length,
-      detailJson1: datas.monitors[0].detail[0],
-      detailJson2: datas.monitors[0].detail[1],
-      detailJson3: datas.monitors[0].detail[2],
-      shipStatusJson: datas.monitors[0].ship_status,
-      buttonJson: datas.monitors[0].add_to_card_bnt
+      headerJson: datas.eGPU[2].name,
+      desJson: datas.eGPU[2].des,
+      priceJson: datas.eGPU[2].price,
+      detailAmountJson: datas.eGPU[2].detail.length,
+      detailJson1: datas.eGPU[2].detail[0],
+      detailJson2: datas.eGPU[2].detail[1],
+      detailJson3: datas.eGPU[2].detail[2],
+      shipStatusJson: datas.eGPU[2].ship_status,
+      buttonJson: datas.eGPU[2].add_to_card_bnt,
+      modelItemAmount: datas.eGPU[2].model.length,
+      modelFirstNameJson: datas.eGPU[2].model[2],
+      modelItem1: datas.eGPU[2].model[0],
+      modelItem2: datas.eGPU[2].model[1],
+      modelItem3: datas.eGPU[2].model[2]
     };
   },
   created() {

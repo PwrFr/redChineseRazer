@@ -22,4 +22,6 @@ import CasesPage from './CasesPage.vue'
 createApp(CasesPage).mount('#casesPage')
 import MonitorPage from './MonitorPage.vue'
 createApp(MonitorPage).mount('#monitorPage')
+import EgpuPage from './EgpuPage.vue'
+createApp(EgpuPage).mount('#egpuPage')
 createApp(App).mount('#app')
