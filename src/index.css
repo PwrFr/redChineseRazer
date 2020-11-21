@@ -175,16 +175,12 @@ button:focus {
   cursor: pointer;
 }
 
-/* .ids-0 {
-  display: none;
-}
-.id-0:active .ids-0 {
-  display: block;
-  height: 2rem;
-} */
-
 .active-faro {
   animation: CloseM 0.2s;
+  height: 0;
+  overflow: hidden;
+}
+.null-faro {
   height: 0;
   overflow: hidden;
 }
