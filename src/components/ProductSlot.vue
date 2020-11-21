@@ -91,7 +91,12 @@
                   <div class="model-options-container" ref="here">
                     <div @click="testfuck()" class="box-option" v-if="1 <= modelAmount">
                       <input type="radio" class="model-radio" id="Standard - Black" name="category" />
-                      <label id="1" for="Standard - Black">{{modelName1}}</label>
+                      <div v-if="whiteSelecterText == 0 " style="color: white">
+                        <label id="1" for="Standard - Black">{{modelName1}}</label>
+                      </div>
+                      <div v-else>
+                        <label id="1" for="Standard - Black">{{modelName1}}</label>
+                      </div>
                     </div>
 
                     <div
@@ -105,7 +110,12 @@
                         id="Standard - Mercury"
                         name="category"
                       />
-                      <label id="2" for="Standard - Mercury">{{modelName2}}</label>
+                      <div v-if="whiteSelecterText == 1 " style="color: white">
+                        <label id="2" for="Standard - Black">{{modelName2}}</label>
+                      </div>
+                      <div v-else>
+                        <label id="2" for="Standard - Black">{{modelName2}}</label>
+                      </div>
                     </div>
 
                     <div
@@ -114,7 +124,12 @@
                       v-if="3 <= modelAmount"
                     >
                       <input type="radio" class="model-radio" id="Chroma" name="category" />
-                      <label id="3" for="Chroma">{{modelName3}}</label>
+                      <div v-if="whiteSelecterText == 2 " style="color: white">
+                        <label id="3" for="Standard - Black">{{modelName3}}</label>
+                      </div>
+                      <div v-else>
+                        <label id="3" for="Standard - Black">{{modelName3}}</label>
+                      </div>
                     </div>
                   </div>
 
@@ -196,7 +211,8 @@ export default {
     modelFirstItem: String,
     modelName1: String,
     modelName2: String,
-    modelName3: String
+    modelName3: String,
+    whiteSelecterText: Number
   },
   data() {
     return {

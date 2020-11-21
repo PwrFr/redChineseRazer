@@ -30,6 +30,7 @@
       :shippingDate="shipStatusJson"
       :buyingStatus="buttonJson"
       buyingAt="Also Available At"
+      whiteSelecterText="2"
     />
 
     <Footer />
