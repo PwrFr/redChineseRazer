@@ -6,106 +6,139 @@
         <tr>
           <h4 id="headerText">TECH SPECS</h4>
         </tr>
-        <tr class="dataRow trDisplay p-0">
+        <tr class="dataRow trDisplay dataSingle">
           <th class="col-lg-3 p-0">
-            <b class="header">MODEL</b>
+            <b>MODEL</b>
           </th>
-          <td class="col-lg-9">
-            <ul class="data">
-              <li>{{ data1 }}</li>
-              <li>{{ data2 }}</li>
-            </ul>
-          </td>
+          <td class="col-lg-9 data">{{ data1 }}</td>
         </tr>
         <!-- row 2-->
         <tr class="dataRow trDisplay dataSingle">
           <th class="col-lg-3 p-0">
             <b>PRODUCT NUMBER</b>
           </th>
-          <td class="col-lg-9 p-0 data py-1">{{ data3 }}</td>
+          <td class="col-lg-9 data">{{ data2 }}</td>
         </tr>
         <!-- row 2 -->
-        <tr class="dataRow trDisplay dataBul">
+        <tr class="dataRow trDisplay dataSingle">
           <th class="col-lg-3 p-0">
-            <b>GRAPHICS</b>
+            <b>CHASSIS FORM FACTOR</b>
           </th>
-          <td class="col-lg-9">
-            <ul class="data">
-              <li>{{ data4 }}</li>
-              <li>{{ data5 }}</li>
-            </ul>
+          <td class="col-lg-9 data">
+            {{ data3 }}
           </td>
         </tr>
         <!-- row 3-->
+
+        <tr class="dataRow trDisplays dataSingle">
+          <th class="col-lg-3 p-0">
+            <b>Supported Motherboards</b>
+          </th>
+          <td class="col-lg-9 data">{{ data4 }}</td>
+        </tr>
+        <!-- row 4 -->
         <span id="more" ref="more">
           <tr class="dataRow trDisplays dataSingle">
             <th class="col-lg-3 p-0">
-              <b>CONTRAST RATIO</b>
+              <b>Case Material</b>
             </th>
-            <td class="col-lg-9 p-0 data">{{ data6 }}</td>
-          </tr>
-          <!-- row 4 -->
-          <tr class="dataRow trDisplays dataSingle">
-            <th class="col-lg-3 p-0">
-              <b>BEZELS</b>
-            </th>
-            <td class="col-lg-9 p-0 data">{{ data7 }}</td>
+            <td class="col-lg-9 data">{{ data5 }}</td>
           </tr>
           <!-- row 5 -->
-          <tr class="dataRow trDisplays dataBul">
+          <tr class="dataRow trDisplays dataSingle">
             <th class="col-lg-3 p-0">
-              <b>SYNC</b>
+              <b># of Expansion Slots</b>
             </th>
-            <td class="col-lg-9">
-              <ul class="data">
-                <li>{{ data8 }}</li>
-                <li>{{ data9 }}</li>
-              </ul>
+            <td class="col-lg-9 data">
+              {{ data6 }}
             </td>
           </tr>
           <!-- row 6 -->
-          <tr class="dataRow trDisplays dataSingle">
+          <tr class="dataRow trDisplays dataBul">
             <th class="col-lg-3 p-0">
-              <b>ROTATION</b>
+              <b># of Supported Drives</b>
             </th>
-            <td class="col-lg-9 p-0 data">{{ data10 }}</td>
+            <td class="col-lg-9">
+              <ul class="data p-2">
+                <li>{{ data7 }}</li>
+                <li>{{ data8 }}</li>
+              </ul>
+            </td>
           </tr>
           <!-- row 7 -->
           <tr class="dataRow trDisplays dataSingle">
             <th class="col-lg-3 p-0">
-              <b>CABLE MANAGEMENT</b>
+              <b>Radiator Compatibility</b>
             </th>
-            <td class="col-lg-9 p-0 data">{{ data11 }}</td>
+            <td class="col-lg-9 data">{{ data9 }}</td>
           </tr>
           <!-- row 8 -->
           <tr class="dataRow trDisplays dataSingle">
             <th class="col-lg-3 p-0">
-              <b>Lighting</b>
+              <b>Maximum CPU Cooler Height</b>
             </th>
-            <td class="col-lg-9 p-0 data">{{ data12 }}</td>
+            <td class="col-lg-9 data">{{ data10 }}</td>
           </tr>
 
           <!-- row 9 -->
+          <tr class="dataRow trDisplays dataSingle">
+            <th class="col-lg-3 p-0">
+              <b>Maximum GPU Length</b>
+            </th>
+            <td class="col-lg-9 data">{{ data11 }}</td>
+          </tr>
+          <!-- row 10 -->
+          <tr class="dataRow trDisplays dataSingle">
+            <th class="col-lg-3 p-0">
+              <b>Maximum PSU Length</b>
+            </th>
+            <td class="col-lg-9 data">{{ data12 }}</td>
+          </tr>
+          <!-- row 11 -->
           <tr class="dataRow trDisplays dataBul">
             <th class="col-lg-3 p-0">
               <b>Input & Output</b>
             </th>
             <td class="col-lg-9">
-              <ul class="data">
-                <li>{{ data13 }}</li>
-                <li>{{ data14 }}</li>
-                <li>{{ data15 }}</li>
-                <li>{{ data16 }}</li>
+              <ul class="data p-2">
+                <li v-for="item in data13" :key="item">{{ item }}</li>
               </ul>
             </td>
+          </tr>
+          <!-- row 12  -->
+          <tr class="dataRow trDisplays dataSingle">
+            <th class="col-lg-3 p-0">
+              <b>RAZER Chroma™ Support</b>
+            </th>
+            <td class="col-lg-9 data">{{ data14 }}</td>
+          </tr>
+          <!-- row 13 -->
+          <tr class="dataRow trDisplays dataSingle">
+            <th class="col-lg-3 p-0">
+              <b>Warranty</b>
+            </th>
+            <td class="col-lg-9 data">{{ data15 }}</td>
+          </tr>
+          <!-- row 14 -->
+          <tr class="dataRow trDisplays dataSingle">
+            <th class="col-lg-3 p-0">
+              <b>Case Dimensions</b>
+            </th>
+            <td class="col-lg-9 data">{{ data16 }}</td>
+          </tr>
+          <!-- row 15 -->
+          <tr class="dataRow trDisplays dataSingle">
+            <th class="col-lg-3 p-0">
+              <b>Weight</b>
+            </th>
+            <td class="col-lg-9 data">{{ data17 }}</td>
           </tr>
         </span>
       </table>
     </div>
     <div id="seeLess" ref="seeless" class="m-0">
       <p @click="test()" class="seeBox pt-2" ref="text">
-        {{ text
-        }}
+        {{ text }}
         <svg
           ref="arrowGreen"
           id="arrow"
@@ -113,7 +146,7 @@
           height="1em"
           border="20px"
           viewBox="0 0 16 16"
-          class="bi bi-chevron-up"
+          class="bi bi-chevron-up arrow"
           fill="#45D52C"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -206,22 +239,23 @@ export default {
       text: "",
       status: 0,
       ty: {},
-      data1: datas.Cases[0].specs.MODEL[0],
-      data2: datas.Cases[0].specs.PRODUCT_NUMBER[1]
-      // data3: datas.Cases[0].specs.RefreshRate[0],
-      // data4: datas.Cases[0].specs.Graphics[0],
-      // data5: datas.Cases[0].specs.Graphics[1],
-      // data6: datas.Cases[0].specs.ContrastRatio[0],
-      // data7: datas.Cases[0].specs.Bezels[0],
-      // data8: datas.Cases[0].specs.Sync[0],
-      // data9: datas.Cases[0].specs.Sync[1],
-      // data10: datas.Cases[0].specs.Rotation[0],
-      // data11: datas.Cases[0].specs.CableManagement[0],
-      // data12: datas.Cases[0].specs.Lighting[0],
-      // data13: datas.Cases[0].specs.IO[0],
-      // data14: datas.Cases[0].specs.IO[1],
-      // data15: datas.Cases[0].specs.IO[2],
-      // data16: datas.Cases[0].specs.IO[3],
+      data1: datas.Cases[1].specs.MODEL,
+      data2: datas.Cases[1].specs.PRODUCT_NUMBER,
+      data3: datas.Cases[1].specs.CHASSIS_FORM_FACTOR,
+      data4: datas.Cases[1].specs.SUPPORTED_MOTHERBOARDS,
+      data5: datas.Cases[1].specs.CASE_MATERIAL,
+      data6: datas.Cases[1].specs.Num_OF_EXPANSION_SLOTS,
+      data7: datas.Cases[1].specs.Num_OF_SUPPORTED_DRIVES[0],
+      data8: datas.Cases[1].specs.Num_OF_SUPPORTED_DRIVES[1],
+      data9: datas.Cases[1].specs.RADIATOR_COMPATIBILITY,
+      data10: datas.Cases[1].specs.MAXIMUM_CPU_COOLER_HEIGHT,
+      data11: datas.Cases[1].specs.MAXIMUM_GPU_LENGTH,
+      data12: datas.Cases[1].specs.MAXIMUM_PSU_LENGTH,
+      data13: datas.Cases[1].specs.FRONT_PANEL_IO,
+      data14: datas.Cases[1].specs.RAZER_CHROMA_SUPPORT,
+      data15: datas.Cases[1].specs.WARRANTY,
+      data16: datas.Cases[1].specs.CASE_DIMENSIONS,
+      data17: datas.Cases[1].specs.WEIGHT,
     };
   },
   // created(){
@@ -258,10 +292,10 @@ export default {
         this.status = 0;
       }
       console.log(this.status);
-    }
+    },
   },
   created() {
     this.text = "See More";
-  }
+  },
 };
 </script>
