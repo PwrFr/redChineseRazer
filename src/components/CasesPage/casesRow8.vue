@@ -29,7 +29,7 @@ a.cases-row8-href:hover {
 }
 .cases-row8-full {
   background-color: #222;
-  background-image: url("../../assets/products/cases/row8.jpg");
+  background-image: url("../../assets/products/3Cases/row8.jpg");
   height: 280px;
   width: 1920px;
   padding-top: 5rem;

@@ -4,14 +4,14 @@
     <ProductSlot
       class="mt-5"
       imageAmount="6"
-      imageTab1="/src/assets/products/cases/ATX/bar/1.jpg"
-      imageTab2="/src/assets/products/cases/ATX/bar/2.jpg"
-      imageTab3="/src/assets/products/cases/ATX/bar/3.jpg"
-      imageTab4="/src/assets/products/cases/ATX/bar/4.jpg"
-      imageTab5="/src/assets/products/cases/ATX/bar/5.jpg"
-      imageTab6="/src/assets/products/cases/ATX/bar/6.jpg"
-      backgroundSrc="/src/assets/products/cases/ATX/1.jpg"
-      imageLocateSrc="/src/assets/products/cases/ATX/"
+      imageTab1="/src/assets/products/3Cases/ATX/bar/1.jpg"
+      imageTab2="/src/assets/products/3Cases/ATX/bar/2.jpg"
+      imageTab3="/src/assets/products/3Cases/ATX/bar/3.jpg"
+      imageTab4="/src/assets/products/3Cases/ATX/bar/4.jpg"
+      imageTab5="/src/assets/products/3Cases/ATX/bar/5.jpg"
+      imageTab6="/src/assets/products/3Cases/ATX/bar/6.jpg"
+      backgroundSrc="/src/assets/products/3Cases/ATX/1.jpg"
+      imageLocateSrc="/src/assets/products/3Cases/ATX/"
       :headerText="headerJson"
       :headerDes="desJson"
       :priceText="priceJson"
@@ -36,7 +36,7 @@
     <Row1 />
     <Row2 />
     <Row3
-      casesRow3Img="/src/assets/products/cases/row3.jpg"
+      casesRow3Img="/src/assets/products/3Cases/row3.jpg"
       casesRow3Header="DUAL-SIDED TEMPERED GLASS SWIVEL DOORS"
       casesRow3Des="Installing new parts has never been this convenient or straightforward, with forward-opening doors that can also be detached for more room to focus on your build. Made of tough, tempered glass, they offer the perfect protection while showing off the power and performance of Chroma-enabled hardware within."
       paddingTopInput="10"
@@ -44,7 +44,7 @@
     />
     <Row4 />
     <Row3
-      casesRow3Img="/src/assets/products/cases/row5.jpg"
+      casesRow3Img="/src/assets/products/3Cases/row5.jpg"
       casesRow3Header="FRONT PANEL CONNECTIVITY"
       casesRow3Des="The Razer Tomahawk’s front panel is designed for convenient setup, sporting the latest USB 3.2 Gen 2 Type-C port for faster connection with the latest devices, a dedicated mic port for streamers, a mic/headphone combo port, and 2 standard USB Type-A ports."
       paddingTopInput="11.8"
