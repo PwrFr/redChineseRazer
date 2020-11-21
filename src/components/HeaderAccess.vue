@@ -267,14 +267,44 @@
         </div>
       </div>
       <div class="col-9">
-        <div class="pt-3 pl-2 mt-1 amount-products">
+        <div v-if="select === 1" class="pt-3 pl-2 mt-1 amount-products">
           {{ json_obj.PC_Acessories.LAPTOPS.Product.length }} products
+        </div>
+        <div v-else-if="select === 2" class="pt-3 pl-2 mt-1 amount-products">
+          {{ json_obj.PC_Acessories.EGPUS.Product.length }} products
+        </div>
+        <div v-else-if="select === 3" class="pt-3 pl-2 mt-1 amount-products">
+          {{ json_obj.PC_Acessories.ACCESSORIES.Product.length }} products
+        </div>
+        <div v-else class="pt-3 pl-2 mt-1 amount-products">
+          {{ json_obj.PC_Acessories.MONITORS.Product.length }} products
         </div>
         <div v-if="select === 1" class="row mt-3 row-product-faro">
           <card
             v-for="(i, index) in json_obj.PC_Acessories.LAPTOPS.Product"
             :key="index"
             :item="json_obj.PC_Acessories.LAPTOPS.Product[index]"
+          />
+        </div>
+        <div v-else-if="select === 2" class="row mt-3 row-product-faro">
+          <card
+            v-for="(i, index) in json_obj.PC_Acessories.EGPUS.Product"
+            :key="index"
+            :item="json_obj.PC_Acessories.EGPUS.Product[index]"
+          />
+        </div>
+        <div v-else-if="select === 3" class="row mt-3 row-product-faro">
+          <card
+            v-for="(i, index) in json_obj.PC_Acessories.ACCESSORIES.Product"
+            :key="index"
+            :item="json_obj.PC_Acessories.ACCESSORIES.Product[index]"
+          />
+        </div>
+        <div v-else class="row mt-3 row-product-faro">
+          <card
+            v-for="(i, index) in json_obj.PC_Acessories.MONITORS.Product"
+            :key="index"
+            :item="json_obj.PC_Acessories.MONITORS.Product[index]"
           />
         </div>
       </div>

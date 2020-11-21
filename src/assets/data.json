@@ -700,7 +700,9 @@
                         "Compatible with PCI-Express graphics cards"
                     ],
                     "add_to_card_bnt": "ADD TO CART",
-                    "img": "/src/assets/img/PC_Acessories/EGPU/Razer Core X - Mercury.png"
+                    "img": "src/assets/img/PC_Acessories/EGPU/RazerCoreX-Mercury.png",
+                    "tag":"orange",
+                    "tagTitle":"EXCLUSIVE"
                 },
                 {
                     "name": "Razer Core X Chroma",
@@ -711,7 +713,7 @@
                         "Compatible with PCI-Express graphics cards"
                     ],
                     "add_to_card_bnt": "ADD TO CART",
-                    "img": "/src/assets/img/PC_Acessories/EGPU/Razer Core X Chroma.png"
+                    "img": "src/assets/img/PC_Acessories/EGPU/RazerCoreXChroma.png"
                 },
                 {
                     "name": "Razer Core X - Black",
@@ -722,7 +724,7 @@
                         "Compatible with PCI-Express graphics cards"
                     ],
                     "add_to_card_bnt": "ADD TO CART",
-                    "img": "/src/assets/img/PC_Acessories/EGPU/Razer Core X - Black.png"
+                    "img": "src/assets/img/PC_Acessories/EGPU/RazerCoreX-Black.png"
                 }
             ]
         },
@@ -747,7 +749,9 @@
                         "Ultra-slim profile"
                     ],
                     "add_to_card_bnt": "ADD TO CART",
-                    "img": "/src/assets/img/PC_Acessories/Accessories/Razer Neoprene Sleeve V2 - For 13.3” Notebooks.jpg"
+                    "img": "src/assets/img/PC_Acessories/Accessories/RazerNeopreneSleeveV2-For13.3”Notebooks.jpg",
+                    "tag":"green",
+                    "tagTitle":"NEW"
                 },
                 {
                     "name": "Razer Protective Sleeve V2 - For 13.3\" Notebooks",
@@ -758,7 +762,9 @@
                         " Custom fit for our Razer Blade laptops"
                     ],
                     "add_to_card_bnt": "ADD TO CART",
-                    "img": "/src/assets/img/PC_Acessories/Accessories/Razer Neoprene Sleeve V2 - For 13.3” Notebooks.jpg"
+                    "img": "src/assets/img/PC_Acessories/Accessories/RazerNeopreneSleeveV2-For13.3”Notebooks.jpg",
+                    "tag":"green",
+                    "tagTitle":"NEW"
                 },
                 {
                     "name": "Razer Protective Sleeve V2 - For 17.3\" Notebooks",
@@ -769,7 +775,9 @@
                         " Custom fit for our Razer Blade laptops"
                     ],
                     "add_to_card_bnt": "ADD TO CART",
-                    "img": "/src/assets/img/PC_Acessories/Accessories/Razer Protective Sleeve V2 - For 17.3.png"
+                    "img": "src/assets/img/PC_Acessories/Accessories/RazerProtectiveSleeveV2-For17.3.png",
+                    "tag":"green",
+                    "tagTitle":"NEW"
                 },
                 {
                     "name": "Razer Protective Sleeve V2 - For 15.6\" Notebooks",
@@ -780,7 +788,9 @@
                         "Custom fit for our Razer Blade laptops"
                     ],
                     "add_to_card_bnt": "ADD TO CART",
-                    "img": "/src/assets/img/PC_Acessories/Accessories/Razer Protective Sleeve V2 - For 15.6.png"
+                    "img": "src/assets/img/PC_Acessories/Accessories/RazerProtectiveSleeveV2-For15.6.png",
+                    "tag":"green",
+                    "tagTitle":"NEW"
                 },
                 {
                     "name": "Razer Chroma Addressable RGB Controller",
@@ -791,7 +801,9 @@
                         "USB connection (USB 2.0 Micro-B)"
                     ],
                     "add_to_card_bnt": "ADD TO CART",
-                    "img": "redChineseRazer/src/assets/img/PC_Acessories/Accessories/Razer Chroma Addressable RGB Controller.png"
+                    "img": "src/assets/img/PC_Acessories/Accessories/RazerChromaAddressableRGBController.png",
+                    "tag":"green",
+                    "tagTitle":"NEW"
                 },
                 {
                     "name": "Razer Laptop Stand - Mercury",
@@ -802,7 +814,9 @@
                         "Aluminium construction"
                     ],
                     "add_to_card_bnt": "ADD TO CART",
-                    "img": "/src/assets/img/PC_Acessories/Accessories/Razer Laptop Stand - Mercury.png"
+                    "img": "src/assets/img/PC_Acessories/Accessories/RazerLaptopStand-Mercury.png",
+                    "tag":"green",
+                    "tagTitle":"NEW"
                 }
             ]
         },
@@ -822,7 +836,7 @@
                         "Ultra thin bezels at 2.3mm"
                     ],
                     "add_to_card_bnt": "ADD TO CART",
-                    "img": "/src/assets/img/PC_Acessories/Monitor/Razer Raptor 27.png"
+                    "img": "src/assets/img/PC_Acessories/Monitor/RazerRaptor27.png"
                 }
             ]
         }
