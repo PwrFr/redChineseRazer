@@ -1,66 +1,100 @@
 <template>
   <MenuBar />
-
-  <ProductSlot
-    class="mt-5"
-    imageAmount="5"
-    imageTab1="/src/assets/products/cases/bar/1.jpg"
-    imageTab2="/src/assets/products/cases/bar/2.jpg"
-    imageTab3="/src/assets/products/cases/bar/3.jpg"
-    imageTab4="/src/assets/products/cases/bar/4.jpg"
-    imageTab5="/src/assets/products/cases/bar/5.jpg"
-    backgroundSrc="/src/assets/products/cases/1.jpg"
-    imageLocateSrc="/src/assets/products/cases/"
-    :headerText="headerJson"
-    :headerDes="desJson"
-    :priceText="priceJson"
-    :desAmount="detailAmountJson"
-    :description1="detailJson1"
-    :description2="detailJson2"
-    :description3="detailJson3"
-    modelBoxDisappear="0"
-    :modelAmount="modelItemAmount"
-    modelLink1="https://fb.com"
-    modelLink2="https://www.youtube.com/watch?v=-m4ge-XdCiA"
-    modelLink3="https://www.youtube.com"
-    :modelName1="modelItem1"
-    :modelName2="modelItem2"
-    :modelName3="modelItem3"
-    modelFirstItem="Tomahawk ATX"
-    shippingDate="Ships on December 03, 2020"
-    buyingStatus="PRE-ORDER"
-    buyingAt
-  />
+  <div v-if="caseTrue!=0">
+    <ProductSlot
+      class="mt-5"
+      imageAmount="6"
+      imageTab1="/src/assets/products/cases/ATX/bar/1.jpg"
+      imageTab2="/src/assets/products/cases/ATX/bar/2.jpg"
+      imageTab3="/src/assets/products/cases/ATX/bar/3.jpg"
+      imageTab4="/src/assets/products/cases/ATX/bar/4.jpg"
+      imageTab5="/src/assets/products/cases/ATX/bar/5.jpg"
+      imageTab6="/src/assets/products/cases/ATX/bar/6.jpg"
+      backgroundSrc="/src/assets/products/cases/ATX/1.jpg"
+      imageLocateSrc="/src/assets/products/cases/ATX/"
+      :headerText="headerJson"
+      :headerDes="desJson"
+      :priceText="priceJson"
+      :desAmount="detailAmountJson"
+      :description1="detailJson1"
+      :description2="detailJson2"
+      :description3="detailJson3"
+      modelBoxDisappear="0"
+      :modelAmount="modelItemAmount"
+      modelLink1="https://fb.com"
+      modelLink2="https://www.youtube.com/watch?v=-m4ge-XdCiA"
+      modelLink3="https://www.youtube.com"
+      :modelName1="modelItem1"
+      :modelName2="modelItem2"
+      :modelName3="modelItem3"
+      :modelFirstItem="modelFirstNameJson"
+      shippingDate="Ships on December 03, 2020"
+      buyingStatus="PRE-ORDER"
+      buyingAt
+    />
+    <VideoSession />
+    <Row1 />
+    <Row2 />
+    <Row3
+      casesRow3Img="/src/assets/products/cases/row3.jpg"
+      casesRow3Header="DUAL-SIDED TEMPERED GLASS SWIVEL DOORS"
+      casesRow3Des="Installing new parts has never been this convenient or straightforward, with forward-opening doors that can also be detached for more room to focus on your build. Made of tough, tempered glass, they offer the perfect protection while showing off the power and performance of Chroma-enabled hardware within."
+    />
+    <Row4 />
+  </div>
 </template>
 
 <script>
 import MenuBar from "./components/MenuBar.vue";
 import ProductSlot from "./components/ProductSlot.vue";
 import datas from "./assets/data.json";
+import { global } from "./components/ProductSlot.vue";
+import VideoSession from "./components/CasesPage/casesVideo.vue";
+import Row1 from "./components/CasesPage/casesRow1.vue";
+import Row2 from "./components/CasesPage/casesRow2.vue";
+import Row3 from "./components/CasesPage/casesRow3.vue";
+import Row4 from "./components/CasesPage/casesRow4.vue";
+import TechSpec from "./components/techSpecCase.vue";
 
 export default {
+  mixins: [global],
+  props: {},
   name: "CasesPage",
   components: {
     ProductSlot,
-    MenuBar
+    MenuBar,
+    VideoSession,
+    Row1,
+    Row2,
+    Row3,
+    Row4,
+    TechSpec
   },
   data() {
     return {
-      headerJson: datas.Cases[1].name,
-      desJson: datas.Cases[1].des,
-      priceJson: datas.Cases[1].price,
-      detailAmountJson: datas.Cases[1].detail.length,
-      detailJson1: datas.Cases[1].detail[0],
-      detailJson2: datas.Cases[1].detail[1],
-      detailJson3: datas.Cases[1].detail[2],
-      modelItemAmount: datas.Cases[1].model.length,
-      modelItem1: datas.Cases[1].model[0],
-      modelItem2: datas.Cases[1].model[1],
-      modelItem3: datas.Cases[1].model[2]
+      caseTrue: 2,
+      headerJson: datas.Cases[0].name,
+      desJson: datas.Cases[0].des,
+      priceJson: datas.Cases[0].price,
+      detailAmountJson: datas.Cases[0].detail.length,
+      detailJson1: datas.Cases[0].detail[0],
+      detailJson2: datas.Cases[0].detail[1],
+      detailJson3: datas.Cases[0].detail[2],
+      modelItemAmount: datas.Cases[0].model.length,
+      modelFirstNameJson: datas.Cases[0].model[0],
+      modelItem1: datas.Cases[0].model[0],
+      modelItem2: datas.Cases[0].model[1],
+      modelItem3: datas.Cases[0].model[2]
     };
   },
   created() {
     console.log(datas.monitors[0].name);
+  },
+  methods: {
+    kuy() {
+      caseTrue = 0;
+      alert("kuy");
+    }
   }
 };
 </script>

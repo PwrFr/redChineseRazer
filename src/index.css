@@ -296,3 +296,11 @@ button:focus {
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
 }
+@font-face {
+  font-family: Robo-light;
+  src: url("./assets/font/Roboto/Roboto-Light.ttf");
+}
+@font-face {
+  font-family: Robo-reg;
+  src: url("./assets/font/Roboto/Roboto-Regular.ttf");
+}
