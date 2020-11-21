@@ -22,9 +22,7 @@
           <th class="col-lg-3 p-0">
             <b>PRODUCT NUMBER</b>
           </th>
-          <td class="col-lg-9 p-0 data py-1">
-            {{ data3 }}
-          </td>
+          <td class="col-lg-9 p-0 data py-1">{{ data3 }}</td>
         </tr>
         <!-- row 2 -->
         <tr class="dataRow trDisplay dataBul">
@@ -33,12 +31,8 @@
           </th>
           <td class="col-lg-9">
             <ul class="data">
-              <li>
-                {{ data4 }}
-              </li>
-              <li>
-                {{ data5 }}
-              </li>
+              <li>{{ data4 }}</li>
+              <li>{{ data5 }}</li>
             </ul>
           </td>
         </tr>
@@ -48,18 +42,14 @@
             <th class="col-lg-3 p-0">
               <b>CONTRAST RATIO</b>
             </th>
-            <td class="col-lg-9 p-0 data">
-              {{ data6 }}
-            </td>
+            <td class="col-lg-9 p-0 data">{{ data6 }}</td>
           </tr>
           <!-- row 4 -->
           <tr class="dataRow trDisplays dataSingle">
             <th class="col-lg-3 p-0">
               <b>BEZELS</b>
             </th>
-            <td class="col-lg-9 p-0 data">
-              {{ data7 }}
-            </td>
+            <td class="col-lg-9 p-0 data">{{ data7 }}</td>
           </tr>
           <!-- row 5 -->
           <tr class="dataRow trDisplays dataBul">
@@ -78,27 +68,21 @@
             <th class="col-lg-3 p-0">
               <b>ROTATION</b>
             </th>
-            <td class="col-lg-9 p-0 data">
-              {{ data10 }}
-            </td>
+            <td class="col-lg-9 p-0 data">{{ data10 }}</td>
           </tr>
           <!-- row 7 -->
           <tr class="dataRow trDisplays dataSingle">
             <th class="col-lg-3 p-0">
               <b>CABLE MANAGEMENT</b>
             </th>
-            <td class="col-lg-9 p-0 data">
-              {{ data11 }}
-            </td>
+            <td class="col-lg-9 p-0 data">{{ data11 }}</td>
           </tr>
           <!-- row 8 -->
           <tr class="dataRow trDisplays dataSingle">
             <th class="col-lg-3 p-0">
               <b>Lighting</b>
             </th>
-            <td class="col-lg-9 p-0 data">
-              {{ data12 }}
-            </td>
+            <td class="col-lg-9 p-0 data">{{ data12 }}</td>
           </tr>
 
           <!-- row 9 -->
@@ -121,7 +105,8 @@
     <div id="seeLess" ref="seeless" class="m-0">
       <p @click="test()" class="seeBox pt-2" ref="text">
         {{ text
-        }}<svg
+        }}
+        <svg
           ref="arrowGreen"
           id="arrow"
           width="2em"
@@ -142,10 +127,6 @@
   </div>
 </template>
 <style>
-@font-face {
-  font-family: myFirstFont;
-  src: url("../assets/font/razerf5-thin.otf");
-}
 .techSpecsBox {
   margin: 10px;
   background-color: #252525;
@@ -226,7 +207,7 @@ export default {
       status: 0,
       ty: {},
       data1: datas.Cases[0].specs.MODEL[0],
-      data2: datas.Cases[0].specs.PRODUCT_NUMBER[1],
+      data2: datas.Cases[0].specs.PRODUCT_NUMBER[1]
       // data3: datas.Cases[0].specs.RefreshRate[0],
       // data4: datas.Cases[0].specs.Graphics[0],
       // data5: datas.Cases[0].specs.Graphics[1],
@@ -277,10 +258,10 @@ export default {
         this.status = 0;
       }
       console.log(this.status);
-    },
+    }
   },
   created() {
     this.text = "See More";
-  },
+  }
 };
 </script>

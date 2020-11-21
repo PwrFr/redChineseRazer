@@ -327,8 +327,8 @@
                 "Incredibly Fast Speeds"
             ],
             "model": [
-                "Standard - Blcak",
-                "Standard - mercury",
+                "Standard - Black",
+                "Standard - Mercury",
                 "Chroma"
             ],
             "ship_status": "Ships next business day",
@@ -603,8 +603,8 @@
                     ],
                     "add_to_card_bnt": "ADD TO CART",
                     "img": "src/assets/img/PC_Acessories/Laptop/RazerBlade15StudioEdition.png",
-                    "tag":"yellow",
-                    "tagTitle":"INCLUDES ADOBE CC"
+                    "tag": "yellow",
+                    "tagTitle": "INCLUDES ADOBE CC"
                 },
                 {
                     "name": "Razer Book 13 - UHD Touch 60Hz - Intel® Iris® Xe Graphics - Mercury",
@@ -618,10 +618,9 @@
                     ],
                     "add_to_card_bnt": "PRE-ORDER",
                     "img": "src/assets/img/PC_Acessories/Laptop/RazerBook13-UHD.png",
-                    "tag":"green",
-                    "tagTitle":"NEW"
+                    "tag": "green",
+                    "tagTitle": "NEW"
                 },
-                
                 {
                     "name": "Razer Book 13 - Full HD 60Hz - Intel® Iris® Xe Graphics - Mercury",
                     "price": "US$1,199.99",
@@ -634,8 +633,8 @@
                     ],
                     "add_to_card_bnt": "PRE-ORDER",
                     "img": "src/assets/img/PC_Acessories/Laptop/RazerBook13-FullHD60Hz.png",
-                    "tag":"orange",
-                    "tagTitle":"EXCLUSIVE"
+                    "tag": "orange",
+                    "tagTitle": "EXCLUSIVE"
                 },
                 {
                     "name": "Razer Book 13 - Full HD Touch 60Hz - Intel® Iris® Xe Graphics - Mercury",
@@ -649,8 +648,8 @@
                     ],
                     "add_to_card_bnt": "PRE-ORDER",
                     "img": "src/assets/img/PC_Acessories/Laptop/RazerBook13-FullHDTouch60Hz.png",
-                    "tag":"green",
-                    "tagTitle":"NEW"
+                    "tag": "green",
+                    "tagTitle": "NEW"
                 },
                 {
                     "name": "Razer Blade Stealth 13 - OLED Full HD Touch 60Hz - GeForce GTX 1650 Ti Max-Q - Black",
@@ -664,8 +663,8 @@
                     ],
                     "add_to_card_bnt": "ADD TO CART",
                     "img": "src/assets/img/PC_Acessories/Laptop/RazerBladeStealth13-OLEDFullHD.png",
-                    "tag":"green",
-                    "tagTitle":"NEW"
+                    "tag": "green",
+                    "tagTitle": "NEW"
                 },
                 {
                     "name": "Razer Blade Stealth 13 - Full HD 120Hz - GeForce GTX 1650 Ti Max-Q - Black",
@@ -679,8 +678,8 @@
                     ],
                     "add_to_card_bnt": "ADD TO CART",
                     "img": "src/assets/img/PC_Acessories/Laptop/RazerBladeStealth13-FullHD120Hz.png",
-                    "tag":"green",
-                    "tagTitle":"NEW"
+                    "tag": "green",
+                    "tagTitle": "NEW"
                 }
             ]
         },
@@ -701,8 +700,8 @@
                     ],
                     "add_to_card_bnt": "ADD TO CART",
                     "img": "src/assets/img/PC_Acessories/EGPU/RazerCoreX-Mercury.png",
-                    "tag":"orange",
-                    "tagTitle":"EXCLUSIVE"
+                    "tag": "orange",
+                    "tagTitle": "EXCLUSIVE"
                 },
                 {
                     "name": "Razer Core X Chroma",
@@ -750,8 +749,8 @@
                     ],
                     "add_to_card_bnt": "ADD TO CART",
                     "img": "src/assets/img/PC_Acessories/Accessories/RazerNeopreneSleeveV2-For13.3”Notebooks.jpg",
-                    "tag":"green",
-                    "tagTitle":"NEW"
+                    "tag": "green",
+                    "tagTitle": "NEW"
                 },
                 {
                     "name": "Razer Protective Sleeve V2 - For 13.3\" Notebooks",
@@ -763,8 +762,8 @@
                     ],
                     "add_to_card_bnt": "ADD TO CART",
                     "img": "src/assets/img/PC_Acessories/Accessories/RazerNeopreneSleeveV2-For13.3”Notebooks.jpg",
-                    "tag":"green",
-                    "tagTitle":"NEW"
+                    "tag": "green",
+                    "tagTitle": "NEW"
                 },
                 {
                     "name": "Razer Protective Sleeve V2 - For 17.3\" Notebooks",
@@ -776,8 +775,8 @@
                     ],
                     "add_to_card_bnt": "ADD TO CART",
                     "img": "src/assets/img/PC_Acessories/Accessories/RazerProtectiveSleeveV2-For17.3.png",
-                    "tag":"green",
-                    "tagTitle":"NEW"
+                    "tag": "green",
+                    "tagTitle": "NEW"
                 },
                 {
                     "name": "Razer Protective Sleeve V2 - For 15.6\" Notebooks",
@@ -789,8 +788,8 @@
                     ],
                     "add_to_card_bnt": "ADD TO CART",
                     "img": "src/assets/img/PC_Acessories/Accessories/RazerProtectiveSleeveV2-For15.6.png",
-                    "tag":"green",
-                    "tagTitle":"NEW"
+                    "tag": "green",
+                    "tagTitle": "NEW"
                 },
                 {
                     "name": "Razer Chroma Addressable RGB Controller",
@@ -802,8 +801,8 @@
                     ],
                     "add_to_card_bnt": "ADD TO CART",
                     "img": "src/assets/img/PC_Acessories/Accessories/RazerChromaAddressableRGBController.png",
-                    "tag":"green",
-                    "tagTitle":"NEW"
+                    "tag": "green",
+                    "tagTitle": "NEW"
                 },
                 {
                     "name": "Razer Laptop Stand - Mercury",
@@ -815,8 +814,8 @@
                     ],
                     "add_to_card_bnt": "ADD TO CART",
                     "img": "src/assets/img/PC_Acessories/Accessories/RazerLaptopStand-Mercury.png",
-                    "tag":"green",
-                    "tagTitle":"NEW"
+                    "tag": "green",
+                    "tagTitle": "NEW"
                 }
             ]
         },

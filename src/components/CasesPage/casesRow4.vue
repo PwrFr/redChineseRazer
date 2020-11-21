@@ -9,7 +9,7 @@
         <div class="row text-center">
           <div class="col row4-col-wid-left">
             <div class="cases-row4-margin">
-              <img src="../../assets/products/cases/row4/1.jpg" />
+              <img src="../../assets/products/3Cases/row4/1.jpg" />
               <div class="cases-row4-des">VENTILATED TOP PANEL</div>
             </div>
             <div
@@ -19,7 +19,7 @@
           <!-- 2 80-->
           <div class="col row4-col-wid">
             <div class="cases-row4-margin">
-              <img src="../../assets/products/cases/row4/2.jpg" />
+              <img src="../../assets/products/3Cases/row4/2.jpg" />
               <div class="cases-row4-des">LIQUID COOLING SUPPORT</div>
             </div>
             <div
@@ -29,7 +29,7 @@
           <!-- 3 -->
           <div class="col row4-col-wid-right">
             <div class="cases-row4-margin">
-              <img src="../../assets/products/cases/row4/3.jpg" />
+              <img src="../../assets/products/3Cases/row4/3.jpg" />
               <div class="cases-row4-des">BUILT-IN DUST FILTERS</div>
             </div>
             <div

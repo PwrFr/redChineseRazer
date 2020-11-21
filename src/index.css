@@ -304,6 +304,10 @@ button:focus {
   font-family: Robo-reg;
   src: url("./assets/font/Roboto/Roboto-Regular.ttf");
 }
+@font-face {
+  font-family: Robo-thin;
+  src: url("./assets/font/Roboto/Roboto-Thin.ttf");
+}
 .card-product {
   font-family: Robo-reg;
   height: 38.8rem;
