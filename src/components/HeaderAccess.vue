@@ -5,28 +5,75 @@
       <div id="myDIV row d-flex justify-content-center mt-4">
         <button
           class="btnC"
-          @click="select = 1"
+          @click="
+            select = 1;
+            isActive1[0] = null;
+            isActive2[0] = null;
+            isActive3[0] = null;
+          "
           :class="{ 'access-faro': select == 1 }"
         >
           LAPTOPS
         </button>
         <button
           class="btnC"
-          @click="select = 2"
+          @click="
+            select = 2;
+            isActive0[0] = null;
+            isActive0[1] = null;
+            isActive0[2] = null;
+            isActive0[3] = null;
+            isActive0[4] = null;
+            isActive0[5] = null;
+            isActive0[6] = null;
+            isActive0[7] = null;
+            isActive0[8] = null;
+            isActive0[9] = null;
+            isActive2[0] = null;
+            isActive3[0] = null;
+          "
           :class="{ 'access-faro': select == 2 }"
         >
           EGPUS
         </button>
         <button
           class="btnC"
-          @click="select = 3"
+          @click="
+            select = 3;
+            isActive0[0] = null;
+            isActive0[1] = null;
+            isActive0[2] = null;
+            isActive0[3] = null;
+            isActive0[4] = null;
+            isActive0[5] = null;
+            isActive0[6] = null;
+            isActive0[7] = null;
+            isActive0[8] = null;
+            isActive0[9] = null;
+            isActive1[0] = null;
+            isActive3[0] = null;
+          "
           :class="{ 'access-faro': select == 3 }"
         >
           ACCESSORIES
         </button>
         <button
           class="btnC"
-          @click="select = 4"
+          @click="
+            select = 4;
+            isActive0[0] = null;
+            isActive0[1] = null;
+            isActive0[2] = null;
+            isActive0[3] = null;
+            isActive0[4] = null;
+            isActive0[5] = null;
+            isActive0[6] = null;
+            isActive0[7] = null;
+            isActive0[8] = null;
+            isActive0[9] = null;
+            isActive1[0] = null;
+            isActive2[0] = null;
+          "
           :class="{ 'access-faro': select == 4 }"
         >
           MONITORS
@@ -41,85 +88,181 @@
         <h4 class="fillter mb-4 pb-3">FILTER BY</h4>
         <div v-if="select === 1">
           <div
-            @click="menu_select = 1"
-            class="text-uppercase pl-3 fillter-pad"
+            @click="isActive0[index] = !isActive0[index]"
+            class="pl-3 fillter-pad"
             v-for="(value, key, index) in json_obj.PC_Acessories.LAPTOPS.Filter"
             :key="key"
             :class="{
               'underline-faro': index != 9,
             }"
           >
-            {{ key }}
-            <svg
-              class="arrow-access align-middle mr-3"
-              xmlns="http://www.w3.org/2000/svg"
-              height="18"
-              viewBox="0 0 18 24"
+            <p class="text-uppercase cursor-point font-weight-bold">
+              {{ key }}
+              <svg
+                :class="{
+                  ['arrowUp']: isActive0[index] == true,
+                  ['arrowDown']: isActive0[index] == false,
+                }"
+                class="arrow-access align-middle mr-3"
+                xmlns="http://www.w3.org/2000/svg"
+                height="18"
+                viewBox="0 0 18 24"
+              >
+                <path
+                  d="M6.028 0 v6.425l5.549 5.575-5.549 5.575v6.425l11.944-12z"
+                />
+              </svg>
+            </p>
+            <div
+              :class="{
+                ['cursor-point']: true,
+                ['active-faro']: isActive0[index] == false,
+                ['distive-faro']: isActive0[index] == true,
+                ['null-faro']: isActive0[index] == null,
+              }"
+              v-for="(value, key) in value"
+              :key="key"
             >
-              <path
-                d="M6.028 0 v6.425l5.549 5.575-5.549 5.575v6.425l11.944-12z"
-              />
-            </svg>
-            <div v-if="menu" v-for="(value, key) in value" :key="key">
-              {{ value }}
+              <label class="wrap-checkbox m-0"
+                >{{ value }}
+                <input type="checkbox" />
+                <span class="checkmark"></span>
+              </label>
             </div>
           </div>
         </div>
         <div v-if="select === 2">
           <div
-            class="text-uppercase pl-3 fillter-pad"
-            v-for="(value, key) in json_obj.PC_Acessories.EGPUS.Filter"
+            class="pl-3 fillter-pad"
+            v-for="(value, key, index) in json_obj.PC_Acessories.EGPUS.Filter"
             :key="key"
           >
-            {{ key }}
-            <svg
-              class="arrow-access align-middle mr-2"
-              xmlns="http://www.w3.org/2000/svg"
-              height="18"
-              viewBox="0 0 18 24"
+            <p
+              class="text-uppercase cursor-point font-weight-bold"
+              @click="isActive1[index] = !isActive1[index]"
             >
-              <path
-                d="M6.028 0v6.425l5.549 5.575-5.549 5.575v6.425l11.944-12z"
-              />
-            </svg>
+              {{ key }}
+              <svg
+                :class="{
+                  ['arrowUp']: isActive1[index] == true,
+                  ['arrowDown']: isActive1[index] == false,
+                }"
+                class="arrow-access align-middle mr-3"
+                xmlns="http://www.w3.org/2000/svg"
+                height="18"
+                viewBox="0 0 18 24"
+              >
+                <path
+                  d="M6.028 0 v6.425l5.549 5.575-5.549 5.575v6.425l11.944-12z"
+                />
+              </svg>
+            </p>
+            <div
+              :class="{
+                ['cursor-point']: true,
+                ['active-faro']: isActive1[index] == false,
+                ['distive-faro']: isActive1[index] == true,
+                ['null-faro']: isActive1[index] == null,
+              }"
+              v-for="(value, key) in value"
+              :key="key"
+            >
+              <label class="wrap-checkbox m-0"
+                >{{ value }}
+                <input type="checkbox" />
+                <span class="checkmark"></span>
+              </label>
+            </div>
           </div>
         </div>
         <div v-if="select === 3">
           <div
-            class="text-uppercase pl-3 fillter-pad"
-            v-for="(value, key) in json_obj.PC_Acessories.ACCESSORIES.Filter"
+            class="pl-3 fillter-pad"
+            v-for="(value, key, index) in json_obj.PC_Acessories.ACCESSORIES
+              .Filter"
             :key="key"
           >
-            {{ key }}
-            <svg
-              class="arrow-access align-middle mr-2"
-              xmlns="http://www.w3.org/2000/svg"
-              height="18"
-              viewBox="0 0 18 24"
+            <p
+              class="text-uppercase cursor-point font-weight-bold"
+              @click="isActive2[index] = !isActive2[index]"
             >
-              <path
-                d="M6.028 0v6.425l5.549 5.575-5.549 5.575v6.425l11.944-12z"
-              />
-            </svg>
+              {{ key }}
+              <svg
+                :class="{
+                  ['arrowUp']: isActive2[index] == true,
+                  ['arrowDown']: isActive2[index] == false,
+                }"
+                class="arrow-access align-middle mr-3"
+                xmlns="http://www.w3.org/2000/svg"
+                height="18"
+                viewBox="0 0 18 24"
+              >
+                <path
+                  d="M6.028 0 v6.425l5.549 5.575-5.549 5.575v6.425l11.944-12z"
+                />
+              </svg>
+            </p>
+            <div
+              :class="{
+                ['cursor-point']: true,
+                ['active-faro']: isActive2[index] == false,
+                ['distive-faro']: isActive2[index] == true,
+                ['null-faro']: isActive2[index] == null,
+              }"
+              v-for="(value, key) in value"
+              :key="key"
+            >
+              <label class="wrap-checkbox m-0"
+                >{{ value }}
+                <input type="checkbox" />
+                <span class="checkmark"></span>
+              </label>
+            </div>
           </div>
         </div>
         <div v-if="select === 4">
           <div
-            class="text-uppercase pl-3 fillter-pad"
-            v-for="(value, key) in json_obj.PC_Acessories.MONITORS.Filter"
+            class="pl-3 fillter-pad"
+            v-for="(value, key, index) in json_obj.PC_Acessories.MONITORS
+              .Filter"
             :key="key"
           >
-            {{ key }}
-            <svg
-              class="arrow-access align-middle mr-2"
-              xmlns="http://www.w3.org/2000/svg"
-              height="18"
-              viewBox="0 0 18 24"
+            <p
+              class="text-uppercase cursor-point font-weight-bold"
+              @click="isActive3[index] = !isActive3[index]"
             >
-              <path
-                d="M6.028 0v6.425l5.549 5.575-5.549 5.575v6.425l11.944-12z"
-              />
-            </svg>
+              {{ key }}
+              <svg
+                :class="{
+                  ['arrowUp']: isActive3[index] == true,
+                  ['arrowDown']: isActive3[index] == false,
+                }"
+                class="arrow-access align-middle mr-3"
+                xmlns="http://www.w3.org/2000/svg"
+                height="18"
+                viewBox="0 0 18 24"
+              >
+                <path
+                  d="M6.028 0 v6.425l5.549 5.575-5.549 5.575v6.425l11.944-12z"
+                />
+              </svg>
+            </p>
+            <div
+              :class="{
+                ['cursor-point']: true,
+                ['active-faro']: isActive3[index] == false,
+                ['distive-faro']: isActive3[index] == true,
+                ['null-faro']: isActive3[index] == null,
+              }"
+              v-for="(value, key) in value"
+              :key="key"
+            >
+              <label class="wrap-checkbox m-0"
+                >{{ value }}
+                <input type="checkbox" />
+                <span class="checkmark"></span>
+              </label>
+            </div>
           </div>
         </div>
       </div>
@@ -135,7 +278,10 @@ export default {
     return {
       select: 1,
       json_obj: datas,
-      menu_select: 0,
+      isActive0: [null, null, null, null, null, null, null, null, null, null],
+      isActive1: [null],
+      isActive2: [null],
+      isActive3: [null],
     };
   },
 };

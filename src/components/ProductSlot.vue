@@ -89,11 +89,7 @@
               <div id="box" class="model-box">
                 <div class="select-box" @click="onClickColor()">
                   <div class="model-options-container" ref="here">
-                    <div
-                      @click="myFunction('1','2','3')"
-                      class="box-option"
-                      v-if="1 <= modelAmount"
-                    >
+                    <div @click="testfuck()" class="box-option" v-if="1 <= modelAmount">
                       <input type="radio" class="model-radio" id="Standard - Black" name="category" />
                       <label id="1" for="Standard - Black">{{modelName1}}</label>
                     </div>
@@ -149,7 +145,15 @@
 
 
 <script>
+export const global = {
+  created() {
+    this.caseTrue = 1;
+  }
+};
 export default {
+  components: {
+    new_case: () => import("./CasesPage.vue")
+  },
   props: {
     //Src of image
     imageTab1: String,
@@ -157,6 +161,7 @@ export default {
     imageTab3: String,
     imageTab4: String,
     imageTab5: String,
+    imageTab6: String,
     backgroundSrc: String,
     imageLocateSrc: String,
     //Description
@@ -197,7 +202,6 @@ export default {
     return {
       nnum: 0,
       onum: 0,
-
       hiddenBorder4: {
         border: "0px"
       },
@@ -220,6 +224,9 @@ export default {
     this.test();
   },
   methods: {
+    kuytest() {
+      kuy();
+    },
     changeImage(num) {
       if (num <= this.imageAmount) {
         console.log("can");
@@ -243,13 +250,10 @@ export default {
         o.addEventListener("click", () => {
           selected.innerHTML = o.querySelector("label").innerHTML;
           optionsContainer.classList.remove("active");
-          if (o.querySelector("label").innerHTML == "Standard - Black") {
-            location.href = this.modelLink1;
-          } else if (
-            o.querySelector("label").innerHTML == "Standard - Mercury"
-          ) {
-            location.href = this.modelLink2;
-          } else if (o.querySelector("label").innerHTML == "Chroma") {
+          if (o.querySelector("label").innerHTML == this.modelName1) {
+          } else if (o.querySelector("label").innerHTML == this.modelName2) {
+            //location.href = this.modelLink2;
+          } else if (o.querySelector("label").innerHTML == this.modelName3) {
             location.href = this.modelLink3;
           }
         });
