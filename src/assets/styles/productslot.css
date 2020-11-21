@@ -198,15 +198,17 @@
     color: #44d62c;
     display: block;
     margin: 0 !important;
+    line-height: 1.1em;
   }
   
   .head-description {
     display: block;
     margin:0px;
     margin-top: 4px;
-    
+    line-height: 1px;
     font-size: 14px;
     color: #fff !important;
+    line-height: 1.2;
   }
   
   .head-price {
