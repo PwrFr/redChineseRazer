@@ -602,7 +602,9 @@
                         "32GB RAM, 1TB SSD"
                     ],
                     "add_to_card_bnt": "ADD TO CART",
-                    "img": "/src/assets/img/PC_Acessories/Laptop/Razer Blade 15 Studio Edition.png"
+                    "img": "src/assets/img/PC_Acessories/Laptop/RazerBlade15StudioEdition.png",
+                    "tag":"yellow",
+                    "tagTitle":"INCLUDES ADOBE CC"
                 },
                 {
                     "name": "Razer Book 13 - UHD Touch 60Hz - Intel® Iris® Xe Graphics - Mercury",
@@ -615,7 +617,25 @@
                         "16GB RAM, 512GB SSD"
                     ],
                     "add_to_card_bnt": "PRE-ORDER",
-                    "img": "/src/assets/img/PC_Acessories/Laptop/Razer Book 13 - UHD.png"
+                    "img": "src/assets/img/PC_Acessories/Laptop/RazerBook13-UHD.png",
+                    "tag":"green",
+                    "tagTitle":"NEW"
+                },
+                
+                {
+                    "name": "Razer Book 13 - Full HD 60Hz - Intel® Iris® Xe Graphics - Mercury",
+                    "price": "US$1,199.99",
+                    "detail": [
+                        "Intel Core i5-1135G7",
+                        "Windows 10 Home",
+                        "13.4\" 60Hz Full HD",
+                        "Intel® Iris® Xe Graphics",
+                        "8GB RAM, 256GB SSD"
+                    ],
+                    "add_to_card_bnt": "PRE-ORDER",
+                    "img": "src/assets/img/PC_Acessories/Laptop/RazerBook13-FullHD60Hz.png",
+                    "tag":"orange",
+                    "tagTitle":"EXCLUSIVE"
                 },
                 {
                     "name": "Razer Book 13 - Full HD Touch 60Hz - Intel® Iris® Xe Graphics - Mercury",
@@ -628,20 +648,9 @@
                         "16GB RAM, 256GB SSD"
                     ],
                     "add_to_card_bnt": "PRE-ORDER",
-                    "img": "/src/assets/img/PC_Acessories/Laptop/Razer Book 13 - Full HD Touch 60Hz.png"
-                },
-                {
-                    "name": "Razer Book 13 - Full HD 60Hz - Intel® Iris® Xe Graphics - Mercury",
-                    "price": "US$1,199.99",
-                    "detail": [
-                        "Intel Core i5-1135G7",
-                        "Windows 10 Home",
-                        "13.4\" 60Hz Full HD",
-                        "Intel® Iris® Xe Graphics",
-                        "8GB RAM, 256GB SSD"
-                    ],
-                    "add_to_card_bnt": "PRE-ORDER",
-                    "img": "/src/assets/img/PC_Acessories/Laptop/Razer Book 13 - Full HD 60Hz.png"
+                    "img": "src/assets/img/PC_Acessories/Laptop/RazerBook13-FullHDTouch60Hz.png",
+                    "tag":"green",
+                    "tagTitle":"NEW"
                 },
                 {
                     "name": "Razer Blade Stealth 13 - OLED Full HD Touch 60Hz - GeForce GTX 1650 Ti Max-Q - Black",
@@ -654,7 +663,9 @@
                         "16GB RAM, 512GB SSD"
                     ],
                     "add_to_card_bnt": "ADD TO CART",
-                    "img": "/src/assets/img/PC_Acessories/Laptop/Razer Blade Stealth 13 - OLED Full HD.png"
+                    "img": "src/assets/img/PC_Acessories/Laptop/RazerBladeStealth13-OLEDFullHD.png",
+                    "tag":"green",
+                    "tagTitle":"NEW"
                 },
                 {
                     "name": "Razer Blade Stealth 13 - Full HD 120Hz - GeForce GTX 1650 Ti Max-Q - Black",
@@ -667,7 +678,9 @@
                         "16GB RAM, 512GB SSD"
                     ],
                     "add_to_card_bnt": "ADD TO CART",
-                    "img": "/src/assets/img/PC_Acessories/Laptop/Razer Blade Stealth 13 - Full HD 120Hz.png"
+                    "img": "src/assets/img/PC_Acessories/Laptop/RazerBladeStealth13-FullHD120Hz.png",
+                    "tag":"green",
+                    "tagTitle":"NEW"
                 }
             ]
         },

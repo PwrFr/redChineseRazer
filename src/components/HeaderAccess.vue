@@ -82,9 +82,9 @@
     </div>
   </div>
 
-  <div class="container access-body pt-4 mt-3 p-0">
+  <div class="container access-body mt-3 p-0">
     <div class="row">
-      <div class="col-3 pr-1">
+      <div class="col-3 pr-1 pt-4">
         <h4 class="fillter mb-4 pb-3">FILTER BY</h4>
         <div v-if="select === 1">
           <div
@@ -266,23 +266,38 @@
           </div>
         </div>
       </div>
-      <div class="col-9"></div>
+      <div class="col-9">
+        <div class="pt-3 pl-2 mt-1 amount-products">
+          {{ json_obj.PC_Acessories.LAPTOPS.Product.length }} products
+        </div>
+        <div v-if="select === 1" class="row mt-3 row-product-faro">
+          <card
+            v-for="(i, index) in json_obj.PC_Acessories.LAPTOPS.Product"
+            :key="index"
+            :item="json_obj.PC_Acessories.LAPTOPS.Product[index]"
+          />
+        </div>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
 import datas from "../assets/data.json";
+import card from "./PCaccessCard.vue";
 export default {
   data() {
     return {
-      select: 1,
+      select: 3,
       json_obj: datas,
       isActive0: [null, null, null, null, null, null, null, null, null, null],
       isActive1: [null],
       isActive2: [null],
       isActive3: [null],
     };
+  },
+  components: {
+    card,
   },
 };
 </script>
