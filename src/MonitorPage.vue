@@ -31,7 +31,7 @@
       :buyingStatus="buttonJson"
       buyingAt="Also Available At"
     />
-
+    <techSpecMonitor />
     <Footer />
   </div>
 </template>
@@ -43,7 +43,7 @@ import Footer from "./components/Footer.vue";
 import datas from "./assets/data.json";
 
 //Row5 use same component with row3
-//import TechSpec from "./components/CasesPage/techSpecCase.vue";
+import techSpecMonitor from "./components/techSpecMonitor.vue";
 
 export default {
   props: {},
@@ -51,8 +51,8 @@ export default {
   components: {
     ProductSlot,
     MenuBar,
-
-    Footer
+    techSpecMonitor,
+    Footer,
   },
   data() {
     return {
@@ -64,11 +64,11 @@ export default {
       detailJson2: datas.monitors[0].detail[1],
       detailJson3: datas.monitors[0].detail[2],
       shipStatusJson: datas.monitors[0].ship_status,
-      buttonJson: datas.monitors[0].add_to_card_bnt
+      buttonJson: datas.monitors[0].add_to_card_bnt,
     };
   },
   created() {
     console.log(datas.monitors[0].name);
-  }
+  },
 };
 </script>
