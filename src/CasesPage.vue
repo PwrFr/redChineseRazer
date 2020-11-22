@@ -41,7 +41,7 @@
       casesRow3Header="DUAL-SIDED TEMPERED GLASS SWIVEL DOORS"
       casesRow3Des="Installing new parts has never been this convenient or straightforward, with forward-opening doors that can also be detached for more room to focus on your build. Made of tough, tempered glass, they offer the perfect protection while showing off the power and performance of Chroma-enabled hardware within."
       paddingTopInput="10"
-      heightRow3Input="599"
+      heightRow3Input="600"
     />
     <Row4 />
     <Row3
@@ -98,7 +98,7 @@ export default {
     Row9,
     techSpecCase,
     techSpecCaseMini,
-    Footer,
+    Footer
   },
   data() {
     return {
@@ -114,7 +114,7 @@ export default {
       modelFirstNameJson: datas.Cases[1].model[1],
       modelItem1: datas.Cases[1].model[0],
       modelItem2: datas.Cases[1].model[1],
-      modelItem3: datas.Cases[1].model[2],
+      modelItem3: datas.Cases[1].model[2]
     };
   },
   created() {
@@ -124,7 +124,7 @@ export default {
     kuy() {
       caseTrue = 0;
       alert("kuy");
-    },
-  },
+    }
+  }
 };
 </script>
