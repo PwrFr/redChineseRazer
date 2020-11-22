@@ -191,7 +191,6 @@
               @click="isActive2[index] = !isActive2[index]"
             >
               {{ key }}
-              {{ product_select }}
               <svg
                 :class="{
                   ['arrowUp']: isActive2[index] == true,

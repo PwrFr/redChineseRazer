@@ -158,22 +158,22 @@
                   <p class="font-weight-bold m-0 pb-1">PC</p>
                   <a
                     class="pt-1 pb-1 d-block text-decoration-none col-item"
-                    href="#"
+                    href="../../gamingLabtop.html"
                     >Laptops</a
                   >
                   <a
                     class="pt-1 pb-1 d-block text-decoration-none col-item"
-                    href="#"
+                    href="../../egpu.html"
                     >eGPUs</a
                   >
                   <a
                     class="pt-1 pb-1 d-block text-decoration-none col-item"
-                    href="#"
+                    href="../../cases.html"
                     >Cases</a
                   >
                   <a
                     class="pt-1 pb-1 d-block text-decoration-none col-item"
-                    href="#"
+                    href="../../monitor.html"
                     >Monitors</a
                   >
                   <a
