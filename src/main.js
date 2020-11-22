@@ -27,3 +27,6 @@ createApp(App).mount("#app");
 
 import gamingLaptop from "./gamingLabtop.vue";
 createApp(gamingLaptop).mount("#gamingLaptop");
+
+import access1 from "../src/access1.vue";
+createApp(access1).mount("#AC1");

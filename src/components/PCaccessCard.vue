@@ -20,9 +20,14 @@
     </div>
 
     <div class="card-product">
-      <div class="img-crop cursor-point">
-        <img class="w-100" :src="item.img" alt="" />
-      </div>
+      <a :href="item.link || ''" class="img-crop cursor-point">
+        <img
+          class="w-100"
+          :src="item.img"
+          alt=""
+          style="background-color: #111111"
+        />
+      </a>
       <div
         v-if="number == 1 || number == 2"
         class="compare pl-3 pt-2 d-flex align-items-center"
@@ -34,9 +39,9 @@
         </label>
       </div>
       <div class="card-body-access p-3 pr-4 pl-3">
-        <div class="title-product">
+        <a href="#" class="title-product">
           {{ item.name }}
-        </div>
+        </a>
         <div class="detail-product">
           <ul class="pl-3 pt-2">
             <li v-for="(i, index) in item.detail" :key="index">
@@ -44,7 +49,7 @@
             </li>
           </ul>
         </div>
-        <div class="view-detail pl-1 pt-2">View details ></div>
+        <a href="#" class="view-detail pl-1 pt-2">View details ></a>
         <div class="setBottom">
           <div class="price-access">{{ item.price }}</div>
           <div class="btn btn-razer">{{ item.add_to_card_bnt }}</div>

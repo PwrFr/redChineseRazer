@@ -404,6 +404,7 @@
             v-for="(i, index) in json_obj.PC_Acessories.ACCESSORIES.Product"
             :key="index"
             :item="json_obj.PC_Acessories.ACCESSORIES.Product[index]"
+            :refs="index"
           />
         </div>
         <div v-else class="row mt-3 row-product-faro">

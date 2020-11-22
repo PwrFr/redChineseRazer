@@ -750,7 +750,9 @@
                     "add_to_card_bnt": "ADD TO CART",
                     "img": "src/assets/img/PC_Acessories/Accessories/RazerNeopreneSleeveV2-For13.3”Notebooks.jpg",
                     "tag": "green",
-                    "tagTitle": "NEW"
+                    "tagTitle": "NEW",
+                    "link":"access1.html"
+                    
                 },
                 {
                     "name": "Razer Protective Sleeve V2 - For 13.3\" Notebooks",
@@ -763,7 +765,8 @@
                     "add_to_card_bnt": "ADD TO CART",
                     "img": "src/assets/img/PC_Acessories/Accessories/RazerProtectiveV2-13.3.png",
                     "tag": "green",
-                    "tagTitle": "NEW"
+                    "tagTitle": "NEW",
+                    "link":"access2.html"
                 },
                 {
                     "name": "Razer Protective Sleeve V2 - For 17.3\" Notebooks",
@@ -776,7 +779,8 @@
                     "add_to_card_bnt": "ADD TO CART",
                     "img": "src/assets/img/PC_Acessories/Accessories/RazerProtectiveSleeveV2-For17.3.png",
                     "tag": "green",
-                    "tagTitle": "NEW"
+                    "tagTitle": "NEW",
+                    "link":"access3.html"
                 },
                 {
                     "name": "Razer Protective Sleeve V2 - For 15.6\" Notebooks",

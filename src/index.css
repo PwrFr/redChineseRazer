@@ -320,7 +320,6 @@ button:focus {
   color: white;
 }
 .img-crop {
-  background-color: #111111;
   height: 15.5rem;
   overflow: hidden;
 }
@@ -331,6 +330,7 @@ button:focus {
 }
 .title-product:hover {
   text-decoration: underline;
+  color: white;
 }
 .detail-product {
   line-height: 1rem;
