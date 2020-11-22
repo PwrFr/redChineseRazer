@@ -190,6 +190,7 @@
               @click="isActive2[index] = !isActive2[index]"
             >
               {{ key }}
+              {{ number }}
               <svg
                 :class="{
                   ['arrowUp']: isActive2[index] == true,
@@ -363,10 +364,16 @@ export default {
       isActive1: [null],
       isActive2: [null],
       isActive3: [null],
+      number: 1,
     };
   },
   components: {
     card,
+  },
+  methods: {
+    change() {
+      number = 10;
+    },
   },
 };
 </script>
