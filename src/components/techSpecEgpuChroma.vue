@@ -101,16 +101,91 @@
           <!-- row 12  -->
           <tr class="dataRow trDisplays dataSingle">
             <th class="col-lg-3 p-0">
-              <b>RAZER Chroma™ Support</b>
+              <b>Graphics Cards Requirements (Graphics card not included)</b>
             </th>
-            <td class="col-lg-9 data">{{ data14 }}</td>
+            <td class="col-lg-9 data">
+              <div class="data">
+                <u><b>Max inner dimensions</b></u>
+              </div>
+              <div class="data">
+                <p>
+                  Length : 12.99” 330 mm <br />Height*: 6.29” / 160 mm<br />
+                  Width : 2.24” / 57 mm
+                </p>
+                <p>
+                  * Height measured from top of PCIe connector to the bottom of
+                  the locking pin ramps.
+                </p>
+              </div>
+              <div class="pt-4">
+                <img :src="data8.img" alt="" width="500" height="500" />
+              </div>
+              <div class="data">
+                <b>GPU Type </b>
+                <p>{{ data8.GPU_Type[0] }}</p>
+
+                <div class="pt-4">
+                  <p>{{ data8.GPU_Type[1] }}</p>
+                </div>
+                <div class="pt-4">
+                  <u><b> GPU Max Power Support </b></u>
+                  <p>{{ data8.GPU_Max_Power_Support }}</p>
+                </div>
+              </div>
+            </td>
           </tr>
-          <!-- row 13 -->
-          <tr class="dataRow trDisplays dataSingle">
+          <!-- row 8 -->
+          <tr class="dataRow trDisplays dataBul">
             <th class="col-lg-3 p-0">
-              <b>Warranty</b>
+              <b>macOS Compatible Graphics Chipsets</b>
             </th>
-            <td class="col-lg-9 data">{{ data15 }}</td>
+            <td class="col-lg-9">
+              <ul class="data p-2">
+                <p v-for="row8c in data9" :key="row8c">{{ row8c }}</p>
+              </ul>
+              <p class="data pb-3">*Not an exhaustive list</p>
+            </td>
+          </tr>
+          <!-- row 9-->
+          <tr class="dataRow trDisplays dataBul">
+            <th class="col-lg-3 p-0">
+              <b>Windows 10 Compatible Graphics Chipsets</b>
+            </th>
+            <td class="col-lg-9">
+              <ul class="data p-2">
+                <u><b>Qualified NVIDIA ® GeForce ® graphics chipsets</b></u>
+                <p
+                  v-for="row9c in data10.Qualified_NVIDIA_GeForce_graphics_chipsets"
+                  :key="row9c"
+                >
+                  {{ row9c }}
+                </p>
+              </ul>
+              <div class="data pt-4">
+                <b><u>Qualified NVIDIA ® Quadro ® graphics chipsets</u></b>
+                <p
+                  v-for="row9c1 in data10.Qualified_NVIDIA_Quadro_graphics_chipsets"
+                  :key="row9c1"
+                >
+                  {{ row9c1 }}
+                </p>
+              </div>
+              <div class="data pt-4">
+                <b><u>Qualified AMD Radeon™ graphics chipsets</u></b>
+                <p
+                  class="data"
+                  v-for="row9c2 in data10.Qualified_AMD_Radeon_graphics_chipsets"
+                  :key="row9c2"
+                >
+                  {{ row9c2 }}
+                </p>
+              </div>
+              <div class="data pt-4">
+                <u><b>Graphics Output</b></u>
+                <p>Based on capabilities of installed graphics</p>
+                <p class="data pb-3 pt-4">*Not an exhaustive list</p>
+              </div>
+            </td>
           </tr>
         </span>
       </table>
@@ -225,6 +300,11 @@ export default {
       data5: datas.eGPU[2].specs.Razer_Core_Approx_Size,
       data6: datas.eGPU[2].specs.Weight,
       data7: datas.eGPU[2].specs.Laptop_Requirements_Laptop_not_included,
+      data8:
+        datas.eGPU[2].specs
+          .GRAPHICS_CARDS_REQUIREMENTS_GRAPHICS_CARD_NOT_INCLUDED,
+      data9: datas.eGPU[2].specs.MACOS_COMPATIBLE_GRAPHICS_CHIPSETS[0],
+      data10: datas.eGPU[2].specs.WINDOWS_10_COMPATIBLE_GRAPHICS_CHIPSETS,
     };
   },
   // created(){
@@ -265,6 +345,7 @@ export default {
   },
   created() {
     this.text = "See More";
+    console.log(this.data8.img);
   },
 };
 </script>
