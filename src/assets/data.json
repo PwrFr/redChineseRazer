@@ -482,7 +482,7 @@
                 "MAXIMUM_CPU_COOLER_HEIGHT": "Up to 165 mm",
                 "MAXIMUM_GPU_LENGTH": "Up to 320 mm",
                 "MAXIMUM_PSU_LENGTH": "SFX, SFX-L",
-                "FRONT_PANEL_I/O": [
+                "FRONT_PANEL_IO": [
                     "2x USB3,2 Gen1 Type-A Ports",
                     "1x USB3,2 Gen2 Type-C Port",
                     "1x Dedicated Microphone Port",
