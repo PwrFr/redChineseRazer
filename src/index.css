@@ -450,3 +450,17 @@ button:focus {
   z-index: -1;
   transform: rotate(45deg);
 }
+.icon-list {
+  fill: #999999;
+  margin-left: 1.5rem;
+  transform: rotate(0deg);
+}
+.icon-layout {
+  fill: #999999;
+}
+.icon-select {
+  fill: #44d62c;
+}
+.icon-row {
+  margin-left: 32rem;
+}

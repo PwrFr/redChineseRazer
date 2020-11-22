@@ -88,7 +88,6 @@
         <h4 class="fillter mb-4 pb-3">FILTER BY</h4>
         <div v-if="select === 1">
           <div
-            @click="isActive0[index] = !isActive0[index]"
             class="pl-3 fillter-pad"
             v-for="(value, key, index) in json_obj.PC_Acessories.LAPTOPS.Filter"
             :key="key"
@@ -96,7 +95,10 @@
               'underline-faro': index != 9,
             }"
           >
-            <p class="text-uppercase cursor-point font-weight-bold">
+            <p
+              class="text-uppercase cursor-point font-weight-bold"
+              @click="isActive0[index] = !isActive0[index]"
+            >
               {{ key }}
               <svg
                 :class="{
@@ -113,6 +115,7 @@
                 />
               </svg>
             </p>
+
             <div
               :class="{
                 ['cursor-point']: true,
@@ -267,18 +270,53 @@
         </div>
       </div>
       <div class="col-9">
-        <div v-if="select === 1" class="pt-3 pl-2 mt-1 amount-products">
-          {{ json_obj.PC_Acessories.LAPTOPS.Product.length }} products
+        <div class="row">
+          <div v-if="select === 1" class="pt-3 pl-2 mt-1 amount-products">
+            {{ json_obj.PC_Acessories.LAPTOPS.Product.length }} products
+          </div>
+          <div v-else-if="select === 2" class="pt-3 pl-2 mt-1 amount-products">
+            {{ json_obj.PC_Acessories.EGPUS.Product.length }} products
+          </div>
+          <div v-else-if="select === 3" class="pt-3 pl-2 mt-1 amount-products">
+            {{ json_obj.PC_Acessories.ACCESSORIES.Product.length }} products
+          </div>
+          <div v-else class="pt-3 pl-2 mt-1 amount-products">
+            {{ json_obj.PC_Acessories.MONITORS.Product.length }} products
+          </div>
+          <div class="d-flex align-items-end icon-row">
+            <svg
+              @click="icon_select = 1"
+              :class="{
+                'icon-select': icon_select == 1,
+                ['cursor-point']: true,
+              }"
+              class="icon-layout"
+              xmlns="http://www.w3.org/2000/svg"
+              height="24"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M6 6h-6v-6h6v6zm9-6h-6v6h6v-6zm9 0h-6v6h6v-6zm-18 9h-6v6h6v-6zm9 0h-6v6h6v-6zm9 0h-6v6h6v-6zm-18 9h-6v6h6v-6zm9 0h-6v6h6v-6zm9 0h-6v6h6v-6z"
+              />
+            </svg>
+            <svg
+              @click="icon_select = 2"
+              :class="{
+                'icon-select': icon_select == 2,
+                ['cursor-point']: true,
+              }"
+              class="icon-list"
+              xmlns="http://www.w3.org/2000/svg"
+              height="24"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M4 22h-4v-4h4v4zm0-12h-4v4h4v-4zm0-8h-4v4h4v-4zm3 0v4h17v-4h-17zm0 12h17v-4h-17v4zm0 8h17v-4h-17v4z"
+              />
+            </svg>
+          </div>
         </div>
-        <div v-else-if="select === 2" class="pt-3 pl-2 mt-1 amount-products">
-          {{ json_obj.PC_Acessories.EGPUS.Product.length }} products
-        </div>
-        <div v-else-if="select === 3" class="pt-3 pl-2 mt-1 amount-products">
-          {{ json_obj.PC_Acessories.ACCESSORIES.Product.length }} products
-        </div>
-        <div v-else class="pt-3 pl-2 mt-1 amount-products">
-          {{ json_obj.PC_Acessories.MONITORS.Product.length }} products
-        </div>
+
         <div v-if="select === 1" class="row mt-3 row-product-faro">
           <card
             v-for="(i, index) in json_obj.PC_Acessories.LAPTOPS.Product"
@@ -318,6 +356,7 @@ import card from "./PCaccessCard.vue";
 export default {
   data() {
     return {
+      icon_select: 1,
       select: 3,
       json_obj: datas,
       isActive0: [null, null, null, null, null, null, null, null, null, null],
