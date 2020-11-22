@@ -9,7 +9,7 @@
 
         <tr class="dataRow trDisplays dataBul">
           <th class="col-lg-3 p-0">
-            <b>Supported Motherboards</b>
+            <b>Input & Output</b>
           </th>
           <ul class="col-lg-9 data">
             <li v-for="row01 in data1" :key="row01">
@@ -148,7 +148,7 @@ export default {
       text: "",
       status: 0,
       ty: {},
-      data1: datas.eGPU.specs.InputOutput,
+      data1: datas.eGPU[0].specs.InputOutput,
     };
   },
   // created(){

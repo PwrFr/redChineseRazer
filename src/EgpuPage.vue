@@ -32,7 +32,7 @@
       buyingAt="Also Available At"
       whiteSelecterText="2"
     />
-
+    <techSpecEgpu />
     <Footer />
   </div>
 </template>
@@ -52,7 +52,7 @@ export default {
   components: {
     ProductSlot,
     MenuBar,
-
+    techSpecEgpu,
     Footer,
   },
   data() {
