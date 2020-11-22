@@ -44,7 +44,6 @@ import Footer from "./components/Footer.vue";
 import datas from "./assets/data.json";
 
 //Row5 use same component with row3
-import techSpecEgpu from "./components/techSpecEgpu.vue";
 
 export default {
   props: {},
@@ -52,7 +51,6 @@ export default {
   components: {
     ProductSlot,
     MenuBar,
-    techSpecEgpu,
     Footer,
   },
   data() {
