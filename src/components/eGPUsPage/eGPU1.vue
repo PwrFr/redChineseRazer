@@ -4,7 +4,7 @@
             <div _ngcontent-spartacus-app-c6="" class="row">
                 <div _ngcontent-spartacus-app-c6="" class="col">
                     <div _ngcontent-spartacus-app-c6="" class="quote_container">
-                        <div _ngcontent-spartacus-app-c6="" class="content-position">
+                        <div _ngcontent-spartacus-app-c6="" class="content-position" style="text-align">
                             <div _ngcontent-spartacus-app-c6="" class="quote_icon ng-star-inserted">
                                 <a _ngcontent-spartacus-app-c6="" rel="noopener noreferrer" href="https://egpu.io/razer-core-x-review-thick-juicy/" target="_blank" data-gtm-promotion-viewed="true">
                                     <img _ngcontent-spartacus-app-c6="" src="/src/assets/products/2eGPUs/1.png" alt=""></a>
