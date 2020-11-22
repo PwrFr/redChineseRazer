@@ -622,6 +622,7 @@
         <div class="d-flex align-items-center mt-2">
           <a href="" class="mr-3"
             ><svg
+              class="menu-icon"
               height="17.5"
               viewBox="0 0 550 550"
               xmlns="http://www.w3.org/2000/svg"
@@ -632,6 +633,7 @@
           ></a>
           <a href=""
             ><svg
+              class="menu-icon"
               xmlns="http://www.w3.org/2000/svg"
               height="22"
               viewBox="0 0 24 24"
@@ -660,12 +662,12 @@
 .fc:hover {
   color: white;
 }
-svg {
+.menu-icon {
   fill: #999999;
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
 }
-svg:hover {
+.menu-icon:hover {
   fill: lime;
 }
 </style>

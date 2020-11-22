@@ -89,13 +89,14 @@
               <div id="box" class="model-box">
                 <div class="select-box" @click="onClickColor()">
                   <div class="model-options-container" ref="here">
-                    <div
-                      @click="myFunction('1','2','3')"
-                      class="box-option"
-                      v-if="1 <= modelAmount"
-                    >
+                    <div @click="testfuck()" class="box-option" v-if="1 <= modelAmount">
                       <input type="radio" class="model-radio" id="Standard - Black" name="category" />
-                      <label id="1" for="Standard - Black">{{modelName1}}</label>
+                      <div v-if="whiteSelecterText == 0 " style="color: white">
+                        <label id="1" for="Standard - Black">{{modelName1}}</label>
+                      </div>
+                      <div v-else>
+                        <label id="1" for="Standard - Black">{{modelName1}}</label>
+                      </div>
                     </div>
 
                     <div
@@ -109,7 +110,12 @@
                         id="Standard - Mercury"
                         name="category"
                       />
-                      <label id="2" for="Standard - Mercury">{{modelName2}}</label>
+                      <div v-if="whiteSelecterText == 1 " style="color: white">
+                        <label id="2" for="Standard - Black">{{modelName2}}</label>
+                      </div>
+                      <div v-else>
+                        <label id="2" for="Standard - Black">{{modelName2}}</label>
+                      </div>
                     </div>
 
                     <div
@@ -118,7 +124,12 @@
                       v-if="3 <= modelAmount"
                     >
                       <input type="radio" class="model-radio" id="Chroma" name="category" />
-                      <label id="3" for="Chroma">{{modelName3}}</label>
+                      <div v-if="whiteSelecterText == 2 " style="color: white">
+                        <label id="3" for="Standard - Black">{{modelName3}}</label>
+                      </div>
+                      <div v-else>
+                        <label id="3" for="Standard - Black">{{modelName3}}</label>
+                      </div>
                     </div>
                   </div>
 
@@ -149,7 +160,15 @@
 
 
 <script>
+export const global = {
+  created() {
+    this.caseTrue = 1;
+  }
+};
 export default {
+  components: {
+    new_case: () => import("./CasesPage.vue")
+  },
   props: {
     //Src of image
     imageTab1: String,
@@ -157,6 +176,7 @@ export default {
     imageTab3: String,
     imageTab4: String,
     imageTab5: String,
+    imageTab6: String,
     backgroundSrc: String,
     imageLocateSrc: String,
     //Description
@@ -191,13 +211,13 @@ export default {
     modelFirstItem: String,
     modelName1: String,
     modelName2: String,
-    modelName3: String
+    modelName3: String,
+    whiteSelecterText: Number
   },
   data() {
     return {
       nnum: 0,
       onum: 0,
-
       hiddenBorder4: {
         border: "0px"
       },
@@ -220,6 +240,9 @@ export default {
     this.test();
   },
   methods: {
+    kuytest() {
+      kuy();
+    },
     changeImage(num) {
       if (num <= this.imageAmount) {
         console.log("can");
@@ -243,13 +266,10 @@ export default {
         o.addEventListener("click", () => {
           selected.innerHTML = o.querySelector("label").innerHTML;
           optionsContainer.classList.remove("active");
-          if (o.querySelector("label").innerHTML == "Standard - Black") {
-            location.href = this.modelLink1;
-          } else if (
-            o.querySelector("label").innerHTML == "Standard - Mercury"
-          ) {
-            location.href = this.modelLink2;
-          } else if (o.querySelector("label").innerHTML == "Chroma") {
+          if (o.querySelector("label").innerHTML == this.modelName1) {
+          } else if (o.querySelector("label").innerHTML == this.modelName2) {
+            //location.href = this.modelLink2;
+          } else if (o.querySelector("label").innerHTML == this.modelName3) {
             location.href = this.modelLink3;
           }
         });

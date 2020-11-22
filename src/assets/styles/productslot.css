@@ -2,9 +2,14 @@
   font-family: RazerF5-Reg;
   src: url("../assets/font/RazerF5-Reg.otf");
 }
+@font-face {
+  font-family: RazerBold;
+  src: url("../assets/font/Razer/RazerF5Bold.woff");
+}
 .model-box-div {
     margin-bottom: 75px;
-    margin-top:-10.7px;
+    padding-top: 10px;
+    
     
   }
   .select-box {
@@ -198,15 +203,17 @@
     color: #44d62c;
     display: block;
     margin: 0 !important;
+    line-height: 1.1em;
   }
   
   .head-description {
     display: block;
     margin:0px;
     margin-top: 4px;
-    
+    line-height: 1px;
     font-size: 14px;
     color: #fff !important;
+    line-height: 1.2;
   }
   
   .head-price {
@@ -219,6 +226,7 @@
   }
   
   .ul-session {
+    padding-left: 15px;
     line-height: 1.4;
     font-size: 14px;
     margin-top: 2.1875rem;
@@ -227,11 +235,11 @@
     font-family: Roboto, helvetica neue, Arial, noto sans, sans-serif,
       apple color emoji, segoe ui emoji, segoe ui symbol, noto color emoji;
     font-weight: 400;
-    margin-bottom: 3.75rem;
+    margin-bottom: 2.75rem;
   }
   ul {
     text-align: left;
-    padding-left: 1rem;
+    padding-left: 0rem; 
   }
   
   .select-session select {
@@ -268,12 +276,14 @@
     font-size: 14px;
     margin-bottom: 0;
     margin-top: 30px;
+    font-family: Roboto, helvetica neue, Arial, noto sans, sans-serif,
+    apple color emoji, segoe ui emoji, segoe ui symbol, noto color emoji;
   }
   
   .order-button {
     border-radius: 0.1875rem;
     color: #000;
-    font-family: RazerF5-Reg;
+    font-family: RazerBold;
     font-size: 14px;
     font-weight: bolder;
     height: 2.5rem;

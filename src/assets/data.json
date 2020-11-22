@@ -43,7 +43,7 @@
                 "Lighting": [
                     "Razer Chroma™ with 16.8 million colors for customization"
                 ],
-                "Input_&_Output": [
+                "InputOutput": [
                     "HDMI 2.0b",
                     "DP1.4",
                     "USB-C (Support for DP1.4 in Alt-mode)",
@@ -106,7 +106,7 @@
                         ],
                         "1": "* Height measured from top of PCIe connector to the bottom of the locking pin ramps."
                     },
-                    "img": "",
+                    "img": "/src/assets/products/2eGPUs/core-x-dimension.png",
                     "GPU_Type": [
                         "Up to 3-Slot wide, full-length, PCI-Express x16 graphics card.",
                         "Graphics cards use varied designs based around a common graphics chip. Please ensure the GPU selected meets all size, power, and additional requirements."
@@ -238,7 +238,7 @@
                         ],
                         "1": "* Height measured from top of PCIe connector to the bottom of the locking pin ramps."
                     },
-                    "img": "",
+                    "img": "/src/assets/products/2eGPUs/core-x-dimension.png",
                     "GPU_Type": [
                         "Up to 3-Slot wide, full-length, PCI-Express x16 graphics card.",
                         "Graphics cards use varied designs based around a common graphics chip. Please ensure the GPU selected meets all size, power, and additional requirements."
@@ -327,8 +327,8 @@
                 "Incredibly Fast Speeds"
             ],
             "model": [
-                "Standard - Blcak",
-                "Standard - mercury",
+                "Standard - Black",
+                "Standard - Mercury",
                 "Chroma"
             ],
             "ship_status": "Ships next business day",
@@ -371,7 +371,7 @@
                         ],
                         "1": "* Height measured from top of PCIe connector to the bottom of the locking pin ramps."
                     },
-                    "img": "",
+                    "img": "/src/assets/products/2eGPUs/core-x-dimension.png",
                     "GPU_Type": [
                         "Up to 3-Slot wide, full-length, PCI-Express x16 graphics card.",
                         "Graphics cards use varied designs based around a common graphics chip. Please ensure the GPU selected meets all size, power, and additional requirements."
@@ -527,7 +527,7 @@
                 "MAXIMUM_CPU_COOLER_HEIGHT": "Up to 176 mm",
                 "MAXIMUM_GPU_LENGTH": "Up to 384 mm",
                 "MAXIMUM_PSU_LENGTH": "ATX, Up to 210mm",
-                "FRONT_PANEL_I/O": [
+                "FRONT_PANEL_IO": [
                     "2x USB3,2 Gen1 Type-A Ports",
                     "1x USB3,2 Gen2 Type-C Port",
                     "1x Dedicated Microphone Port",
@@ -548,7 +548,8 @@
                 "screen size": [
                     "15 inch (10)",
                     "13 inch (8)",
-                    "17 inch (4)"
+                    "17 inch (4)",
+                    "13\" (1)"
                 ],
                 "screen type": [
                     "Full HD (3)",
@@ -601,7 +602,9 @@
                         "32GB RAM, 1TB SSD"
                     ],
                     "add_to_card_bnt": "ADD TO CART",
-                    "img": "/src/assets/img/PC_Acessories/Laptop/Razer Blade 15 Studio Edition.png"
+                    "img": "src/assets/img/PC_Acessories/Laptop/RazerBlade15StudioEdition.png",
+                    "tag": "yellow",
+                    "tagTitle": "INCLUDES ADOBE CC"
                 },
                 {
                     "name": "Razer Book 13 - UHD Touch 60Hz - Intel® Iris® Xe Graphics - Mercury",
@@ -614,20 +617,9 @@
                         "16GB RAM, 512GB SSD"
                     ],
                     "add_to_card_bnt": "PRE-ORDER",
-                    "img": "/src/assets/img/PC_Acessories/Laptop/Razer Book 13 - UHD.png"
-                },
-                {
-                    "name": "Razer Book 13 - Full HD Touch 60Hz - Intel® Iris® Xe Graphics - Mercury",
-                    "price": "US$1,599.99",
-                    "detail": [
-                        "Intel Core i7-1165G7",
-                        "Windows 10 Home",
-                        "13.4\" 60Hz Full HD Touch",
-                        "Intel® Iris® Xe Graphics",
-                        "16GB RAM, 256GB SSD"
-                    ],
-                    "add_to_card_bnt": "PRE-ORDER",
-                    "img": "/src/assets/img/PC_Acessories/Laptop/Razer Book 13 - Full HD Touch 60Hz.png"
+                    "img": "src/assets/img/PC_Acessories/Laptop/RazerBook13-UHD.png",
+                    "tag": "green",
+                    "tagTitle": "NEW"
                 },
                 {
                     "name": "Razer Book 13 - Full HD 60Hz - Intel® Iris® Xe Graphics - Mercury",
@@ -640,7 +632,24 @@
                         "8GB RAM, 256GB SSD"
                     ],
                     "add_to_card_bnt": "PRE-ORDER",
-                    "img": "/src/assets/img/PC_Acessories/Laptop/Razer Book 13 - Full HD 60Hz.png"
+                    "img": "src/assets/img/PC_Acessories/Laptop/RazerBook13-FullHD60Hz.png",
+                    "tag": "orange",
+                    "tagTitle": "EXCLUSIVE"
+                },
+                {
+                    "name": "Razer Book 13 - Full HD Touch 60Hz - Intel® Iris® Xe Graphics - Mercury",
+                    "price": "US$1,599.99",
+                    "detail": [
+                        "Intel Core i7-1165G7",
+                        "Windows 10 Home",
+                        "13.4\" 60Hz Full HD Touch",
+                        "Intel® Iris® Xe Graphics",
+                        "16GB RAM, 256GB SSD"
+                    ],
+                    "add_to_card_bnt": "PRE-ORDER",
+                    "img": "src/assets/img/PC_Acessories/Laptop/RazerBook13-FullHDTouch60Hz.png",
+                    "tag": "green",
+                    "tagTitle": "NEW"
                 },
                 {
                     "name": "Razer Blade Stealth 13 - OLED Full HD Touch 60Hz - GeForce GTX 1650 Ti Max-Q - Black",
@@ -653,7 +662,9 @@
                         "16GB RAM, 512GB SSD"
                     ],
                     "add_to_card_bnt": "ADD TO CART",
-                    "img": "/src/assets/img/PC_Acessories/Laptop/Razer Blade Stealth 13 - OLED Full HD.png"
+                    "img": "src/assets/img/PC_Acessories/Laptop/RazerBladeStealth13-OLEDFullHD.png",
+                    "tag": "green",
+                    "tagTitle": "NEW"
                 },
                 {
                     "name": "Razer Blade Stealth 13 - Full HD 120Hz - GeForce GTX 1650 Ti Max-Q - Black",
@@ -666,7 +677,9 @@
                         "16GB RAM, 512GB SSD"
                     ],
                     "add_to_card_bnt": "ADD TO CART",
-                    "img": "/src/assets/img/PC_Acessories/Laptop/Razer Blade Stealth 13 - Full HD 120Hz.png"
+                    "img": "src/assets/img/PC_Acessories/Laptop/RazerBladeStealth13-FullHD120Hz.png",
+                    "tag": "green",
+                    "tagTitle": "NEW"
                 }
             ]
         },
@@ -686,7 +699,9 @@
                         "Compatible with PCI-Express graphics cards"
                     ],
                     "add_to_card_bnt": "ADD TO CART",
-                    "img": "/src/assets/img/PC_Acessories/EGPU/Razer Core X - Mercury.png"
+                    "img": "src/assets/img/PC_Acessories/EGPU/RazerCoreX-Mercury.png",
+                    "tag": "orange",
+                    "tagTitle": "EXCLUSIVE"
                 },
                 {
                     "name": "Razer Core X Chroma",
@@ -697,7 +712,7 @@
                         "Compatible with PCI-Express graphics cards"
                     ],
                     "add_to_card_bnt": "ADD TO CART",
-                    "img": "/src/assets/img/PC_Acessories/EGPU/Razer Core X Chroma.png"
+                    "img": "src/assets/img/PC_Acessories/EGPU/RazerCoreXChroma.png"
                 },
                 {
                     "name": "Razer Core X - Black",
@@ -708,7 +723,7 @@
                         "Compatible with PCI-Express graphics cards"
                     ],
                     "add_to_card_bnt": "ADD TO CART",
-                    "img": "/src/assets/img/PC_Acessories/EGPU/Razer Core X - Black.png"
+                    "img": "src/assets/img/PC_Acessories/EGPU/RazerCoreX-Black.png"
                 }
             ]
         },
@@ -733,7 +748,9 @@
                         "Ultra-slim profile"
                     ],
                     "add_to_card_bnt": "ADD TO CART",
-                    "img": "/src/assets/img/PC_Acessories/Accessories/Razer Neoprene Sleeve V2 - For 13.3” Notebooks.jpg"
+                    "img": "src/assets/img/PC_Acessories/Accessories/RazerNeopreneSleeveV2-For13.3”Notebooks.jpg",
+                    "tag": "green",
+                    "tagTitle": "NEW"
                 },
                 {
                     "name": "Razer Protective Sleeve V2 - For 13.3\" Notebooks",
@@ -744,7 +761,9 @@
                         " Custom fit for our Razer Blade laptops"
                     ],
                     "add_to_card_bnt": "ADD TO CART",
-                    "img": "/src/assets/img/PC_Acessories/Accessories/Razer Neoprene Sleeve V2 - For 13.3” Notebooks.jpg"
+                    "img": "src/assets/img/PC_Acessories/Accessories/RazerNeopreneSleeveV2-For13.3”Notebooks.jpg",
+                    "tag": "green",
+                    "tagTitle": "NEW"
                 },
                 {
                     "name": "Razer Protective Sleeve V2 - For 17.3\" Notebooks",
@@ -755,7 +774,9 @@
                         " Custom fit for our Razer Blade laptops"
                     ],
                     "add_to_card_bnt": "ADD TO CART",
-                    "img": "/src/assets/img/PC_Acessories/Accessories/Razer Protective Sleeve V2 - For 17.3.png"
+                    "img": "src/assets/img/PC_Acessories/Accessories/RazerProtectiveSleeveV2-For17.3.png",
+                    "tag": "green",
+                    "tagTitle": "NEW"
                 },
                 {
                     "name": "Razer Protective Sleeve V2 - For 15.6\" Notebooks",
@@ -766,7 +787,9 @@
                         "Custom fit for our Razer Blade laptops"
                     ],
                     "add_to_card_bnt": "ADD TO CART",
-                    "img": "/src/assets/img/PC_Acessories/Accessories/Razer Protective Sleeve V2 - For 15.6.png"
+                    "img": "src/assets/img/PC_Acessories/Accessories/RazerProtectiveSleeveV2-For15.6.png",
+                    "tag": "green",
+                    "tagTitle": "NEW"
                 },
                 {
                     "name": "Razer Chroma Addressable RGB Controller",
@@ -777,7 +800,9 @@
                         "USB connection (USB 2.0 Micro-B)"
                     ],
                     "add_to_card_bnt": "ADD TO CART",
-                    "img": "redChineseRazer/src/assets/img/PC_Acessories/Accessories/Razer Chroma Addressable RGB Controller.png"
+                    "img": "src/assets/img/PC_Acessories/Accessories/RazerChromaAddressableRGBController.png",
+                    "tag": "green",
+                    "tagTitle": "NEW"
                 },
                 {
                     "name": "Razer Laptop Stand - Mercury",
@@ -788,7 +813,9 @@
                         "Aluminium construction"
                     ],
                     "add_to_card_bnt": "ADD TO CART",
-                    "img": "/src/assets/img/PC_Acessories/Accessories/Razer Laptop Stand - Mercury.png"
+                    "img": "src/assets/img/PC_Acessories/Accessories/RazerLaptopStand-Mercury.png",
+                    "tag": "green",
+                    "tagTitle": "NEW"
                 }
             ]
         },
@@ -808,7 +835,7 @@
                         "Ultra thin bezels at 2.3mm"
                     ],
                     "add_to_card_bnt": "ADD TO CART",
-                    "img": "/src/assets/img/PC_Acessories/Monitor/Razer Raptor 27.png"
+                    "img": "src/assets/img/PC_Acessories/Monitor/RazerRaptor27.png"
                 }
             ]
         }
