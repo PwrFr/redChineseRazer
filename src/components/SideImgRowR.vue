@@ -1,0 +1,29 @@
+<template>
+  <div
+    class="bgRL d-flex align-items-center"
+    v-bind:style="{ backgroundImage: 'url(' + bgimgRR + ')' }"
+  >
+    <div
+      class="ml-5 pl-5 product-access-title pl-0 pr-0 row justify-content-end"
+    >
+      <div class="col-4 pr-5 pl-0 razerf5">
+        <h1 class="" style="font-size: 1.7rem; padding-right: 4rem">
+          {{ title }}
+        </h1>
+        <p class="pr-2" style="color: #999999; font-size: 1.2rem">{{ dis }}</p>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  props: {
+    bgimgRR: String,
+    title: String,
+    dis: String,
+  },
+};
+</script>
+
+<style></style>
