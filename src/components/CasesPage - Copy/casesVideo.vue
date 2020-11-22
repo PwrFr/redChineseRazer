@@ -12,6 +12,7 @@
 <style>
 .vdo-cases {
   width: 100%;
+  width: 1930px;
   min-height: 200px;
   height: 36.25rem;
 }

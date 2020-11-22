@@ -2,46 +2,7 @@
   <div class="access mt-5 pt-3">
     <div class="text-center container pt-3 mt-4">
       <h1 class="text-light pc-title pt-1 mb-4 pb-1">PC</h1>
-      <!-- boos here --->
-      <div>
-        <div class="model-box-div">
-          <div id="box" class="model-box">
-            <div class="select-box" @click="onClickColor()">
-              <div class="model-options-container" ref="here">
-                <div @click="testfuck()" class="box-option">
-                  <input type="radio" class="model-radio" id="Standard - Black" name="category" />
 
-                  <div>
-                    <label id="1" for="Standard - Black">A</label>
-                  </div>
-                </div>
-
-                <div @click="myFunction('2', '1', '3')" class="box-option">
-                  <input type="radio" class="model-radio" id="Standard - Mercury" name="category" />
-
-                  <div>
-                    <label id="2" for="Standard - Black">B</label>
-                  </div>
-                </div>
-
-                <div @click="myFunction('3', '1', '2')" class="box-option">
-                  <input type="radio" class="model-radio" id="Chroma" name="category" />
-
-                  <div>
-                    <label id="3" for="Standard - Black">C</label>
-                  </div>
-                </div>
-              </div>
-
-              <div class="selected">HEE</div>
-            </div>
-          </div>
-          <div class="model-box-1" id="box1">
-            <b>Model</b>
-          </div>
-        </div>
-      </div>
-      <!-- end --->
       <div id="myDIV row d-flex justify-content-center mt-4">
         <button
           class="btnC"
@@ -52,7 +13,9 @@
             isActive3[0] = null;
           "
           :class="{ 'access-faro': select == 1 }"
-        >LAPTOPS</button>
+        >
+          LAPTOPS
+        </button>
         <button
           class="btnC"
           @click="
@@ -71,7 +34,9 @@
             isActive3[0] = null;
           "
           :class="{ 'access-faro': select == 2 }"
-        >EGPUS</button>
+        >
+          EGPUS
+        </button>
         <button
           class="btnC"
           @click="
@@ -90,7 +55,9 @@
             isActive3[0] = null;
           "
           :class="{ 'access-faro': select == 3 }"
-        >ACCESSORIES</button>
+        >
+          ACCESSORIES
+        </button>
         <button
           class="btnC"
           @click="
@@ -109,7 +76,9 @@
             isActive2[0] = null;
           "
           :class="{ 'access-faro': select == 4 }"
-        >MONITORS</button>
+        >
+          MONITORS
+        </button>
       </div>
     </div>
   </div>
@@ -142,7 +111,9 @@
                 height="18"
                 viewBox="0 0 18 24"
               >
-                <path d="M6.028 0 v6.425l5.549 5.575-5.549 5.575v6.425l11.944-12z" />
+                <path
+                  d="M6.028 0 v6.425l5.549 5.575-5.549 5.575v6.425l11.944-12z"
+                />
               </svg>
             </p>
 
@@ -185,7 +156,9 @@
                 height="18"
                 viewBox="0 0 18 24"
               >
-                <path d="M6.028 0 v6.425l5.549 5.575-5.549 5.575v6.425l11.944-12z" />
+                <path
+                  d="M6.028 0 v6.425l5.549 5.575-5.549 5.575v6.425l11.944-12z"
+                />
               </svg>
             </p>
             <div
@@ -218,7 +191,6 @@
               @click="isActive2[index] = !isActive2[index]"
             >
               {{ key }}
-              {{ number }}
               <svg
                 :class="{
                   ['arrowUp']: isActive2[index] == true,
@@ -229,7 +201,9 @@
                 height="18"
                 viewBox="0 0 18 24"
               >
-                <path d="M6.028 0 v6.425l5.549 5.575-5.549 5.575v6.425l11.944-12z" />
+                <path
+                  d="M6.028 0 v6.425l5.549 5.575-5.549 5.575v6.425l11.944-12z"
+                />
               </svg>
             </p>
             <div
@@ -272,7 +246,9 @@
                 height="18"
                 viewBox="0 0 18 24"
               >
-                <path d="M6.028 0 v6.425l5.549 5.575-5.549 5.575v6.425l11.944-12z" />
+                <path
+                  d="M6.028 0 v6.425l5.549 5.575-5.549 5.575v6.425l11.944-12z"
+                />
               </svg>
             </p>
             <div
@@ -296,22 +272,18 @@
       </div>
       <div class="col-9">
         <div class="row">
-          <div
-            v-if="select === 1"
-            class="pt-3 pl-2 mt-1 amount-products"
-          >{{ json_obj.PC_Acessories.LAPTOPS.Product.length }} products</div>
-          <div
-            v-else-if="select === 2"
-            class="pt-3 pl-2 mt-1 amount-products"
-          >{{ json_obj.PC_Acessories.EGPUS.Product.length }} products</div>
-          <div
-            v-else-if="select === 3"
-            class="pt-3 pl-2 mt-1 amount-products"
-          >{{ json_obj.PC_Acessories.ACCESSORIES.Product.length }} products</div>
-          <div
-            v-else
-            class="pt-3 pl-2 mt-1 amount-products"
-          >{{ json_obj.PC_Acessories.MONITORS.Product.length }} products</div>
+          <div v-if="select === 1" class="pt-3 pl-2 mt-1 amount-products">
+            {{ json_obj.PC_Acessories.LAPTOPS.Product.length }} products
+          </div>
+          <div v-else-if="select === 2" class="pt-3 pl-2 mt-1 amount-products">
+            {{ json_obj.PC_Acessories.EGPUS.Product.length }} products
+          </div>
+          <div v-else-if="select === 3" class="pt-3 pl-2 mt-1 amount-products">
+            {{ json_obj.PC_Acessories.ACCESSORIES.Product.length }} products
+          </div>
+          <div v-else class="pt-3 pl-2 mt-1 amount-products">
+            {{ json_obj.PC_Acessories.MONITORS.Product.length }} products
+          </div>
           <div class="d-flex align-items-end icon-row">
             <svg
               @click="icon_select = 1"
@@ -343,6 +315,71 @@
                 d="M4 22h-4v-4h4v4zm0-12h-4v4h4v-4zm0-8h-4v4h4v-4zm3 0v4h17v-4h-17zm0 12h17v-4h-17v4zm0 8h17v-4h-17v4z"
               />
             </svg>
+            <!-- boos here --->
+            <div>
+              <div class="model-box-div-faro mt-2 ml-3 mr-3">
+                <div id="box" class="model-box">
+                  <div class="select-box" @click="onClickColor()">
+                    <div class="model-options-container" ref="here">
+                      <div @click="testfuck()" class="box-option">
+                        <input
+                          type="radio"
+                          class="model-radio"
+                          id="Standard - Black"
+                          name="category"
+                        />
+
+                        <div>
+                          <label id="1" for="Standard - Black">Newest</label>
+                        </div>
+                      </div>
+
+                      <div
+                        @click="myFunction('2', '1', '3')"
+                        class="box-option"
+                      >
+                        <input
+                          type="radio"
+                          class="model-radio"
+                          id="Standard - Mercury"
+                          name="category"
+                        />
+
+                        <div>
+                          <label id="2" for="Standard - Black"
+                            >Price (Low to High)</label
+                          >
+                        </div>
+                      </div>
+
+                      <div
+                        @click="myFunction('3', '1', '2')"
+                        class="box-option"
+                      >
+                        <input
+                          type="radio"
+                          class="model-radio"
+                          id="Chroma"
+                          name="category"
+                        />
+
+                        <div>
+                          <label id="3" for="Standard - Black"
+                            >Price (High to Low)</label
+                          >
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="selected">Newest</div>
+                  </div>
+                </div>
+                <div class="model-box-1-faro" id="box1">
+                  <b>Sort by</b>
+                </div>
+              </div>
+            </div>
+            <!-- end --->
           </div>
         </div>
 
@@ -351,6 +388,7 @@
             v-for="(i, index) in json_obj.PC_Acessories.LAPTOPS.Product"
             :key="index"
             :item="json_obj.PC_Acessories.LAPTOPS.Product[index]"
+            :number="select"
           />
         </div>
         <div v-else-if="select === 2" class="row mt-3 row-product-faro">
@@ -358,6 +396,7 @@
             v-for="(i, index) in json_obj.PC_Acessories.EGPUS.Product"
             :key="index"
             :item="json_obj.PC_Acessories.EGPUS.Product[index]"
+            :number="select"
           />
         </div>
         <div v-else-if="select === 3" class="row mt-3 row-product-faro">
@@ -392,11 +431,10 @@ export default {
       isActive1: [null],
       isActive2: [null],
       isActive3: [null],
-      number: 1
     };
   },
   components: {
-    card
+    card,
   },
   mounted() {
     this.test();
@@ -417,7 +455,7 @@ export default {
         this.nnum += 1;
       });
 
-      optionsList.forEach(o => {
+      optionsList.forEach((o) => {
         o.addEventListener("click", () => {
           selected.innerHTML = o.querySelector("label").innerHTML;
           optionsContainer.classList.remove("active");
@@ -481,8 +519,8 @@ export default {
       this.onum = this.nnum;
       // console.log(this.onum);
       // console.log(this.nnum);
-    }
-  }
+    },
+  },
 };
 </script>
 

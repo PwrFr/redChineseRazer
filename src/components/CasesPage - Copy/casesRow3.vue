@@ -21,8 +21,8 @@
 }
 .cases-row3-full {
   background-color: #222;
-  background-position: center;
-  width: 100%;
+
+  width: 1920px;
 
   color: white;
 }

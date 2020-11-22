@@ -23,7 +23,10 @@
       <div class="img-crop cursor-point">
         <img class="w-100" :src="item.img" alt="" />
       </div>
-      <div class="compare pl-3 pt-2 d-flex align-items-center">
+      <div
+        v-if="number == 1 || number == 2"
+        class="compare pl-3 pt-2 d-flex align-items-center"
+      >
         <label class="wrap-checkbox compare-text mt-1"
           >Compare
           <input type="checkbox" />
@@ -53,7 +56,7 @@
 
 <script>
 export default {
-  props: ["item"],
+  props: ["item", "number"],
 };
 </script>
 

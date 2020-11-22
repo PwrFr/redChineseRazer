@@ -26,8 +26,8 @@
 .cases-row6-full {
   background-color: #222;
   background-image: url("../../assets/products/cases/row6.jpg");
-  background-position: center;
-  width: 100%;
+
+  width: 1920px;
   height: 691px;
   color: white;
 }
