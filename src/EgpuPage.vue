@@ -183,8 +183,8 @@
     <div v-if="specSwitch==2">
       <!-- spec 3 here -->
     </div>
-    <techSpecEgpu />
     <eGPU1 />
+    <techSpecEgpu />
     <techSpecEgpuBlack />
     <!-- black and Mercury is same spce -->
     <Footer />
