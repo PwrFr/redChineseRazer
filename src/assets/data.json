@@ -751,8 +751,22 @@
                     "img": "src/assets/img/PC_Acessories/Accessories/RazerNeopreneSleeveV2-For13.3”Notebooks.jpg",
                     "tag": "green",
                     "tagTitle": "NEW",
-                    "link":"access1.html"
-                    
+                    "link": "access1.html",
+                    "header_des": "Ultra-Sleek Protection for the Razer Blade Stealth 13",
+                    "imgbar": [
+                        "src/assets/img/PC_Acessories/Accessories/NeopreneSleeveV2/bar/1.jpg",
+                        "src/assets/img/PC_Acessories/Accessories/NeopreneSleeveV2/bar/2.jpg",
+                        "src/assets/img/PC_Acessories/Accessories/NeopreneSleeveV2/bar/3.jpg",
+                        "src/assets/img/PC_Acessories/Accessories/NeopreneSleeveV2/bar/4.jpg",
+                        "src/assets/img/PC_Acessories/Accessories/NeopreneSleeveV2/bar/5.jpg"
+                    ],
+                    "imgbig": [
+                        "src/assets/img/PC_Acessories/Accessories/NeopreneSleeveV2/big/1.jpg",
+                        "src/assets/img/PC_Acessories/Accessories/NeopreneSleeveV2/big/2.jpg",
+                        "src/assets/img/PC_Acessories/Accessories/NeopreneSleeveV2/big/3.jpg",
+                        "src/assets/img/PC_Acessories/Accessories/NeopreneSleeveV2/big/4.jpg",
+                        "src/assets/img/PC_Acessories/Accessories/NeopreneSleeveV2/big/5.jpg"
+                    ]
                 },
                 {
                     "name": "Razer Protective Sleeve V2 - For 13.3\" Notebooks",
@@ -766,7 +780,27 @@
                     "img": "src/assets/img/PC_Acessories/Accessories/RazerProtectiveV2-13.3.png",
                     "tag": "green",
                     "tagTitle": "NEW",
-                    "link":"access2.html"
+                    "link": "access2.html",
+                    "header_des": "Ultra-Sleek Protection for the Razer Blade Laptops",
+                    "model": [
+                        "13.3\" Sleeve",
+                        "15.6\" Sleeve",
+                        "17.3\" Sleeve"
+                    ],
+                    "imgbar": [
+                        "src/assets/img/PC_Acessories/Accessories/ProtectiveSleeveV2/bar/1.jpg",
+                        "src/assets/img/PC_Acessories/Accessories/ProtectiveSleeveV2/bar/2.jpg",
+                        "src/assets/img/PC_Acessories/Accessories/ProtectiveSleeveV2/bar/3.jpg",
+                        "src/assets/img/PC_Acessories/Accessories/ProtectiveSleeveV2/bar/4.jpg",
+                        "src/assets/img/PC_Acessories/Accessories/ProtectiveSleeveV2/bar/5.jpg"
+                    ],
+                    "imgbig": [
+                        "src/assets/img/PC_Acessories/Accessories/ProtectiveSleeveV2/big/1.jpg",
+                        "src/assets/img/PC_Acessories/Accessories/ProtectiveSleeveV2/big/2.jpg",
+                        "src/assets/img/PC_Acessories/Accessories/ProtectiveSleeveV2/big/3.jpg",
+                        "src/assets/img/PC_Acessories/Accessories/ProtectiveSleeveV2/big/4.jpg",
+                        "src/assets/img/PC_Acessories/Accessories/ProtectiveSleeveV2/big/5.jpg"
+                    ]
                 },
                 {
                     "name": "Razer Protective Sleeve V2 - For 17.3\" Notebooks",
@@ -780,7 +814,27 @@
                     "img": "src/assets/img/PC_Acessories/Accessories/RazerProtectiveSleeveV2-For17.3.png",
                     "tag": "green",
                     "tagTitle": "NEW",
-                    "link":"access3.html"
+                    "link": "access3.html",
+                    "header_des": "Ultra-Sleek Protection for the Razer Blade Laptops",
+                    "model": [
+                        "13.3\" Sleeve",
+                        "15.6\" Sleeve",
+                        "17.3\" Sleeve"
+                    ],
+                    "imgbar": [
+                        "src/assets/img/PC_Acessories/Accessories/ProtectiveSleeveV2/bar/1.jpg",
+                        "src/assets/img/PC_Acessories/Accessories/ProtectiveSleeveV2/bar/2.jpg",
+                        "src/assets/img/PC_Acessories/Accessories/ProtectiveSleeveV2/bar/3.jpg",
+                        "src/assets/img/PC_Acessories/Accessories/ProtectiveSleeveV2/bar/4.jpg",
+                        "src/assets/img/PC_Acessories/Accessories/ProtectiveSleeveV2/bar/5.jpg"
+                    ],
+                    "imgbig": [
+                        "src/assets/img/PC_Acessories/Accessories/ProtectiveSleeveV2/big/1.jpg",
+                        "src/assets/img/PC_Acessories/Accessories/ProtectiveSleeveV2/big/2.jpg",
+                        "src/assets/img/PC_Acessories/Accessories/ProtectiveSleeveV2/big/3.jpg",
+                        "src/assets/img/PC_Acessories/Accessories/ProtectiveSleeveV2/big/4.jpg",
+                        "src/assets/img/PC_Acessories/Accessories/ProtectiveSleeveV2/big/5.jpg"
+                    ]
                 },
                 {
                     "name": "Razer Protective Sleeve V2 - For 15.6\" Notebooks",
@@ -793,7 +847,27 @@
                     "add_to_card_bnt": "ADD TO CART",
                     "img": "src/assets/img/PC_Acessories/Accessories/RazerProtectiveSleeveV2-For15.6.png",
                     "tag": "green",
-                    "tagTitle": "NEW"
+                    "tagTitle": "NEW",
+                    "header_des": "Ultra-Sleek Protection for the Razer Blade Laptops",
+                    "model": [
+                        "13.3\" Sleeve",
+                        "15.6\" Sleeve",
+                        "17.3\" Sleeve"
+                    ],
+                    "imgbar": [
+                        "src/assets/img/PC_Acessories/Accessories/ProtectiveSleeveV2/bar/1.jpg",
+                        "src/assets/img/PC_Acessories/Accessories/ProtectiveSleeveV2/bar/2.jpg",
+                        "src/assets/img/PC_Acessories/Accessories/ProtectiveSleeveV2/bar/3.jpg",
+                        "src/assets/img/PC_Acessories/Accessories/ProtectiveSleeveV2/bar/4.jpg",
+                        "src/assets/img/PC_Acessories/Accessories/ProtectiveSleeveV2/bar/5.jpg"
+                    ],
+                    "imgbig": [
+                        "src/assets/img/PC_Acessories/Accessories/ProtectiveSleeveV2/big/1.jpg",
+                        "src/assets/img/PC_Acessories/Accessories/ProtectiveSleeveV2/big/2.jpg",
+                        "src/assets/img/PC_Acessories/Accessories/ProtectiveSleeveV2/big/3.jpg",
+                        "src/assets/img/PC_Acessories/Accessories/ProtectiveSleeveV2/big/4.jpg",
+                        "src/assets/img/PC_Acessories/Accessories/ProtectiveSleeveV2/big/5.jpg"
+                    ]
                 },
                 {
                     "name": "Razer Chroma Addressable RGB Controller",
@@ -929,9 +1003,5 @@
         "discrip":"#MADEWITHBLADE is an exploration into the cutting-edge creativity of some of the most talented artists in the world. Come inside their studios and behind-the scenes as these artists share exclusive stories about how Razer Blade laptops are helping them push the envelope of music production, visual effects, digital illustration and 3D animation.",
         "link" : "More #MADEWITHBLADE stories"
     }
-
-
-
 ]
-    
 }
