@@ -55,15 +55,12 @@
             </td>
           </tr>
           <!-- row 6 -->
-          <tr class="dataRow trDisplays dataBul">
+          <tr class="dataRow trDisplays dataSingle">
             <th class="col-lg-3 p-0">
               <b># of Supported Drives</b>
             </th>
-            <td class="col-lg-9">
-              <ul class="data p-2">
-                <li>{{ data7 }}</li>
-                <li>{{ data8 }}</li>
-              </ul>
+            <td class="col-lg-9 data">
+              {{ data7 }}
             </td>
           </tr>
           <!-- row 7 -->
@@ -98,11 +95,13 @@
           <!-- row 11 -->
           <tr class="dataRow trDisplays dataBul">
             <th class="col-lg-3 p-0">
-              <b>Input & Output</b>
+              <b>FRONT PANEL I/O</b>
             </th>
             <td class="col-lg-9">
               <ul class="data p-2">
-                <li v-for="item in data13" :key="item">{{ item }}</li>
+                <li v-for="item_two in data13" :key="item_two">
+                  {{ item_two }}
+                </li>
               </ul>
             </td>
           </tr>
@@ -240,23 +239,22 @@ export default {
       text: "",
       status: 0,
       ty: {},
-      data1: datas.Cases[1].specs.MODEL,
-      data2: datas.Cases[1].specs.PRODUCT_NUMBER,
-      data3: datas.Cases[1].specs.CHASSIS_FORM_FACTOR,
-      data4: datas.Cases[1].specs.SUPPORTED_MOTHERBOARDS,
-      data5: datas.Cases[1].specs.CASE_MATERIAL,
-      data6: datas.Cases[1].specs.Num_OF_EXPANSION_SLOTS,
-      data7: datas.Cases[1].specs.Num_OF_SUPPORTED_DRIVES[0],
-      data8: datas.Cases[1].specs.Num_OF_SUPPORTED_DRIVES[1],
-      data9: datas.Cases[1].specs.RADIATOR_COMPATIBILITY,
-      data10: datas.Cases[1].specs.MAXIMUM_CPU_COOLER_HEIGHT,
-      data11: datas.Cases[1].specs.MAXIMUM_GPU_LENGTH,
-      data12: datas.Cases[1].specs.MAXIMUM_PSU_LENGTH,
-      data13: datas.Cases[1].specs.FRONT_PANEL_IO,
-      data14: datas.Cases[1].specs.RAZER_CHROMA_SUPPORT,
-      data15: datas.Cases[1].specs.WARRANTY,
-      data16: datas.Cases[1].specs.CASE_DIMENSIONS,
-      data17: datas.Cases[1].specs.WEIGHT,
+      data1: datas.Cases[0].specs.MODEL,
+      data2: datas.Cases[0].specs.PRODUCT_NUMBER,
+      data3: datas.Cases[0].specs.CHASSIS_FORM_FACTOR,
+      data4: datas.Cases[0].specs.SUPPORTED_MOTHERBOARDS,
+      data5: datas.Cases[0].specs.CASE_MATERIAL,
+      data6: datas.Cases[0].specs.Num_OF_EXPANSION_SLOTS,
+      data7: datas.Cases[0].specs.Num_OF_SUPPORTED_DRIVES[0],
+      data9: datas.Cases[0].specs.RADIATOR_COMPATIBILITY,
+      data10: datas.Cases[0].specs.MAXIMUM_CPU_COOLER_HEIGHT,
+      data11: datas.Cases[0].specs.MAXIMUM_GPU_LENGTH,
+      data12: datas.Cases[0].specs.MAXIMUM_PSU_LENGTH,
+      data13: datas.Cases[0].specs.FRONT_PANEL_IO,
+      data14: datas.Cases[0].specs.RAZER_CHROMA_SUPPORT,
+      data15: datas.Cases[0].specs.WARRANTY,
+      data16: datas.Cases[0].specs.CASE_DIMENSIONS,
+      data17: datas.Cases[0].specs.WEIGHT,
     };
   },
   // created(){
