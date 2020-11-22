@@ -32,7 +32,8 @@
       buyingAt="Also Available At"
       whiteSelecterText="2"
     />
-    <techSpecEgpu />
+    <!-- <techSpecEgpu /> -->
+    <techSpecEgpuBlack />
     <Footer />
   </div>
 </template>
@@ -43,6 +44,7 @@ import ProductSlot from "./components/ProductSlot.vue";
 import Footer from "./components/Footer.vue";
 import datas from "./assets/data.json";
 import techSpecEgpu from "./components/techSpecEgpuChroma.vue";
+import techSpecEgpuBlack from "./components/techSpecEgpuBlack.vue";
 
 //Row5 use same component with row3
 
@@ -53,6 +55,7 @@ export default {
     ProductSlot,
     MenuBar,
     techSpecEgpu,
+    techSpecEgpuBlack,
     Footer,
   },
   data() {
