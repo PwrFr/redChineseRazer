@@ -6,6 +6,30 @@
   padding-top: 47px;
 }
 body {
+  overflow-x: hidden;
+}
+.colimgProduct {
+  height: 20rem;
+  background-size: cover;
+}
+
+.razerf5 {
+  font-family: Razerf5;
+}
+.text-black {
+  color: #000000;
+}
+.w-headerproduct {
+  width: 62%;
+}
+.bgRL {
+  background-position-x: -13rem;
+  height: 43rem;
+}
+.product-access-title {
+  color: #44d62c;
+}
+body {
   background-color: #222222;
 }
 .menu-bg {

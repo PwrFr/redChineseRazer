@@ -4,13 +4,13 @@
     <ProductSlot
       class="mt-5"
       imageAmount="5"
-      imageTab1="/src/assets/products/2eGPUs/productImage/bar/1.jpg"
-      imageTab2="/src/assets/products/2eGPUs/productImage/bar/2.jpg"
-      imageTab3="/src/assets/products/2eGPUs/productImage/bar/3.jpg"
-      imageTab4="/src/assets/products/2eGPUs/productImage/bar/4.jpg"
-      imageTab5="/src/assets/products/2eGPUs/productImage/bar/5.jpg"
-      backgroundSrc="/src/assets/products/2eGPUs/productImage/1big.jpg"
-      imageLocateSrc="/src/assets/products/2eGPUs/productImage/"
+      imageTab1="/src/assets/img/eGPUs/Chroma/s1.jpg"
+      imageTab2="/src/assets/img/eGPUs/Chroma/s2.jpg"
+      imageTab3="/src/assets/img/eGPUs/Chroma/s3.jpg"
+      imageTab4="/src/assets/img/eGPUs/Chroma/s4.jpg"
+      imageTab5="/src/assets/img/eGPUs/Chroma/s5.jpg"
+      backgroundSrc="/src/assets/img/eGPUs/Chroma/1.jpg"
+      imageLocateSrc="/src/assets/img/eGPUs/Chroma/"
       :headerText="headerJson"
       :headerDes="desJson"
       :priceText="priceJson"
@@ -33,6 +33,9 @@
       whiteSelecterText="2"
     />
     <techSpecEgpu />
+    <eGPU1 />
+    <techSpecEgpuBlack />
+    <!-- black and Mercury is same spce -->
     <Footer />
   </div>
 </template>
@@ -42,6 +45,9 @@ import MenuBar from "./components/MenuBar.vue";
 import ProductSlot from "./components/ProductSlot.vue";
 import Footer from "./components/Footer.vue";
 import datas from "./assets/data.json";
+import eGPU1 from "./components/eGPUsPage/eGPU1.vue"
+import techSpecEgpu from "./components/techSpecEgpuChroma.vue";
+import techSpecEgpuBlack from "./components/techSpecEgpuBlack.vue";
 
 //Row5 use same component with row3
 
@@ -51,7 +57,10 @@ export default {
   components: {
     ProductSlot,
     MenuBar,
+    techSpecEgpu,
+    techSpecEgpuBlack,
     Footer,
+    eGPU1
   },
   data() {
     return {
