@@ -184,6 +184,8 @@
       <!-- spec 3 here -->
     </div>
     <eGPU1 />
+    <eGPU2 />
+    <eGPU3 />
     <techSpecEgpu />
     <techSpecEgpuBlack />
     <!-- black and Mercury is same spce -->
@@ -207,6 +209,8 @@ import MenuBar from "./components/MenuBar.vue";
 import Footer from "./components/Footer.vue";
 import datas from "./assets/data.json";
 import eGPU1 from "./components/eGPUsPage/eGPU1.vue";
+import eGPU2 from "./components/eGPUsPage/eGPU2.vue";
+import eGPU3 from "./components/eGPUsPage/eGPU3.vue";
 import techSpecEgpu from "./components/techSpecEgpuChroma.vue";
 import techSpecEgpuBlack from "./components/techSpecEgpuBlack.vue";
 
@@ -270,7 +274,9 @@ export default {
     techSpecEgpu,
     techSpecEgpuBlack,
     Footer,
-    eGPU1
+    eGPU1,
+    eGPU2,
+    eGPU3
   },
   methods: {
     firstSelecter() {
