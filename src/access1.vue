@@ -270,8 +270,9 @@
 </template>
 
 <script>
-import headerAccessProduct from "./components/headerAccesssProduct.vue";
 import MenuBar from "./components/MenuBar.vue";
+import headerAccessProduct from "./components/headerAccesssProduct.vue";
+
 import SideImgRowL from "./components/SideImgRowL.vue";
 import SideImgRowR from "./components/SideImgRowR.vue";
 import ColAccessProduct from "./components/ColAccessProduct.vue";

@@ -2,7 +2,7 @@
   <div class="pt-5 pb-2 text-center" style="background-color: #44d62c">
     <h1
       class="razerf5 text-black pt-2 pb-0 container"
-      style="font-size: 2.3rem"
+      style="font-size: 1.6rem; font-weight: bold"
     >
       {{ title }}
     </h1>
