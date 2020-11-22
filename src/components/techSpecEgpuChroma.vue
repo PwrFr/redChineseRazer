@@ -1,4 +1,5 @@
 <template>
+  <!-- TechSpec Egpu chroma-->
   <div class="container-fluid techSpecsBox p-0">
     <div class="container techSpecs">
       <!-- <h4 id="headerText">TECH SPECS</h4> -->

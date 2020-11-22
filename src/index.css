@@ -303,10 +303,7 @@ button:focus {
   font-family: Robo-reg;
   src: url("./assets/font/Roboto/Roboto-Regular.ttf");
 }
-@font-face {
-  font-family: Robo-thin;
-  src: url("./assets/font/Roboto/Roboto-Thin.ttf");
-}
+
 .card-product {
   font-family: Robo-reg;
   height: 38.8rem;
@@ -545,11 +542,11 @@ button:focus {
 
 @font-face {
   font-family: RazerF5-Reg;
-  src: url("../assets/font/RazerF5-Reg.otf");
+  src: url("./assets/font/RazerF5-Reg.otf");
 }
 @font-face {
   font-family: RazerBold;
-  src: url("../assets/font/Razer/RazerF5Bold.woff");
+  src: url("./assets/font/Razer/RazerF5Bold.woff");
 }
 .model-box-div {
   margin-bottom: 75px;
@@ -588,7 +585,7 @@ button:focus {
 
 .selected::after {
   content: "";
-  background: url("Custom-Select-Box-master/img/arrow-down.svg");
+  background: url("./components/Custom-Select-Box-master/img/arrow-down.svg");
   background-size: contain;
   background-repeat: no-repeat;
   position: absolute;
