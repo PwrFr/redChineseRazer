@@ -44,7 +44,7 @@ import Footer from "./components/Footer.vue";
 import datas from "./assets/data.json";
 
 //Row5 use same component with row3
-//import TechSpec from "./components/CasesPage/techSpecCase.vue";
+import techSpecEgpu from "./components/techSpecEgpu.vue";
 
 export default {
   props: {},
@@ -53,7 +53,7 @@ export default {
     ProductSlot,
     MenuBar,
 
-    Footer
+    Footer,
   },
   data() {
     return {
@@ -70,11 +70,11 @@ export default {
       modelFirstNameJson: datas.eGPU[2].model[2],
       modelItem1: datas.eGPU[2].model[0],
       modelItem2: datas.eGPU[2].model[1],
-      modelItem3: datas.eGPU[2].model[2]
+      modelItem3: datas.eGPU[2].model[2],
     };
   },
   created() {
     console.log(datas.monitors[0].name);
-  }
+  },
 };
 </script>

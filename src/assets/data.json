@@ -71,7 +71,7 @@
             "add_to_card_bnt": "ADD TO CART",
             "status": true,
             "specs": {
-                "Input_&_Output": [
+                "InputOutput": [
                     "Thunderbolt™ 3 (connection to the system)",
                     "4 X USB 3.1 Type-A",
                     "Gigabit Ethernet"
