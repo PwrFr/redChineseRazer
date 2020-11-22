@@ -109,8 +109,8 @@ a:hover {
 .company {
   font-size: 0.88rem;
 }
-.catalog {
-}
+/* .catalog {
+} */
 .access-body {
   color: #999999;
 }
@@ -507,4 +507,37 @@ button:focus {
   top: -0.5rem;
   left: 44rem;
   transform: rotate(45deg);
+}
+.top_box_gaming {
+  color: #ffffff;
+  background: #333333;
+  margin-top: 60px;
+  padding: 0.3rem 0;
+  font-weight: 300;
+  font-size: 1.06rem;
+  text-align: center;
+}
+
+.buttom_box_gaming {
+  color: #ffffff;
+  background: #111111;
+  text-align: center;
+  padding: 3rem 0;
+}
+
+.card-gaming,
+.card-img-top {
+  border-radius: 0px;
+  padding: 0px;
+  border: 0px;
+  background: #111111;
+}
+.card-gaming {
+  margin-top: 25px;
+  border-bottom: 1px solid #44d62c;
+}
+
+.img-gaming {
+  border-radius: 0px;
+  margin: 0;
 }
