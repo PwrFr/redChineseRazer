@@ -963,6 +963,24 @@ p {
   bottom: 0.625rem;
 }
 
-.gaming-box-bottom {
-  height: 10rem;
+.imgBoxBottom {
+  height: 100%;
+}
+
+.gamingBoxButton {
+  height: 14.8rem;
+}
+
+.container-gaming {
+  width: 100%;
+  height: 50rem;
+  background: #000;
+}
+
+.gaming-description-bottom {
+  font-size: 1.1rem;
+  font-family: "Razerf5", Sans-Serif;
+  color: #888888;
+  font-weight: bold;
+  padding: 0 0 0 1.875rem;
 }

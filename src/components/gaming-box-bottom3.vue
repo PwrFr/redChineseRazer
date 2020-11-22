@@ -2,7 +2,7 @@
   <div class="">.</div>
   <div
     class="gamingBoxButton container pd-5"
-    style="background-image: url('src/assets/products/1Laptops/bg5.jpg')"
+    style="background-image: url('src/assets/products/1Laptops/bg7.jpg')"
   >
     <div
       style="
@@ -10,33 +10,29 @@
         font-family: Razerf5, Sans-Serif;
         color: #44d62c;
         font-weight: bold;
-        padding: 3.4375rem 0 0 1.875rem;
+        padding: 2rem 0 0 1.875rem;
+        text-transform: uppercase;
       "
     >
       <!-- RAZER LAPTOP ACCESSORIES -->
       {{ title }}
     </div>
 
-    <p
-      style="
-        font-size: 1.125rem;
-        font-family: Razerf5, Sans-Serif;
-        color: #888;
-        font-weight: bold;
-        padding: 0.1rem 0 0 1.875rem;
-      "
-    >
-      <!-- Maximize your laptop experience -->
-      {{ description }}
-    </p>
+    <div style="margin-top: 1rem" class="gaming-description-bottom">
+      {{ description1 }}
+    </div>
+    <br />
+    <div class="gaming-description-bottom">{{ description2 }}</div>
+    <br />
+    <div class="gaming-description-bottom">{{ description3 }}</div>
 
     <p
       style="
-        font-size: 1.125rem;
+        font-size: 1.05rem;
         font-family: Razerf5, Sans-Serif;
         color: #44d62c;
         font-weight: bold;
-        padding: 1rem 0 0 1.875rem;
+        padding: 2rem 0 0 1.875rem;
       "
     >
       <!-- Learn More> -->
@@ -49,7 +45,9 @@
 export default {
   props: {
     title: String,
-    description: String,
+    description1: String,
+    description2: String,
+    description3: String,
     bot: String,
   },
 };

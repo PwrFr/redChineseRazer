@@ -9,21 +9,34 @@
       />
     </div>
   </div>
-  <div class="mt-4 mb-4">
+  <div class="mt-4">
     <gamingBigBox
       v-for="(i, index) in json.gaming_laptop_1"
       :key="index"
       :imgshow="json.gaming_laptop_1[index]"
     />
   </div>
-  <gamingBoxBottom
-    class="gaming-box-bottom"
-    v-for="(j, index) in json.gaming_laptop_2"
-    :key="index"
-    :info="json.gaming_laptop_2[index]"
-  />
+  <div class="container-gaming">
+    <gamingBoxBottom
+      title="RAZER LAPTOP ACCESSORIES"
+      description="Maximize your laptop experience"
+      bot="Learn More>"
+    />
 
-  <div></div>
+    <gamingBoxBottom2
+      title="Get 3 years of repair support including accidental damage coverage with RazerCare Elite."
+      bot="Protect your Razer Blade today>"
+    />
+
+    <gamingBoxBottom3
+      title="Razer Education Program"
+      description1="Get special privileges only for students."
+      description2="5% OFF Razer Blade laptops"
+      description3="15% OFF Razer gaming gear &amp; Razer Customs"
+      bot="Sign Up Now >"
+    />
+  </div>
+  <gamingBoxBottom4 />
 </template>
 
 <script>
@@ -32,6 +45,9 @@ import gamingtop from "./components/gaming-top.vue";
 import gamingSmallBox from "./components/gaming-small-box.vue";
 import gamingBigBox from "./components/gaming-big-box.vue";
 import gamingBoxBottom from "./components/gaming-box-bottom.vue";
+import gamingBoxBottom2 from "./components/gaming-box-bottom2.vue";
+import gamingBoxBottom3 from "./components/gaming-box-bottom3.vue";
+import gamingBoxBottom4 from "./components/gaming-box-bottom4.vue";
 
 export default {
   name: "gamingLabtop",
@@ -39,6 +55,10 @@ export default {
     gamingtop,
     gamingSmallBox,
     gamingBigBox,
+    gamingBoxBottom,
+    gamingBoxBottom2,
+    gamingBoxBottom3,
+    gamingBoxBottom4,
   },
   data() {
     return {
