@@ -31,10 +31,9 @@ a.cases-row8-href:hover {
   background-color: #222;
   background-image: url("../../assets/products/3Cases/row8.jpg");
   height: 280px;
-  width: 100%;
+  width: 1920px;
   padding-top: 5rem;
   padding-left: 5rem;
-  background-position: center;
 
   color: white;
 }

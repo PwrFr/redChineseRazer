@@ -48,28 +48,28 @@
   src: url("../../assets/font/Roboto/Roboto-Light.ttf");
 }
 .row4-col-wid-left {
-  max-width: 27.6875rem;
-  padding-left: 5.125rem;
-  margin-right: -1.125rem;
+  max-width: 443px;
+  padding-left: 82px;
+  margin-right: -18px;
 }
 .row4-col-wid {
-  max-width: 27.6875rem;
-  margin-right: -3.4375rem;
+  max-width: 443px;
+  margin-right: -55px;
 }
 .row4-col-wid-right {
-  max-width: 27.6875rem;
+  max-width: 443px;
 }
 .cases-row4-full {
-  padding-top: 2rem;
+  padding-top: 32px;
   background-color: #b5b5b5;
-  width: 100%;
-  height: 39.125rem;
+  width: 1920px;
+  height: 626px;
   color: #000000;
-  padding-left: 0rem;
+  padding-left: 0px;
 }
 .cases-row4-margin {
-  margin-top: 0.9375rem;
-  margin-bottom: -0.1875rem;
+  margin-top: 15px;
+  margin-bottom: -3px;
 }
 .cases-row4-header {
   color: #000000;
@@ -85,35 +85,35 @@
   font-size: 1.25rem;
   font-weight: 300;
   color: #000;
-  margin: 0.9375rem 0 0.625rem;
+  margin: 15px 0 10px;
 }
 .cases-row4-des2-left {
-  padding-left: 0.625rem;
-  max-width: 21.25rem;
+  padding-left: 10px;
+  max-width: 340px;
   font-family: "Robo-light", sans-serif;
   font-size: 1.25rem;
   color: #000;
-  margin: 0.5rem 0 0.625rem;
+  margin: 8px 0 10px;
   font-size: 1rem;
   line-height: 1.5em;
 }
 .cases-row4-des2-mid {
-  padding-left: 2.5rem;
-  max-width: 23.125rem;
+  padding-left: 40px;
+  max-width: 370px;
   font-family: "Robo-light", sans-serif;
   font-size: 1.25rem;
   color: #000;
-  margin: 0.5rem 0 0.625rem;
+  margin: 8px 0 10px;
   font-size: 1rem;
   line-height: 1.5em;
 }
 .cases-row4-des2-right {
-  padding-left: 2.5rem;
-  max-width: 23.125rem;
+  padding-left: 40px;
+  max-width: 370px;
   font-family: "Robo-light", sans-serif;
   font-size: 1.25rem;
   color: #000;
-  margin: 0.5rem 0 0.625rem;
+  margin: 8px 0 10px;
   font-size: 1rem;
   line-height: 1.5em;
 }

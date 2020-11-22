@@ -166,7 +166,7 @@
 
 .cases-row7-full {
   height: 1202px;
-  width: 100%;
+  width: 1920px;
   background-color: #181818;
   padding-top: 47px;
 }

@@ -28,7 +28,7 @@
   background-color: #111111;
 
   height: 266px;
-  width: 100%;
+  width: 1920px;
   padding-top: 28px;
 
   color: white;
