@@ -33,6 +33,7 @@
       whiteSelecterText="2"
     />
     <techSpecEgpu />
+    <eGPU1 />
     <Footer />
   </div>
 </template>
@@ -42,6 +43,7 @@ import MenuBar from "./components/MenuBar.vue";
 import ProductSlot from "./components/ProductSlot.vue";
 import Footer from "./components/Footer.vue";
 import datas from "./assets/data.json";
+import eGPU1 from "./components/eGPUsPage/eGPU1.vue"
 
 //Row5 use same component with row3
 
@@ -52,6 +54,7 @@ export default {
     ProductSlot,
     MenuBar,
     Footer,
+    eGPU1
   },
   data() {
     return {
