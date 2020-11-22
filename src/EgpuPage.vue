@@ -33,6 +33,7 @@
       whiteSelecterText="2"
     />
     <techSpecEgpu />
+    <eGPU1 />
     <techSpecEgpuBlack />
     <!-- black and Mercury is same spce -->
     <Footer />
@@ -44,6 +45,7 @@ import MenuBar from "./components/MenuBar.vue";
 import ProductSlot from "./components/ProductSlot.vue";
 import Footer from "./components/Footer.vue";
 import datas from "./assets/data.json";
+import eGPU1 from "./components/eGPUsPage/eGPU1.vue"
 import techSpecEgpu from "./components/techSpecEgpuChroma.vue";
 import techSpecEgpuBlack from "./components/techSpecEgpuBlack.vue";
 
@@ -58,6 +60,7 @@ export default {
     techSpecEgpu,
     techSpecEgpuBlack,
     Footer,
+    eGPU1
   },
   data() {
     return {

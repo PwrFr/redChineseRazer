@@ -555,11 +555,36 @@ button:focus {
   background: #111111;
   position: relative;
 }
+.topboxtag {
+  padding-left: 0.7rem;
+  font-size: 0.5rem;
+  color: #000;
+  background-color: #ff9c07;
+  width: 6rem;
+  line-height: 0.8rem;
+}
+.topboxtaggreen {
+  font-size: 0.9rem;
+  color: #000;
+  text-align: center;
+  background-color: #44d62c;
+  width: 5.5rem;
+}
 .card-gaming {
   height: 33.5625rem;
   border-bottom: 1px solid #44d62c;
 }
-
+.size-small {
+  height: 43rem;
+}
+.size-big {
+  height: 54rem;
+}
+.bigimg-gaming {
+  background-size: cover;
+  background-position-x: center;
+  border-bottom: solid 1px lime;
+}
 .img-gaming {
   border-radius: 0px;
   margin: 0;
@@ -936,4 +961,8 @@ p {
 .card-text-bottom {
   position: absolute;
   bottom: 0.625rem;
+}
+
+.gaming-box-bottom {
+  height: 10rem;
 }
