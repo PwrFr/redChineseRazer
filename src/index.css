@@ -5,6 +5,22 @@
   overflow-x: hidden;
   padding-top: 47px;
 }
+.razerf5 {
+  font-family: Razerf5;
+}
+.text-black {
+  color: #000000;
+}
+.w-headerproduct {
+  width: 62%;
+}
+.bgRL {
+  background-position-x: -13rem;
+  height: 43rem;
+}
+.product-access-title {
+  color: #44d62c;
+}
 body {
   background-color: #222222;
 }

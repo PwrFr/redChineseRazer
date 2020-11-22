@@ -1,7 +1,5 @@
 <template>
-  <div>
-    <h2>Razer Book 13</h2>
-  </div>
+  <div class="container"></div>
 </template>
 
 <script>
