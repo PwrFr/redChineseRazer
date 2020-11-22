@@ -343,15 +343,15 @@
                 "Internal_Power_Supply": "700 Watts",
                 "Laptop_Power_Delivery": "Up to 100 Watts via USB-C",
                 "Thunderbolt_3_cable_length": "27.56” / 700 mm",
-                "Razer_Core_Approx._Size": [
+                "Razer_Core_Approx_Size": [
                     "Width x Depth x Height",
                     "6.61\" x 14.72\" x 9.06\"",
                     "168 mm x 374 mm x 230 mm"
                 ],
                 "Weight": "15.23 lbs / 6.91 kg",
-                "Laptop_Requirements_(Laptop_not_included)": {
+                "Laptop_Requirements_Laptop_not_included": {
                     "Connection_to_system": "Systems require a Thunderbolt™ 3 port with external graphics support. Please check with your laptop manufacture to confirm if your laptop supports Thunderbolt 3 external graphics.",
-                    "": "Please also ensure your laptop has the latest BIOS, firmware, Thunderbolt software, and other applicable updates before connecting toRazer Core X Chroma.",
+                    "test": "Please also ensure your laptop has the latest BIOS, firmware, Thunderbolt software, and other applicable updates before connecting toRazer Core X Chroma.",
                     "macOS_Systems_Requirements": [
                         "Thunderbolt™ 3 equipped Macs running macOS High Sierra 10.13.4 or later.",
                         "Compatible AMD graphics card sold separately.",
@@ -362,7 +362,7 @@
                         "Compatible NVIDIA or AMD graphics card sold separately."
                     ]
                 },
-                "GRAPHICS_CARDS_REQUIREMENTS_(GRAPHICS_CARD_NOT_INCLUDED)": {
+                "GRAPHICS_CARDS_REQUIREMENTS_GRAPHICS_CARD_NOT_INCLUDED": {
                     "Max_inner_dimensions": {
                         "0": [
                             "Length : 12.99”/ 330 mm",

@@ -12,7 +12,7 @@
           <th class="col-lg-3 p-0">
             <b>Input & Output</b>
           </th>
-          <ul class="col-lg-9 data">
+          <ul class="col-lg-9 data px-4">
             <li v-for="row01 in data1" :key="row01">
               {{ row01 }}
             </li>
@@ -20,20 +20,82 @@
         </tr>
         <!-- row 2 -->
         <tr class="dataRow trDisplays dataSingle">
-          <th class="col-lg-3">
+          <th class="col-lg-3 p-0">
             <b>Internal Power Supply</b>
           </th>
           <td class="col-lg-9 data">{{ data2 }}</td>
         </tr>
+        <!-- row 3 -->
+        <tr class="dataRow trDisplays dataSingle">
+          <th class="col-lg-3 p-0">
+            <b>Laptop Power Delivery</b>
+          </th>
+          <td class="col-lg-9 data">{{ data3 }}</td>
+        </tr>
+        <!-- row 4 -->
+        <tr class="dataRow trDisplays dataSingle">
+          <th class="col-lg-3 p-0">
+            <b>Thunderbolt™ 3 cable length</b>
+          </th>
+          <td class="col-lg-9 data">{{ data4 }}</td>
+        </tr>
+        <!-- row 4 -->
         <span id="more" ref="more">
           <tr class="dataRow trDisplays dataBul">
             <th class="col-lg-3 p-0">
-              <b>Input & Output</b>
+              <b>Razer Core Approx. Size</b>
             </th>
             <td class="col-lg-9">
               <ul class="data p-2">
-                <li v-for="item in data13" :key="item">{{ item }}</li>
+                <li v-for="row4 in data5" :key="row4">{{ row4 }}</li>
               </ul>
+            </td>
+          </tr>
+          <!-- row 5 -->
+          <tr class="dataRow trDisplays dataSingle">
+            <th class="col-lg-3 p-0">
+              <b>Weight</b>
+            </th>
+            <td class="col-lg-9 data">{{ data6 }}</td>
+          </tr>
+
+          <!-- row 6 -->
+          <tr class="dataRow trDisplays dataBul">
+            <th class="col-lg-3 p-0">
+              <b>Laptop Requirements (Laptop not included)</b>
+            </th>
+            <td class="col-lg-9">
+              <div class="pb-1">
+                <u class="data"><b>Connection to system</b> </u>
+              </div>
+
+              <p class="data">{{ data7.Connection_to_system }}</p>
+              <div class="pt-1">
+                <p class="data">{{ data7.test }}</p>
+              </div>
+              <div class="data pt-3">
+                <u class="pb-2"><b> macOS Systems Requirements </b> </u>
+                <ul class="px-2">
+                  <li
+                    v-for="row6c in data7.macOS_Systems_Requirements"
+                    :key="row6c"
+                  >
+                    {{ row6c }}
+                  </li>
+                </ul>
+              </div>
+
+              <div class="data pt-3">
+                <u class="pb-2"><b> Windows System Requirements</b> </u>
+                <ul class="px-2">
+                  <li
+                    v-for="row7c in data7.Windows_System_Requirements"
+                    :key="row7c"
+                  >
+                    {{ row7c }}
+                  </li>
+                </ul>
+              </div>
             </td>
           </tr>
           <!-- row 12  -->
@@ -158,6 +220,11 @@ export default {
       ty: {},
       data1: datas.eGPU[2].specs.InputOutput,
       data2: datas.eGPU[2].specs.Internal_Power_Supply,
+      data3: datas.eGPU[2].specs.Laptop_Power_Delivery,
+      data4: datas.eGPU[2].specs.Thunderbolt_3_cable_length,
+      data5: datas.eGPU[2].specs.Razer_Core_Approx_Size,
+      data6: datas.eGPU[2].specs.Weight,
+      data7: datas.eGPU[2].specs.Laptop_Requirements_Laptop_not_included,
     };
   },
   // created(){
