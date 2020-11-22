@@ -18,6 +18,7 @@
               ><p class="fc ml-1 pt-2 pl-3 pr-4">WHAT'S NEW</p>
             </a>
             <div class="dropdown-content mt-2">
+              <div class="arrow-menu0"></div>
               <div
                 class="row bg-dropdown w-75 position-fixed m-0 p-2 pt-3 pb-4 text-left"
               >
@@ -149,6 +150,7 @@
               ><p class="fc pt-2 pr-4">PRODUCTS</p>
             </a>
             <div class="dropdown-content mt-2">
+              <div class="arrow-menu1"></div>
               <div
                 class="row bg-dropdown w-75 position-fixed m-0 p-2 pt-3 pb-4 text-left"
               >
@@ -334,6 +336,7 @@
               ><p class="fc pt-2 pr-4">APPS & DOWNLOADS</p>
             </a>
             <div class="dropdown-content mt-2">
+              <div class="arrow-menu2"></div>
               <div
                 class="row bg-dropdown w-75 position-fixed m-0 p-2 pt-3 pb-4 text-left"
               >
@@ -423,6 +426,7 @@
               ><p class="fc pt-2 pr-4">EXPLORE</p>
             </a>
             <div class="dropdown-content mt-2">
+              <div class="arrow-menu3"></div>
               <div
                 class="row bg-dropdown w-75 position-fixed m-0 p-2 pt-3 pb-4 text-left"
               >
@@ -560,6 +564,7 @@
               ><p class="fc pt-2 pr-3">SUPPORT</p>
             </a>
             <div class="dropdown-content mt-2">
+              <div class="arrow-menu4"></div>
               <div
                 class="row bg-dropdown w-75 position-fixed m-0 p-2 pt-3 pb-4 text-left"
               >

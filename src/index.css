@@ -23,8 +23,7 @@ body {
 .dropdown-content {
   display: none;
   position: fixed;
-  width: 100%;
-  left: 195px;
+  left: 12rem;
   z-index: 1;
 }
 
@@ -463,4 +462,49 @@ button:focus {
 }
 .icon-row {
   margin-left: 32rem;
+}
+.arrow-menu0 {
+  height: 2rem;
+  width: 2rem;
+  position: absolute;
+  background-color: black;
+  top: -0.5rem;
+  left: 9.5rem;
+  transform: rotate(45deg);
+}
+.arrow-menu1 {
+  height: 2rem;
+  width: 2rem;
+  position: absolute;
+  background-color: black;
+  top: -0.5rem;
+  left: 18rem;
+  transform: rotate(45deg);
+}
+.arrow-menu2 {
+  height: 2rem;
+  width: 2rem;
+  position: absolute;
+  background-color: black;
+  top: -0.5rem;
+  left: 27rem;
+  transform: rotate(45deg);
+}
+.arrow-menu3 {
+  height: 2rem;
+  width: 2rem;
+  position: absolute;
+  background-color: black;
+  top: -0.5rem;
+  left: 37rem;
+  transform: rotate(45deg);
+}
+.arrow-menu4 {
+  height: 2rem;
+  width: 2rem;
+  position: absolute;
+  background-color: black;
+  top: -0.5rem;
+  left: 44rem;
+  transform: rotate(45deg);
 }
