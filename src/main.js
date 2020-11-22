@@ -24,3 +24,6 @@ createApp(MonitorPage).mount("#monitorPage");
 import EgpuPage from "./EgpuPage.vue";
 createApp(EgpuPage).mount("#egpuPage");
 createApp(App).mount("#app");
+
+import gamingLaptop from "./gamingLabtop.vue";
+createApp(gamingLaptop).mount("#Menu");

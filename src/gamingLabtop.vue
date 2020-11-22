@@ -2,10 +2,9 @@
   <MenuBar />
   <gamingtop />
   <gamingSmallBox
-    image_product_gaming="../assets/products/1Laptops/product1.png"
     name_product_gaming="1"
     info_product_gaming="2"
-    footer_gaming="3"s
+    footer_gaming="3"
   />
 </template>
 
