@@ -7,7 +7,7 @@
         <tr>
           <h4 id="headerText">TECH SPECS</h4>
         </tr>
-
+        <!-- row 1 -->
         <tr class="dataRow trDisplays dataBul">
           <th class="col-lg-3 p-0">
             <b>Input & Output</b>
@@ -17,6 +17,13 @@
               {{ row01 }}
             </li>
           </ul>
+        </tr>
+        <!-- row 2 -->
+        <tr class="dataRow trDisplays dataSingle">
+          <th class="col-lg-3">
+            <b>Internal Power Supply</b>
+          </th>
+          <td class="col-lg-9 data">{{ data2 }}</td>
         </tr>
         <span id="more" ref="more">
           <tr class="dataRow trDisplays dataBul">
@@ -149,7 +156,8 @@ export default {
       text: "",
       status: 0,
       ty: {},
-      data1: datas.eGPU[0].specs.InputOutput,
+      data1: datas.eGPU[2].specs.InputOutput,
+      data2: datas.eGPU[2].specs.Internal_Power_Supply,
     };
   },
   // created(){
