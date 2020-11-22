@@ -1,5 +1,5 @@
 <template>
-  <!-- TechSpec Egpu chroma-->
+  <!-- TechSpec Egpu Black-->
   <div class="container-fluid techSpecsBox p-0">
     <div class="container techSpecs">
       <!-- <h4 id="headerText">TECH SPECS</h4> -->
@@ -12,10 +12,10 @@
           <th class="col-lg-3 p-0">
             <b>Input & Output</b>
           </th>
-          <ul class="col-lg-9 data px-4">
-            <li v-for="row01 in data1" :key="row01">
-              {{ row01 }}
-            </li>
+          <ul class="col-lg-9 data px-3">
+            {{
+              data1[0]
+            }}
           </ul>
         </tr>
         <!-- row 2 -->
@@ -47,7 +47,7 @@
             </th>
             <td class="col-lg-9">
               <ul class="data p-2">
-                <li v-for="row4 in data5" :key="row4">{{ row4 }}</li>
+                <li v-for="row4b in data5" :key="row4b">{{ row4b }}</li>
               </ul>
             </td>
           </tr>
@@ -110,7 +110,7 @@
               <div class="data">
                 <p>
                   Length : 12.99” 330 mm <br />Height*: 6.29” / 160 mm<br />
-                  Width : 2.24” / 57 mm
+                  Width : 2.36” / 60 mm
                 </p>
                 <p>
                   * Height measured from top of PCIe connector to the bottom of
@@ -287,24 +287,24 @@ th {
 <script>
 import datas from "../assets/data.json";
 export default {
-  name: "techSpecEgpu",
+  name: "techSpecEgpuBlack",
   data() {
     return {
       text: "",
       status: 0,
       ty: {},
-      data1: datas.eGPU[2].specs.InputOutput,
-      data2: datas.eGPU[2].specs.Internal_Power_Supply,
-      data3: datas.eGPU[2].specs.Laptop_Power_Delivery,
-      data4: datas.eGPU[2].specs.Thunderbolt_3_cable_length,
+      data1: datas.eGPU[0].specs.InputOutput,
+      data2: datas.eGPU[1].specs.Internal_Power_Supply,
+      data3: datas.eGPU[1].specs.Laptop_Power_Delivery,
+      data4: datas.eGPU[1].specs.Thunderbolt_3_cable_length,
       data5: datas.eGPU[2].specs.Razer_Core_Approx_Size,
-      data6: datas.eGPU[2].specs.Weight,
+      data6: datas.eGPU[1].specs.Weight,
       data7: datas.eGPU[2].specs.Laptop_Requirements_Laptop_not_included,
       data8:
-        datas.eGPU[2].specs
+        datas.eGPU[0].specs
           .GRAPHICS_CARDS_REQUIREMENTS_GRAPHICS_CARD_NOT_INCLUDED,
-      data9: datas.eGPU[2].specs.MACOS_COMPATIBLE_GRAPHICS_CHIPSETS[0],
-      data10: datas.eGPU[2].specs.WINDOWS_10_COMPATIBLE_GRAPHICS_CHIPSETS,
+      data9: datas.eGPU[0].specs.MACOS_COMPATIBLE_GRAPHICS_CHIPSETS[0],
+      data10: datas.eGPU[0].specs.WINDOWS_10_COMPATIBLE_GRAPHICS_CHIPSETS,
     };
   },
   // created(){
@@ -345,7 +345,6 @@ export default {
   },
   created() {
     this.text = "See More";
-    console.log(this.data8.img);
   },
 };
 </script>

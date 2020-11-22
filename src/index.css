@@ -5,6 +5,14 @@
   overflow-x: hidden;
   padding-top: 47px;
 }
+body {
+  overflow-x: hidden;
+}
+.colimgProduct {
+  height: 20rem;
+  background-size: cover;
+}
+
 .razerf5 {
   font-family: Razerf5;
 }

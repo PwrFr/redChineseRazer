@@ -1,7 +1,10 @@
 <template>
   <div>
     <MenuBar />
-    <div class="container-fluid mt-5" style="padding: 0px; background-color: black">
+    <div
+      class="container-fluid mt-5"
+      style="padding: 0px; background-color: black"
+    >
       <div class="row p-0 mt-0 row-product">
         <div
           class="col-xl-10 col-md-12 col-img-full"
@@ -10,29 +13,54 @@
           <div class="image-tab">
             <lable>
               <div class="image-tab-list">
-                <input type="radio" name="test" @click="changeImage(1)" class="rdo_style" checked />
+                <input
+                  type="radio"
+                  name="test"
+                  @click="changeImage(1)"
+                  class="rdo_style"
+                  checked
+                />
                 <img :src="imageTab1" class="image-tab-border" />
               </div>
             </lable>
             <lable>
               <div class="image-tab-list">
-                <input type="radio" name="test" @click="changeImage(2)" class="rdo_style" />
+                <input
+                  type="radio"
+                  name="test"
+                  @click="changeImage(2)"
+                  class="rdo_style"
+                />
                 <img :src="imageTab2" class="image-tab-border" />
               </div>
             </lable>
             <lable>
               <div class="image-tab-list">
-                <input type="radio" name="test" @click="changeImage(3)" class="rdo_style" />
+                <input
+                  type="radio"
+                  name="test"
+                  @click="changeImage(3)"
+                  class="rdo_style"
+                />
                 <img :src="imageTab3" class="image-tab-border" />
               </div>
             </lable>
             <lable>
               <div class="image-tab-list">
                 <div v-if="4 - imageAmount > 0">
-                  <img :src="imageTab4" class="image-tab-border" :style="hiddenBorder4" />
+                  <img
+                    :src="imageTab4"
+                    class="image-tab-border"
+                    :style="hiddenBorder4"
+                  />
                 </div>
                 <div v-else>
-                  <input type="radio" name="test" @click="changeImage(4)" class="rdo_style" />
+                  <input
+                    type="radio"
+                    name="test"
+                    @click="changeImage(4)"
+                    class="rdo_style"
+                  />
                   <img :src="imageTab4" class="image-tab-border" />
                 </div>
               </div>
@@ -40,10 +68,19 @@
             <lable>
               <div class="image-tab-list">
                 <div v-if="5 - imageAmount > 0">
-                  <img :src="imageTab5" class="image-tab-border" :style="hiddenBorder5" />
+                  <img
+                    :src="imageTab5"
+                    class="image-tab-border"
+                    :style="hiddenBorder5"
+                  />
                 </div>
                 <div v-else>
-                  <input type="radio" name="test" @click="changeImage(5)" class="rdo_style" />
+                  <input
+                    type="radio"
+                    name="test"
+                    @click="changeImage(5)"
+                    class="rdo_style"
+                  />
                   <img :src="imageTab5" class="image-tab-border" />
                 </div>
               </div>
@@ -51,10 +88,19 @@
             <lable>
               <div class="image-tab-list">
                 <div v-if="6 - imageAmount > 0">
-                  <img :src="imageTab6" class="image-tab-border" :style="hiddenBorder6" />
+                  <img
+                    :src="imageTab6"
+                    class="image-tab-border"
+                    :style="hiddenBorder6"
+                  />
                 </div>
                 <div v-else>
-                  <input type="radio" name="test" @click="changeImage(6)" class="rdo_style" />
+                  <input
+                    type="radio"
+                    name="test"
+                    @click="changeImage(6)"
+                    class="rdo_style"
+                  />
                   <img :src="imageTab6" class="image-tab-border" />
                 </div>
               </div>
@@ -90,25 +136,34 @@
               <div id="box" class="model-box">
                 <div class="select-box" @click="onClickColor()">
                   <div class="model-options-container" ref="here">
-                    <div class="box-option" v-if="1 <= modelItemAmount" @click="firstSelecter()">
-                      <input type="radio" class="model-radio" id="Standard - Black" name="category" />
+                    <div
+                      class="box-option"
+                      v-if="1 <= modelItemAmount"
+                      @click="firstSelecter()"
+                    >
+                      <input
+                        type="radio"
+                        class="model-radio"
+                        id="Standard - Black"
+                        name="category"
+                      />
                       <div v-if="whiteSelecterText == 0" style="color: white">
                         <label id="1" for="Standard - Black">
-                          {{
-                          modelItem1
-                          }}
+                          {{ modelItem1 }}
                         </label>
                       </div>
                       <div v-else>
                         <label id="1" for="Standard - Black">
-                          {{
-                          modelItem1
-                          }}
+                          {{ modelItem1 }}
                         </label>
                       </div>
                     </div>
 
-                    <div class="box-option" v-if="2 <= modelItemAmount" @click="secondSelecter()">
+                    <div
+                      class="box-option"
+                      v-if="2 <= modelItemAmount"
+                      @click="secondSelecter()"
+                    >
                       <input
                         type="radio"
                         class="model-radio"
@@ -117,21 +172,21 @@
                       />
                       <div v-if="whiteSelecterText == 1" style="color: white">
                         <label id="2" for="Standard - Black">
-                          {{
-                          modelItem2
-                          }}
+                          {{ modelItem2 }}
                         </label>
                       </div>
                       <div v-else>
                         <label id="2" for="Standard - Black">
-                          {{
-                          modelItem2
-                          }}
+                          {{ modelItem2 }}
                         </label>
                       </div>
                     </div>
 
-                    <div class="box-option" v-if="3 <= modelItemAmount" @click="thirdSelecter()">
+                    <div
+                      class="box-option"
+                      v-if="3 <= modelItemAmount"
+                      @click="thirdSelecter()"
+                    >
                       <input
                         type="radio"
                         class="model-radio"
@@ -141,16 +196,12 @@
                       />
                       <div v-if="whiteSelecterText == 2" style="color: white">
                         <label id="3" for="Standard - Black">
-                          {{
-                          modelItem3
-                          }}
+                          {{ modelItem3 }}
                         </label>
                       </div>
                       <div v-else>
                         <label id="3" for="Standard - Black">
-                          {{
-                          modelItem3
-                          }}
+                          {{ modelItem3 }}
                         </label>
                       </div>
                     </div>
@@ -173,39 +224,75 @@
         </div>
       </div>
     </div>
-
-    <div v-if="specSwitch==0">
+    <headerAccessProduct
+      title="CARRY THE WINNING EDGE"
+      dis="Weather any storm with the Razer Neoprene Sleeve V2 – For 13.3”
+      Notebooks—a tough, ultra-slim, and versatile sheath that keeps your Razer
+      Blade Stealth 13, or notebooks up to 13.3” shielded from harm, no matter
+      what the game brings."
+    />
+    <SideImgRowL
+      bgimgRL="../src/assets/AC1/neoprene-sleeve-v2-protective.jpg"
+      title="PROTECTIVE EXTERIOR AND PADDED INTERIOR"
+      dis="Made of tough, water-resistant Neoprene, the sleeve protects your notebook from damage caused by impact or abrasion, while keeping your investment safe from the elements."
+    />
+    <SideImgRowR
+      bgimgRR="../src/assets/AC1/neoprene-sleeve-v2-custom-fit.jpg"
+      title="CUSTOM FIT FOR THE RAZER BLADE STEALTH 13"
+      dis="Made to measure, every inch of the sleeve is designed to perfectly accommodate your Razer Blade Stealth 13, so you can carry the winning edge wherever you go."
+    />
+    <SideImgRowL
+      bgimgRL="../src/assets/AC1/neoprene-sleeve-v2-ultra-slim.jpg"
+      title="ULTRA-SLIM PROFILE"
+      dis="Equipped with a sleek silhouette, the sleeve fits notebooks up to 13.3” and fastens them in with a zipper closure that keeps your gear securely in place, no matter where you are."
+    />
+    <ColAccessProduct
+      colimgProduct0="../src/assets/AC1/neoprene-sleeve-v2-panel-portable-design.jpg"
+      colimgProduct1="../src/assets/AC1/neoprene-sleeve-v2-panel-waterpoof.jpg"
+      colimgProduct2="../src/assets/AC1/neoprene-sleeve-v2-panel-detachable.jpg"
+      titleL="PORTABLE DESIGN"
+      titleC="WATERPROOF ZIPPER TAPE"
+      titleR="DETACHABLE WOVEN STRAP"
+      disL="Designed to complement your mobile gaming lifestyle, the sleeve’s compact form factor feels great in your hands, and fits snugly into similarly sized backpacks, making portability a breeze."
+      disC="For complete weather protection, the sleeve comes with waterproof zipper tapes to keep your notebook fully insulated from the elements."
+      disR="Unzip the sleeve with ease with a striking, detachable woven strap that proudly shows where your loyalties lie."
+    />
+    <div v-if="specSwitch == 0">
       <!-- spec 1 here -->
     </div>
-    <div v-if="specSwitch==1">
+    <div v-if="specSwitch == 1">
       <!-- spec 2 here -->
     </div>
-    <div v-if="specSwitch==2">
+    <div v-if="specSwitch == 2">
       <!-- spec 3 here -->
     </div>
   </div>
 </template>
 
 <script>
+import headerAccessProduct from "./components/headerAccesssProduct.vue";
 import MenuBar from "./components/MenuBar.vue";
-
+import SideImgRowL from "./components/SideImgRowL.vue";
+import SideImgRowR from "./components/SideImgRowR.vue";
+import ColAccessProduct from "./components/ColAccessProduct.vue";
 import datas from "./assets/data.json";
 
 export default {
   created() {},
   data() {
     return {
+      json: datas,
       nnum: 0,
       specSwitch: 0,
       onum: 0,
       hiddenBorder4: {
-        border: "0px"
+        border: "0px",
       },
       hiddenBorder5: {
-        border: "0px"
+        border: "0px",
       },
       hiddenBorder6: {
-        border: "0px"
+        border: "0px",
       },
       //imageTab1: "/src/assets/products/cases/bar/1.jpg",
       //imageTab2: "/src/assets/products/cases/bar/2.jpg",
@@ -248,14 +335,18 @@ export default {
       shippingDate: "Ships next business day",
       buyingStatus: "ADD TO CART",
       buyingAt: "",
-      whiteSelecterText: "1"
+      whiteSelecterText: "1",
     };
   },
   mounted() {
     this.test();
   },
   components: {
-    MenuBar
+    MenuBar,
+    SideImgRowL,
+    SideImgRowR,
+    headerAccessProduct,
+    ColAccessProduct,
   },
   methods: {
     firstSelecter() {
@@ -364,7 +455,7 @@ export default {
         this.nnum += 1;
       });
 
-      optionsList.forEach(o => {
+      optionsList.forEach((o) => {
         o.addEventListener("click", () => {
           selected.innerHTML = o.querySelector("label").innerHTML;
           optionsContainer.classList.remove("active");
@@ -426,8 +517,8 @@ export default {
       this.onum = this.nnum;
       // console.log(this.onum);
       // console.log(this.nnum);
-    }
-  }
+    },
+  },
 };
 </script>
 <style>

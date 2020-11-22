@@ -34,6 +34,8 @@
     />
     <techSpecEgpu />
     <eGPU1 />
+    <techSpecEgpuBlack />
+    <!-- black and Mercury is same spce -->
     <Footer />
   </div>
 </template>
@@ -44,6 +46,8 @@ import ProductSlot from "./components/ProductSlot.vue";
 import Footer from "./components/Footer.vue";
 import datas from "./assets/data.json";
 import eGPU1 from "./components/eGPUsPage/eGPU1.vue"
+import techSpecEgpu from "./components/techSpecEgpuChroma.vue";
+import techSpecEgpuBlack from "./components/techSpecEgpuBlack.vue";
 
 //Row5 use same component with row3
 
@@ -53,6 +57,8 @@ export default {
   components: {
     ProductSlot,
     MenuBar,
+    techSpecEgpu,
+    techSpecEgpuBlack,
     Footer,
     eGPU1
   },
