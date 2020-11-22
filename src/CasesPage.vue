@@ -55,7 +55,7 @@
     <Row7 />
     <Row8 />
     <Row9 />
-    <TechSpec />
+    <techSpecCase />
     <Footer />
   </div>
 </template>
@@ -76,7 +76,7 @@ import Row7 from "./components/CasesPage/casesRow7.vue";
 import Row8 from "./components/CasesPage/casesRow8.vue";
 import Row9 from "./components/CasesPage/casesRow9.vue";
 //Row5 use same component with row3
-import TechSpec from "./components/CasesPage/techSpecCase.vue";
+import techSpecCase from "./components/CasesPage/techSpecCase.vue";
 
 export default {
   mixins: [global],
@@ -94,8 +94,8 @@ export default {
     Row7,
     Row8,
     Row9,
-    TechSpec,
-    Footer
+    techSpecCase,
+    Footer,
   },
   data() {
     return {
@@ -111,7 +111,7 @@ export default {
       modelFirstNameJson: datas.Cases[1].model[1],
       modelItem1: datas.Cases[1].model[0],
       modelItem2: datas.Cases[1].model[1],
-      modelItem3: datas.Cases[1].model[2]
+      modelItem3: datas.Cases[1].model[2],
     };
   },
   created() {
@@ -121,7 +121,7 @@ export default {
     kuy() {
       caseTrue = 0;
       alert("kuy");
-    }
-  }
+    },
+  },
 };
 </script>
