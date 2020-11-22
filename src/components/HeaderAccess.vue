@@ -191,6 +191,7 @@
               @click="isActive2[index] = !isActive2[index]"
             >
               {{ key }}
+              {{ product_select }}
               <svg
                 :class="{
                   ['arrowUp']: isActive2[index] == true,
@@ -329,8 +330,13 @@
                           name="category"
                         />
 
-                        <div>
-                          <label id="1" for="Standard - Black">Newest</label>
+                        <div @click="myFunction('3', '2', '1')">
+                          <label
+                            id="1"
+                            for="Standard - Black"
+                            @click="product_select = 1"
+                            >Newest</label
+                          >
                         </div>
                       </div>
 
@@ -346,7 +352,10 @@
                         />
 
                         <div>
-                          <label id="2" for="Standard - Black"
+                          <label
+                            id="2"
+                            for="Standard - Black"
+                            @click="product_select = 2"
                             >Price (Low to High)</label
                           >
                         </div>
@@ -364,7 +373,10 @@
                         />
 
                         <div>
-                          <label id="3" for="Standard - Black"
+                          <label
+                            id="3"
+                            for="Standard - Black"
+                            @click="product_select = 3"
                             >Price (High to Low)</label
                           >
                         </div>
@@ -432,6 +444,7 @@ export default {
       isActive1: [null],
       isActive2: [null],
       isActive3: [null],
+      product_select: 0,
     };
   },
   components: {
