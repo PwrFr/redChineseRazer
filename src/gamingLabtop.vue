@@ -9,18 +9,22 @@
       />
     </div>
   </div>
+
+  gamingBigBox
 </template>
 
 <script>
 import datas from "../src/assets/data.json";      
 import gamingtop from "./components/gaming-top.vue";
 import gamingSmallBox from "./components/gaming-small-box.vue";
+import gamingBigBox from "./components/gaming-big-box.vue"
 
 export default {
   name: "gamingLabtop",
   components: {
     gamingtop,
     gamingSmallBox,
+    gamingBigBox
   },
   data() {
     return {

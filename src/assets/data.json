@@ -859,5 +859,79 @@
         "title":"The Razer Blade 15",
         "discrip":"The Quartz Edition gaming laptop has returned. Now with more power, more cores and more frames for your games.",
         "footer":"Buy Now>"
-    }]
+    }],
+
+
+    "gaming_laptop_1":[{
+        "img":"src/assets/products/1Laptops/bg0.jpg",
+        "title":"Razer Book 13",
+        "discrip":"Performance Meets Productivity.",
+        "learnMore" : "Learn More>",
+        "viewAllModels": "View All Models>",
+        "topbox": "RAZER.COM EXCLUSIVE"
+        
+    },
+    {
+        "img":"src/assets/products/1Laptops/bg1.jpg",
+        "title":"RAZER BLADE STEALTH 13",
+        "discrip":"The World’s First Gaming Ultrabook",
+        "learnMore" : "Learn More>",
+        "viewAllModels": "View All Models>",
+        "topbox": "NEW"
+        
+    },
+    {
+        "img":"src/assets/products/1Laptops/bg2.jpg",
+        "title":"RAZER BLADE 15",
+        "discrip":"Sleek high performance gaming laptop with up to 8-Core CPUs and GeForce® graphics.",
+        "learnMore" : "Learn More>",
+        "viewAllModels": "View All Models>"
+    },
+    {
+        "img":"src/assets/products/1Laptops/bg3.jpg",
+        "title":"RAZER BLADE PRO 17",
+        "discrip":"On-the-go desktop replacement powerhouse built for gaming and intensive applications.",
+        "learnMore" : "Learn More>",
+        "viewAllModels": "View All Models>"
+    },
+    {
+        "img":"src/assets/products/1Laptops/bg4.jpg",
+        "title":"Razer Blade 15 Studio Edition",
+        "discrip":"Create from anywhere with workstation-class performance and color accurate displays.",
+        "learnMore" : "Learn More>",
+        "viewAllModels": "View All Models>"
+        
+    },
+
+
+    {
+        "img":"src/assets/products/1Laptops/bg5.jpg",
+        "title":"Razer LAPTOP ACCESSORIES",
+        "discrip":"Maximize your laptop experience",
+        "link" : "Learn More>"
+        
+    },
+    {
+        "img":"src/assets/products/1Laptops/bg6.jpg",
+        "title":"Get 3 years of repair support including accidental damage coverage with RazerCare Elite.",
+        "discrip":"",
+        "link" : "Protect your Razer Blade today"
+    },
+    {
+        "img":"src/assets/products/1Laptops/bg7.jpg",
+        "title":"Razer Education Program",
+        "discrip":"Get special privileges only for students. 5% OFF Razer Blade laptops More #MADEWITHBLADE stories",
+        "link" : "Sign Up Now >"
+    },
+    {
+        "img":"src/assets/products/1Laptops/bg8.jpg",
+        "title":"#MADEWITHBLADE",
+        "discrip":"#MADEWITHBLADE is an exploration into the cutting-edge creativity of some of the most talented artists in the world. Come inside their studios and behind-the scenes as these artists share exclusive stories about how Razer Blade laptops are helping them push the envelope of music production, visual effects, digital illustration and 3D animation.",
+        "link" : "More #MADEWITHBLADE stories"
+    }
+
+
+
+]
+    
 }
