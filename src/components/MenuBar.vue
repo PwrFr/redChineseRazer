@@ -18,6 +18,7 @@
               ><p class="fc ml-1 pt-2 pl-3 pr-4">WHAT'S NEW</p>
             </a>
             <div class="dropdown-content mt-2">
+              <div class="arrow-menu0"></div>
               <div
                 class="row bg-dropdown w-75 position-fixed m-0 p-2 pt-3 pb-4 text-left"
               >
@@ -149,6 +150,7 @@
               ><p class="fc pt-2 pr-4">PRODUCTS</p>
             </a>
             <div class="dropdown-content mt-2">
+              <div class="arrow-menu1"></div>
               <div
                 class="row bg-dropdown w-75 position-fixed m-0 p-2 pt-3 pb-4 text-left"
               >
@@ -334,6 +336,7 @@
               ><p class="fc pt-2 pr-4">APPS & DOWNLOADS</p>
             </a>
             <div class="dropdown-content mt-2">
+              <div class="arrow-menu2"></div>
               <div
                 class="row bg-dropdown w-75 position-fixed m-0 p-2 pt-3 pb-4 text-left"
               >
@@ -423,6 +426,7 @@
               ><p class="fc pt-2 pr-4">EXPLORE</p>
             </a>
             <div class="dropdown-content mt-2">
+              <div class="arrow-menu3"></div>
               <div
                 class="row bg-dropdown w-75 position-fixed m-0 p-2 pt-3 pb-4 text-left"
               >
@@ -560,6 +564,7 @@
               ><p class="fc pt-2 pr-3">SUPPORT</p>
             </a>
             <div class="dropdown-content mt-2">
+              <div class="arrow-menu4"></div>
               <div
                 class="row bg-dropdown w-75 position-fixed m-0 p-2 pt-3 pb-4 text-left"
               >
@@ -622,6 +627,7 @@
         <div class="d-flex align-items-center mt-2">
           <a href="" class="mr-3"
             ><svg
+              class="menu-icon"
               height="17.5"
               viewBox="0 0 550 550"
               xmlns="http://www.w3.org/2000/svg"
@@ -632,6 +638,7 @@
           ></a>
           <a href=""
             ><svg
+              class="menu-icon"
               xmlns="http://www.w3.org/2000/svg"
               height="22"
               viewBox="0 0 24 24"
@@ -660,12 +667,12 @@
 .fc:hover {
   color: white;
 }
-svg {
+.menu-icon {
   fill: #999999;
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
 }
-svg:hover {
+.menu-icon:hover {
   fill: lime;
 }
 </style>

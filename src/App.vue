@@ -1,22 +1,22 @@
 <template>
   <MenuBar />
-  <imageRow 
+  <imageRow
     bgImgRow="../src/assets/home/1.jpg"
     title="PERFORMANCE MEETS PRODUCTIVITY."
     discription="Shop The New Razer Book 13"
-    />
-    <imageRow 
+  />
+  <imageRow
     bgImgRow="../src/assets/home/2.jpg"
     title="GET A HEAD START ON HOLIDAY SHOPPING"
     discription="Shop Holiday Gift Guide"
-    />
-    <imageRow 
+  />
+  <imageRow
     bgImgRow="../src/assets/home/3.jpg"
     title="CONSOLE. MOBILE. COMBINED."
     discription="Shop Razer Kaira Pro for Xbox"
-    />
+  />
 
-  <imgCol 
+  <imgCol
     bgImgCL="../src/assets/home/4L.jpg"
     titleCL="MORE POWER. MORE CORES. MORE FRAMES."
     discriptionCL="Up to $100 in Savings. Shop Razer Blade 15"
@@ -25,7 +25,7 @@
     discriptionCR="Razer.com Exclusive. Shop Now"
   />
 
-  <imgCol 
+  <imgCol
     bgImgCL="../src/assets/home/5L.jpg"
     titleCL="RazerStore Exclusive"
     discriptionCL="Learn More"
@@ -33,8 +33,8 @@
     titleCR="COLOR YOUR WORLD WITH RAZER CHROMA RGB ACCESSORIES"
     discriptionCR="Learn More"
   />
-  
-  <imgCol 
+
+  <imgCol
     bgImgCL="../src/assets/home/6L.jpg"
     titleCL="THE MEOW FACTOR. NOW MOBILE."
     discriptionCL="Shop Razer Kraken BT Kitty Edition"
@@ -43,19 +43,23 @@
     discriptionCR="Get in on Razer Insider"
   />
 
-  <techSpecCase/>
+  <techSpecCase />
   <Footer />
-
 </template>
 
 <script>
-
 import MenuBar from "./components/MenuBar.vue";
 import ProductSlot from "./components/ProductSlot.vue";
+<<<<<<< HEAD
 import imageRow from "./components/ImageRow.vue"
 import imgCol from "./components/imgCol.vue"
 import Footer from "./components/Footer.vue"
 import techSpecCase from "./components/techSpecCase.vue"
+=======
+import imageRow from "./components/ImageRow.vue";
+import imgCol from "./components/imgCol.vue";
+import Footer from "./components/Footer.vue";
+>>>>>>> 39108822b5ac4bea8ee58b58a6fe359ea7dc7631
 
 export default {
   name: "App",
@@ -64,8 +68,13 @@ export default {
     imageRow,
     imgCol,
     ProductSlot,
+<<<<<<< HEAD
     techSpecCase,
     Footer
   }
+=======
+    Footer,
+  },
+>>>>>>> 39108822b5ac4bea8ee58b58a6fe359ea7dc7631
 };
 </script>
