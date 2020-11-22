@@ -56,6 +56,7 @@
     <Row8 />
     <Row9 />
     <techSpecCase />
+    <techSpecCaseMini />
     <Footer />
   </div>
 </template>
@@ -77,6 +78,7 @@ import Row8 from "./components/CasesPage/casesRow8.vue";
 import Row9 from "./components/CasesPage/casesRow9.vue";
 //Row5 use same component with row3
 import techSpecCase from "./components/CasesPage/techSpecCase.vue";
+import techSpecCaseMini from "./components/CasesPage/techSpecCaseMini.vue";
 
 export default {
   mixins: [global],
@@ -95,6 +97,7 @@ export default {
     Row8,
     Row9,
     techSpecCase,
+    techSpecCaseMini,
     Footer,
   },
   data() {
