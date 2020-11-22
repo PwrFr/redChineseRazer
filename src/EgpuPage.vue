@@ -32,8 +32,9 @@
       buyingAt="Also Available At"
       whiteSelecterText="2"
     />
-    <!-- <techSpecEgpu /> -->
+    <techSpecEgpu />
     <techSpecEgpuBlack />
+    <!-- black and Mercury is same spce -->
     <Footer />
   </div>
 </template>
