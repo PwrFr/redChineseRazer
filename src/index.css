@@ -529,9 +529,10 @@ button:focus {
   padding: 0px;
   border: 0px;
   background: #111111;
+  position: relative;
 }
 .card-gaming {
-  margin-top: 25px;
+  height: 33.5625rem;
   border-bottom: 1px solid #44d62c;
 }
 
@@ -903,4 +904,12 @@ p {
 }
 .col-xl-10 {
   max-width: 78.7%;
+}
+.card-text {
+  bottom: 0;
+}
+
+.card-text-bottom {
+  position: absolute;
+  bottom: 0.625rem;
 }

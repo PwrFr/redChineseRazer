@@ -843,5 +843,21 @@
                 }
             ]
         }
-    }
+    },
+    "gaming_laptop":[{
+        "img":"src/assets/products/1Laptops/product1.png",
+        "title":"The New Razer Blade Stealth 13",
+        "discrip":"Enter the next evolution of ultra-mobility and extreme performance.",
+        "footer":"Learn More>"
+    },{
+        "img":"src/assets/products/1Laptops/product2.png",
+        "title":"Razer Blade Pro 17",
+        "discrip":"Featuring a huge 17.3” display integrated with either a Full HD or UHD screen and a silky-smooth refresh rate for the ultimate gaming experience.",
+        "footer":"Learn More>"
+    },{
+        "img":"src/assets/products/1Laptops/product3.jpg",
+        "title":"The Razer Blade 15",
+        "discrip":"The Quartz Edition gaming laptop has returned. Now with more power, more cores and more frames for your games.",
+        "footer":"Buy Now>"
+    }]
 }
