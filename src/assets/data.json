@@ -751,8 +751,7 @@
                     "img": "src/assets/img/PC_Acessories/Accessories/RazerNeopreneSleeveV2-For13.3”Notebooks.jpg",
                     "tag": "green",
                     "tagTitle": "NEW",
-                    "link":"access1.html"
-                    
+                    "link": "access1.html"
                 },
                 {
                     "name": "Razer Protective Sleeve V2 - For 13.3\" Notebooks",
@@ -766,7 +765,14 @@
                     "img": "src/assets/img/PC_Acessories/Accessories/RazerProtectiveV2-13.3.png",
                     "tag": "green",
                     "tagTitle": "NEW",
-                    "link":"access2.html"
+                    "link": "access2.html",
+                    "imgbar": [
+                        "src/assets/img/PC_Acessories/Accessories/ProtectiveSleeveV2_13'/bar/1.jpg",
+                        "src/assets/img/PC_Acessories/Accessories/ProtectiveSleeveV2_13'/bar/2.jpg",
+                        "src/assets/img/PC_Acessories/Accessories/ProtectiveSleeveV2_13'/bar/3.jpg",
+                        "src/assets/img/PC_Acessories/Accessories/ProtectiveSleeveV2_13'/bar/4.jpg",
+                        "src/assets/img/PC_Acessories/Accessories/ProtectiveSleeveV2_13'/bar/5.jpg"
+                    ]
                 },
                 {
                     "name": "Razer Protective Sleeve V2 - For 17.3\" Notebooks",
@@ -780,7 +786,7 @@
                     "img": "src/assets/img/PC_Acessories/Accessories/RazerProtectiveSleeveV2-For17.3.png",
                     "tag": "green",
                     "tagTitle": "NEW",
-                    "link":"access3.html"
+                    "link": "access3.html"
                 },
                 {
                     "name": "Razer Protective Sleeve V2 - For 15.6\" Notebooks",
@@ -844,20 +850,24 @@
             ]
         }
     },
-    "gaming_laptop":[{
-        "img":"src/assets/products/1Laptops/product1.png",
-        "title":"The New Razer Blade Stealth 13",
-        "discrip":"Enter the next evolution of ultra-mobility and extreme performance.",
-        "footer":"Learn More>"
-    },{
-        "img":"src/assets/products/1Laptops/product2.png",
-        "title":"Razer Blade Pro 17",
-        "discrip":"Featuring a huge 17.3” display integrated with either a Full HD or UHD screen and a silky-smooth refresh rate for the ultimate gaming experience.",
-        "footer":"Learn More>"
-    },{
-        "img":"src/assets/products/1Laptops/product3.jpg",
-        "title":"The Razer Blade 15",
-        "discrip":"The Quartz Edition gaming laptop has returned. Now with more power, more cores and more frames for your games.",
-        "footer":"Buy Now>"
-    }]
+    "gaming_laptop": [
+        {
+            "img": "src/assets/products/1Laptops/product1.png",
+            "title": "The New Razer Blade Stealth 13",
+            "discrip": "Enter the next evolution of ultra-mobility and extreme performance.",
+            "footer": "Learn More>"
+        },
+        {
+            "img": "src/assets/products/1Laptops/product2.png",
+            "title": "Razer Blade Pro 17",
+            "discrip": "Featuring a huge 17.3” display integrated with either a Full HD or UHD screen and a silky-smooth refresh rate for the ultimate gaming experience.",
+            "footer": "Learn More>"
+        },
+        {
+            "img": "src/assets/products/1Laptops/product3.jpg",
+            "title": "The Razer Blade 15",
+            "discrip": "The Quartz Edition gaming laptop has returned. Now with more power, more cores and more frames for your games.",
+            "footer": "Buy Now>"
+        }
+    ]
 }
