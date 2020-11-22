@@ -30,3 +30,9 @@ createApp(gamingLaptop).mount("#gamingLaptop");
 
 import access1 from "../src/access1.vue";
 createApp(access1).mount("#AC1");
+
+import access2 from "../src/access2.vue";
+createApp(access2).mount("#AC2");
+
+import access3 from "../src/access3.vue";
+createApp(access3).mount("#AC3");
