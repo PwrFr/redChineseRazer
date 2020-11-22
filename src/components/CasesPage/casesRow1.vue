@@ -15,35 +15,32 @@
   text-align: center;
   background-color: #44d62c;
 
-  height: 293px;
+  height: 18.3125rem;
   width: 100%;
-  width: 1930px;
 
   margin: 0;
 
   line-height: 1.5;
-  padding-top: 80px;
+  padding-top: 5rem;
 }
 .cases-row1-header {
   color: #000;
   font-family: RazerF5, sans-serif;
-  font-size: 28px;
+  font-size: 1.75rem;
   font-weight: 200;
   grid-area: first;
   letter-spacing: 0.0625rem;
   line-height: 2.25rem;
-  padding-bottom: 13px;
+  padding-bottom: 0.8125rem;
 }
 .cases-row1-des {
   font-family: "Robo-light", sans-serif;
-  margin-left: 500px;
 
   color: #000;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 200;
   grid-area: second;
-  line-height: 1.5rem;
   line-height: 1.75rem;
-  max-width: 870px;
+  max-width: 54.375rem;
 }
 </style>

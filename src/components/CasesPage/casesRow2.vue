@@ -22,8 +22,8 @@
   padding: 24rem 0 1rem;
   background-color: #222;
   background-image: url(/src/assets/products/3Cases/row2.jpg);
-  width: 1920px;
-  height: 625px;
+  background-position: center;
+  height: 100%;
   color: white;
 }
 .cases-row2-text {
