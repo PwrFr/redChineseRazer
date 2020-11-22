@@ -751,7 +751,22 @@
                     "img": "src/assets/img/PC_Acessories/Accessories/RazerNeopreneSleeveV2-For13.3”Notebooks.jpg",
                     "tag": "green",
                     "tagTitle": "NEW",
-                    "link": "access1.html"
+                    "link": "access1.html",
+                    "header_des": "Ultra-Sleek Protection for the Razer Blade Stealth 13",
+                    "imgbar": [
+                        "src/assets/img/PC_Acessories/Accessories/NeopreneSleeveV2/bar/1.jpg",
+                        "src/assets/img/PC_Acessories/Accessories/NeopreneSleeveV2/bar/2.jpg",
+                        "src/assets/img/PC_Acessories/Accessories/NeopreneSleeveV2/bar/3.jpg",
+                        "src/assets/img/PC_Acessories/Accessories/NeopreneSleeveV2/bar/4.jpg",
+                        "src/assets/img/PC_Acessories/Accessories/NeopreneSleeveV2/bar/5.jpg"
+                    ],
+                    "imgbig": [
+                        "src/assets/img/PC_Acessories/Accessories/NeopreneSleeveV2/big/1.jpg",
+                        "src/assets/img/PC_Acessories/Accessories/NeopreneSleeveV2/big/2.jpg",
+                        "src/assets/img/PC_Acessories/Accessories/NeopreneSleeveV2/big/3.jpg",
+                        "src/assets/img/PC_Acessories/Accessories/NeopreneSleeveV2/big/4.jpg",
+                        "src/assets/img/PC_Acessories/Accessories/NeopreneSleeveV2/big/5.jpg"
+                    ]
                 },
                 {
                     "name": "Razer Protective Sleeve V2 - For 13.3\" Notebooks",
