@@ -2,6 +2,46 @@
   <div class="access mt-5 pt-3">
     <div class="text-center container pt-3 mt-4">
       <h1 class="text-light pc-title pt-1 mb-4 pb-1">PC</h1>
+      <!-- boos here --->
+      <div>
+        <div class="model-box-div">
+          <div id="box" class="model-box">
+            <div class="select-box" @click="onClickColor()">
+              <div class="model-options-container" ref="here">
+                <div @click="testfuck()" class="box-option">
+                  <input type="radio" class="model-radio" id="Standard - Black" name="category" />
+
+                  <div>
+                    <label id="1" for="Standard - Black">A</label>
+                  </div>
+                </div>
+
+                <div @click="myFunction('2', '1', '3')" class="box-option">
+                  <input type="radio" class="model-radio" id="Standard - Mercury" name="category" />
+
+                  <div>
+                    <label id="2" for="Standard - Black">B</label>
+                  </div>
+                </div>
+
+                <div @click="myFunction('3', '1', '2')" class="box-option">
+                  <input type="radio" class="model-radio" id="Chroma" name="category" />
+
+                  <div>
+                    <label id="3" for="Standard - Black">C</label>
+                  </div>
+                </div>
+              </div>
+
+              <div class="selected">HEE</div>
+            </div>
+          </div>
+          <div class="model-box-1" id="box1">
+            <b>Model</b>
+          </div>
+        </div>
+      </div>
+      <!-- end --->
       <div id="myDIV row d-flex justify-content-center mt-4">
         <button
           class="btnC"
@@ -12,9 +52,7 @@
             isActive3[0] = null;
           "
           :class="{ 'access-faro': select == 1 }"
-        >
-          LAPTOPS
-        </button>
+        >LAPTOPS</button>
         <button
           class="btnC"
           @click="
@@ -33,9 +71,7 @@
             isActive3[0] = null;
           "
           :class="{ 'access-faro': select == 2 }"
-        >
-          EGPUS
-        </button>
+        >EGPUS</button>
         <button
           class="btnC"
           @click="
@@ -54,9 +90,7 @@
             isActive3[0] = null;
           "
           :class="{ 'access-faro': select == 3 }"
-        >
-          ACCESSORIES
-        </button>
+        >ACCESSORIES</button>
         <button
           class="btnC"
           @click="
@@ -75,9 +109,7 @@
             isActive2[0] = null;
           "
           :class="{ 'access-faro': select == 4 }"
-        >
-          MONITORS
-        </button>
+        >MONITORS</button>
       </div>
     </div>
   </div>
@@ -110,9 +142,7 @@
                 height="18"
                 viewBox="0 0 18 24"
               >
-                <path
-                  d="M6.028 0 v6.425l5.549 5.575-5.549 5.575v6.425l11.944-12z"
-                />
+                <path d="M6.028 0 v6.425l5.549 5.575-5.549 5.575v6.425l11.944-12z" />
               </svg>
             </p>
 
@@ -126,8 +156,8 @@
               v-for="(value, key) in value"
               :key="key"
             >
-              <label class="wrap-checkbox m-0"
-                >{{ value }}
+              <label class="wrap-checkbox m-0">
+                {{ value }}
                 <input type="checkbox" />
                 <span class="checkmark"></span>
               </label>
@@ -155,9 +185,7 @@
                 height="18"
                 viewBox="0 0 18 24"
               >
-                <path
-                  d="M6.028 0 v6.425l5.549 5.575-5.549 5.575v6.425l11.944-12z"
-                />
+                <path d="M6.028 0 v6.425l5.549 5.575-5.549 5.575v6.425l11.944-12z" />
               </svg>
             </p>
             <div
@@ -170,8 +198,8 @@
               v-for="(value, key) in value"
               :key="key"
             >
-              <label class="wrap-checkbox m-0"
-                >{{ value }}
+              <label class="wrap-checkbox m-0">
+                {{ value }}
                 <input type="checkbox" />
                 <span class="checkmark"></span>
               </label>
@@ -201,9 +229,7 @@
                 height="18"
                 viewBox="0 0 18 24"
               >
-                <path
-                  d="M6.028 0 v6.425l5.549 5.575-5.549 5.575v6.425l11.944-12z"
-                />
+                <path d="M6.028 0 v6.425l5.549 5.575-5.549 5.575v6.425l11.944-12z" />
               </svg>
             </p>
             <div
@@ -216,8 +242,8 @@
               v-for="(value, key) in value"
               :key="key"
             >
-              <label class="wrap-checkbox m-0"
-                >{{ value }}
+              <label class="wrap-checkbox m-0">
+                {{ value }}
                 <input type="checkbox" />
                 <span class="checkmark"></span>
               </label>
@@ -246,9 +272,7 @@
                 height="18"
                 viewBox="0 0 18 24"
               >
-                <path
-                  d="M6.028 0 v6.425l5.549 5.575-5.549 5.575v6.425l11.944-12z"
-                />
+                <path d="M6.028 0 v6.425l5.549 5.575-5.549 5.575v6.425l11.944-12z" />
               </svg>
             </p>
             <div
@@ -261,8 +285,8 @@
               v-for="(value, key) in value"
               :key="key"
             >
-              <label class="wrap-checkbox m-0"
-                >{{ value }}
+              <label class="wrap-checkbox m-0">
+                {{ value }}
                 <input type="checkbox" />
                 <span class="checkmark"></span>
               </label>
@@ -272,18 +296,22 @@
       </div>
       <div class="col-9">
         <div class="row">
-          <div v-if="select === 1" class="pt-3 pl-2 mt-1 amount-products">
-            {{ json_obj.PC_Acessories.LAPTOPS.Product.length }} products
-          </div>
-          <div v-else-if="select === 2" class="pt-3 pl-2 mt-1 amount-products">
-            {{ json_obj.PC_Acessories.EGPUS.Product.length }} products
-          </div>
-          <div v-else-if="select === 3" class="pt-3 pl-2 mt-1 amount-products">
-            {{ json_obj.PC_Acessories.ACCESSORIES.Product.length }} products
-          </div>
-          <div v-else class="pt-3 pl-2 mt-1 amount-products">
-            {{ json_obj.PC_Acessories.MONITORS.Product.length }} products
-          </div>
+          <div
+            v-if="select === 1"
+            class="pt-3 pl-2 mt-1 amount-products"
+          >{{ json_obj.PC_Acessories.LAPTOPS.Product.length }} products</div>
+          <div
+            v-else-if="select === 2"
+            class="pt-3 pl-2 mt-1 amount-products"
+          >{{ json_obj.PC_Acessories.EGPUS.Product.length }} products</div>
+          <div
+            v-else-if="select === 3"
+            class="pt-3 pl-2 mt-1 amount-products"
+          >{{ json_obj.PC_Acessories.ACCESSORIES.Product.length }} products</div>
+          <div
+            v-else
+            class="pt-3 pl-2 mt-1 amount-products"
+          >{{ json_obj.PC_Acessories.MONITORS.Product.length }} products</div>
           <div class="d-flex align-items-end icon-row">
             <svg
               @click="icon_select = 1"
@@ -364,17 +392,97 @@ export default {
       isActive1: [null],
       isActive2: [null],
       isActive3: [null],
-      number: 1,
+      number: 1
     };
   },
   components: {
-    card,
+    card
+  },
+  mounted() {
+    this.test();
   },
   methods: {
     change() {
       number = 10;
     },
-  },
+    test() {
+      const selected = document.querySelector(".selected");
+      const optionsContainer = document.querySelector(
+        ".model-options-container"
+      );
+      const optionsList = document.querySelectorAll(".box-option");
+
+      selected.addEventListener("click", () => {
+        optionsContainer.classList.toggle("active");
+        this.nnum += 1;
+      });
+
+      optionsList.forEach(o => {
+        o.addEventListener("click", () => {
+          selected.innerHTML = o.querySelector("label").innerHTML;
+          optionsContainer.classList.remove("active");
+          if (o.querySelector("label").innerHTML == "A") {
+            valX = 0;
+          } else if (o.querySelector("label").innerHTML == "B") {
+            //location.href = this.modelLink2;
+          } else if (o.querySelector("label").innerHTML == "C") {
+            location.href = this.modelLink3;
+          }
+        });
+      });
+    },
+
+    myFunction(change, not_change1, not_change2) {
+      document
+        .getElementById(change)
+        .setAttribute("style", "color: #f5f5f5;font-size:inherit");
+      document
+        .getElementById(not_change1)
+        .setAttribute("style", "color: 8d8d8d");
+      document
+        .getElementById(not_change2)
+        .setAttribute("style", "color: 8d8d8d");
+    },
+
+    onClickColor() {
+      const optionsContainer = document.querySelector(
+        ".model-options-container"
+      );
+      console.log(this.onum);
+      console.log(this.nnum);
+
+      console.log("nomal");
+
+      if (this.onum === this.nnum || this.nnum % 2 == 0) {
+        document
+          .getElementById("box")
+          .setAttribute("style", "border: 1px solid #adadad;");
+        document
+          .getElementById("box1")
+          .setAttribute("style", "color: #adadad;");
+        console.log("bigif");
+
+        if (this.nnum % 2 != 0) {
+          optionsContainer.classList.remove("active");
+          this.nnum += 1;
+
+          console.log("if");
+        }
+      } else {
+        document
+          .getElementById("box")
+          .setAttribute("style", "border: 2px solid #43d32b !important;");
+        document
+          .getElementById("box1")
+          .setAttribute("style", "color: #43d32b;");
+        console.log("el");
+      }
+
+      this.onum = this.nnum;
+      // console.log(this.onum);
+      // console.log(this.nnum);
+    }
+  }
 };
 </script>
 
