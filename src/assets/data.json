@@ -85,7 +85,7 @@
                     "168 mm x 374 mm x 230 mm"
                 ],
                 "Weight": "14.29 lbs / 6.48 kg",
-                "Laptop_Requirements_(Laptop_not_included)": {
+                "Laptop_Requirements_Laptop_not_included": {
                     "Connection_to_system": "Systems require a Thunderbolt™ 3 port with external graphics support. Please check with your laptop manufacture to confirm if your laptop supports Thunderbolt 3 external graphics.",
                     "macOS_Systems_Requirements": [
                         "Thunderbolt™ 3 equipped Macs running macOS High Sierra 10.13.4 or later.",
@@ -97,7 +97,7 @@
                         "Compatible NVIDIA or AMD graphics card sold separately."
                     ]
                 },
-                "Graphics Cards Requirements (Graphics card not included)": {
+                "GRAPHICS_CARDS_REQUIREMENTS_GRAPHICS_CARD_NOT_INCLUDED": {
                     "Max inner dimensions ": {
                         "0": [
                             "Length : 12.99”/ 330 mm",
