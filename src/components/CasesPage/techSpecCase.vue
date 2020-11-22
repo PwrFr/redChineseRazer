@@ -11,41 +11,22 @@
           <th class="col-lg-3 p-0">
             <b>MODEL</b>
           </th>
-<<<<<<< HEAD
-          <td class="col-lg-9">
-            {{data1}}
-          </td>
-=======
           <td class="col-lg-9 data">{{ data1 }}</td>
->>>>>>> 39108822b5ac4bea8ee58b58a6fe359ea7dc7631
         </tr>
         <!-- row 2-->
         <tr class="dataRow trDisplay dataSingle">
           <th class="col-lg-3 p-0">
             <b>PRODUCT NUMBER</b>
           </th>
-<<<<<<< HEAD
-          <td class="col-lg-9 py-1">
-            {{ data2 }}
-          </td>
-=======
           <td class="col-lg-9 data">{{ data2 }}</td>
->>>>>>> 39108822b5ac4bea8ee58b58a6fe359ea7dc7631
         </tr>
         <!-- row 2 -->
         <tr class="dataRow trDisplay dataSingle">
           <th class="col-lg-3 p-0">
-<<<<<<< HEAD
-            <b>Chassis Form Factor</b>
-          </th>
-          <td class="col-lg-9">
-            {{data3}}
-=======
             <b>CHASSIS FORM FACTOR</b>
           </th>
           <td class="col-lg-9 data">
             {{ data3 }}
->>>>>>> 39108822b5ac4bea8ee58b58a6fe359ea7dc7631
           </td>
         </tr>
         <!-- row 3-->
@@ -259,24 +240,6 @@ export default {
       text: "",
       status: 0,
       ty: {},
-<<<<<<< HEAD
-      data1: datas.Cases[0].specs.MODEL,
-      data2: datas.Cases[0].specs.PRODUCT_NUMBER,
-      data3: datas.Cases[0].specs.CHASSIS_FORM_FACTOR,
-      // data4: datas.Cases[0].specs.Graphics[0],
-      // data5: datas.Cases[0].specs.Graphics[1],
-      // data6: datas.Cases[0].specs.ContrastRatio[0],
-      // data7: datas.Cases[0].specs.Bezels[0],
-      // data8: datas.Cases[0].specs.Sync[0],
-      // data9: datas.Cases[0].specs.Sync[1],
-      // data10: datas.Cases[0].specs.Rotation[0],
-      // data11: datas.Cases[0].specs.CableManagement[0],
-      // data12: datas.Cases[0].specs.Lighting[0],
-      // data13: datas.Cases[0].specs.IO[0],
-      // data14: datas.Cases[0].specs.IO[1],
-      // data15: datas.Cases[0].specs.IO[2],
-      // data16: datas.Cases[0].specs.IO[3],
-=======
       data1: datas.Cases[1].specs.MODEL,
       data2: datas.Cases[1].specs.PRODUCT_NUMBER,
       data3: datas.Cases[1].specs.CHASSIS_FORM_FACTOR,
@@ -294,7 +257,6 @@ export default {
       data15: datas.Cases[1].specs.WARRANTY,
       data16: datas.Cases[1].specs.CASE_DIMENSIONS,
       data17: datas.Cases[1].specs.WEIGHT,
->>>>>>> 39108822b5ac4bea8ee58b58a6fe359ea7dc7631
     };
   },
   // created(){
