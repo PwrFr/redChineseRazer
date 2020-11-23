@@ -345,7 +345,7 @@ export default {
     SideImgRowR,
     headerAccessProduct,
     ColAccessProduct,
-    productSize,
+    productSize,  
   },
   methods: {
     firstSelecter() {

@@ -159,7 +159,7 @@
                   <a
                     class="pt-1 pb-1 d-block text-decoration-none col-item"
                     href="../../gamingLabtop.html"
-                    >Laptops</a
+                    >Gaming Laptops</a
                   >
                   <a
                     class="pt-1 pb-1 d-block text-decoration-none col-item"
