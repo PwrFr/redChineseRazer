@@ -4,7 +4,7 @@
     <table class="cases-row7-table-body">
       <tbody>
         <tr>
-          <td class></td>
+          <td class="cases-row7-table-left" style="border: 0"></td>
           <td class>
             <img src="../../assets/products/3Cases/row7/row7-1.png" alt class="cases-row7-image" />
           </td>
@@ -13,7 +13,7 @@
           </td>
         </tr>
         <tr>
-          <td class></td>
+          <td class="cases-row7-table-left" style="border: 0"></td>
           <td class>
             <img
               src="../../assets/products/3Cases/row7/row7-1-logo.png"
@@ -171,7 +171,7 @@
   padding-top: 47px;
 }
 .cases-row7-image {
-  width: 253px;
+  max-width: 253px;
 }
 table.cases-row7-table-body tbody tr td {
   padding: 5px 10px;

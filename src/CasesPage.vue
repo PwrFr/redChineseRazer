@@ -173,9 +173,9 @@
         </div>
       </div>
     </div>
-    <div v-if="valX==1">
-      <VideoSession />
-    </div>
+
+    <VideoSession />
+
     <Row1 />
     <Row2 />
     <Row3

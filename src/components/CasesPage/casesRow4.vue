@@ -1,40 +1,50 @@
 <template>
   <div class="cases-row4-full container-fluid">
-    <div class="row">
-      <div class="col-2"></div>
-      <div class="col-8 cases-row4-text-range">
+    <div class="row pl-5 pr-5 text-center;">
+      <div class></div>
+      <div class="col-12 cases-row4-text-range text-center" style="margin: 0 auto;">
         <div class="row cases-row4-header">
           <div class="col-12 text-center">MAXIMUM COOLING. MAXIMUM PERFORMANCE.</div>
         </div>
-        <div class="row text-center">
-          <div class="col row4-col-wid-left">
-            <div class="cases-row4-margin">
-              <img src="../../assets/products/3Cases/row4/1.jpg" />
-              <div class="cases-row4-des">VENTILATED TOP PANEL</div>
+        <div class="col-9 text-center" style="margin: 0 auto">
+          <div class="row">
+            <div class="col-4 row4-col-wid-left">
+              <div class="cases-row4-margin">
+                <img src="../../assets/products/3Cases/row4/1.jpg" />
+                <div class="cases-row4-des text-">VENTILATED TOP PANEL</div>
+              </div>
+              <div
+                class="cases-row4-des2-left text-center"
+                style="margin: 0 auto"
+              >Both the mini-ITX and mid-tower ATX gaming cases are designed for optimized air cooling—venting heat not only from the rear, but also from the top as it pulls in cool air from the front and base.</div>
             </div>
-            <div
-              class="cases-row4-des2-left"
-            >Both the mini-ITX and mid-tower ATX gaming cases are designed for optimized air cooling—venting heat not only from the rear, but also from the top as it pulls in cool air from the front and base.</div>
-          </div>
-          <!-- 2 80-->
-          <div class="col row4-col-wid">
-            <div class="cases-row4-margin">
-              <img src="../../assets/products/3Cases/row4/2.jpg" />
-              <div class="cases-row4-des">LIQUID COOLING SUPPORT</div>
+            <!-- 2 80-->
+            <div class="col-4 row4-col-wid">
+              <div class="cases-row4-margin row">
+                <div class="col-12 text-center">
+                  <img src="../../assets/products/3Cases/row4/2.jpg" />
+
+                  <div class="cases-row4-des">LIQUID COOLING SUPPORT</div>
+                </div>
+              </div>
+              <div class="row">
+                <div
+                  class="col-12 cases-row4-des2-mid text-center"
+                >Whether you’re using a custom or All-in-One (AIO) liquid cooler, the Mini-ITX has enough room to support up to 240mm radiators, while the ATX can fit up to 360mm to maximize the cooling capabilities of your rig.</div>
+              </div>
             </div>
-            <div
-              class="cases-row4-des2-mid"
-            >Whether you’re using a custom or All-in-One (AIO) liquid cooler, the Mini-ITX has enough room to support up to 240mm radiators, while the ATX can fit up to 360mm to maximize the cooling capabilities of your rig.</div>
-          </div>
-          <!-- 3 -->
-          <div class="col row4-col-wid-right">
-            <div class="cases-row4-margin">
-              <img src="../../assets/products/3Cases/row4/3.jpg" />
-              <div class="cases-row4-des">BUILT-IN DUST FILTERS</div>
+            <!-- 3 -->
+            <div class="col-4 row4-col-wid-right">
+              <div class="cases-row4-margin">
+                <img src="../../assets/products/3Cases/row4/3.jpg" />
+                <div class="cases-row4-des">BUILT-IN DUST FILTERS</div>
+              </div>
+              <div class="row">
+                <div
+                  class="col-12 cases-row4-des2-right"
+                >The Razer Tomahawk ensures a clean airflow that blocks out large dust particles, preventing them from reaching mission-critical parts for easier maintenance and increased longevity of your system.</div>
+              </div>
             </div>
-            <div
-              class="cases-row4-des2-right"
-            >The Razer Tomahawk ensures a clean airflow that blocks out large dust particles, preventing them from reaching mission-critical parts for easier maintenance and increased longevity of your system.</div>
           </div>
         </div>
         <div class="row cases-row4-des"></div>
@@ -49,12 +59,9 @@
 }
 .row4-col-wid-left {
   max-width: 27.6875rem;
-  padding-left: 5.125rem;
-  margin-right: -1.125rem;
 }
 .row4-col-wid {
   max-width: 27.6875rem;
-  margin-right: -3.4375rem;
 }
 .row4-col-wid-right {
   max-width: 27.6875rem;
@@ -98,23 +105,22 @@
   line-height: 1.5em;
 }
 .cases-row4-des2-mid {
-  padding-left: 2.5rem;
   max-width: 23.125rem;
   font-family: "Robo-light", sans-serif;
   font-size: 1.25rem;
   color: #000;
-  margin: 0.5rem 0 0.625rem;
+  margin: 0 auto;
   font-size: 1rem;
   line-height: 1.5em;
 }
 .cases-row4-des2-right {
-  padding-left: 2.5rem;
   max-width: 23.125rem;
   font-family: "Robo-light", sans-serif;
   font-size: 1.25rem;
   color: #000;
-  margin: 0.5rem 0 0.625rem;
+
   font-size: 1rem;
   line-height: 1.5em;
+  margin: 0 auto;
 }
 </style>

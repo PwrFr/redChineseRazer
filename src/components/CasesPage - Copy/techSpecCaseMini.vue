@@ -5,13 +5,13 @@
       <!-- <h4 id="headerText">TECH SPECS </h4> -->
       <table class="container-fluid">
         <tr>
-          <h4 id="headerText">TECH SPECS</h4>
+          <h4 id="headerText">PUSSY</h4>
         </tr>
         <tr class="dataRow trDisplay dataSingle">
           <th class="col-lg-3 p-0">
             <b>MODEL</b>
           </th>
-          <td class="col-lg-9 data">{{ data1 }}</td>
+          <td class="col-lg-9 data">KUY</td>
         </tr>
         <!-- row 2-->
         <tr class="dataRow trDisplay dataSingle">
@@ -25,9 +25,7 @@
           <th class="col-lg-3 p-0">
             <b>CHASSIS FORM FACTOR</b>
           </th>
-          <td class="col-lg-9 data">
-            {{ data3 }}
-          </td>
+          <td class="col-lg-9 data">{{ data3 }}</td>
         </tr>
         <!-- row 3-->
 
@@ -50,9 +48,7 @@
             <th class="col-lg-3 p-0">
               <b># of Expansion Slots</b>
             </th>
-            <td class="col-lg-9 data">
-              {{ data6 }}
-            </td>
+            <td class="col-lg-9 data">{{ data6 }}</td>
           </tr>
           <!-- row 6 -->
           <tr class="dataRow trDisplays dataBul">
@@ -234,15 +230,15 @@ th {
 <script>
 import datas from "../../assets/data.json";
 export default {
-  name: "techSpecCase",
+  name: "techSpecCaseMini",
   data() {
     return {
       text: "",
       status: 0,
       ty: {},
-      data1: datas.Cases[1].specs.MODEL,
-      data2: datas.Cases[1].specs.PRODUCT_NUMBER,
-      data3: datas.Cases[1].specs.CHASSIS_FORM_FACTOR,
+      data1: "TEST",
+      data2: "KUY",
+      data3: "ASDAsd",
       data4: datas.Cases[1].specs.SUPPORTED_MOTHERBOARDS,
       data5: datas.Cases[1].specs.CASE_MATERIAL,
       data6: datas.Cases[1].specs.Num_OF_EXPANSION_SLOTS,
@@ -256,7 +252,7 @@ export default {
       data14: datas.Cases[1].specs.RAZER_CHROMA_SUPPORT,
       data15: datas.Cases[1].specs.WARRANTY,
       data16: datas.Cases[1].specs.CASE_DIMENSIONS,
-      data17: datas.Cases[1].specs.WEIGHT,
+      data17: datas.Cases[1].specs.WEIGHT
     };
   },
   // created(){
@@ -293,10 +289,10 @@ export default {
         this.status = 0;
       }
       console.log(this.status);
-    },
+    }
   },
   created() {
     this.text = "See More";
-  },
+  }
 };
 </script>
