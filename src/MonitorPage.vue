@@ -32,6 +32,7 @@
       buyingAt="Also Available At"
     />
     <monitorRow1 />
+    <monitorRow3 />
 
     <techSpecMonitor />
     <Footer />
@@ -45,6 +46,7 @@ import Footer from "./components/Footer.vue";
 import datas from "./assets/data.json";
 
 import monitorRow1 from "./components/monitor/monitorRow1.vue";
+import monitorRow3 from "./components/monitor/monitorRow3.vue";
 
 //Row5 use same component with row3
 import techSpecMonitor from "./components/techSpecMonitor.vue";
@@ -57,6 +59,7 @@ export default {
     MenuBar,
     techSpecMonitor,
     monitorRow1,
+    monitorRow3,
     Footer,
   },
   data() {
