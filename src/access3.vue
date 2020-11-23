@@ -264,6 +264,7 @@
     <div v-if="specSwitch == 2">
       <!-- spec 3 here -->
     </div>
+    <techAcc3 />
   </div>
 </template>
 
@@ -275,6 +276,7 @@ import SideImgRowL from "./components/SideImgRowL.vue";
 import SideImgRowR from "./components/SideImgRowR.vue";
 import ColAccessProduct from "./components/ColAccessProduct.vue";
 import datas from "./assets/data.json";
+import techAcc3 from "./components/techAcc3.vue";
 
 export default {
   created() {},
@@ -345,7 +347,8 @@ export default {
     SideImgRowR,
     headerAccessProduct,
     ColAccessProduct,
-    productSize,  
+    productSize,
+    techAcc3,
   },
   methods: {
     firstSelecter() {

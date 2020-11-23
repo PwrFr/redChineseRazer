@@ -265,6 +265,7 @@
     <div v-if="specSwitch == 2">
       <!-- spec 3 here -->
     </div>
+    <tectAcc2 />
   </div>
 </template>
 
@@ -276,6 +277,7 @@ import SideImgRowL from "./components/SideImgRowL.vue";
 import SideImgRowR from "./components/SideImgRowR.vue";
 import ColAccessProduct from "./components/ColAccessProduct.vue";
 import datas from "./assets/data.json";
+import tectAcc2 from "./components/techAcc2.vue";
 
 export default {
   created() {},
@@ -347,6 +349,7 @@ export default {
     headerAccessProduct,
     ColAccessProduct,
     productSize,
+    tectAcc2,
   },
   methods: {
     firstSelecter() {
