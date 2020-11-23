@@ -226,7 +226,9 @@
     </div>
 
     <!-- black and Mercury is same spce -->
-   
+   <eGPU1/>
+   <eGPU2/>
+   <eGPU3/>
 
   <div v-if="specSwitch == 0">
     <!-- spec 1 here -->
