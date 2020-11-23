@@ -230,6 +230,8 @@
     <eGPU2 />
     <eGPU3 />
   </div>
+
+  <eGPUbottom />
   <div v-if="specSwitch == 0">
     <!-- spec 1 here -->
     <techSpecEgpuBlack />
@@ -242,6 +244,7 @@
     <!-- spec 3 here -->
     <techSpecEgpu />
   </div>
+
   <Footer />
 </template>
 
@@ -255,6 +258,8 @@ import eGPU2 from "./components/eGPUsPage/eGPU2.vue";
 import eGPU3 from "./components/eGPUsPage/eGPU3.vue";
 import techSpecEgpu from "./components/techSpecEgpuChroma.vue";
 import techSpecEgpuBlack from "./components/techSpecEgpuBlack.vue";
+
+import eGPUbottom from "./components/eGPUsPage/eGPUbottom.vue";
 
 export default {
   created() {},
@@ -319,6 +324,7 @@ export default {
     eGPU1,
     eGPU2,
     eGPU3,
+    eGPUbottom,
   },
   methods: {
     firstSelecter() {

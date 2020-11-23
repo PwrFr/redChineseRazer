@@ -990,3 +990,36 @@ p {
 
   padding: 0 0 0 1.875rem;
 }
+
+.card-gpu-bottom,
+.co-3 {
+  border-radius: 0rem;
+  border: 0rem solid;
+  padding: 0rem;
+}
+
+.no-padding {
+  padding: 0rem;
+}
+
+.no-border {
+  border: 0px solid;
+}
+
+.card-gpu {
+  background-color: #000;
+  display: inline-block;
+  height: 36.375rem;
+}
+
+.text-head-bottom {
+  color: #44d62c;
+  margin-top: 0.625rem;
+  margin-bottom: 0.5rem;
+}
+.text-description {
+  color: #fff;
+  font-size: 1.125rem;
+  font-weight: 300;
+  line-height: 1.5em;
+}
