@@ -5,17 +5,16 @@
         background-image: url('src/assets/products/1Laptops/bg8.jpg');
         width: 100%;
         height: 25rem;
-        margin-left: -14%;
+        margin-left: -13%;
       "
     >
       <div
         style="
-          font-size: 1.25rem;
+          font-size: 1.75rem;
           font-family: 'RazerF5', Sans-Serif;
           color: #fff;
-          font-weight: bold;
-          padding: 4.5rem 0 0 1.875rem;
-          margin-left: 49%;
+          padding: 3.7rem 0 0 1.875rem;
+          margin-left: 71%;
         "
       >
         {{ title }}
@@ -25,10 +24,24 @@
         style="
           font-size: 1.125rem;
           font-family: Razerf5, Sans-Serif;
+          color: #888;
+          padding: 0.7rem 0 0 1.875rem;
+          margin-left: 71%;
+          line-height: 1.75rem;
+        "
+      >
+        <!-- Maximize your laptop experience -->
+        {{ description }}
+      </p>
+
+      <p
+        style="
+          font-size: 1rem;
+          font-family: Razerf5, Sans-Serif;
           color: #44d62c;
           font-weight: bold;
-          padding: 0.5rem 0 0 1.875rem;
-          margin-left: 49%;
+          padding: 0.52rem 0 0 1.875rem;
+          margin-left: 71%;
         "
       >
         <!-- Learn More> -->

@@ -36,7 +36,13 @@
       bot="Sign Up Now >"
     />
   </div>
-  <gamingBoxBottom4 />
+  <div>
+    <gamingBoxBottom4
+      title="#MADEWITHBLADE"
+      description="#MADEWITHBLADE is an exploration into the cutting-edge creativity of some of the most talented artists in the world. Come inside their studios and behind-the scenes as these artists share exclusive stories about how Razer Blade laptops are helping them push the envelope of music production, visual effects, digital illustration and 3D animation."
+      bot="More #MADEWITHBLADE stories>"
+    />
+  </div>
 </template>
 
 <script>
