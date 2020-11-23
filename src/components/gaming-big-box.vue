@@ -45,8 +45,15 @@
       class="d-flex justify-content-center p-3"
       style="color: #44d62c; font-family: Razerf5"
     >
-      <p class="mr-5">{{ imgshow.learnMore }}</p>
-      <p>{{ imgshow.viewAllModels }}</p>
+      <a class="mr-5" style="color: #44d62c; font-family: Razerf5" href="#">{{
+        imgshow.learnMore
+      }}</a>
+
+      <a style="color: #44d62c; font-family: Razerf5" href="#">{{
+        imgshow.viewAllModels
+      }}</a>
+      <!-- <p class="mr-5"></p> -->
+      <!-- <p>{{ imgshow.viewAllModels }}</p> -->
     </div>
   </div>
 </template>

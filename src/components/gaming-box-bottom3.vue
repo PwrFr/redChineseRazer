@@ -26,7 +26,8 @@
     <br />
     <div class="gaming-description-bottom">{{ description3 }}</div>
 
-    <p
+
+<a href="#"><p
       style="
         font-size: 1.05rem;
         font-family: Razerf5, Sans-Serif;
@@ -37,7 +38,8 @@
     >
       <!-- Learn More> -->
       {{ bot }}
-    </p>
+    </p></a>
+    
   </div>
 </template>
 

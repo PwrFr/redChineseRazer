@@ -30,7 +30,8 @@
       {{ description }}
     </p>
 
-    <p
+
+<a href="#"><p
       style="
         font-size: 1.125rem;
         font-family: Razerf5, Sans-Serif;
@@ -39,9 +40,22 @@
         padding: 1rem 0 0 1.875rem;
       "
     >
-      <!-- Learn More> -->
+       
       {{ bot }}
-    </p>
+    </p></a>
+    
+
+    <!-- <a
+      style="
+        font-size: 1.125rem;
+        font-family: Razerf5, Sans-Serif;
+        color: #44d62c;
+        font-weight: bold;
+        padding: 1rem 0 0 1.875rem;
+      "
+      href="#"
+      >{{ bot }}</a
+    > -->
   </div>
 </template>
 
