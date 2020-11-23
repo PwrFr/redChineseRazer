@@ -198,10 +198,10 @@
     <Row8 />
     <Row9 />
     <div v-if="specSwitch==0">
-      <techSpecCase />
+      <techSpecCaseMini />
     </div>
     <div v-if="specSwitch==1">
-      <Row1 />
+      <techSpecCase />
     </div>
 
     <Footer />
