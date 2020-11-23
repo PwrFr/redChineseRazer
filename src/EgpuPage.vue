@@ -1,7 +1,10 @@
 <template>
   <div>
     <MenuBar />
-    <div class="container-fluid mt-5" style="padding: 0px; background-color: black">
+    <div
+      class="container-fluid mt-5"
+      style="padding: 0px; background-color: black"
+    >
       <div class="row p-0 mt-0 row-product">
         <div
           class="col-xl-10 col-md-12 col-img-full"
@@ -10,29 +13,54 @@
           <div class="image-tab">
             <lable>
               <div class="image-tab-list">
-                <input type="radio" name="test" @click="changeImage(1)" class="rdo_style" checked />
+                <input
+                  type="radio"
+                  name="test"
+                  @click="changeImage(1)"
+                  class="rdo_style"
+                  checked
+                />
                 <img :src="imageTab1" class="image-tab-border" />
               </div>
             </lable>
             <lable>
               <div class="image-tab-list">
-                <input type="radio" name="test" @click="changeImage(2)" class="rdo_style" />
+                <input
+                  type="radio"
+                  name="test"
+                  @click="changeImage(2)"
+                  class="rdo_style"
+                />
                 <img :src="imageTab2" class="image-tab-border" />
               </div>
             </lable>
             <lable>
               <div class="image-tab-list">
-                <input type="radio" name="test" @click="changeImage(3)" class="rdo_style" />
+                <input
+                  type="radio"
+                  name="test"
+                  @click="changeImage(3)"
+                  class="rdo_style"
+                />
                 <img :src="imageTab3" class="image-tab-border" />
               </div>
             </lable>
             <lable>
               <div class="image-tab-list">
                 <div v-if="4 - imageAmount > 0">
-                  <img :src="imageTab4" class="image-tab-border" :style="hiddenBorder4" />
+                  <img
+                    :src="imageTab4"
+                    class="image-tab-border"
+                    :style="hiddenBorder4"
+                  />
                 </div>
                 <div v-else>
-                  <input type="radio" name="test" @click="changeImage(4)" class="rdo_style" />
+                  <input
+                    type="radio"
+                    name="test"
+                    @click="changeImage(4)"
+                    class="rdo_style"
+                  />
                   <img :src="imageTab4" class="image-tab-border" />
                 </div>
               </div>
@@ -40,10 +68,19 @@
             <lable>
               <div class="image-tab-list">
                 <div v-if="5 - imageAmount > 0">
-                  <img :src="imageTab5" class="image-tab-border" :style="hiddenBorder5" />
+                  <img
+                    :src="imageTab5"
+                    class="image-tab-border"
+                    :style="hiddenBorder5"
+                  />
                 </div>
                 <div v-else>
-                  <input type="radio" name="test" @click="changeImage(5)" class="rdo_style" />
+                  <input
+                    type="radio"
+                    name="test"
+                    @click="changeImage(5)"
+                    class="rdo_style"
+                  />
                   <img :src="imageTab5" class="image-tab-border" />
                 </div>
               </div>
@@ -51,10 +88,19 @@
             <lable>
               <div class="image-tab-list">
                 <div v-if="6 - imageAmount > 0">
-                  <img :src="imageTab6" class="image-tab-border" :style="hiddenBorder6" />
+                  <img
+                    :src="imageTab6"
+                    class="image-tab-border"
+                    :style="hiddenBorder6"
+                  />
                 </div>
                 <div v-else>
-                  <input type="radio" name="test" @click="changeImage(6)" class="rdo_style" />
+                  <input
+                    type="radio"
+                    name="test"
+                    @click="changeImage(6)"
+                    class="rdo_style"
+                  />
                   <img :src="imageTab6" class="image-tab-border" />
                 </div>
               </div>
@@ -90,25 +136,34 @@
               <div id="box" class="model-box">
                 <div class="select-box" @click="onClickColor()">
                   <div class="model-options-container" ref="here">
-                    <div class="box-option" v-if="1 <= modelItemAmount" @click="firstSelecter()">
-                      <input type="radio" class="model-radio" id="Standard - Black" name="category" />
+                    <div
+                      class="box-option"
+                      v-if="1 <= modelItemAmount"
+                      @click="firstSelecter()"
+                    >
+                      <input
+                        type="radio"
+                        class="model-radio"
+                        id="Standard - Black"
+                        name="category"
+                      />
                       <div v-if="whiteSelecterText == 0" style="color: white">
                         <label id="1" for="Standard - Black">
-                          {{
-                          modelItem1
-                          }}
+                          {{ modelItem1 }}
                         </label>
                       </div>
                       <div v-else>
                         <label id="1" for="Standard - Black">
-                          {{
-                          modelItem1
-                          }}
+                          {{ modelItem1 }}
                         </label>
                       </div>
                     </div>
 
-                    <div class="box-option" v-if="2 <= modelItemAmount" @click="secondSelecter()">
+                    <div
+                      class="box-option"
+                      v-if="2 <= modelItemAmount"
+                      @click="secondSelecter()"
+                    >
                       <input
                         type="radio"
                         class="model-radio"
@@ -117,21 +172,21 @@
                       />
                       <div v-if="whiteSelecterText == 1" style="color: white">
                         <label id="2" for="Standard - Black">
-                          {{
-                          modelItem2
-                          }}
+                          {{ modelItem2 }}
                         </label>
                       </div>
                       <div v-else>
                         <label id="2" for="Standard - Black">
-                          {{
-                          modelItem2
-                          }}
+                          {{ modelItem2 }}
                         </label>
                       </div>
                     </div>
 
-                    <div class="box-option" v-if="3 <= modelItemAmount" @click="thirdSelecter()">
+                    <div
+                      class="box-option"
+                      v-if="3 <= modelItemAmount"
+                      @click="thirdSelecter()"
+                    >
                       <input
                         type="radio"
                         class="model-radio"
@@ -141,16 +196,12 @@
                       />
                       <div v-if="whiteSelecterText == 2" style="color: white">
                         <label id="3" for="Standard - Black">
-                          {{
-                          modelItem3
-                          }}
+                          {{ modelItem3 }}
                         </label>
                       </div>
                       <div v-else>
                         <label id="3" for="Standard - Black">
-                          {{
-                          modelItem3
-                          }}
+                          {{ modelItem3 }}
                         </label>
                       </div>
                     </div>
@@ -174,33 +225,22 @@
       </div>
     </div>
 
-    <div v-if="specSwitch==0">
-      <!-- spec 1 here -->
-    </div>
-    <div v-if="specSwitch==1">
-      <!-- spec 2 here -->
-    </div>
-    <div v-if="specSwitch==2">
-      <!-- spec 3 here -->
-    </div>
-    <eGPU1 />
-    <eGPU2 />
-    <eGPU3 />
-    <techSpecEgpu />
-    <techSpecEgpuBlack />
     <!-- black and Mercury is same spce -->
-    <Footer />
-  </div>
+   
 
-  <div v-if="specSwitch==0">
+  <div v-if="specSwitch == 0">
     <!-- spec 1 here -->
+    <techSpecEgpuBlack />
   </div>
-  <div v-if="specSwitch==1">
+  <div v-if="specSwitch == 1">
     <!-- spec 2 here -->
+    <techSpecEgpuBlack />
   </div>
-  <div v-if="specSwitch==2">
+  <div v-if="specSwitch == 2">
     <!-- spec 3 here -->
+    <techSpecEgpu />
   </div>
+   <Footer />
 </template>
 
 <script>
@@ -222,13 +262,13 @@ export default {
       specSwitch: 2,
       onum: 0,
       hiddenBorder4: {
-        border: "0px"
+        border: "0px",
       },
       hiddenBorder5: {
-        border: "0px"
+        border: "0px",
       },
       hiddenBorder6: {
-        border: "0px"
+        border: "0px",
       },
       //imageTab1: "/src/assets/products/cases/bar/1.jpg",
       //imageTab2: "/src/assets/products/cases/bar/2.jpg",
@@ -263,7 +303,7 @@ export default {
       shippingDate: "Ships next business day",
       buyingStatus: "ADD TO CART",
       buyingAt: "Also Available At",
-      whiteSelecterText: "2"
+      whiteSelecterText: "2",
     };
   },
   mounted() {
@@ -276,7 +316,7 @@ export default {
     Footer,
     eGPU1,
     eGPU2,
-    eGPU3
+    eGPU3,
   },
   methods: {
     firstSelecter() {
@@ -390,7 +430,7 @@ export default {
         this.nnum += 1;
       });
 
-      optionsList.forEach(o => {
+      optionsList.forEach((o) => {
         o.addEventListener("click", () => {
           selected.innerHTML = o.querySelector("label").innerHTML;
           optionsContainer.classList.remove("active");
@@ -444,8 +484,8 @@ export default {
       this.onum = this.nnum;
       // console.log(this.onum);
       // console.log(this.nnum);
-    }
-  }
+    },
+  },
 };
 </script>
 <style>
