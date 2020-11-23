@@ -194,10 +194,6 @@ ul {
 .trDisplay {
   border-bottom: solid 1px #999;
 }
-tr {
-  display: flex;
-  flex-wrap: wrap;
-}
 .dataBul {
   padding-top: 1rem;
   padding-bottom: 0;
@@ -252,7 +248,7 @@ export default {
       data14: datas.Cases[1].specs.RAZER_CHROMA_SUPPORT,
       data15: datas.Cases[1].specs.WARRANTY,
       data16: datas.Cases[1].specs.CASE_DIMENSIONS,
-      data17: datas.Cases[1].specs.WEIGHT
+      data17: datas.Cases[1].specs.WEIGHT,
     };
   },
   // created(){
@@ -289,10 +285,10 @@ export default {
         this.status = 0;
       }
       console.log(this.status);
-    }
+    },
   },
   created() {
     this.text = "See More";
-  }
+  },
 };
 </script>

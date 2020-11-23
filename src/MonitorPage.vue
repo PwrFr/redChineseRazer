@@ -31,6 +31,8 @@
       :buyingStatus="buttonJson"
       buyingAt="Also Available At"
     />
+    <monitorRow1 />
+
     <techSpecMonitor />
     <Footer />
   </div>
@@ -42,6 +44,8 @@ import ProductSlot from "./components/ProductSlot.vue";
 import Footer from "./components/Footer.vue";
 import datas from "./assets/data.json";
 
+import monitorRow1 from "./components/monitor/monitorRow1.vue";
+
 //Row5 use same component with row3
 import techSpecMonitor from "./components/techSpecMonitor.vue";
 
@@ -52,6 +56,7 @@ export default {
     ProductSlot,
     MenuBar,
     techSpecMonitor,
+    monitorRow1,
     Footer,
   },
   data() {
