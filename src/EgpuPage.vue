@@ -229,6 +229,7 @@
     <eGPU1 />
     <eGPU2 />
     <eGPU3 />
+    <eGPU4 />
   </div>
   <div v-if="specSwitch == 0">
     <!-- spec 1 here -->
@@ -253,6 +254,7 @@ import datas from "./assets/data.json";
 import eGPU1 from "./components/eGPUsPage/eGPU1.vue";
 import eGPU2 from "./components/eGPUsPage/eGPU2.vue";
 import eGPU3 from "./components/eGPUsPage/eGPU3.vue";
+import eGPU4 from "./components/eGPUsPage/eGPU4.vue";
 import techSpecEgpu from "./components/techSpecEgpuChroma.vue";
 import techSpecEgpuBlack from "./components/techSpecEgpuBlack.vue";
 
@@ -319,6 +321,7 @@ export default {
     eGPU1,
     eGPU2,
     eGPU3,
+    eGPU4
   },
   methods: {
     firstSelecter() {
