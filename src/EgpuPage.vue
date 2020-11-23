@@ -230,6 +230,7 @@
     <eGPU2 />
     <eGPU3 />
     <eGPU4 />
+    <eGPU5 />
   </div>
 
   <eGPUbottom />
@@ -258,6 +259,7 @@ import eGPU1 from "./components/eGPUsPage/eGPU1.vue";
 import eGPU2 from "./components/eGPUsPage/eGPU2.vue";
 import eGPU3 from "./components/eGPUsPage/eGPU3.vue";
 import eGPU4 from "./components/eGPUsPage/eGPU4.vue";
+import eGPU5 from "./components/eGPUsPage/eGPU5.vue";
 import techSpecEgpu from "./components/techSpecEgpuChroma.vue";
 import techSpecEgpuBlack from "./components/techSpecEgpuBlack.vue";
 
@@ -327,7 +329,8 @@ export default {
     eGPU2,
     eGPU3,
     eGPUbottom,
-    eGPU4
+    eGPU4,
+    eGPU5
   },
   methods: {
     firstSelecter() {
