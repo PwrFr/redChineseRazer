@@ -14,48 +14,48 @@
                     <div><br>
                         <div style="cases-row7-full">
                             <table class="cases-row7-table-body">
-                                <thead style="color: white;">
+                                <thead style="color: white;" class="razerf5">
                                     <tr>
-                                        <th class="cases-row7-table-left" style="border: 0;"></th>
-                                        <th class="cases-row7-table-middle" style="border: 0; text-align: center;">Razer Core X</th>
-                                        <th class="cases-row7-table-right" style=" border: 0; text-align: center;">Razer Core X Chroma™</th>
+                                        <th class="cases-row7-table-left boos-th"></th>
+                                        <th class="cases-row7-table-middle boos-th">Razer Core X</th>
+                                        <th class="cases-row7-table-right boos-th">Razer Core X Chroma™</th>
                                     </tr>
                                 </thead>
-                                <tbody style="color: #888888;">
+                                <tbody class="razerf5" style="color: #888888;">
                                     <tr>
-                                        <td class="cases-row7-table-left align-middle">Power Supply</td>
-                                        <td class="cases-row7-table-middle">Internal ATX 650W</td>
-                                        <td class="cases-row7-table-right">Internal ATX 700W</td>
+                                        <td class="boos-td cases-row7-table-left align-middle ">Power Supply</td>
+                                        <td class="boos-td cases-row7-table-middle">Internal ATX 650W</td>
+                                        <td class="boos-td cases-row7-table-right">Internal ATX 700W</td>
                                     </tr>
                                     <tr>
-                                        <td class="cases-row7-table-left align-middle">Laptop Power Delivery (USB-C)</td>
-                                        <td class="cases-row7-table-middle">100W</td>
-                                        <td class="cases-row7-table-right">100W</td>
+                                        <td class="boos-td cases-row7-table-left align-middle">Laptop Power Delivery (USB-C)</td>
+                                        <td class="boos-td cases-row7-table-middle">100W</td>
+                                        <td class="boos-td cases-row7-table-right">100W</td>
                                     </tr>
                                     <tr>
-                                        <td class="cases-row7-table-left align-middle">Max size GPU</td>
-                                        <td class="cases-row7-table-middle">Up to 3-slot card</td>
-                                        <td class="cases-row7-table-right">Up to 3-slot card</td>
+                                        <td class="boos-td cases-row7-table-left align-middle">Max size GPU</td>
+                                        <td class="boos-td cases-row7-table-middle">Up to 3-slot card</td>
+                                        <td class="boos-td cases-row7-table-right">Up to 3-slot card</td>
                                     </tr>
                                     <tr>
-                                        <td class="cases-row7-table-left align-middle">4X USB</td>
-                                        <td class="cases-row7-table-middle">-</td>
-                                        <td class="cases-row7-table-right">yes</td>
+                                        <td class="boos-td cases-row7-table-left align-middle">4X USB</td>
+                                        <td class="boos-td cases-row7-table-middle">-</td>
+                                        <td class="boos-td cases-row7-table-right">yes</td>
                                     </tr>
                                     <tr>
-                                        <td class="cases-row7-table-left align-middle">Gigabit Ethernet</td>
-                                        <td class="cases-row7-table-middle">-</td>
-                                        <td class="cases-row7-table-right">yes</td>
+                                        <td class="boos-td cases-row7-table-left align-middle">Gigabit Ethernet</td>
+                                        <td class="boos-td cases-row7-table-middle">-</td>
+                                        <td class="boos-td cases-row7-table-right">yes</td>
                                     </tr>
                                     <tr>
-                                        <td class="cases-row7-table-left align-middle">Razer Chroma™</td>
-                                        <td class="cases-row7-table-middle">-</td>
-                                        <td class="cases-row7-table-right">yes</td>
+                                        <td class="boos-td cases-row7-table-left align-middle">Razer Chroma™</td>
+                                        <td class="boos-td cases-row7-table-middle">-</td>
+                                        <td class="boos-td cases-row7-table-right">yes</td>
                                     </tr>
                                     <tr>
-                                        <td class="cases-row7-table-left align-middle">Color</td>
-                                        <td class="cases-row7-table-middle">Black <br> Mercury</td>
-                                        <td class="cases-row7-table-right">Black</td>
+                                        <td class="boos-td cases-row7-table-left align-middle">Color</td>
+                                        <td class="boos-td cases-row7-table-middle">Black <br> Mercury</td>
+                                        <td class="boos-td cases-row7-table-right">Black</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -83,5 +83,18 @@ export default {
     margin: 0 auto;
     max-width: 1920px;
     position: relative;
+}
+
+.boos-th{
+    border: 0;
+    text-align: center; 
+    padding: 10px 20px; 
+    font-weight: 300;
+    font-size: 1.125em;
+}
+
+.boos-td{
+    text-align: left; 
+    font-size: 1.1rem;
 }
 </style>
