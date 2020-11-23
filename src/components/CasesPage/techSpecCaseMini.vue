@@ -197,10 +197,7 @@ ul {
 .trDisplay {
   border-bottom: solid 1px #999;
 }
-tr {
-  display: flex;
-  flex-wrap: wrap;
-}
+
 .dataBul {
   padding-top: 1rem;
   padding-bottom: 0;
