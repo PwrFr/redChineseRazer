@@ -226,10 +226,10 @@
     </div>
 
     <!-- black and Mercury is same spce -->
-   <eGPU1/>
-   <eGPU2/>
-   <eGPU3/>
-
+    <eGPU1 />
+    <eGPU2 />
+    <eGPU3 />
+  </div>
   <div v-if="specSwitch == 0">
     <!-- spec 1 here -->
     <techSpecEgpuBlack />
@@ -242,7 +242,7 @@
     <!-- spec 3 here -->
     <techSpecEgpu />
   </div>
-   <Footer />
+  <Footer />
 </template>
 
 <script>

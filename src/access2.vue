@@ -224,7 +224,11 @@
         </div>
       </div>
     </div>
-
+    <productSize
+      proSize="../src/assets/AC2/razer-protective-sleeves-v2-usp0-desktop.jpg"
+      title="AVAILABLE IN"
+      dis="13.3″ | 15.6″ | 17.3″"
+    />
     <headerAccessProduct
       title="PROTECT YOUR UNFAIR ADVANTAGE"
       dis="Safeguard your unfair advantage at every turn with the Razer Protective Sleeve V2—a sleek, durable, and versatile sheath that keeps your Razer Blade laptop shielded from harm, no matter what the game throws your way."
@@ -267,7 +271,7 @@
 <script>
 import MenuBar from "./components/MenuBar.vue";
 import headerAccessProduct from "./components/headerAccesssProduct.vue";
-
+import productSize from "./components/accessSize.vue";
 import SideImgRowL from "./components/SideImgRowL.vue";
 import SideImgRowR from "./components/SideImgRowR.vue";
 import ColAccessProduct from "./components/ColAccessProduct.vue";
@@ -342,6 +346,7 @@ export default {
     SideImgRowR,
     headerAccessProduct,
     ColAccessProduct,
+    productSize,
   },
   methods: {
     firstSelecter() {
