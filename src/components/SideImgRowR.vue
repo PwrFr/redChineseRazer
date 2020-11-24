@@ -13,6 +13,11 @@
         <p class="pr-5 mr-1" style="color: #999999; font-size: 1.2rem">
           {{ dis }}
         </p>
+        <div
+          class="m-3"
+          style="height: 6rem; width: 6rem"
+          v-bind:style="{ backgroundImage: 'url(' + probb + ')' }"
+        ></div>
       </div>
     </div>
   </div>
@@ -24,6 +29,7 @@ export default {
     bgimgRR: String,
     title: String,
     dis: String,
+    probb: String,
   },
 };
 </script>

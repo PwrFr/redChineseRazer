@@ -12,7 +12,12 @@ body {
   height: 20rem;
   background-size: cover;
 }
-
+.text-grey {
+  color: #999999;
+}
+.text-razer {
+  color: #44d62c;
+}
 .razerf5 {
   font-family: Razerf5;
 }

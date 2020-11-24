@@ -2,7 +2,9 @@
   <div class="container-fluid" id="bg-monitorRow3">
     <div class="row">
       <div class="col-lg-12">
-        <h2 id="header-monitorRow3">BIG, BRIGHT, BRILLIANT DCI-P3 COLOR</h2>
+        <h3 class="pb-2 mt-4" id="header-monitorRow3">
+          BIG, BRIGHT, BRILLIANT DCI-P3 COLOR
+        </h3>
       </div>
     </div>
     <div class="row">
@@ -19,29 +21,31 @@
         </p>
       </div>
     </div>
-    <div class="row" id="displayMonitorRow3">
-      <div class="col-lg-2">
-        <div class="row pt-3">
-          <h1>27”</h1>
-          <h5 class="pt-3">Display</h5>
-          <p class="text-g-monitor">WQHD 2560 x 1440 <br />1ms Response</p>
+    <div class="row mt-5" align="center" id="displayMonitorRow3">
+      <div class="col-2 pr-5">
+        <div class="row align-items-end justify-content-center">
+          <h2 class="m-0">27”</h2>
+          <p class="ml-2">Display</p>
+        </div>
+        <div class="w-75" style="color: #999999; font-size: 0.9rem">
+          <p>WQHD 2560 x 1440 1ms Response</p>
         </div>
       </div>
-      <div class="col-lg-2">
-        <div class="row pt-3">
-          <h1>95% DCI-P3</h1>
-          <h5 class="pt-3">Color</h5>
-          <p class="text-g-monitor pl-5">
-            Wider than sRGB for<br />cinematic quality
-          </p>
+      <div class="col-2">
+        <div class="row align-items-end justify-content-center">
+          <h2 class="m-0">95% DCI-P3</h2>
+          <p class="ml-2">Color</p>
+        </div>
+        <div class="pr-5 pl-5" style="color: #999999; font-size: 0.9rem">
+          <p>Wider than sRGB for cinematic quality</p>
         </div>
       </div>
-      <div class="col-lg-2 ml-5">
-        <div class="row pt-3">
-          <h1 class="pl-5">HDR400</h1>
-          <p class="text-g-monitor pl-5">
-            High Dynamic Range<br />with 420 Nits
-          </p>
+      <div class="col-2 pl-5">
+        <div class="row justify-content-center">
+          <h2 class="m-0">HDR400</h2>
+        </div>
+        <div class="w-75" style="color: #999999; font-size: 0.9rem">
+          <p>WQHD 2560 x 1440 1ms Response</p>
         </div>
       </div>
     </div>
@@ -50,11 +54,11 @@
 <style>
 #bg-monitorRow3 {
   background-image: url("https://assets2.razerzone.com/images/pnx.assets/8311f08d80fc12fde210165c63334271/raptor-update-dev_04-usp1.jpg");
-  width: 90rem;
   min-height: 58.35rem;
   background-position-x: center;
   justify-content: center;
   font-family: RazerF5, Arial, Helvetica, sans-serif;
+  line-height: 1.5rem;
 }
 #header-monitorRow3 {
   color: rgb(68, 214, 44);

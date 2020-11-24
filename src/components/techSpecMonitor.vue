@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid techSpecsBox p-0">
+  <div class="container-fluid techSpecsBox p-0 m-0 mb-5">
     <div class="container techSpecs">
       <!-- <h4 id="headerText">TECH SPECS</h4> -->
       <table class="container-fluid">
