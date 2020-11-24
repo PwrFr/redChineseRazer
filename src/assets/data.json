@@ -914,7 +914,8 @@
                         "Ultra thin bezels at 2.3mm"
                     ],
                     "add_to_card_bnt": "ADD TO CART",
-                    "img": "src/assets/img/PC_Acessories/Monitor/RazerRaptor27.png"
+                    "img": "src/assets/img/PC_Acessories/Monitor/RazerRaptor27.png",
+                    "link":"monitor.html"
                 }
             ]
         }

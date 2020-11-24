@@ -39,7 +39,7 @@
         </label>
       </div>
       <div class="card-body-access p-3 pr-4 pl-3">
-        <a href="#" class="title-product">
+        <a :href="item.link || ''" class="title-product">
           {{ item.name }}
         </a>
         <div class="detail-product">
@@ -49,7 +49,9 @@
             </li>
           </ul>
         </div>
-        <a href="#" class="view-detail pl-1 pt-2">View details ></a>
+        <a :href="item.link || ''" class="view-detail pl-1 pt-2"
+          >View details ></a
+        >
         <div class="setBottom">
           <div class="price-access">{{ item.price }}</div>
           <div class="btn btn-razer">{{ item.add_to_card_bnt }}</div>
