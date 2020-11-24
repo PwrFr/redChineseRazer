@@ -7,7 +7,7 @@
     </div>
     <div class="row">
       <div class="col-lg-12">
-        <p id="messageMonitorRow3">
+        <p class="messageMonitorRow3">
           One of the hallmarks of a premium display is the ability to show the
           whole spectrum of vibrant colors, while also <br />rendering deep rich
           blacks. The Razer Raptor does just that, featuring an IPS display
@@ -20,14 +20,30 @@
       </div>
     </div>
     <div class="row" id="displayMonitorRow3">
-      <div class="col-lg-3">
-        <div class="row">
-          <h4>27”</h4>
-          <h5>Display</h5>
+      <div class="col-lg-2">
+        <div class="row pt-3">
+          <h1>27”</h1>
+          <h5 class="pt-3">Display</h5>
+          <p class="text-g-monitor">WQHD 2560 x 1440 <br />1ms Response</p>
         </div>
       </div>
-      <div class="col-lg-3"></div>
-      <div class="col-lg-3"></div>
+      <div class="col-lg-2">
+        <div class="row pt-3">
+          <h1>95% DCI-P3</h1>
+          <h5 class="pt-3">Color</h5>
+          <p class="text-g-monitor pl-5">
+            Wider than sRGB for<br />cinematic quality
+          </p>
+        </div>
+      </div>
+      <div class="col-lg-2 ml-5">
+        <div class="row pt-3">
+          <h1 class="pl-5">HDR400</h1>
+          <p class="text-g-monitor pl-5">
+            High Dynamic Range<br />with 420 Nits
+          </p>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -45,7 +61,7 @@
   text-align: center;
   padding: 2rem;
 }
-#messageMonitorRow3 {
+.messageMonitorRow3 {
   color: rgb(136, 136, 136);
   font-size: 1.2rem;
   text-align: center;
@@ -54,6 +70,10 @@
   color: #fff;
   justify-content: center;
   justify-items: center;
+}
+.text-g-monitor {
+  color: rgb(136, 136, 136);
+  text-align: center;
 }
 </style>
 <script>
