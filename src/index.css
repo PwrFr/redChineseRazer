@@ -967,7 +967,8 @@ p {
   background-repeat: no-repeat;
 }
 .col-xl-10 {
-  max-width: 78.7%;
+  /* 78.7 */
+  max-width: 73.4%;
 }
 .card-text {
   bottom: 0;

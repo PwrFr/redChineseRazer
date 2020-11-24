@@ -4,7 +4,7 @@
       <div class="col-12 text-center">FAQ</div>
     </div>
     <div class="row">
-      <div class="col-2"></div>
+      <div class="col-1"></div>
       <div class="col cases-row9-box">
         <div class="row cases-row9-header-box">Are the glass panels detachable?</div>
         <div
