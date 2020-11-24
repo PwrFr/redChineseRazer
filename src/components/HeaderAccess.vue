@@ -318,7 +318,7 @@
             <!-- boos here --->
             <div>
               <div class="model-box-div-faro mt-2 ml-3 mr-3">
-                <div id="box" class="model-box">
+                <div id="box" class="model-box-fff">
                   <div class="select-box" @click="onClickColor()">
                     <div class="model-options-container" ref="here">
                       <div @click="testfuck()" class="box-option">

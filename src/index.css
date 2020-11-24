@@ -723,6 +723,12 @@ button:focus {
   border: 1px solid #999999;
   border-radius: 4px;
   height: 48px;
+  width: 15rem;
+}
+.model-box-fff {
+  border: 1px solid #999999;
+  border-radius: 4px;
+  height: 48px;
   width: 11.5rem;
 }
 /* model word*/
