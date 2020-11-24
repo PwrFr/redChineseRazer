@@ -15,16 +15,20 @@
             <ul>
               <li>Compatible with most laptops up to 15.6”</li>
               <li>Durable Exterior Material</li>
-              <li>Snag-Free Velcro/li>
+              <li>Snag-Free Velcro/li></li>
               <li>Smooth interior mousing surface</li>
               <li>Slim profile design</li>
-              <li>Dimension (L x W): <br/>
-                15.7" x 11.2"<br/>
-                400 mm x 286 mm</li>
+              <li>
+                Dimension (L x W): <br />
+                15.7" x 11.2"<br />
+                400 mm x 286 mm
+              </li>
             </ul>
           </td>
         </tr>
       </table>
+    </div>
+  </div>
 </template>
 <style>
 .techSpecsBox {
@@ -94,6 +98,5 @@ ul {
 <script>
 export default {
   name: "techAcc",
-
 };
 </script>

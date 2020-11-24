@@ -14,18 +14,25 @@
           <td class="col-lg-9 data">
             <ul>
               <li>Protective Exterior and padded interior</li>
-              <li>Custom fit for Razer Blade Stealth 13 and most notebooks up to 13.3"</li>
+              <li>
+                Custom fit for Razer Blade Stealth 13 and most notebooks up to
+                13.3"
+              </li>
               <li>Ultra-slim profile</li>
               <li>Portable design</li>
               <li>Waterproof zipper tape</li>
               <li>Detachable woven strap</li>
-              <li>Dimension (L x W): <br/>
-                12.04" x 9.05"<br/>
-                315 mm x 230 mm</li>
+              <li>
+                Dimension (L x W): <br />
+                12.04" x 9.05"<br />
+                315 mm x 230 mm
+              </li>
             </ul>
           </td>
         </tr>
       </table>
+    </div>
+  </div>
 </template>
 <style>
 .techSpecsBox {
@@ -95,6 +102,5 @@ ul {
 <script>
 export default {
   name: "techAcc",
-
 };
 </script>
