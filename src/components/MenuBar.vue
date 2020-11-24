@@ -11,7 +11,13 @@
           <a
             href="./index.html"
             class="navbar-brand m-0 p-0 d-flex align-items-center pt-2 pl-1 pr-3"
-          ></a>
+          >
+            <img
+              width="90"
+              v-bind:src="'src/assets/Menu/' + 'RazerLogo' + '.svg'"
+              v-bind:alt="pic"
+            />
+          </a>
           <div class="dropdown fc">
             <a class="dropbtn nav-item nav-link active mr-1" href="#"
               ><p class="fc ml-1 pt-2 pl-3 pr-4">WHAT'S NEW</p>

@@ -5,8 +5,8 @@
         <div class="card-gpu no-border col-4 card no-padding pt-4 pl-2 pr-4">
           <img
             class="card-img-top"
-            src="src\assets\products\2eGPUs\12.jpg"
-            alt="product"
+            v-bind:src="'src/assets/products/2eGPUs/' + '12' + '.jpg'"
+            v-bind:alt="pic"
           />
           <h3 class="text-head-bottom razerf5">VERSATILE COMPATIBILITY</h3>
           <div class="text-description">
@@ -24,8 +24,8 @@
         <div class="card-gpu no-border col-4 card no-padding pt-4 pl-2 pr-4">
           <img
             class="card-img-top"
-            src="src\assets\products\2eGPUs\13.jpg"
-            alt="product"
+            v-bind:src="'src/assets/products/2eGPUs/' + '13' + '.jpg'"
+            v-bind:alt="pic"
           />
           <h3 class="text-head-bottom razerf5">FUTURE PROOF</h3>
           <div class="text-description">
@@ -40,8 +40,8 @@
         <div class="card-gpu no-border col-4 card no-padding pt-4 pl-2 pr-4">
           <img
             class="card-img-top"
-            src="src\assets\products\2eGPUs\14.jpg"
-            alt="product"
+            v-bind:src="'src/assets/products/2eGPUs/' + '14' + '.jpg'"
+            v-bind:alt="pic"
           />
           <h3 class="text-head-bottom razerf5">STAY COOL ALWAYS</h3>
           <div class="text-description">
