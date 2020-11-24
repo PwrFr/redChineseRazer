@@ -14,10 +14,7 @@
   </div>
 </template>
 <style >
-@font-face {
-  font-family: Roboto;
-  src: url("../assets/font/Roboto/Roboto-Thin.otf");
-}
+
 .cases-all-row1 {
   text-align: center;
   background-color: #44d62c;
