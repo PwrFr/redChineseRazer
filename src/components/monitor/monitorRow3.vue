@@ -57,7 +57,7 @@
   font-family: RazerF5, Arial, Helvetica, sans-serif;
 }
 #header-monitorRow3 {
-  color: green;
+  color: rgb(68, 214, 44);
   text-align: center;
   padding: 2rem;
 }
