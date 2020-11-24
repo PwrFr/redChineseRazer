@@ -6,8 +6,9 @@
 <style>
 #bg-monitorRow3 {
   background-image: url("https://assets2.razerzone.com/images/pnx.assets/8311f08d80fc12fde210165c63334271/raptor-update-dev_04-usp1.jpg");
-  width: 100%;
-  height: 58.5rem;
+  width: 90rem;
+  height: 58.35rem;
+  justify-content: center;
 }
 #header-monitorRow3 {
   color: green;
